@@ -1,0 +1,69 @@
+site_name: "Cybersecurity Basics"
+site_url: https://your-username.github.io/Cybersecurity-Basics/
+repo_url: https://github.com/your-username/Cybersecurity-Basics
+repo_name: GitHub
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/white-balance-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - 🏠 Home: index.md
+  - 🛡️ Intro to Cybersecurity:
+      - ⚔️ Offensive Security Intro: introduction-to-cybersecurity/offensive-security-intro.md
+      - 🔒 Defensive Security Intro: introduction-to-cybersecurity/defensive-security-intro.md
+      - 💼 Careers in Cyber: introduction-to-cybersecurity/careers-in-cyber.md
+  - 🌐 Network Fundamentals:
+      - 🔌 What is Networking: network-fundamentals/what-is-networking.md
+      - 🏠 Intro to LAN: network-fundamentals/intro-to-lan.md
+      - 📋 OSI Model: network-fundamentals/osi-model.md
+      - 📦 Packets and Frames: network-fundamentals/packets-and-frames.md
+      - 🔗 Extending Your Network: network-fundamentals/extending-your-network.md
+  - 🌍 Web Fundamentals:
+      - 🔍 DNS: web-fundamentals/dns.md
+      - 🔐 HTTP & HTTPS: web-fundamentals/http-https.md
+      - 🌐 How Websites Work: web-fundamentals/how-websites-work.md
+      - 🔄 Web Request Flow: web-fundamentals/web-request-flow.md
+  - 💻 Operating Systems:
+      - 🪟 Windows Basics: operating-systems/windows-basics.md
+      - 🐧 Linux CLI Basics: operating-systems/linux-cli-basics.md
+      - ⌨️ Windows CLI Basics: operating-systems/windows-cli-basics.md
+      - 🔒 Operating System Security: operating-systems/operating-system-security.md
+  - ⚔️ Attacks and Defenses:
+      - 🔺 CIA Triad: attacks-and-defenses/cia-triad.md
+      - 🔑 Cryptography: attacks-and-defenses/cryptography.md
+      - 🎭 Become a Hacker: attacks-and-defenses/become-a-hacker.md
+      - 🛡️ Become a Defender: attacks-and-defenses/become-a-defender.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
