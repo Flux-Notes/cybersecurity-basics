@@ -731,6 +731,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🌐 How Websites Work
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -747,6 +765,952 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is a Website?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-big-picture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Big Picture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-dns-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — DNS Resolution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-tcp-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — TCP Connection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2 — TCP Connection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tcp-3-way-handshake" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TCP 3-Way Handshake
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-tls-handshake-https-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — TLS Handshake (HTTPS Only)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3 — TLS Handshake (HTTPS Only)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tls-13-handshake-1-rtt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TLS 1.3 Handshake (1-RTT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-http-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 — HTTP Request
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-server-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 — Server Processing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5 — Server Processing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web Server
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Server
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#request-flow-dynamic-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Request Flow (Dynamic Website)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-http-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 — HTTP Response
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-browser-rendering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7 — Browser Rendering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 7 — Browser Rendering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-critical-rendering-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Critical Rendering Path
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dom-document-object-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DOM (Document Object Model)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cssom-css-object-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSSOM (CSS Object Model)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javascript-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JavaScript Execution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-resource-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sub-resource Loading
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#static-vs-dynamic-websites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static vs Dynamic Websites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Static vs Dynamic Websites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#static-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jamstack-ssg-static-site-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JAMstack / SSG (Static Site Generation)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-architecture-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web Architecture Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Architecture Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cdn-content-delivery-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CDN (Content Delivery Network)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cache Layers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-queues-background-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Message Queues / Background Jobs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontend-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend Technologies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frontend Technologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#html-hypertext-markup-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTML (HyperText Markup Language)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#css-cascading-style-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSS (Cascading Style Sheets)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JavaScript
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javascript-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JavaScript Frameworks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#browser-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backend-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend Technologies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Backend Technologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server-side-rendering-ssr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server-Side Rendering (SSR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-rendering-csr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Client-Side Rendering (CSR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apis-application-programming-interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APIs (Application Programming Interfaces)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="APIs (Application Programming Interfaces)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rest-representational-state-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        REST (Representational State Transfer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graphql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GraphQL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#websockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WebSockets
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sessions-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sessions &amp; Authentication
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sessions &amp; Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#session-based-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session-Based Authentication
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#token-based-authentication-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Token-Based Authentication (JWT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oauth-20-openid-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OAuth 2.0 / OpenID Connect
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-forms-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Forms Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Forms Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#form-encoding-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Form Encoding Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Considerations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-validation-sanitization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Input Validation &amp; Sanitization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#https-everywhere" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTTPS Everywhere
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#same-origin-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Same-Origin Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-security-policy-csp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content Security Policy (CSP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#csrf-cross-site-request-forgery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSRF (Cross-Site Request Forgery)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clickjacking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clickjacking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser-developer-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser Developer Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Browser Developer Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-tab-tips-security-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Tab Tips (Security Testing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-modern-spa-single-page-application-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How a Modern SPA (Single Page Application) Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-server-configuration-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web Server Configuration Basics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Server Configuration Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virtual-hosting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Hosting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#url-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        URL Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-security-misconfigurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Security Misconfigurations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Useful Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Useful Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#browser-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser-Based
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cli-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLI Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-testing-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Testing Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#website-request-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website Request Lifecycle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-technologies-by-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Technologies by Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-status-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Status Codes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-checklist-for-websites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Checklist for Websites
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1140,6 +2104,941 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is a Website?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-big-picture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Big Picture
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-1-dns-resolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 1 — DNS Resolution
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-2-tcp-connection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 2 — TCP Connection
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 2 — TCP Connection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tcp-3-way-handshake" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TCP 3-Way Handshake
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-3-tls-handshake-https-only" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 3 — TLS Handshake (HTTPS Only)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 3 — TLS Handshake (HTTPS Only)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tls-13-handshake-1-rtt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TLS 1.3 Handshake (1-RTT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-http-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 4 — HTTP Request
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-5-server-processing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 5 — Server Processing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 5 — Server Processing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#web-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web Server
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#application-server" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Application Server
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#database" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Database
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#request-flow-dynamic-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Request Flow (Dynamic Website)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-6-http-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 6 — HTTP Response
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-7-browser-rendering" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Step 7 — Browser Rendering
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Step 7 — Browser Rendering">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#the-critical-rendering-path" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Critical Rendering Path
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dom-document-object-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DOM (Document Object Model)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cssom-css-object-model" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSSOM (CSS Object Model)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javascript-execution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JavaScript Execution
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sub-resource-loading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sub-resource Loading
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#static-vs-dynamic-websites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static vs Dynamic Websites
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Static vs Dynamic Websites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#static-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Website
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#jamstack-ssg-static-site-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JAMstack / SSG (Static Site Generation)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-architecture-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web Architecture Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Architecture Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cdn-content-delivery-network" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CDN (Content Delivery Network)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#load-balancer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cache-layers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cache Layers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#message-queues-background-jobs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Message Queues / Background Jobs
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frontend-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frontend Technologies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Frontend Technologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#html-hypertext-markup-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTML (HyperText Markup Language)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#css-cascading-style-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSS (Cascading Style Sheets)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javascript" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JavaScript
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#javascript-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        JavaScript Frameworks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#browser-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backend-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backend Technologies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Backend Technologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#server-side-rendering-ssr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Server-Side Rendering (SSR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#client-side-rendering-csr" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Client-Side Rendering (CSR)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apis-application-programming-interfaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        APIs (Application Programming Interfaces)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="APIs (Application Programming Interfaces)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rest-representational-state-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        REST (Representational State Transfer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#graphql" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GraphQL
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#websockets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WebSockets
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sessions-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sessions &amp; Authentication
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Sessions &amp; Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#session-based-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Session-Based Authentication
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#token-based-authentication-jwt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Token-Based Authentication (JWT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#oauth-20-openid-connect" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OAuth 2.0 / OpenID Connect
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-forms-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How Forms Work
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Forms Work">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#form-encoding-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Form Encoding Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Considerations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Considerations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input-validation-sanitization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Input Validation &amp; Sanitization
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#https-everywhere" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HTTPS Everywhere
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#same-origin-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Same-Origin Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#content-security-policy-csp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Content Security Policy (CSP)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#csrf-cross-site-request-forgery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CSRF (Cross-Site Request Forgery)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clickjacking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clickjacking
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#browser-developer-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser Developer Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Browser Developer Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-tab-tips-security-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Tab Tips (Security Testing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#performance-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Concepts
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance Concepts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-metrics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Metrics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#performance-optimizations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance Optimizations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-modern-spa-single-page-application-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How a Modern SPA (Single Page Application) Works
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#web-server-configuration-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Web Server Configuration Basics
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Web Server Configuration Basics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#virtual-hosting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Hosting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#url-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        URL Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-security-misconfigurations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Security Misconfigurations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Useful Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Useful Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#browser-based" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Browser-Based
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cli-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CLI Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-testing-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Testing Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#website-request-lifecycle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Website Request Lifecycle
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-technologies-by-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Technologies by Layer
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-status-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Status Codes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-checklist-for-websites" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Checklist for Websites
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1159,6 +3058,1141 @@
 
 
 <h1 id="how-websites-work">How Websites Work<a class="headerlink" href="#how-websites-work" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="what-is-a-website">What is a Website?<a class="headerlink" href="#what-is-a-website" title="Permanent link">&para;</a></h2>
+<p>A <strong>website</strong> is a collection of web pages and related resources (images, stylesheets, scripts, fonts, etc.) accessible via the internet or an intranet through a <strong>web browser</strong>. It is identified by a <strong>domain name</strong> and hosted on one or more <strong>web servers</strong>.</p>
+<p>When you visit a website, your browser performs a complex series of steps — DNS resolution, TCP connection, TLS handshake, HTTP request/response, and rendering — all typically completing in under a second.</p>
+<hr />
+<h2 id="the-big-picture">The Big Picture<a class="headerlink" href="#the-big-picture" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>User types: https://www.example.com/products
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>1. DNS Resolution       → &quot;What IP is www.example.com?&quot;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>2. TCP Connection       → 3-way handshake to port 443
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>3. TLS Handshake        → Negotiate encryption, verify certificate
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>4. HTTP Request         → GET /products HTTP/1.1
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>5. Server Processing    → Web server + application + database
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>6. HTTP Response        → 200 OK + HTML/CSS/JS
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>7. Browser Rendering    → Parse HTML, load assets, execute JS, paint pixels
+</code></pre></div>
+<hr />
+<h2 id="step-1-dns-resolution">Step 1 — DNS Resolution<a class="headerlink" href="#step-1-dns-resolution" title="Permanent link">&para;</a></h2>
+<p>Before any connection is made, the browser must resolve the domain name to an IP address.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Browser Cache → OS Cache → /etc/hosts → Recursive Resolver
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  → Root NS → TLD NS → Authoritative NS → IP returned
+</code></pre></div>
+<ul>
+<li>Result: <code>www.example.com → 93.184.216.34</code></li>
+<li>Cached for the record's <strong>TTL</strong> duration.</li>
+<li>On repeat visits, the IP is served from cache — no DNS query needed.</li>
+</ul>
+<blockquote>
+<p>See <code>DNS.md</code> for the full DNS resolution deep dive.</p>
+</blockquote>
+<hr />
+<h2 id="step-2-tcp-connection">Step 2 — TCP Connection<a class="headerlink" href="#step-2-tcp-connection" title="Permanent link">&para;</a></h2>
+<p>With an IP address in hand, the browser establishes a <strong>TCP connection</strong> to the server on <strong>port 443</strong> (HTTPS) or <strong>port 80</strong> (HTTP).</p>
+<h3 id="tcp-3-way-handshake">TCP 3-Way Handshake<a class="headerlink" href="#tcp-3-way-handshake" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Client                    Server
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>  |──── SYN ────────────→|   &quot;I want to connect&quot;
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>  |←─── SYN-ACK ─────────|   &quot;OK, I&#39;m ready&quot;
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>  |──── ACK ────────────→|   &quot;Great, let&#39;s go&quot;
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>  |═══ Connection Open ══|
+</code></pre></div>
+<ul>
+<li><strong>SYN</strong> — synchronize sequence numbers.</li>
+<li><strong>SYN-ACK</strong> — server acknowledges and sends its own sequence number.</li>
+<li><strong>ACK</strong> — client acknowledges server's sequence number.</li>
+</ul>
+<p>This adds <strong>1 round-trip time (RTT)</strong> before any data is sent.</p>
+<hr />
+<h2 id="step-3-tls-handshake-https-only">Step 3 — TLS Handshake (HTTPS Only)<a class="headerlink" href="#step-3-tls-handshake-https-only" title="Permanent link">&para;</a></h2>
+<p>After the TCP connection, a <strong>TLS handshake</strong> negotiates encryption parameters and authenticates the server.</p>
+<h3 id="tls-13-handshake-1-rtt">TLS 1.3 Handshake (1-RTT)<a class="headerlink" href="#tls-13-handshake-1-rtt" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Client                              Server
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  |── ClientHello + KeyShare ──────→|
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  |←── ServerHello + KeyShare ───────|
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  |←── {Certificate + Finished} ─────|
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  |── {Finished} ───────────────────→|
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>  |══════ Encrypted data flows ══════|
+</code></pre></div>
+<p>After the handshake:
+- A <strong>symmetric session key</strong> is established (e.g., AES-256-GCM).
+- All further communication is encrypted.
+- The server's identity has been verified via its <strong>X.509 certificate</strong>.</p>
+<blockquote>
+<p>See <code>HTTP_HTTPS.md</code> for TLS cipher suites, certificate types, and forward secrecy.</p>
+</blockquote>
+<hr />
+<h2 id="step-4-http-request">Step 4 — HTTP Request<a class="headerlink" href="#step-4-http-request" title="Permanent link">&para;</a></h2>
+<p>The browser sends an <strong>HTTP request</strong> for the resource.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nf">GET</span> <span class="nn">/products</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="na">Host</span><span class="o">:</span> <span class="l">www.example.com</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="na">User-Agent</span><span class="o">:</span> <span class="l">Mozilla/5.0 (Windows NT 10.0; Win64; x64)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="na">Accept</span><span class="o">:</span> <span class="l">text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="na">Accept-Encoding</span><span class="o">:</span> <span class="l">gzip, deflate, br</span>
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="na">Accept-Language</span><span class="o">:</span> <span class="l">en-US,en;q=0.9</span>
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="na">Connection</span><span class="o">:</span> <span class="l">keep-alive</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="na">Cookie</span><span class="o">:</span> <span class="l">session=abc123; preferences=dark-mode</span>
+</code></pre></div>
+<hr />
+<h2 id="step-5-server-processing">Step 5 — Server Processing<a class="headerlink" href="#step-5-server-processing" title="Permanent link">&para;</a></h2>
+<h3 id="web-server">Web Server<a class="headerlink" href="#web-server" title="Permanent link">&para;</a></h3>
+<p>The <strong>web server</strong> is the software that receives HTTP requests and returns responses.</p>
+<table>
+<thead>
+<tr>
+<th>Web Server</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Nginx</strong></td>
+<td>High-performance; reverse proxy, load balancer, static files</td>
+</tr>
+<tr>
+<td><strong>Apache HTTP Server</strong></td>
+<td>Widely used; modular; <code>.htaccess</code> support</td>
+</tr>
+<tr>
+<td><strong>IIS (Internet Information Services)</strong></td>
+<td>Windows-native; integrates with .NET</td>
+</tr>
+<tr>
+<td><strong>Caddy</strong></td>
+<td>Automatic HTTPS; simple config</td>
+</tr>
+<tr>
+<td><strong>LiteSpeed</strong></td>
+<td>High performance; cPanel compatible</td>
+</tr>
+</tbody>
+</table>
+<p>The web server either:
+- Serves a <strong>static file</strong> directly (HTML, image, CSS) from disk.
+- Passes the request to an <strong>application server</strong> for dynamic processing.</p>
+<h3 id="application-server">Application Server<a class="headerlink" href="#application-server" title="Permanent link">&para;</a></h3>
+<p>The <strong>application server</strong> executes business logic and generates dynamic responses.</p>
+<table>
+<thead>
+<tr>
+<th>Language / Framework</th>
+<th>Example Servers</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>Django, Flask (Gunicorn, uWSGI)</td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td>Express, Fastify (runs natively)</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>Laravel, WordPress (PHP-FPM)</td>
+</tr>
+<tr>
+<td>Ruby</td>
+<td>Ruby on Rails (Puma, Unicorn)</td>
+</tr>
+<tr>
+<td>Java</td>
+<td>Spring Boot (Tomcat, Jetty)</td>
+</tr>
+<tr>
+<td>Go</td>
+<td>Gin, Echo (compiled binary)</td>
+</tr>
+<tr>
+<td>.NET</td>
+<td>ASP.NET Core (Kestrel)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="database">Database<a class="headerlink" href="#database" title="Permanent link">&para;</a></h3>
+<p>Most dynamic websites query a <strong>database</strong> to retrieve or store data.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Examples</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Relational (SQL)</strong></td>
+<td>MySQL, PostgreSQL, SQLite, MSSQL</td>
+<td>Structured data, transactions</td>
+</tr>
+<tr>
+<td><strong>Document (NoSQL)</strong></td>
+<td>MongoDB, CouchDB</td>
+<td>Flexible schemas, JSON data</td>
+</tr>
+<tr>
+<td><strong>Key-Value</strong></td>
+<td>Redis, Memcached</td>
+<td>Caching, sessions, leaderboards</td>
+</tr>
+<tr>
+<td><strong>Search</strong></td>
+<td>Elasticsearch, Solr</td>
+<td>Full-text search</td>
+</tr>
+<tr>
+<td><strong>Graph</strong></td>
+<td>Neo4j</td>
+<td>Relationships, social networks</td>
+</tr>
+</tbody>
+</table>
+<h3 id="request-flow-dynamic-website">Request Flow (Dynamic Website)<a class="headerlink" href="#request-flow-dynamic-website" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Browser
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>  │
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>  ▼
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>Web Server (Nginx)           ← handles SSL, static files, routing
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>  │
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>  ▼
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>Application Server (Gunicorn/Node) ← runs business logic
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>  │
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>  ├──→ Database (PostgreSQL)  ← query/store data
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>  ├──→ Cache (Redis)          ← check cache first
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>  ├──→ External APIs          ← payment, auth, maps, etc.
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>  │
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>  ▼
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>HTTP Response → Browser
+</code></pre></div>
+<hr />
+<h2 id="step-6-http-response">Step 6 — HTTP Response<a class="headerlink" href="#step-6-http-response" title="Permanent link">&para;</a></h2>
+<p>The server sends back an HTTP response.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span> <span class="m">200</span> <span class="ne">OK</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="na">Content-Type</span><span class="o">:</span> <span class="l">text/html; charset=UTF-8</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="na">Content-Encoding</span><span class="o">:</span> <span class="l">gzip</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="na">Content-Length</span><span class="o">:</span> <span class="l">4821</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="na">Cache-Control</span><span class="o">:</span> <span class="l">public, max-age=3600</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="na">Set-Cookie</span><span class="o">:</span> <span class="l">session=xyz789; HttpOnly; Secure; SameSite=Strict</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="na">Strict-Transport-Security</span><span class="o">:</span> <span class="l">max-age=31536000; includeSubDomains</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="na">X-Content-Type-Options</span><span class="o">:</span> <span class="l">nosniff</span>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Products – Example<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>  <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;/static/css/main.css&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+<a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Our Products<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a>  <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;/static/js/app.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<hr />
+<h2 id="step-7-browser-rendering">Step 7 — Browser Rendering<a class="headerlink" href="#step-7-browser-rendering" title="Permanent link">&para;</a></h2>
+<p>Rendering is how the browser turns raw HTML/CSS/JS into pixels on screen. It is a multi-stage pipeline.</p>
+<h3 id="the-critical-rendering-path">The Critical Rendering Path<a class="headerlink" href="#the-critical-rendering-path" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>HTML bytes received
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>  │
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>  ▼
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>1. Parse HTML → DOM (Document Object Model)
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>  │
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>  ▼
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>2. Parse CSS → CSSOM (CSS Object Model)
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>  │
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>  ▼
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>3. DOM + CSSOM → Render Tree (only visible elements)
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>  │
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>  ▼
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>4. Layout (Reflow) → Calculate position and size of every element
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>  │
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>  ▼
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>5. Paint → Draw pixels (text, colors, images, borders)
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>  │
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>  ▼
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>6. Composite → Layers merged and displayed on screen
+</code></pre></div>
+<h3 id="dom-document-object-model">DOM (Document Object Model)<a class="headerlink" href="#dom-document-object-model" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The browser parses HTML into a <strong>tree of nodes</strong> (elements, text, attributes).</li>
+<li>JavaScript can read and modify the DOM via <code>document.getElementById()</code>, <code>querySelector()</code>, etc.</li>
+<li>DOM manipulation is how modern web apps dynamically update the page without reloading.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Document
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>└── html
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>    ├── head
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>    │   ├── title → &quot;Products&quot;
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>    │   └── link  → main.css
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>    └── body
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>        ├── h1 → &quot;Our Products&quot;
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>        └── script → app.js
+</code></pre></div>
+<h3 id="cssom-css-object-model">CSSOM (CSS Object Model)<a class="headerlink" href="#cssom-css-object-model" title="Permanent link">&para;</a></h3>
+<ul>
+<li>CSS is parsed into a separate object model.</li>
+<li>Combined with the DOM to produce the <strong>Render Tree</strong>.</li>
+<li>CSS is <strong>render-blocking</strong> — the browser won't render until CSS is parsed.</li>
+</ul>
+<h3 id="javascript-execution">JavaScript Execution<a class="headerlink" href="#javascript-execution" title="Permanent link">&para;</a></h3>
+<ul>
+<li><code>&lt;script&gt;</code> tags without <code>async</code>/<code>defer</code> are <strong>parser-blocking</strong> — HTML parsing stops until the script is downloaded and executed.</li>
+<li><code>async</code> — download in parallel, execute as soon as available.</li>
+<li><code>defer</code> — download in parallel, execute after HTML is fully parsed.</li>
+<li>Modern JS frameworks (React, Vue, Angular) manipulate the DOM extensively via JavaScript.</li>
+</ul>
+<h3 id="sub-resource-loading">Sub-resource Loading<a class="headerlink" href="#sub-resource-loading" title="Permanent link">&para;</a></h3>
+<p>After parsing HTML, the browser identifies and fetches additional resources:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>HTML parsed → discover:
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>  ├── CSS files   → &lt;link rel=&quot;stylesheet&quot;&gt;
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>  ├── JS files    → &lt;script src=&quot;...&quot;&gt;
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>  ├── Images      → &lt;img src=&quot;...&quot;&gt;
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>  ├── Fonts       → @font-face in CSS
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>  ├── Iframes     → &lt;iframe src=&quot;...&quot;&gt;
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>  └── Fetch/XHR   → JavaScript API calls
+</code></pre></div>
+<p>Each sub-resource triggers its own DNS + TCP + TLS + HTTP cycle (connections are reused via <code>keep-alive</code> or HTTP/2 multiplexing).</p>
+<hr />
+<h2 id="static-vs-dynamic-websites">Static vs Dynamic Websites<a class="headerlink" href="#static-vs-dynamic-websites" title="Permanent link">&para;</a></h2>
+<h3 id="static-website">Static Website<a class="headerlink" href="#static-website" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Pre-built HTML/CSS/JS files served directly by the web server.</li>
+<li>No server-side processing per request.</li>
+<li>Fast, cheap to host, highly cacheable.</li>
+<li><strong>Examples:</strong> Landing pages, blogs (Hugo, Jekyll), documentation sites.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Browser → Web Server → File on disk → Response
+</code></pre></div>
+<h3 id="dynamic-website">Dynamic Website<a class="headerlink" href="#dynamic-website" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Content generated on the fly by an application server, often from a database.</li>
+<li>Personalized content per user (dashboard, shopping cart, social feeds).</li>
+<li>More complex infrastructure.</li>
+<li><strong>Examples:</strong> E-commerce, social media, SaaS apps.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>Browser → Web Server → App Server → Database → Response
+</code></pre></div>
+<h3 id="jamstack-ssg-static-site-generation">JAMstack / SSG (Static Site Generation)<a class="headerlink" href="#jamstack-ssg-static-site-generation" title="Permanent link">&para;</a></h3>
+<p>Modern hybrid approach:
+- Site is <strong>pre-built</strong> at deploy time (not per request).
+- Dynamic features handled by <strong>APIs</strong> and client-side JavaScript.
+- Hosted on CDN edges — extremely fast globally.
+- <strong>Examples:</strong> Next.js (SSG mode), Gatsby, Astro, Vercel, Netlify.</p>
+<hr />
+<h2 id="web-architecture-components">Web Architecture Components<a class="headerlink" href="#web-architecture-components" title="Permanent link">&para;</a></h2>
+<h3 id="cdn-content-delivery-network">CDN (Content Delivery Network)<a class="headerlink" href="#cdn-content-delivery-network" title="Permanent link">&para;</a></h3>
+<p>A CDN caches copies of website assets at <strong>edge servers</strong> distributed globally. Users are served from the nearest edge node.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>User in Chennai
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>  │
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>  ▼
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>CDN Edge (Mumbai) ← cache hit → response in ~5ms
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>  │ (cache miss)
+<a id="__codelineno-12-6" name="__codelineno-12-6" href="#__codelineno-12-6"></a>  ▼
+<a id="__codelineno-12-7" name="__codelineno-12-7" href="#__codelineno-12-7"></a>Origin Server (US) → ~200ms
+</code></pre></div>
+<p><strong>Benefits:</strong> Reduced latency, DDoS absorption, reduced origin load.</p>
+<p><strong>Examples:</strong> Cloudflare, AWS CloudFront, Fastly, Akamai.</p>
+<h3 id="load-balancer">Load Balancer<a class="headerlink" href="#load-balancer" title="Permanent link">&para;</a></h3>
+<p>Distributes incoming requests across multiple backend servers.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>                    ┌── App Server 1
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>Internet → LB ──────┼── App Server 2
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>                    └── App Server 3
+</code></pre></div>
+<p><strong>Algorithms:</strong> Round-robin, least connections, IP hash.</p>
+<p><strong>Types:</strong> L4 (TCP/UDP), L7 (HTTP-aware — can route by URL, headers, cookies).</p>
+<h3 id="reverse-proxy">Reverse Proxy<a class="headerlink" href="#reverse-proxy" title="Permanent link">&para;</a></h3>
+<p>Sits in front of web servers, forwarding client requests to appropriate backends.</p>
+<p><strong>Functions:</strong> SSL termination, caching, rate limiting, WAF, compression, routing.</p>
+<p><strong>Examples:</strong> Nginx, HAProxy, Traefik, Cloudflare.</p>
+<h3 id="cache-layers">Cache Layers<a class="headerlink" href="#cache-layers" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>What's Cached</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Browser cache</td>
+<td>Static assets (CSS, JS, images)</td>
+<td>Browser built-in</td>
+</tr>
+<tr>
+<td>CDN cache</td>
+<td>Static + some dynamic content</td>
+<td>Cloudflare, CloudFront</td>
+</tr>
+<tr>
+<td>Application cache</td>
+<td>DB query results, computed data</td>
+<td>Redis, Memcached</td>
+</tr>
+<tr>
+<td>Database cache</td>
+<td>Query result sets</td>
+<td>Built-in (InnoDB buffer pool)</td>
+</tr>
+<tr>
+<td>Object storage</td>
+<td>Large files, media</td>
+<td>S3, GCS</td>
+</tr>
+</tbody>
+</table>
+<h3 id="message-queues-background-jobs">Message Queues / Background Jobs<a class="headerlink" href="#message-queues-background-jobs" title="Permanent link">&para;</a></h3>
+<p>Asynchronous tasks are offloaded to queues so the HTTP response isn't delayed:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>User uploads image
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>  → HTTP 202 Accepted (instant)
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>  → Job queued (RabbitMQ / SQS / Redis)
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>  → Worker processes image resize, thumbnail generation
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>  → Notify user when done
+</code></pre></div>
+<p><strong>Tools:</strong> Celery, Sidekiq, BullMQ, AWS SQS.</p>
+<hr />
+<h2 id="frontend-technologies">Frontend Technologies<a class="headerlink" href="#frontend-technologies" title="Permanent link">&para;</a></h2>
+<h3 id="html-hypertext-markup-language">HTML (HyperText Markup Language)<a class="headerlink" href="#html-hypertext-markup-language" title="Permanent link">&para;</a></h3>
+<p>The <strong>structure</strong> of a web page. Defines elements like headings, paragraphs, links, forms, images.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width, initial-scale=1.0&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>  <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello World<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+<a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a>  <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;/about&quot;</span><span class="p">&gt;</span>About<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+<a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a>  <span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;/login&quot;</span> <span class="na">method</span><span class="o">=</span><span class="s">&quot;POST&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a>    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;username&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a>    <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;password&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a>    <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span><span class="p">&gt;</span>Login<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<a id="__codelineno-15-15" name="__codelineno-15-15" href="#__codelineno-15-15"></a>  <span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+<a id="__codelineno-15-16" name="__codelineno-15-16" href="#__codelineno-15-16"></a><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</code></pre></div>
+<h3 id="css-cascading-style-sheets">CSS (Cascading Style Sheets)<a class="headerlink" href="#css-cascading-style-sheets" title="Permanent link">&para;</a></h3>
+<p>The <strong>presentation</strong> of a web page. Controls layout, colors, fonts, animations.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="nt">body</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a><span class="w">  </span><span class="k">font-family</span><span class="p">:</span><span class="w"> </span><span class="kc">sans-serif</span><span class="p">;</span>
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a><span class="w">  </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="mh">#f5f5f5</span><span class="p">;</span>
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="p">}</span>
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a><span class="nt">h1</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a><span class="w">  </span><span class="k">color</span><span class="p">:</span><span class="w"> </span><span class="mh">#333</span><span class="p">;</span>
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a><span class="w">  </span><span class="k">font-size</span><span class="p">:</span><span class="w"> </span><span class="mi">2</span><span class="kt">rem</span><span class="p">;</span>
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="javascript">JavaScript<a class="headerlink" href="#javascript" title="Permanent link">&para;</a></h3>
+<p>The <strong>behaviour</strong> of a web page. Makes pages interactive, fetches data, manipulates the DOM.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1">// Fetch data from an API</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a><span class="nx">fetch</span><span class="p">(</span><span class="s1">&#39;/api/products&#39;</span><span class="p">)</span>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a><span class="w">  </span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="nx">res</span><span class="p">.</span><span class="nx">json</span><span class="p">())</span>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a><span class="w">  </span><span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="w">    </span><span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">&#39;products&#39;</span><span class="p">).</span><span class="nx">innerHTML</span><span class="w"> </span><span class="o">=</span>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a><span class="w">      </span><span class="nx">data</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">p</span><span class="w"> </span><span class="p">=&gt;</span><span class="w"> </span><span class="sb">`&lt;li&gt;</span><span class="si">${</span><span class="nx">p</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb">&lt;/li&gt;`</span><span class="p">).</span><span class="nx">join</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">);</span>
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a><span class="w">  </span><span class="p">});</span>
+</code></pre></div>
+<h3 id="javascript-frameworks">JavaScript Frameworks<a class="headerlink" href="#javascript-frameworks" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Framework</th>
+<th>Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>React</strong></td>
+<td>Library (UI)</td>
+<td>Component-based; virtual DOM; Meta</td>
+</tr>
+<tr>
+<td><strong>Vue.js</strong></td>
+<td>Framework</td>
+<td>Progressive; gentle learning curve</td>
+</tr>
+<tr>
+<td><strong>Angular</strong></td>
+<td>Full framework</td>
+<td>TypeScript; opinionated; Google</td>
+</tr>
+<tr>
+<td><strong>Svelte</strong></td>
+<td>Compiler</td>
+<td>No virtual DOM; compiles to vanilla JS</td>
+</tr>
+<tr>
+<td><strong>Next.js</strong></td>
+<td>React meta-framework</td>
+<td>SSR + SSG + API routes</td>
+</tr>
+<tr>
+<td><strong>Nuxt.js</strong></td>
+<td>Vue meta-framework</td>
+<td>SSR + SSG for Vue</td>
+</tr>
+</tbody>
+</table>
+<h3 id="browser-storage">Browser Storage<a class="headerlink" href="#browser-storage" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Size</th>
+<th>Persists</th>
+<th>Accessible by JS</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Cookies</strong></td>
+<td>~4 KB</td>
+<td>Yes (configurable)</td>
+<td>Yes (unless HttpOnly)</td>
+<td>Sent with every request</td>
+</tr>
+<tr>
+<td><strong>localStorage</strong></td>
+<td>~5–10 MB</td>
+<td>Yes (until cleared)</td>
+<td>Yes</td>
+<td>Same-origin only</td>
+</tr>
+<tr>
+<td><strong>sessionStorage</strong></td>
+<td>~5–10 MB</td>
+<td>No (tab session)</td>
+<td>Yes</td>
+<td>Cleared on tab close</td>
+</tr>
+<tr>
+<td><strong>IndexedDB</strong></td>
+<td>Hundreds of MB</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Structured async DB in browser</td>
+</tr>
+<tr>
+<td><strong>Cache API</strong></td>
+<td>Large</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Service worker caching</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Security note:</strong> Never store sensitive data (tokens, passwords, PII) in <code>localStorage</code> or <code>sessionStorage</code> — accessible to any JavaScript on the page (including XSS).</p>
+</blockquote>
+<hr />
+<h2 id="backend-technologies">Backend Technologies<a class="headerlink" href="#backend-technologies" title="Permanent link">&para;</a></h2>
+<h3 id="server-side-rendering-ssr">Server-Side Rendering (SSR)<a class="headerlink" href="#server-side-rendering-ssr" title="Permanent link">&para;</a></h3>
+<p>HTML is generated <strong>on the server</strong> per request and sent to the browser.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>Browser → Request → Server generates HTML → Response → Browser renders
+</code></pre></div>
+<p><strong>Pros:</strong> Better SEO, faster first paint on slow devices.
+<strong>Cons:</strong> Higher server load, slower time-to-first-byte on complex pages.</p>
+<h3 id="client-side-rendering-csr">Client-Side Rendering (CSR)<a class="headerlink" href="#client-side-rendering-csr" title="Permanent link">&para;</a></h3>
+<p>A minimal HTML shell is returned; JavaScript <strong>builds the page in the browser</strong>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Browser → Request → Minimal HTML + JS bundle → Browser runs JS → Renders page
+</code></pre></div>
+<p><strong>Pros:</strong> Rich interactivity, fast subsequent navigation (SPA).
+<strong>Cons:</strong> Poor SEO (without extra config), slow initial load, heavier on client.</p>
+<h3 id="apis-application-programming-interfaces">APIs (Application Programming Interfaces)<a class="headerlink" href="#apis-application-programming-interfaces" title="Permanent link">&para;</a></h3>
+<p>Modern websites communicate with backends via APIs.</p>
+<h4 id="rest-representational-state-transfer">REST (Representational State Transfer)<a class="headerlink" href="#rest-representational-state-transfer" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Resources identified by <strong>URLs</strong>.</li>
+<li>Standard HTTP methods (GET, POST, PUT, DELETE).</li>
+<li>Stateless — each request is self-contained.</li>
+<li>Returns <strong>JSON</strong> (or XML).</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>GET    /api/users          → list users
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>POST   /api/users          → create user
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>GET    /api/users/42       → get user 42
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>PUT    /api/users/42       → replace user 42
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>PATCH  /api/users/42       → update user 42 partially
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a>DELETE /api/users/42       → delete user 42
+</code></pre></div>
+<h4 id="graphql">GraphQL<a class="headerlink" href="#graphql" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Single endpoint (<code>/graphql</code>).</li>
+<li>Client specifies exactly what data it needs.</li>
+<li>Reduces over-fetching and under-fetching.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="k">query</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a><span class="w">  </span><span class="n">user</span><span class="p">(</span><span class="n">id</span><span class="p">:</span><span class="w"> </span><span class="mi">42</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a><span class="w">    </span><span class="n">name</span>
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a><span class="w">    </span><span class="n">email</span>
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a><span class="w">    </span><span class="n">posts</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a><span class="w">      </span><span class="n">title</span>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a><span class="w">  </span><span class="p">}</span>
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a><span class="p">}</span>
+</code></pre></div>
+<h4 id="websockets">WebSockets<a class="headerlink" href="#websockets" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Full-duplex persistent connection.</li>
+<li>Used for real-time features: chat, live dashboards, notifications, multiplayer games.</li>
+</ul>
+<hr />
+<h2 id="sessions-authentication">Sessions &amp; Authentication<a class="headerlink" href="#sessions-authentication" title="Permanent link">&para;</a></h2>
+<h3 id="session-based-authentication">Session-Based Authentication<a class="headerlink" href="#session-based-authentication" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>1. User submits credentials (POST /login)
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>2. Server validates, creates a session in DB/Redis
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>3. Server sends back Set-Cookie: session_id=abc123
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>4. Browser includes Cookie: session_id=abc123 on every request
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>5. Server looks up session in store to identify user
+</code></pre></div>
+<h3 id="token-based-authentication-jwt">Token-Based Authentication (JWT)<a class="headerlink" href="#token-based-authentication-jwt" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>1. User submits credentials
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>2. Server validates, returns a signed JWT
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>3. Client stores JWT (memory, cookie, or localStorage)
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>4. Client sends JWT in Authorization: Bearer &lt;token&gt; header
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>5. Server verifies signature — no DB lookup needed (stateless)
+</code></pre></div>
+<h3 id="oauth-20-openid-connect">OAuth 2.0 / OpenID Connect<a class="headerlink" href="#oauth-20-openid-connect" title="Permanent link">&para;</a></h3>
+<p>Used for <strong>"Login with Google/GitHub/Facebook"</strong> flows.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>User clicks &quot;Login with Google&quot;
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>  │
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>  ▼
+<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a>Redirect to Google authorization server
+<a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a>  │ (user logs in + grants permission)
+<a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a>  ▼
+<a id="__codelineno-24-7" name="__codelineno-24-7" href="#__codelineno-24-7"></a>Google redirects back with authorization code
+<a id="__codelineno-24-8" name="__codelineno-24-8" href="#__codelineno-24-8"></a>  │
+<a id="__codelineno-24-9" name="__codelineno-24-9" href="#__codelineno-24-9"></a>  ▼
+<a id="__codelineno-24-10" name="__codelineno-24-10" href="#__codelineno-24-10"></a>App exchanges code for access token (server-to-server)
+<a id="__codelineno-24-11" name="__codelineno-24-11" href="#__codelineno-24-11"></a>  │
+<a id="__codelineno-24-12" name="__codelineno-24-12" href="#__codelineno-24-12"></a>  ▼
+<a id="__codelineno-24-13" name="__codelineno-24-13" href="#__codelineno-24-13"></a>App uses access token to fetch user profile
+</code></pre></div>
+<hr />
+<h2 id="how-forms-work">How Forms Work<a class="headerlink" href="#how-forms-work" title="Permanent link">&para;</a></h2>
+<p>HTML forms are how users submit data to a server.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a><span class="p">&lt;</span><span class="nt">form</span> <span class="na">action</span><span class="o">=</span><span class="s">&quot;/login&quot;</span> <span class="na">method</span><span class="o">=</span><span class="s">&quot;POST&quot;</span> <span class="na">enctype</span><span class="o">=</span><span class="s">&quot;application/x-www-form-urlencoded&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span>     <span class="na">name</span><span class="o">=</span><span class="s">&quot;username&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;alice&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>  <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;password&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;secret&quot;</span><span class="p">&gt;</span>
+<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>  <span class="p">&lt;</span><span class="nt">button</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;submit&quot;</span><span class="p">&gt;</span>Login<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+<a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a><span class="p">&lt;/</span><span class="nt">form</span><span class="p">&gt;</span>
+</code></pre></div>
+<p>Submission sends:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="nf">POST</span> <span class="nn">/login</span> <span class="kr">HTTP</span><span class="o">/</span><span class="m">1.1</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="na">Host</span><span class="o">:</span> <span class="l">example.com</span>
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a><span class="na">Content-Type</span><span class="o">:</span> <span class="l">application/x-www-form-urlencoded</span>
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="na">Content-Length</span><span class="o">:</span> <span class="l">33</span>
+<a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a>
+<a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a><span class="nt">username</span><span class="o">=</span><span class="s">alice</span><span class="p">&amp;</span><span class="nt">password</span><span class="o">=</span><span class="s">secret</span>
+</code></pre></div>
+<h3 id="form-encoding-types">Form Encoding Types<a class="headerlink" href="#form-encoding-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th><code>enctype</code></th>
+<th>Format</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>application/x-www-form-urlencoded</code></td>
+<td><code>key=value&amp;key2=value2</code></td>
+<td>Default; text data</td>
+</tr>
+<tr>
+<td><code>multipart/form-data</code></td>
+<td>MIME multipart</td>
+<td>File uploads</td>
+</tr>
+<tr>
+<td><code>application/json</code></td>
+<td>JSON (via JS fetch)</td>
+<td>API calls</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="security-considerations">Security Considerations<a class="headerlink" href="#security-considerations" title="Permanent link">&para;</a></h2>
+<h3 id="input-validation-sanitization">Input Validation &amp; Sanitization<a class="headerlink" href="#input-validation-sanitization" title="Permanent link">&para;</a></h3>
+<p>Every piece of user input is a potential attack vector.</p>
+<table>
+<thead>
+<tr>
+<th>Attack</th>
+<th>Unsanitized Input Example</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SQL Injection</strong></td>
+<td><code>' OR '1'='1</code> in login form</td>
+<td>Parameterized queries / ORM</td>
+</tr>
+<tr>
+<td><strong>XSS</strong></td>
+<td><code>&lt;script&gt;alert(1)&lt;/script&gt;</code> in comment</td>
+<td>HTML encode output; CSP</td>
+</tr>
+<tr>
+<td><strong>Path Traversal</strong></td>
+<td><code>../../etc/passwd</code> as filename</td>
+<td>Validate and sanitize file paths</td>
+</tr>
+<tr>
+<td><strong>Command Injection</strong></td>
+<td><code>; rm -rf /</code> in search field</td>
+<td>Never pass user input to shell</td>
+</tr>
+<tr>
+<td><strong>SSRF</strong></td>
+<td>Internal URL in image fetch field</td>
+<td>Allowlist external URLs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="https-everywhere">HTTPS Everywhere<a class="headerlink" href="#https-everywhere" title="Permanent link">&para;</a></h3>
+<ul>
+<li>All websites should use HTTPS — even static sites.</li>
+<li>Free certificates via <strong>Let's Encrypt</strong>.</li>
+<li>Use <strong>HSTS</strong> to prevent downgrade attacks.</li>
+<li>Redirect all HTTP traffic to HTTPS.</li>
+</ul>
+<h3 id="same-origin-policy">Same-Origin Policy<a class="headerlink" href="#same-origin-policy" title="Permanent link">&para;</a></h3>
+<p>Browsers enforce the <strong>Same-Origin Policy (SOP)</strong>: JavaScript on <code>https://a.com</code> cannot read responses from <code>https://b.com</code> without explicit CORS permission.</p>
+<ul>
+<li><strong>Origin</strong> = scheme + host + port.</li>
+<li>Prevents malicious sites from reading your banking data.</li>
+<li>Does not prevent requests from being sent — only the response from being read.</li>
+</ul>
+<h3 id="content-security-policy-csp">Content Security Policy (CSP)<a class="headerlink" href="#content-security-policy-csp" title="Permanent link">&para;</a></h3>
+<p>Defines where resources can be loaded from, reducing XSS impact.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="err">Content-Security-Policy: default-src &#39;self&#39;; script-src &#39;self&#39; &#39;nonce-abc123&#39;</span>
+</code></pre></div>
+<h3 id="csrf-cross-site-request-forgery">CSRF (Cross-Site Request Forgery)<a class="headerlink" href="#csrf-cross-site-request-forgery" title="Permanent link">&para;</a></h3>
+<p>Attacker tricks a logged-in user into unknowingly submitting a malicious request.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a><span class="cm">&lt;!-- Malicious page visits bank.com as the logged-in user --&gt;</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a><span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://bank.com/transfer?to=attacker&amp;amount=10000&quot;</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Mitigations:</strong> <code>SameSite</code> cookies, <strong>CSRF tokens</strong> in forms, <code>Origin</code>/<code>Referer</code> header validation.</p>
+<h3 id="clickjacking">Clickjacking<a class="headerlink" href="#clickjacking" title="Permanent link">&para;</a></h3>
+<p>Victim clicks on a transparent <code>&lt;iframe&gt;</code> overlay of a legitimate site.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="cm">&lt;!-- Attacker&#39;s page --&gt;</span>
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://bank.com/transfer&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;opacity:0; position:absolute;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a><span class="p">&lt;</span><span class="nt">button</span><span class="p">&gt;</span>Click me to win a prize!<span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</code></pre></div>
+<p><strong>Mitigations:</strong> <code>X-Frame-Options: DENY</code>, CSP <code>frame-ancestors 'none'</code>.</p>
+<hr />
+<h2 id="browser-developer-tools">Browser Developer Tools<a class="headerlink" href="#browser-developer-tools" title="Permanent link">&para;</a></h2>
+<p>Every modern browser includes <strong>DevTools</strong> — essential for understanding and testing websites.</p>
+<table>
+<thead>
+<tr>
+<th>Panel</th>
+<th>What You Can Do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Elements</strong></td>
+<td>Inspect and modify DOM/CSS live</td>
+</tr>
+<tr>
+<td><strong>Console</strong></td>
+<td>Run JavaScript, view errors and logs</td>
+</tr>
+<tr>
+<td><strong>Network</strong></td>
+<td>View all HTTP requests/responses, headers, timing</td>
+</tr>
+<tr>
+<td><strong>Sources</strong></td>
+<td>View JavaScript source, set breakpoints</td>
+</tr>
+<tr>
+<td><strong>Application</strong></td>
+<td>Inspect cookies, localStorage, sessionStorage, IndexedDB, Service Workers</td>
+</tr>
+<tr>
+<td><strong>Security</strong></td>
+<td>View TLS certificate, connection details</td>
+</tr>
+<tr>
+<td><strong>Performance</strong></td>
+<td>Profile rendering, JS execution, paint events</td>
+</tr>
+<tr>
+<td><strong>Lighthouse</strong></td>
+<td>Automated audit for performance, SEO, accessibility, security</td>
+</tr>
+</tbody>
+</table>
+<h3 id="network-tab-tips-security-testing">Network Tab Tips (Security Testing)<a class="headerlink" href="#network-tab-tips-security-testing" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>1. Open DevTools (F12) → Network tab
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a>2. Reload page or interact
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>3. Click any request to see:
+<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a>   - Request URL, method, status code
+<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a>   - Request headers (including cookies, auth tokens)
+<a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a>   - Response headers (security headers)
+<a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a>   - Response body
+<a id="__codelineno-30-8" name="__codelineno-30-8" href="#__codelineno-30-8"></a>   - Timing (DNS, TCP, TLS, TTFB, download)
+</code></pre></div>
+<hr />
+<h2 id="performance-concepts">Performance Concepts<a class="headerlink" href="#performance-concepts" title="Permanent link">&para;</a></h2>
+<h3 id="key-metrics">Key Metrics<a class="headerlink" href="#key-metrics" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Description</th>
+<th>Good Target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>TTFB</strong> (Time to First Byte)</td>
+<td>Time from request to first byte of response</td>
+<td>&lt; 200ms</td>
+</tr>
+<tr>
+<td><strong>FCP</strong> (First Contentful Paint)</td>
+<td>When first content appears on screen</td>
+<td>&lt; 1.8s</td>
+</tr>
+<tr>
+<td><strong>LCP</strong> (Largest Contentful Paint)</td>
+<td>When main content loads</td>
+<td>&lt; 2.5s</td>
+</tr>
+<tr>
+<td><strong>TTI</strong> (Time to Interactive)</td>
+<td>When page is fully interactive</td>
+<td>&lt; 3.8s</td>
+</tr>
+<tr>
+<td><strong>CLS</strong> (Cumulative Layout Shift)</td>
+<td>Visual stability (elements jumping around)</td>
+<td>&lt; 0.1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="performance-optimizations">Performance Optimizations<a class="headerlink" href="#performance-optimizations" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Minify</strong> CSS/JS/HTML — remove whitespace and comments.</li>
+<li><strong>Compress</strong> responses — gzip or Brotli.</li>
+<li><strong>Cache</strong> static assets aggressively — long <code>max-age</code>, content-addressed filenames.</li>
+<li><strong>Use a CDN</strong> — serve assets from edge servers near the user.</li>
+<li><strong>Lazy load</strong> images and off-screen content.</li>
+<li><strong>Preconnect</strong> to critical third-party origins.</li>
+<li><strong>HTTP/2 or HTTP/3</strong> — multiplexing reduces connection overhead.</li>
+</ul>
+<hr />
+<h2 id="how-a-modern-spa-single-page-application-works">How a Modern SPA (Single Page Application) Works<a class="headerlink" href="#how-a-modern-spa-single-page-application-works" title="Permanent link">&para;</a></h2>
+<p>A <strong>SPA</strong> loads once and dynamically updates content without full page reloads.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>Initial visit:
+<a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a>  Browser → Server → HTML shell + large JS bundle
+<a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a>  Browser runs JS → Framework boots → Renders initial view
+<a id="__codelineno-31-4" name="__codelineno-31-4" href="#__codelineno-31-4"></a>
+<a id="__codelineno-31-5" name="__codelineno-31-5" href="#__codelineno-31-5"></a>Navigation (e.g., click &quot;About&quot;):
+<a id="__codelineno-31-6" name="__codelineno-31-6" href="#__codelineno-31-6"></a>  JavaScript intercepts click → No new HTTP request for HTML
+<a id="__codelineno-31-7" name="__codelineno-31-7" href="#__codelineno-31-7"></a>  JS updates URL (History API) → Fetches /api/about-data
+<a id="__codelineno-31-8" name="__codelineno-31-8" href="#__codelineno-31-8"></a>  Re-renders only what changed → Instant feel
+<a id="__codelineno-31-9" name="__codelineno-31-9" href="#__codelineno-31-9"></a>
+<a id="__codelineno-31-10" name="__codelineno-31-10" href="#__codelineno-31-10"></a>Deep link (direct URL to /about):
+<a id="__codelineno-31-11" name="__codelineno-31-11" href="#__codelineno-31-11"></a>  Browser → Server → Server must return HTML shell for any path
+<a id="__codelineno-31-12" name="__codelineno-31-12" href="#__codelineno-31-12"></a>  JS boots → Reads URL → Renders /about view
+</code></pre></div>
+<p><strong>Routing:</strong>
+- Client-side router (React Router, Vue Router) handles URL changes.
+- Server must be configured to return the SPA shell for all routes (catch-all).</p>
+<hr />
+<h2 id="web-server-configuration-basics">Web Server Configuration Basics<a class="headerlink" href="#web-server-configuration-basics" title="Permanent link">&para;</a></h2>
+<h3 id="virtual-hosting">Virtual Hosting<a class="headerlink" href="#virtual-hosting" title="Permanent link">&para;</a></h3>
+<p>Multiple websites on a single server using the <code>Host</code> header to distinguish them.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="k">server</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="w">    </span><span class="kn">server_name</span><span class="w"> </span><span class="s">www.site-a.com</span><span class="p">;</span>
+<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a><span class="w">    </span><span class="kn">root</span><span class="w"> </span><span class="s">/var/www/site-a</span><span class="p">;</span>
+<a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="p">}</span>
+<a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a>
+<a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a><span class="k">server</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-32-7" name="__codelineno-32-7" href="#__codelineno-32-7"></a><span class="w">    </span><span class="kn">server_name</span><span class="w"> </span><span class="s">www.site-b.com</span><span class="p">;</span>
+<a id="__codelineno-32-8" name="__codelineno-32-8" href="#__codelineno-32-8"></a><span class="w">    </span><span class="kn">root</span><span class="w"> </span><span class="s">/var/www/site-b</span><span class="p">;</span>
+<a id="__codelineno-32-9" name="__codelineno-32-9" href="#__codelineno-32-9"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="url-routing">URL Routing<a class="headerlink" href="#url-routing" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a><span class="k">location</span><span class="w"> </span><span class="s">/</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a><span class="w">    </span><span class="kn">try_files</span><span class="w"> </span><span class="nv">$uri</span><span class="w"> </span><span class="nv">$uri/</span><span class="w"> </span><span class="s">/index.html</span><span class="p">;</span><span class="w">  </span><span class="c1"># SPA catch-all</span>
+<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a><span class="p">}</span>
+<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>
+<a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a><span class="k">location</span><span class="w"> </span><span class="s">/api/</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a><span class="w">    </span><span class="kn">proxy_pass</span><span class="w"> </span><span class="s">http://localhost:3000</span><span class="p">;</span><span class="w">  </span><span class="c1"># Proxy to app server</span>
+<a id="__codelineno-33-7" name="__codelineno-33-7" href="#__codelineno-33-7"></a><span class="p">}</span>
+<a id="__codelineno-33-8" name="__codelineno-33-8" href="#__codelineno-33-8"></a>
+<a id="__codelineno-33-9" name="__codelineno-33-9" href="#__codelineno-33-9"></a><span class="k">location</span><span class="w"> </span><span class="s">/static/</span><span class="w"> </span><span class="p">{</span>
+<a id="__codelineno-33-10" name="__codelineno-33-10" href="#__codelineno-33-10"></a><span class="w">    </span><span class="kn">root</span><span class="w"> </span><span class="s">/var/www</span><span class="p">;</span>
+<a id="__codelineno-33-11" name="__codelineno-33-11" href="#__codelineno-33-11"></a><span class="w">    </span><span class="kn">expires</span><span class="w"> </span><span class="s">1y</span><span class="p">;</span><span class="w">                        </span><span class="c1"># Long cache for static files</span>
+<a id="__codelineno-33-12" name="__codelineno-33-12" href="#__codelineno-33-12"></a><span class="w">    </span><span class="kn">add_header</span><span class="w"> </span><span class="s">Cache-Control</span><span class="w"> </span><span class="s">&quot;public,</span><span class="w"> </span><span class="s">immutable&quot;</span><span class="p">;</span>
+<a id="__codelineno-33-13" name="__codelineno-33-13" href="#__codelineno-33-13"></a><span class="p">}</span>
+</code></pre></div>
+<h3 id="common-security-misconfigurations">Common Security Misconfigurations<a class="headerlink" href="#common-security-misconfigurations" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Misconfiguration</th>
+<th>Risk</th>
+<th>Fix</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Directory listing enabled</td>
+<td>Exposes file structure</td>
+<td><code>autoindex off</code></td>
+</tr>
+<tr>
+<td>Server version disclosure</td>
+<td>Helps attacker fingerprint</td>
+<td><code>server_tokens off</code></td>
+</tr>
+<tr>
+<td>Default error pages</td>
+<td>Leak framework/version info</td>
+<td>Custom error pages</td>
+</tr>
+<tr>
+<td>Unnecessary HTTP methods enabled</td>
+<td>TRACE/PUT misuse</td>
+<td>Restrict allowed methods</td>
+</tr>
+<tr>
+<td>Open redirects</td>
+<td>Phishing, token theft</td>
+<td>Validate redirect URLs</td>
+</tr>
+<tr>
+<td>Sensitive files exposed</td>
+<td><code>.git</code>, <code>.env</code>, <code>backup.zip</code></td>
+<td>Block in web server config</td>
+</tr>
+<tr>
+<td>Missing security headers</td>
+<td>XSS, clickjacking, etc.</td>
+<td>Add HSTS, CSP, etc.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="useful-tools">Useful Tools<a class="headerlink" href="#useful-tools" title="Permanent link">&para;</a></h2>
+<h3 id="browser-based">Browser-Based<a class="headerlink" href="#browser-based" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Browser DevTools</strong></td>
+<td>Inspect requests, DOM, cookies, storage</td>
+</tr>
+<tr>
+<td><strong>Wappalyzer</strong></td>
+<td>Fingerprint technologies used by a site</td>
+</tr>
+<tr>
+<td><strong>BuiltWith</strong></td>
+<td>Technology profiler</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cli-tools">CLI Tools<a class="headerlink" href="#cli-tools" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="c1"># Fetch a page and see headers</span>
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>curl<span class="w"> </span>-I<span class="w"> </span>https://example.com
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>curl<span class="w"> </span>-v<span class="w"> </span>https://example.com
+<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a>
+<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a><span class="c1"># Follow redirects</span>
+<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a>curl<span class="w"> </span>-L<span class="w"> </span>https://example.com
+<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a>
+<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a><span class="c1"># Send a POST request</span>
+<a id="__codelineno-34-9" name="__codelineno-34-9" href="#__codelineno-34-9"></a>curl<span class="w"> </span>-X<span class="w"> </span>POST<span class="w"> </span>https://example.com/api/login<span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-34-10" name="__codelineno-34-10" href="#__codelineno-34-10"></a><span class="w">  </span>-H<span class="w"> </span><span class="s2">&quot;Content-Type: application/json&quot;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-34-11" name="__codelineno-34-11" href="#__codelineno-34-11"></a><span class="w">  </span>-d<span class="w"> </span><span class="s1">&#39;{&quot;username&quot;:&quot;alice&quot;,&quot;password&quot;:&quot;secret&quot;}&#39;</span>
+<a id="__codelineno-34-12" name="__codelineno-34-12" href="#__codelineno-34-12"></a>
+<a id="__codelineno-34-13" name="__codelineno-34-13" href="#__codelineno-34-13"></a><span class="c1"># Check response headers</span>
+<a id="__codelineno-34-14" name="__codelineno-34-14" href="#__codelineno-34-14"></a>curl<span class="w"> </span>-s<span class="w"> </span>-D<span class="w"> </span>-<span class="w"> </span>https://example.com<span class="w"> </span>-o<span class="w"> </span>/dev/null
+<a id="__codelineno-34-15" name="__codelineno-34-15" href="#__codelineno-34-15"></a>
+<a id="__codelineno-34-16" name="__codelineno-34-16" href="#__codelineno-34-16"></a><span class="c1"># Trace DNS + connection timing</span>
+<a id="__codelineno-34-17" name="__codelineno-34-17" href="#__codelineno-34-17"></a>curl<span class="w"> </span>-w<span class="w"> </span><span class="s2">&quot;\n\nDNS: %{time_namelookup}s\nTCP: %{time_connect}s\nTLS: %{time_appconnect}s\nTTFB: %{time_starttransfer}s\nTotal: %{time_total}s\n&quot;</span><span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-34-18" name="__codelineno-34-18" href="#__codelineno-34-18"></a><span class="w">  </span>-s<span class="w"> </span>-o<span class="w"> </span>/dev/null<span class="w"> </span>https://example.com
+</code></pre></div>
+<h3 id="security-testing-tools">Security Testing Tools<a class="headerlink" href="#security-testing-tools" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Burp Suite</strong></td>
+<td>Intercept, modify, and replay HTTP requests</td>
+</tr>
+<tr>
+<td><strong>OWASP ZAP</strong></td>
+<td>Automated and manual web app scanning</td>
+</tr>
+<tr>
+<td><strong>Nikto</strong></td>
+<td>Web server vulnerability scanner</td>
+</tr>
+<tr>
+<td><strong>Gobuster / feroxbuster</strong></td>
+<td>Directory and file brute-forcing</td>
+</tr>
+<tr>
+<td><strong>Waybackurls</strong></td>
+<td>Find old URLs via Wayback Machine</td>
+</tr>
+<tr>
+<td><strong>whatweb</strong></td>
+<td>Web technology fingerprinting</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="quick-reference">Quick Reference<a class="headerlink" href="#quick-reference" title="Permanent link">&para;</a></h2>
+<h3 id="website-request-lifecycle">Website Request Lifecycle<a class="headerlink" href="#website-request-lifecycle" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a>1. DNS   → Resolve domain to IP
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>2. TCP   → 3-way handshake (SYN, SYN-ACK, ACK)
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>3. TLS   → Handshake, negotiate ciphers, verify cert
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>4. HTTP  → Send request (method, headers, body)
+<a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a>5. Server → Web server → App server → DB → Response
+<a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a>6. HTTP  → Receive response (status, headers, body)
+<a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a>7. Render → Parse HTML → Build DOM → Apply CSS → Execute JS → Paint
+</code></pre></div>
+<h3 id="key-technologies-by-layer">Key Technologies by Layer<a class="headerlink" href="#key-technologies-by-layer" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Technology</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Network</td>
+<td>TCP/IP, DNS, TLS</td>
+</tr>
+<tr>
+<td>Protocol</td>
+<td>HTTP/1.1, HTTP/2, HTTP/3</td>
+</tr>
+<tr>
+<td>Web Server</td>
+<td>Nginx, Apache, IIS, Caddy</td>
+</tr>
+<tr>
+<td>App Server</td>
+<td>Node.js, Django, Rails, Spring</td>
+</tr>
+<tr>
+<td>Database</td>
+<td>PostgreSQL, MySQL, MongoDB, Redis</td>
+</tr>
+<tr>
+<td>Frontend</td>
+<td>HTML, CSS, JavaScript, React/Vue</td>
+</tr>
+<tr>
+<td>Infrastructure</td>
+<td>CDN, Load Balancer, Cache, Queue</td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-status-codes">Common Status Codes<a class="headerlink" href="#common-status-codes" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>200</td>
+<td>OK — success</td>
+</tr>
+<tr>
+<td>301</td>
+<td>Moved permanently</td>
+</tr>
+<tr>
+<td>302</td>
+<td>Temporary redirect</td>
+</tr>
+<tr>
+<td>304</td>
+<td>Not modified (use cache)</td>
+</tr>
+<tr>
+<td>400</td>
+<td>Bad request</td>
+</tr>
+<tr>
+<td>401</td>
+<td>Unauthenticated</td>
+</tr>
+<tr>
+<td>403</td>
+<td>Forbidden</td>
+</tr>
+<tr>
+<td>404</td>
+<td>Not found</td>
+</tr>
+<tr>
+<td>429</td>
+<td>Rate limited</td>
+</tr>
+<tr>
+<td>500</td>
+<td>Server error</td>
+</tr>
+<tr>
+<td>503</td>
+<td>Service unavailable</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-checklist-for-websites">Security Checklist for Websites<a class="headerlink" href="#security-checklist-for-websites" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>[ ] HTTPS enforced with valid TLS certificate
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>[ ] HTTP redirects to HTTPS (301)
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>[ ] HSTS header set (with preload)
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a>[ ] Content-Security-Policy configured
+<a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a>[ ] X-Content-Type-Options: nosniff
+<a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a>[ ] X-Frame-Options: DENY (or CSP frame-ancestors)
+<a id="__codelineno-36-7" name="__codelineno-36-7" href="#__codelineno-36-7"></a>[ ] Referrer-Policy set
+<a id="__codelineno-36-8" name="__codelineno-36-8" href="#__codelineno-36-8"></a>[ ] Cookies: HttpOnly + Secure + SameSite=Strict
+<a id="__codelineno-36-9" name="__codelineno-36-9" href="#__codelineno-36-9"></a>[ ] Input validation on all user-supplied data
+<a id="__codelineno-36-10" name="__codelineno-36-10" href="#__codelineno-36-10"></a>[ ] Parameterized queries (no SQL injection)
+<a id="__codelineno-36-11" name="__codelineno-36-11" href="#__codelineno-36-11"></a>[ ] No sensitive data in localStorage
+<a id="__codelineno-36-12" name="__codelineno-36-12" href="#__codelineno-36-12"></a>[ ] CSRF protection on state-changing requests
+<a id="__codelineno-36-13" name="__codelineno-36-13" href="#__codelineno-36-13"></a>[ ] Rate limiting on login / sensitive endpoints
+<a id="__codelineno-36-14" name="__codelineno-36-14" href="#__codelineno-36-14"></a>[ ] No sensitive files exposed (.env, .git, backups)
+<a id="__codelineno-36-15" name="__codelineno-36-15" href="#__codelineno-36-15"></a>[ ] Security headers checked via securityheaders.com
+<a id="__codelineno-36-16" name="__codelineno-36-16" href="#__codelineno-36-16"></a>[ ] TLS config graded A+ on ssllabs.com
+</code></pre></div>
+<hr />
+<blockquote>
+<p><strong>Note:</strong> This document is part of the <a href="../README.md">Cybersecurity-Basics</a> notes repository. It is intended for learning purposes. Always practice in a legal, authorized environment.</p>
+</blockquote>
+<p><em>Last updated: 2026</em></p>
 
 
 

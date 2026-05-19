@@ -593,6 +593,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔗 Extending Your Network
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -609,6 +627,1201 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-topologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Topologies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Topologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-topologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Topologies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physical-vs-logical-topology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical vs Logical Topology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subnetting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subnetting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subnetting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-subnet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Subnet?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipv4-subnetting-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IPv4 Subnetting Basics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cidr-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIDR Notation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subnetting-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subnetting Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-ip-address-ranges-rfc-1918" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private IP Address Ranges (RFC 1918)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VLAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-vlans-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How VLANs Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vlan-tagging-8021q" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN Tagging (802.1Q)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#port-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Port Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-vlan-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common VLAN Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inter-vlan-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inter-VLAN Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VPN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpn-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-vpn-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common VPN Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-split-tunneling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN Split Tunneling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-security-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN Security Considerations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#routing-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Routing Protocols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Routing Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#static-vs-dynamic-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static vs Dynamic Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-routing-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Routing Protocols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dynamic Routing Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distance-vector-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distance Vector Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-state-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Link State Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-vector-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Vector Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#administrative-distance-ad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Administrative Distance (AD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NAT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NAT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-nat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of NAT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pat-port-address-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PAT (Port Address Translation)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-implications-of-nat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Implications of NAT
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dhcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DHCP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dora-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DORA Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-lease-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP Lease Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-in-extended-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP in Extended Networks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-security-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP Security Threats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dns-resolution-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Resolution Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-dns-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common DNS Record Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-security-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Security Threats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-security-mitigations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Security Mitigations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proxy Servers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Proxy Servers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-proxies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Proxies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forward-proxy-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forward Proxy Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-balancers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Load Balancers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-balancing-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancing Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layer-4-vs-layer-7-load-balancing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Layer 4 vs Layer 7 Load Balancing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DMZ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DMZ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dmz-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DMZ Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-use-a-dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Use a DMZ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-vs-dual-firewall-dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Single vs Dual Firewall DMZ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireless-networking-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Networking Extensions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wireless Networking Extensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wireless-extension-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Extension Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wi-fi-security-standards-evolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Security Standards (Evolution)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Threats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-wireless-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Wireless Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sd-wan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SD-WAN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SD-WAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traditional-wan-vs-sd-wan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traditional WAN vs SD-WAN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-wan-key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SD-WAN Key Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-wan-security-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SD-WAN Security Considerations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-segmentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Segmentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Segmentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#segmentation-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Segmentation Approaches
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segmentation-zones-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Segmentation Zones (Example)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits-of-segmentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefits of Segmentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zero-trust-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero Trust Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zero Trust Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-trust-vs-traditional-perimeter-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero Trust vs Traditional Perimeter Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-trust-network-access-ztna" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero Trust Network Access (ZTNA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementing-zero-trust-phased-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementing Zero Trust (Phased Approach)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-attack-vectors-on-extended-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Attack Vectors on Extended Networks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Attack Vectors on Extended Networks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#man-in-the-middle-mitm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Man-in-the-Middle (MitM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lateral-movement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lateral Movement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-remote-access-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN / Remote Access Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-based-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS-Based Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supply-chain-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply Chain Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Best Practices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Encryption
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring &amp; Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#patch-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patch Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Useful Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Useful Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-discovery-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Discovery &amp; Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traffic-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traffic Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-tunneling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN &amp; Tunneling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proxy-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proxy &amp; Web
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-protocols-ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Protocols &amp; Ports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cheat-sheet-subnetting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Sheet: Subnetting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cheat-sheet-osi-layer-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Sheet: OSI Layer Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1140,6 +2353,1190 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-topologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Topologies
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Topologies">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-topologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Topologies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#physical-vs-logical-topology" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Physical vs Logical Topology
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subnetting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subnetting
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Subnetting">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-subnet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Subnet?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipv4-subnetting-basics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IPv4 Subnetting Basics
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cidr-notation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIDR Notation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subnetting-formula" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subnetting Formula
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#private-ip-address-ranges-rfc-1918" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Private IP Address Ranges (RFC 1918)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VLAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-vlans-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How VLANs Work
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vlan-tagging-8021q" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN Tagging (802.1Q)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#port-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Port Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-vlan-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common VLAN Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inter-vlan-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inter-VLAN Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vpn" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="VPN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vpn-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-vpn-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common VPN Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-split-tunneling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN Split Tunneling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-security-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN Security Considerations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#routing-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Routing Protocols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Routing Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#static-vs-dynamic-routing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Static vs Dynamic Routing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dynamic-routing-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dynamic Routing Protocols
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dynamic Routing Protocols">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#distance-vector-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Distance Vector Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#link-state-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Link State Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-vector-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Path Vector Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#administrative-distance-ad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Administrative Distance (AD)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NAT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NAT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-nat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of NAT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pat-port-address-translation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PAT (Port Address Translation)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-implications-of-nat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Implications of NAT
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dhcp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DHCP">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dora-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DORA Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-lease-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP Lease Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-in-extended-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP in Extended Networks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dhcp-security-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DHCP Security Threats
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dns-resolution-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Resolution Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-dns-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common DNS Record Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-security-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Security Threats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-security-mitigations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Security Mitigations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proxy-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proxy Servers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Proxy Servers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#types-of-proxies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Types of Proxies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forward-proxy-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Forward Proxy Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#reverse-proxy-use-cases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse Proxy Use Cases
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#load-balancers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Load Balancers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#load-balancing-algorithms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Load Balancing Algorithms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#layer-4-vs-layer-7-load-balancing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Layer 4 vs Layer 7 Load Balancing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#health-checks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Health Checks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DMZ
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DMZ">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dmz-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DMZ Architecture
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#why-use-a-dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Use a DMZ?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-vs-dual-firewall-dmz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Single vs Dual Firewall DMZ
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wireless-networking-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Networking Extensions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Wireless Networking Extensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wireless-extension-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Extension Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wi-fi-security-standards-evolution" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wi-Fi Security Standards (Evolution)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless-threats" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Threats
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enterprise-wireless-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enterprise Wireless Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sd-wan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SD-WAN
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SD-WAN">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#traditional-wan-vs-sd-wan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traditional WAN vs SD-WAN
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-wan-key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SD-WAN Key Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sd-wan-security-considerations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SD-WAN Security Considerations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network-segmentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Segmentation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Network Segmentation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#segmentation-approaches" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Segmentation Approaches
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#segmentation-zones-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Segmentation Zones (Example)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benefits-of-segmentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benefits of Segmentation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zero-trust-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero Trust Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Zero Trust Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-trust-vs-traditional-perimeter-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero Trust vs Traditional Perimeter Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zero-trust-network-access-ztna" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zero Trust Network Access (ZTNA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implementing-zero-trust-phased-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implementing Zero Trust (Phased Approach)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#common-attack-vectors-on-extended-networks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Attack Vectors on Extended Networks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Common Attack Vectors on Extended Networks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#man-in-the-middle-mitm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Man-in-the-Middle (MitM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lateral-movement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lateral Movement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-remote-access-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN / Remote Access Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-based-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS-Based Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supply-chain-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Supply Chain Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Best Practices
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Security Best Practices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Design
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Encryption
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#monitoring-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Monitoring &amp; Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#patch-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patch Management
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#useful-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Useful Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Useful Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#network-discovery-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Network Discovery &amp; Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traffic-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Traffic Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vpn-tunneling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VPN &amp; Tunneling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wireless-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Wireless Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#proxy-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Proxy &amp; Web
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-protocols-ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Protocols &amp; Ports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cheat-sheet-subnetting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Sheet: Subnetting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cheat-sheet-osi-layer-mapping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Sheet: OSI Layer Mapping
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1159,6 +3556,1454 @@
 
 
 <h1 id="extending-your-network">Extending Your Network<a class="headerlink" href="#extending-your-network" title="Permanent link">&para;</a></h1>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>As networks grow beyond a single local segment, they require additional technologies and architecture patterns to remain manageable, secure, and performant. <strong>Extending your network</strong> refers to the set of practices, protocols, and devices used to expand network reach — across buildings, cities, or the internet — while maintaining control and security.</p>
+<p>Key goals when extending a network:</p>
+<ul>
+<li><strong>Connectivity</strong> — allow devices across different locations to communicate.</li>
+<li><strong>Security</strong> — prevent unauthorized access, contain breaches, and encrypt data in transit.</li>
+<li><strong>Performance</strong> — minimize latency, avoid bottlenecks, and balance load.</li>
+<li><strong>Scalability</strong> — support growth without complete redesign.</li>
+</ul>
+<hr />
+<h2 id="network-topologies">Network Topologies<a class="headerlink" href="#network-topologies" title="Permanent link">&para;</a></h2>
+<p>A <strong>topology</strong> describes how devices in a network are physically or logically arranged and connected.</p>
+<h3 id="common-topologies">Common Topologies<a class="headerlink" href="#common-topologies" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Topology</th>
+<th>Description</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Bus</strong></td>
+<td>All devices share a single cable</td>
+<td>Simple, cheap</td>
+<td>Single point of failure; collisions</td>
+</tr>
+<tr>
+<td><strong>Star</strong></td>
+<td>Devices connect to a central switch/hub</td>
+<td>Easy to manage; failure isolated</td>
+<td>Central device = single point of failure</td>
+</tr>
+<tr>
+<td><strong>Ring</strong></td>
+<td>Devices form a closed loop</td>
+<td>Predictable performance</td>
+<td>One failure can break the ring</td>
+</tr>
+<tr>
+<td><strong>Mesh</strong></td>
+<td>Devices connect to many others</td>
+<td>High redundancy</td>
+<td>Expensive; complex cabling</td>
+</tr>
+<tr>
+<td><strong>Tree (Hierarchical)</strong></td>
+<td>Star networks connected in tiers</td>
+<td>Scalable; organized</td>
+<td>Root failure = network down</td>
+</tr>
+<tr>
+<td><strong>Hybrid</strong></td>
+<td>Mix of two or more topologies</td>
+<td>Flexible</td>
+<td>Complex to manage</td>
+</tr>
+</tbody>
+</table>
+<h3 id="physical-vs-logical-topology">Physical vs Logical Topology<a class="headerlink" href="#physical-vs-logical-topology" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Physical topology</strong> — how cables and hardware are actually laid out.</li>
+<li><strong>Logical topology</strong> — how data flows through the network regardless of physical layout.</li>
+</ul>
+<blockquote>
+<p><strong>Example:</strong> An Ethernet network may be physically wired in a star (all cables go to a switch), but logically behave as a bus (broadcast domain).</p>
+</blockquote>
+<hr />
+<h2 id="subnetting">Subnetting<a class="headerlink" href="#subnetting" title="Permanent link">&para;</a></h2>
+<p><strong>Subnetting</strong> is the process of dividing a large IP network into smaller sub-networks (subnets). It improves performance, security, and address management.</p>
+<h3 id="why-subnet">Why Subnet?<a class="headerlink" href="#why-subnet" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Reduce broadcast traffic</li>
+<li>Isolate departments or devices (e.g., HR vs Engineering)</li>
+<li>Improve security by containing breaches</li>
+<li>Efficient use of IP address space</li>
+</ul>
+<h3 id="ipv4-subnetting-basics">IPv4 Subnetting Basics<a class="headerlink" href="#ipv4-subnetting-basics" title="Permanent link">&para;</a></h3>
+<p>An IPv4 address is 32 bits, written as four octets: <code>192.168.1.0</code></p>
+<p>A <strong>subnet mask</strong> determines which part of the address is the <strong>network</strong> portion and which is the <strong>host</strong> portion.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>IP Address:    192.168.1.0
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>Subnet Mask:   255.255.255.0  (/24)
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Network:       192.168.1.0
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>Host Range:    192.168.1.1 – 192.168.1.254
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>Broadcast:     192.168.1.255
+</code></pre></div>
+<h3 id="cidr-notation">CIDR Notation<a class="headerlink" href="#cidr-notation" title="Permanent link">&para;</a></h3>
+<p><strong>CIDR (Classless Inter-Domain Routing)</strong> uses a <code>/prefix</code> to denote the subnet mask.</p>
+<table>
+<thead>
+<tr>
+<th>CIDR</th>
+<th>Subnet Mask</th>
+<th># of Hosts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>/8</td>
+<td>255.0.0.0</td>
+<td>16,777,214</td>
+</tr>
+<tr>
+<td>/16</td>
+<td>255.255.0.0</td>
+<td>65,534</td>
+</tr>
+<tr>
+<td>/24</td>
+<td>255.255.255.0</td>
+<td>254</td>
+</tr>
+<tr>
+<td>/25</td>
+<td>255.255.255.128</td>
+<td>126</td>
+</tr>
+<tr>
+<td>/26</td>
+<td>255.255.255.192</td>
+<td>62</td>
+</tr>
+<tr>
+<td>/27</td>
+<td>255.255.255.224</td>
+<td>30</td>
+</tr>
+<tr>
+<td>/28</td>
+<td>255.255.255.240</td>
+<td>14</td>
+</tr>
+<tr>
+<td>/30</td>
+<td>255.255.255.252</td>
+<td>2</td>
+</tr>
+<tr>
+<td>/32</td>
+<td>255.255.255.255</td>
+<td>1 (host route)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="subnetting-formula">Subnetting Formula<a class="headerlink" href="#subnetting-formula" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Number of subnets</strong> = 2^(bits borrowed)</li>
+<li><strong>Number of hosts per subnet</strong> = 2^(host bits) − 2</li>
+</ul>
+<h3 id="private-ip-address-ranges-rfc-1918">Private IP Address Ranges (RFC 1918)<a class="headerlink" href="#private-ip-address-ranges-rfc-1918" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Range</th>
+<th>CIDR</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10.0.0.0 – 10.255.255.255</td>
+<td>10.0.0.0/8</td>
+<td>Large internal networks</td>
+</tr>
+<tr>
+<td>172.16.0.0 – 172.31.255.255</td>
+<td>172.16.0.0/12</td>
+<td>Medium networks</td>
+</tr>
+<tr>
+<td>192.168.0.0 – 192.168.255.255</td>
+<td>192.168.0.0/16</td>
+<td>Home/small office</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="vlan">VLAN<a class="headerlink" href="#vlan" title="Permanent link">&para;</a></h2>
+<p>A <strong>VLAN (Virtual Local Area Network)</strong> logically segments a physical network into separate broadcast domains without requiring separate physical infrastructure.</p>
+<h3 id="how-vlans-work">How VLANs Work<a class="headerlink" href="#how-vlans-work" title="Permanent link">&para;</a></h3>
+<ul>
+<li>VLANs are configured on <strong>managed switches</strong>.</li>
+<li>Each VLAN acts as its own network — devices in VLAN 10 cannot directly communicate with devices in VLAN 20.</li>
+<li>Traffic between VLANs requires a <strong>Layer 3 device</strong> (router or Layer 3 switch).</li>
+</ul>
+<h3 id="vlan-tagging-8021q">VLAN Tagging (802.1Q)<a class="headerlink" href="#vlan-tagging-8021q" title="Permanent link">&para;</a></h3>
+<p>The IEEE <strong>802.1Q</strong> standard adds a 4-byte tag to Ethernet frames to identify which VLAN the frame belongs to.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>[ Ethernet Header ] [ 802.1Q Tag ] [ Payload ] [ FCS ]
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>                      ↑
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>                  VLAN ID (12-bit → 4094 VLANs possible)
+</code></pre></div>
+<h3 id="port-types">Port Types<a class="headerlink" href="#port-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Port Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Access port</strong></td>
+<td>Belongs to a single VLAN; connects end devices (PCs, servers)</td>
+</tr>
+<tr>
+<td><strong>Trunk port</strong></td>
+<td>Carries traffic for multiple VLANs; connects switches or routers</td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-vlan-use-cases">Common VLAN Use Cases<a class="headerlink" href="#common-vlan-use-cases" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Management VLAN</strong> — isolate switch/router management traffic</li>
+<li><strong>Voice VLAN</strong> — separate VoIP traffic for QoS</li>
+<li><strong>Guest VLAN</strong> — isolate untrusted guest devices</li>
+<li><strong>IoT VLAN</strong> — quarantine smart devices from critical systems</li>
+</ul>
+<h3 id="inter-vlan-routing">Inter-VLAN Routing<a class="headerlink" href="#inter-vlan-routing" title="Permanent link">&para;</a></h3>
+<p>To route between VLANs you can use:</p>
+<ol>
+<li><strong>Router-on-a-stick</strong> — single router interface with sub-interfaces for each VLAN.</li>
+<li><strong>Layer 3 switch</strong> — switch performs routing internally (preferred for performance).</li>
+</ol>
+<hr />
+<h2 id="vpn">VPN<a class="headerlink" href="#vpn" title="Permanent link">&para;</a></h2>
+<p>A <strong>VPN (Virtual Private Network)</strong> creates an encrypted tunnel over a public network (e.g., the internet), allowing remote users or sites to communicate as if on the same private network.</p>
+<h3 id="vpn-types">VPN Types<a class="headerlink" href="#vpn-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Remote Access VPN</strong></td>
+<td>Individual user connects to corporate network</td>
+<td>Work from home</td>
+</tr>
+<tr>
+<td><strong>Site-to-Site VPN</strong></td>
+<td>Two networks connected over the internet</td>
+<td>Branch offices</td>
+</tr>
+<tr>
+<td><strong>Client-to-Site VPN</strong></td>
+<td>Same as remote access; client software used</td>
+<td>Mobile workforce</td>
+</tr>
+</tbody>
+</table>
+<h3 id="common-vpn-protocols">Common VPN Protocols<a class="headerlink" href="#common-vpn-protocols" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Protocol</th>
+<th>Port</th>
+<th>Encryption</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>OpenVPN</strong></td>
+<td>UDP 1194 / TCP 443</td>
+<td>AES-256</td>
+<td>Open-source, highly configurable</td>
+</tr>
+<tr>
+<td><strong>WireGuard</strong></td>
+<td>UDP 51820</td>
+<td>ChaCha20</td>
+<td>Modern, fast, minimal codebase</td>
+</tr>
+<tr>
+<td><strong>IPSec/IKEv2</strong></td>
+<td>UDP 500, 4500</td>
+<td>AES-256</td>
+<td>Native on most OSes; stable</td>
+</tr>
+<tr>
+<td><strong>L2TP/IPSec</strong></td>
+<td>UDP 1701</td>
+<td>AES-256</td>
+<td>Older; double encapsulation overhead</td>
+</tr>
+<tr>
+<td><strong>PPTP</strong></td>
+<td>TCP 1723</td>
+<td>MPPE (weak)</td>
+<td>Legacy; considered insecure — avoid</td>
+</tr>
+<tr>
+<td><strong>SSTP</strong></td>
+<td>TCP 443</td>
+<td>SSL/TLS</td>
+<td>Microsoft; firewall-friendly</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vpn-split-tunneling">VPN Split Tunneling<a class="headerlink" href="#vpn-split-tunneling" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Full tunnel</strong> — all traffic goes through the VPN (more secure, slower).</li>
+<li><strong>Split tunnel</strong> — only corporate traffic goes through VPN; internet traffic goes direct (faster, less secure).</li>
+</ul>
+<h3 id="vpn-security-considerations">VPN Security Considerations<a class="headerlink" href="#vpn-security-considerations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Use <strong>strong authentication</strong> (MFA, certificates) — not just username/password.</li>
+<li>Prefer <strong>WireGuard or OpenVPN</strong> over legacy protocols.</li>
+<li>Patch VPN gateways regularly — they are high-value targets.</li>
+<li>Log and monitor VPN connections for anomalies.</li>
+</ul>
+<hr />
+<h2 id="routing-protocols">Routing Protocols<a class="headerlink" href="#routing-protocols" title="Permanent link">&para;</a></h2>
+<p><strong>Routers</strong> move packets between networks using routing tables. Routing protocols are used to automatically build and maintain these tables.</p>
+<h3 id="static-vs-dynamic-routing">Static vs Dynamic Routing<a class="headerlink" href="#static-vs-dynamic-routing" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Static</th>
+<th>Dynamic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Configuration</td>
+<td>Manual</td>
+<td>Automatic</td>
+</tr>
+<tr>
+<td>Scalability</td>
+<td>Poor (large networks)</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>Resource usage</td>
+<td>Low</td>
+<td>Higher (CPU/memory)</td>
+</tr>
+<tr>
+<td>Adaptability</td>
+<td>None</td>
+<td>Recalculates on change</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>Small networks, specific routes</td>
+<td>Enterprise, ISPs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dynamic-routing-protocols">Dynamic Routing Protocols<a class="headerlink" href="#dynamic-routing-protocols" title="Permanent link">&para;</a></h3>
+<h4 id="distance-vector-protocols">Distance Vector Protocols<a class="headerlink" href="#distance-vector-protocols" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Routers share their <strong>entire routing table</strong> with neighbors periodically.</li>
+<li>Choose paths based on <strong>hop count</strong> or metric.</li>
+<li><strong>RIP (Routing Information Protocol)</strong> — max 15 hops; slow convergence; outdated.</li>
+<li><strong>EIGRP (Enhanced Interior Gateway Routing Protocol)</strong> — Cisco proprietary; uses bandwidth + delay as metrics; fast convergence.</li>
+</ul>
+<h4 id="link-state-protocols">Link State Protocols<a class="headerlink" href="#link-state-protocols" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Routers share <strong>link state information</strong> about their direct connections.</li>
+<li>Each router builds a <strong>complete map</strong> of the network (SPF tree).</li>
+<li><strong>OSPF (Open Shortest Path First)</strong> — most common enterprise IGP; uses Dijkstra's algorithm; organizes routers into <strong>areas</strong>.</li>
+<li><strong>IS-IS</strong> — similar to OSPF; common in ISP backbones.</li>
+</ul>
+<h4 id="path-vector-protocols">Path Vector Protocols<a class="headerlink" href="#path-vector-protocols" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>BGP (Border Gateway Protocol)</strong> — the <strong>routing protocol of the internet</strong>.</li>
+<li>Used between <strong>autonomous systems (AS)</strong>.</li>
+<li>Routes based on <strong>policies</strong> and <strong>AS path</strong> attributes.</li>
+<li>Slow convergence by design; prioritizes stability.</li>
+</ul>
+<h3 id="administrative-distance-ad">Administrative Distance (AD)<a class="headerlink" href="#administrative-distance-ad" title="Permanent link">&para;</a></h3>
+<p>When multiple routing sources provide a route to the same destination, the router prefers the source with the <strong>lowest AD</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Source</th>
+<th>AD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Connected interface</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Static route</td>
+<td>1</td>
+</tr>
+<tr>
+<td>EIGRP (internal)</td>
+<td>90</td>
+</tr>
+<tr>
+<td>OSPF</td>
+<td>110</td>
+</tr>
+<tr>
+<td>RIP</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Unknown / untrusted</td>
+<td>255</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="nat">NAT<a class="headerlink" href="#nat" title="Permanent link">&para;</a></h2>
+<p><strong>NAT (Network Address Translation)</strong> maps private IP addresses to one or more public IP addresses, allowing many internal devices to share a single public IP.</p>
+<h3 id="types-of-nat">Types of NAT<a class="headerlink" href="#types-of-nat" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Static NAT</strong></td>
+<td>One-to-one mapping of private to public IP</td>
+</tr>
+<tr>
+<td><strong>Dynamic NAT</strong></td>
+<td>Maps private IPs to a pool of public IPs</td>
+</tr>
+<tr>
+<td><strong>PAT / NAT Overload</strong></td>
+<td>Many private IPs → single public IP using different ports (most common)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pat-port-address-translation">PAT (Port Address Translation)<a class="headerlink" href="#pat-port-address-translation" title="Permanent link">&para;</a></h3>
+<p>Also called <strong>NAPT</strong> or <strong>NAT Overload</strong>. This is what home routers use.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Device A: 192.168.1.10:50001  →  203.0.113.1:10001  →  Internet
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>Device B: 192.168.1.11:50002  →  203.0.113.1:10002  →  Internet
+</code></pre></div>
+<p>The router tracks connections using a <strong>NAT translation table</strong>.</p>
+<h3 id="security-implications-of-nat">Security Implications of NAT<a class="headerlink" href="#security-implications-of-nat" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Provides <strong>basic obscurity</strong> — internal IPs are hidden.</li>
+<li><strong>NOT a firewall</strong> — NAT alone does not block inbound attacks.</li>
+<li>Can complicate <strong>IPSec VPNs</strong>, <strong>SIP/VoIP</strong>, and <strong>peer-to-peer</strong> applications.</li>
+<li><strong>NAT traversal (NAT-T)</strong> techniques (STUN, TURN, hole punching) are used to work around NAT in such applications.</li>
+</ul>
+<hr />
+<h2 id="dhcp">DHCP<a class="headerlink" href="#dhcp" title="Permanent link">&para;</a></h2>
+<p><strong>DHCP (Dynamic Host Configuration Protocol)</strong> automatically assigns IP configuration to devices on a network, eliminating the need for manual configuration.</p>
+<h3 id="dora-process">DORA Process<a class="headerlink" href="#dora-process" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Client          Server
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  |─── Discover ──→|   Broadcast: &quot;I need an IP&quot;
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  |←─── Offer ────|   Server: &quot;Here&#39;s 192.168.1.50&quot;
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  |─── Request ──→|   Client: &quot;I&#39;ll take 192.168.1.50&quot;
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  |←── Acknowledge|   Server: &quot;It&#39;s yours for [lease time]&quot;
+</code></pre></div>
+<h3 id="dhcp-lease-components">DHCP Lease Components<a class="headerlink" href="#dhcp-lease-components" title="Permanent link">&para;</a></h3>
+<p>A DHCP server assigns:</p>
+<ul>
+<li><strong>IP address</strong></li>
+<li><strong>Subnet mask</strong></li>
+<li><strong>Default gateway</strong></li>
+<li><strong>DNS servers</strong></li>
+<li><strong>Lease duration</strong></li>
+</ul>
+<h3 id="dhcp-in-extended-networks">DHCP in Extended Networks<a class="headerlink" href="#dhcp-in-extended-networks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>DHCP relay agent</strong> — forwards DHCP broadcasts across subnets (a router can act as a relay).</li>
+<li>This allows a single DHCP server to serve multiple subnets.</li>
+</ul>
+<h3 id="dhcp-security-threats">DHCP Security Threats<a class="headerlink" href="#dhcp-security-threats" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Threat</th>
+<th>Description</th>
+<th>Mitigation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DHCP Starvation</strong></td>
+<td>Attacker floods server with fake requests, exhausting the IP pool</td>
+<td>DHCP snooping, rate limiting</td>
+</tr>
+<tr>
+<td><strong>Rogue DHCP Server</strong></td>
+<td>Attacker runs a fake DHCP server to hand out malicious gateway/DNS</td>
+<td>DHCP snooping (trust only authorized ports)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dns">DNS<a class="headerlink" href="#dns" title="Permanent link">&para;</a></h2>
+<p><strong>DNS (Domain Name System)</strong> resolves human-readable hostnames (e.g., <code>example.com</code>) to IP addresses.</p>
+<h3 id="dns-resolution-process">DNS Resolution Process<a class="headerlink" href="#dns-resolution-process" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>1. Browser asks: &quot;What is the IP of example.com?&quot;
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>2. OS checks local cache → /etc/hosts → not found
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>3. Query goes to Recursive Resolver (ISP or 8.8.8.8)
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>4. Recursive Resolver asks Root Server (.) → &quot;ask .com TLD server&quot;
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>5. Resolver asks .com TLD server → &quot;ask example.com nameserver&quot;
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>6. Resolver asks example.com nameserver → returns 93.184.216.34
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>7. Resolver caches and returns answer to client
+</code></pre></div>
+<h3 id="common-dns-record-types">Common DNS Record Types<a class="headerlink" href="#common-dns-record-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>Purpose</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>IPv4 address</td>
+<td><code>example.com → 93.184.216.34</code></td>
+</tr>
+<tr>
+<td><strong>AAAA</strong></td>
+<td>IPv6 address</td>
+<td><code>example.com → 2606:2800::1</code></td>
+</tr>
+<tr>
+<td><strong>CNAME</strong></td>
+<td>Alias to another name</td>
+<td><code>www → example.com</code></td>
+</tr>
+<tr>
+<td><strong>MX</strong></td>
+<td>Mail server</td>
+<td><code>@ → mail.example.com</code></td>
+</tr>
+<tr>
+<td><strong>TXT</strong></td>
+<td>Arbitrary text (SPF, DKIM, etc.)</td>
+<td><code>v=spf1 include:...</code></td>
+</tr>
+<tr>
+<td><strong>NS</strong></td>
+<td>Authoritative nameserver</td>
+<td><code>example.com → ns1.example.com</code></td>
+</tr>
+<tr>
+<td><strong>PTR</strong></td>
+<td>Reverse DNS (IP → name)</td>
+<td><code>34.216.184.93 → example.com</code></td>
+</tr>
+<tr>
+<td><strong>SOA</strong></td>
+<td>Start of Authority (zone info)</td>
+<td>Zone serial, refresh times</td>
+</tr>
+<tr>
+<td><strong>SRV</strong></td>
+<td>Service location</td>
+<td><code>_sip._tcp → sip.example.com:5060</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="dns-security-threats">DNS Security Threats<a class="headerlink" href="#dns-security-threats" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Threat</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DNS Spoofing / Cache Poisoning</strong></td>
+<td>Attacker injects false DNS records into a resolver's cache</td>
+</tr>
+<tr>
+<td><strong>DNS Hijacking</strong></td>
+<td>Attacker redirects DNS queries to malicious servers</td>
+</tr>
+<tr>
+<td><strong>DNS Tunneling</strong></td>
+<td>Data exfiltration encoded in DNS queries (bypasses firewalls)</td>
+</tr>
+<tr>
+<td><strong>DDoS via DNS Amplification</strong></td>
+<td>Attacker uses open resolvers to amplify traffic toward victim</td>
+</tr>
+<tr>
+<td><strong>NXDOMAIN Attack</strong></td>
+<td>Flood of queries for non-existent domains to exhaust resolver</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dns-security-mitigations">DNS Security Mitigations<a class="headerlink" href="#dns-security-mitigations" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>DNSSEC</strong> — digitally signs DNS records; prevents spoofing.</li>
+<li><strong>DoH (DNS over HTTPS)</strong> — encrypts DNS queries; prevents eavesdropping.</li>
+<li><strong>DoT (DNS over TLS)</strong> — encrypts DNS queries at the transport layer.</li>
+<li><strong>RPZ (Response Policy Zones)</strong> — block malicious domains at the resolver level.</li>
+</ul>
+<hr />
+<h2 id="proxy-servers">Proxy Servers<a class="headerlink" href="#proxy-servers" title="Permanent link">&para;</a></h2>
+<p>A <strong>proxy server</strong> sits between clients and servers, forwarding requests on the client's behalf.</p>
+<h3 id="types-of-proxies">Types of Proxies<a class="headerlink" href="#types-of-proxies" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Forward Proxy</strong></td>
+<td>Client → Proxy → Internet</td>
+<td>Corporate web filtering, anonymity</td>
+</tr>
+<tr>
+<td><strong>Reverse Proxy</strong></td>
+<td>Internet → Proxy → Backend Servers</td>
+<td>Load balancing, SSL termination, WAF</td>
+</tr>
+<tr>
+<td><strong>Transparent Proxy</strong></td>
+<td>Client unaware; traffic intercepted</td>
+<td>ISP monitoring, caching</td>
+</tr>
+<tr>
+<td><strong>SOCKS Proxy</strong></td>
+<td>Works at Layer 5; protocol-agnostic</td>
+<td>Bypassing restrictions</td>
+</tr>
+<tr>
+<td><strong>Web Proxy (HTTP)</strong></td>
+<td>Only HTTP/HTTPS traffic</td>
+<td>Browser proxying</td>
+</tr>
+</tbody>
+</table>
+<h3 id="forward-proxy-use-cases">Forward Proxy Use Cases<a class="headerlink" href="#forward-proxy-use-cases" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Content filtering</strong> — block malicious or inappropriate sites.</li>
+<li><strong>Caching</strong> — cache frequently accessed content to save bandwidth.</li>
+<li><strong>Anonymity</strong> — hide client's IP from external servers.</li>
+<li><strong>Logging/Monitoring</strong> — inspect outbound traffic.</li>
+</ul>
+<h3 id="reverse-proxy-use-cases">Reverse Proxy Use Cases<a class="headerlink" href="#reverse-proxy-use-cases" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Load balancing</strong> — distribute traffic across backend servers.</li>
+<li><strong>SSL offloading</strong> — handle TLS termination before passing to backend.</li>
+<li><strong>WAF (Web Application Firewall)</strong> — inspect and filter HTTP traffic.</li>
+<li><strong>Caching</strong> — serve static content without hitting the backend.</li>
+<li><strong>Hide backend infrastructure</strong> — external users never see real server IPs.</li>
+</ul>
+<blockquote>
+<p><strong>Common reverse proxies:</strong> Nginx, HAProxy, Apache, Cloudflare, Traefik.</p>
+</blockquote>
+<hr />
+<h2 id="load-balancers">Load Balancers<a class="headerlink" href="#load-balancers" title="Permanent link">&para;</a></h2>
+<p>A <strong>load balancer</strong> distributes incoming network traffic across multiple servers to ensure no single server is overwhelmed.</p>
+<h3 id="load-balancing-algorithms">Load Balancing Algorithms<a class="headerlink" href="#load-balancing-algorithms" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Round Robin</strong></td>
+<td>Requests distributed equally in rotation</td>
+</tr>
+<tr>
+<td><strong>Weighted Round Robin</strong></td>
+<td>Servers with higher weight receive more requests</td>
+</tr>
+<tr>
+<td><strong>Least Connections</strong></td>
+<td>New request goes to server with fewest active connections</td>
+</tr>
+<tr>
+<td><strong>IP Hash</strong></td>
+<td>Client IP determines which server handles their requests (session persistence)</td>
+</tr>
+<tr>
+<td><strong>Random</strong></td>
+<td>Randomly assigned</td>
+</tr>
+<tr>
+<td><strong>Resource-based</strong></td>
+<td>Based on actual server load (CPU, memory)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="layer-4-vs-layer-7-load-balancing">Layer 4 vs Layer 7 Load Balancing<a class="headerlink" href="#layer-4-vs-layer-7-load-balancing" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Layer 4 (Transport)</th>
+<th>Layer 7 (Application)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Works on</td>
+<td>IP + TCP/UDP</td>
+<td>HTTP headers, URLs, cookies</td>
+</tr>
+<tr>
+<td>Speed</td>
+<td>Faster</td>
+<td>Slightly slower</td>
+</tr>
+<tr>
+<td>Awareness</td>
+<td>No content awareness</td>
+<td>Content-aware routing</td>
+</tr>
+<tr>
+<td>SSL offload</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Use case</td>
+<td>High throughput, any protocol</td>
+<td>Web apps, microservices</td>
+</tr>
+</tbody>
+</table>
+<h3 id="health-checks">Health Checks<a class="headerlink" href="#health-checks" title="Permanent link">&para;</a></h3>
+<p>Load balancers continuously probe backend servers (ping, HTTP GET, TCP connect) and <strong>remove unhealthy nodes</strong> from the pool automatically.</p>
+<hr />
+<h2 id="dmz">DMZ<a class="headerlink" href="#dmz" title="Permanent link">&para;</a></h2>
+<p>A <strong>DMZ (Demilitarized Zone)</strong> is a network segment that sits between the internal trusted network and the external untrusted internet. It hosts publicly accessible services while isolating the internal network.</p>
+<h3 id="dmz-architecture">DMZ Architecture<a class="headerlink" href="#dmz-architecture" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Internet ──── [Firewall 1] ──── DMZ ──── [Firewall 2] ──── Internal Network
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>DMZ contains:
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>  - Web servers
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>  - Mail servers (MTA)
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>  - DNS servers (authoritative)
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>  - FTP servers
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>  - Reverse proxies
+</code></pre></div>
+<h3 id="why-use-a-dmz">Why Use a DMZ?<a class="headerlink" href="#why-use-a-dmz" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Publicly accessible servers are <strong>attack targets</strong> — a compromise should not directly expose the internal network.</li>
+<li>The inner firewall blocks DMZ hosts from initiating connections to internal systems.</li>
+<li>Limits <strong>lateral movement</strong> after a breach.</li>
+</ul>
+<h3 id="single-vs-dual-firewall-dmz">Single vs Dual Firewall DMZ<a class="headerlink" href="#single-vs-dual-firewall-dmz" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Setup</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Single Firewall (3-legged)</strong></td>
+<td>One firewall with 3 interfaces: WAN, DMZ, LAN</td>
+</tr>
+<tr>
+<td><strong>Dual Firewall</strong></td>
+<td>Two separate firewalls; DMZ sits between them</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="wireless-networking-extensions">Wireless Networking Extensions<a class="headerlink" href="#wireless-networking-extensions" title="Permanent link">&para;</a></h2>
+<p>Wireless networks can be extended using several techniques and technologies.</p>
+<h3 id="wireless-extension-methods">Wireless Extension Methods<a class="headerlink" href="#wireless-extension-methods" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Wireless Repeater/Extender</strong></td>
+<td>Receives Wi-Fi signal and rebroadcasts it; extends range but halves bandwidth</td>
+</tr>
+<tr>
+<td><strong>Wireless Access Point (WAP)</strong></td>
+<td>Wired back to the network; provides full bandwidth wireless extension</td>
+</tr>
+<tr>
+<td><strong>Mesh Network</strong></td>
+<td>Multiple nodes create a self-healing wireless network with smart roaming</td>
+</tr>
+<tr>
+<td><strong>WDS (Wireless Distribution System)</strong></td>
+<td>Links APs wirelessly without a wired backbone; older approach</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wi-fi-security-standards-evolution">Wi-Fi Security Standards (Evolution)<a class="headerlink" href="#wi-fi-security-standards-evolution" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Standard</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>WEP</strong></td>
+<td>Broken; do not use</td>
+</tr>
+<tr>
+<td><strong>WPA</strong></td>
+<td>Improved over WEP but has vulnerabilities (TKIP weakness)</td>
+</tr>
+<tr>
+<td><strong>WPA2-Personal (PSK)</strong></td>
+<td>AES-CCMP encryption; secure for home use</td>
+</tr>
+<tr>
+<td><strong>WPA2-Enterprise (802.1X)</strong></td>
+<td>Uses RADIUS for per-user authentication; preferred for business</td>
+</tr>
+<tr>
+<td><strong>WPA3</strong></td>
+<td>Latest standard; SAE (Dragonfly) handshake; resistant to offline brute-force</td>
+</tr>
+<tr>
+<td><strong>WPA3-Enterprise</strong></td>
+<td>192-bit security suite; for high-security environments</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wireless-threats">Wireless Threats<a class="headerlink" href="#wireless-threats" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Threat</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Evil Twin / Rogue AP</strong></td>
+<td>Attacker creates AP with the same SSID to intercept traffic</td>
+</tr>
+<tr>
+<td><strong>Deauthentication Attack</strong></td>
+<td>Attacker sends spoofed deauth frames to disconnect clients</td>
+</tr>
+<tr>
+<td><strong>PMKID Attack</strong></td>
+<td>Capture PMKID from beacon to perform offline password cracking</td>
+</tr>
+<tr>
+<td><strong>KRACK (WPA2)</strong></td>
+<td>Key Reinstallation Attack; patched on most modern devices</td>
+</tr>
+<tr>
+<td><strong>Wardriving</strong></td>
+<td>Driving around scanning for unsecured Wi-Fi networks</td>
+</tr>
+</tbody>
+</table>
+<h3 id="enterprise-wireless-best-practices">Enterprise Wireless Best Practices<a class="headerlink" href="#enterprise-wireless-best-practices" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Deploy <strong>WPA3-Enterprise with 802.1X</strong> and a <strong>RADIUS server</strong>.</li>
+<li>Segment wireless traffic into VLANs (corporate, guest, IoT).</li>
+<li>Enable <strong>rogue AP detection</strong> on wireless controllers.</li>
+<li>Disable <strong>WPS</strong> — vulnerable to brute-force.</li>
+<li>Use <strong>certificate-based authentication</strong> to prevent credential harvesting.</li>
+</ul>
+<hr />
+<h2 id="sd-wan">SD-WAN<a class="headerlink" href="#sd-wan" title="Permanent link">&para;</a></h2>
+<p><strong>SD-WAN (Software-Defined Wide Area Network)</strong> uses software to intelligently route traffic across multiple WAN connections (MPLS, broadband, 4G/5G, etc.).</p>
+<h3 id="traditional-wan-vs-sd-wan">Traditional WAN vs SD-WAN<a class="headerlink" href="#traditional-wan-vs-sd-wan" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Traditional WAN</th>
+<th>SD-WAN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Traffic routing</td>
+<td>Hardware-defined, manual</td>
+<td>Policy-based, dynamic</td>
+</tr>
+<tr>
+<td>Link types</td>
+<td>Primarily MPLS</td>
+<td>MPLS, broadband, LTE, etc.</td>
+</tr>
+<tr>
+<td>Management</td>
+<td>Per-device CLI</td>
+<td>Centralized controller</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>High (MPLS)</td>
+<td>Lower (can replace or supplement MPLS)</td>
+</tr>
+<tr>
+<td>Agility</td>
+<td>Low</td>
+<td>High</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sd-wan-key-features">SD-WAN Key Features<a class="headerlink" href="#sd-wan-key-features" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Dynamic path selection</strong> — route traffic based on latency, jitter, or packet loss.</li>
+<li><strong>Centralized management</strong> — single pane of glass for all branch WAN links.</li>
+<li><strong>Application-aware routing</strong> — send critical apps (VoIP) over best-quality link.</li>
+<li><strong>Zero Touch Provisioning (ZTP)</strong> — branches configured automatically on startup.</li>
+<li><strong>Integrated security</strong> — some SD-WAN platforms include firewall, IPS, and DNS filtering.</li>
+</ul>
+<h3 id="sd-wan-security-considerations">SD-WAN Security Considerations<a class="headerlink" href="#sd-wan-security-considerations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Encrypted overlays (IPSec tunnels) between sites.</li>
+<li>Enforce <strong>segmentation policies</strong> consistently across all sites.</li>
+<li>Integrate with <strong>SASE (Secure Access Service Edge)</strong> for cloud-delivered security.</li>
+</ul>
+<hr />
+<h2 id="network-segmentation">Network Segmentation<a class="headerlink" href="#network-segmentation" title="Permanent link">&para;</a></h2>
+<p><strong>Network segmentation</strong> divides a network into smaller zones to limit the blast radius of a security incident.</p>
+<h3 id="segmentation-approaches">Segmentation Approaches<a class="headerlink" href="#segmentation-approaches" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th>Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Physical segmentation</strong></td>
+<td>Separate hardware (switches, routers, cables) per zone</td>
+</tr>
+<tr>
+<td><strong>VLAN segmentation</strong></td>
+<td>Logical separation on shared infrastructure</td>
+</tr>
+<tr>
+<td><strong>Firewall-based segmentation</strong></td>
+<td>Enforce policies between zones with firewalls</td>
+</tr>
+<tr>
+<td><strong>Micro-segmentation</strong></td>
+<td>Granular policy per workload/VM (used in data centers)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="segmentation-zones-example">Segmentation Zones (Example)<a class="headerlink" href="#segmentation-zones-example" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>[Internet]
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>    │
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>[Edge Firewall]
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>    │
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>[DMZ] ── Web Servers, Mail Relay, Public DNS
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>    │
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>[Internal Firewall]
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>    ├── [Corporate LAN] ── Workstations, Printers
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>    ├── [Server Zone]   ── File Servers, AD, Databases
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>    ├── [OT/IoT Zone]   ── Industrial controls, IoT devices
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>    └── [Management Zone] ── Network devices (out-of-band)
+</code></pre></div>
+<h3 id="benefits-of-segmentation">Benefits of Segmentation<a class="headerlink" href="#benefits-of-segmentation" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Contain breaches</strong> — attacker in one zone cannot easily reach others.</li>
+<li><strong>Compliance</strong> — PCI-DSS, HIPAA require isolation of sensitive data environments.</li>
+<li><strong>Reduce attack surface</strong> — devices only communicate with what they need.</li>
+<li><strong>Easier monitoring</strong> — traffic between zones crosses chokepoints (logged by firewall).</li>
+</ul>
+<hr />
+<h2 id="zero-trust-architecture">Zero Trust Architecture<a class="headerlink" href="#zero-trust-architecture" title="Permanent link">&para;</a></h2>
+<p><strong>Zero Trust</strong> is a security model based on the principle: <strong>"Never trust, always verify."</strong> No user, device, or network segment is trusted by default — even if inside the perimeter.</p>
+<h3 id="core-principles">Core Principles<a class="headerlink" href="#core-principles" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Verify explicitly</strong> — always authenticate and authorize using all available data (identity, device, location, behavior).</li>
+<li><strong>Use least privilege access</strong> — grant minimum necessary permissions; use JIT (Just-In-Time) access.</li>
+<li><strong>Assume breach</strong> — design as if the attacker is already inside; limit blast radius, encrypt everything, monitor constantly.</li>
+</ol>
+<h3 id="zero-trust-vs-traditional-perimeter-security">Zero Trust vs Traditional Perimeter Security<a class="headerlink" href="#zero-trust-vs-traditional-perimeter-security" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Perimeter Security</th>
+<th>Zero Trust</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trust model</td>
+<td>Trust inside the network</td>
+<td>Trust nothing by default</td>
+</tr>
+<tr>
+<td>Primary control</td>
+<td>Firewall at the edge</td>
+<td>Identity + device posture</td>
+</tr>
+<tr>
+<td>Remote access</td>
+<td>VPN into trusted zone</td>
+<td>Identity-aware proxy / ZTNA</td>
+</tr>
+<tr>
+<td>Lateral movement</td>
+<td>Possible once inside</td>
+<td>Blocked by micro-segmentation</td>
+</tr>
+<tr>
+<td>Data security</td>
+<td>Perimeter = protection</td>
+<td>Encryption + access control everywhere</td>
+</tr>
+</tbody>
+</table>
+<h3 id="zero-trust-network-access-ztna">Zero Trust Network Access (ZTNA)<a class="headerlink" href="#zero-trust-network-access-ztna" title="Permanent link">&para;</a></h3>
+<p><strong>ZTNA</strong> replaces the traditional VPN for remote access:
+- Users connect to a <strong>cloud or on-prem broker</strong> that authenticates them.
+- Access granted <strong>per-application</strong>, not full network access.
+- Device posture (patch level, OS, endpoint agent) checked before granting access.</p>
+<h3 id="implementing-zero-trust-phased-approach">Implementing Zero Trust (Phased Approach)<a class="headerlink" href="#implementing-zero-trust-phased-approach" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Phase 1: Identity
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>  → MFA everywhere, SSO, privileged access management
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>Phase 2: Devices
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>  → Device inventory, endpoint compliance (MDM/EDR)
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>Phase 3: Network
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>  → Micro-segmentation, ZTNA, encrypted east-west traffic
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>Phase 4: Applications
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>  → App-level authentication, WAF, API security
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>Phase 5: Data
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>  → Data classification, DLP, encryption at rest and in transit
+</code></pre></div>
+<hr />
+<h2 id="common-attack-vectors-on-extended-networks">Common Attack Vectors on Extended Networks<a class="headerlink" href="#common-attack-vectors-on-extended-networks" title="Permanent link">&para;</a></h2>
+<p>As networks grow, the attack surface expands. Understanding how attackers target extended networks is essential.</p>
+<h3 id="man-in-the-middle-mitm">Man-in-the-Middle (MitM)<a class="headerlink" href="#man-in-the-middle-mitm" title="Permanent link">&para;</a></h3>
+<p>The attacker positions themselves between two communicating parties.</p>
+<ul>
+<li><strong>ARP Poisoning</strong> — attacker sends fake ARP replies linking their MAC to a legitimate IP.</li>
+<li><strong>DNS Spoofing</strong> — malicious DNS responses redirect traffic.</li>
+<li><strong>SSL Stripping</strong> — downgrade HTTPS to HTTP to intercept credentials.</li>
+<li><strong>BGP Hijacking</strong> — attacker announces false BGP routes to divert internet traffic.</li>
+</ul>
+<p><strong>Mitigations:</strong> ARP inspection (DAI), DNSSEC, HSTS, enforce TLS.</p>
+<h3 id="lateral-movement">Lateral Movement<a class="headerlink" href="#lateral-movement" title="Permanent link">&para;</a></h3>
+<p>After compromising one host, attackers move through the network to reach higher-value targets.</p>
+<p>Common techniques:
+- <strong>Pass-the-Hash</strong> — reuse captured NTLM hashes.
+- <strong>Pass-the-Ticket</strong> — reuse captured Kerberos tickets.
+- <strong>RDP/SMB pivoting</strong> — use compromised host as a relay.</p>
+<p><strong>Mitigations:</strong> Segmentation, micro-segmentation, disable unnecessary services, EDR, network monitoring.</p>
+<h3 id="vpn-remote-access-attacks">VPN / Remote Access Attacks<a class="headerlink" href="#vpn-remote-access-attacks" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Credential stuffing</strong> on VPN portals.</li>
+<li><strong>Exploiting unpatched VPN gateways</strong> (e.g., Pulse Secure, Fortinet CVEs).</li>
+<li><strong>Split tunnel abuse</strong> — attacker on compromised endpoint reaches internal network.</li>
+</ul>
+<p><strong>Mitigations:</strong> MFA on VPN, patch management, certificate-based auth, ZTNA.</p>
+<h3 id="wireless-attacks">Wireless Attacks<a class="headerlink" href="#wireless-attacks" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Evil twin access points.</li>
+<li>WPS brute force.</li>
+<li>Deauthentication floods.</li>
+</ul>
+<p><strong>Mitigations:</strong> WPA3-Enterprise, rogue AP detection, 802.1X.</p>
+<h3 id="dns-based-attacks">DNS-Based Attacks<a class="headerlink" href="#dns-based-attacks" title="Permanent link">&para;</a></h3>
+<ul>
+<li>DNS tunneling for C2 and data exfiltration.</li>
+<li>Fast flux DNS to evade blocklists.</li>
+</ul>
+<p><strong>Mitigations:</strong> DNS monitoring, RPZ, DoH/DoT internally.</p>
+<h3 id="supply-chain-attacks">Supply Chain Attacks<a class="headerlink" href="#supply-chain-attacks" title="Permanent link">&para;</a></h3>
+<p>Attacker compromises a trusted vendor or software update mechanism to gain access.</p>
+<p><strong>Mitigations:</strong> Vendor risk assessment, software signing, network monitoring for anomalous behavior post-update.</p>
+<hr />
+<h2 id="security-best-practices">Security Best Practices<a class="headerlink" href="#security-best-practices" title="Permanent link">&para;</a></h2>
+<h3 id="network-design">Network Design<a class="headerlink" href="#network-design" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Apply <strong>defense in depth</strong> — multiple layers of security controls.</li>
+<li>Use a <strong>DMZ</strong> for all public-facing services.</li>
+<li>Implement <strong>network segmentation</strong> and separate sensitive zones.</li>
+<li>Deploy <strong>dual-homed firewalls</strong> at segment boundaries.</li>
+<li>Document and maintain an <strong>accurate network map</strong>.</li>
+</ul>
+<h3 id="access-control">Access Control<a class="headerlink" href="#access-control" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Enforce <strong>least privilege</strong> — devices/users only access what they need.</li>
+<li>Use <strong>802.1X port authentication</strong> to prevent unauthorized LAN access.</li>
+<li>Disable unused switch ports and place them in an isolated VLAN.</li>
+<li>Enforce <strong>MFA</strong> for all remote access.</li>
+<li>Implement <strong>PAM (Privileged Access Management)</strong> for admin accounts.</li>
+</ul>
+<h3 id="encryption">Encryption<a class="headerlink" href="#encryption" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Encrypt all traffic in transit — <strong>TLS 1.2+</strong> minimum; prefer <strong>TLS 1.3</strong>.</li>
+<li>Use <strong>IPSec</strong> or <strong>WireGuard</strong> for site-to-site and remote access VPNs.</li>
+<li>Enforce <strong>HSTS</strong> on web applications.</li>
+<li>Use <strong>MACSec</strong> (IEEE 802.1AE) for wire-speed encryption on LAN segments.</li>
+</ul>
+<h3 id="monitoring-detection">Monitoring &amp; Detection<a class="headerlink" href="#monitoring-detection" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Collect logs from <strong>firewalls, routers, switches, DNS servers, proxies</strong>.</li>
+<li>Deploy a <strong>SIEM</strong> (Security Information and Event Management) to correlate events.</li>
+<li>Implement <strong>NetFlow / IPFIX</strong> analysis to detect anomalous traffic patterns.</li>
+<li>Deploy <strong>IDS/IPS</strong> at network boundaries and on critical segments.</li>
+<li>Set up <strong>alerting</strong> for: unusual outbound connections, DNS tunneling indicators, large data transfers, failed authentication spikes.</li>
+</ul>
+<h3 id="patch-management">Patch Management<a class="headerlink" href="#patch-management" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Maintain an asset inventory.</li>
+<li>Apply patches to <strong>network devices</strong> (routers, switches, firewalls, VPN gateways) promptly — these are high-value targets.</li>
+<li>Subscribe to vendor security advisories.</li>
+</ul>
+<hr />
+<h2 id="useful-tools">Useful Tools<a class="headerlink" href="#useful-tools" title="Permanent link">&para;</a></h2>
+<h3 id="network-discovery-mapping">Network Discovery &amp; Mapping<a class="headerlink" href="#network-discovery-mapping" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>nmap</code></td>
+<td>Port scanning, OS detection, service enumeration</td>
+</tr>
+<tr>
+<td><code>netdiscover</code></td>
+<td>ARP-based host discovery</td>
+</tr>
+<tr>
+<td><code>masscan</code></td>
+<td>Ultra-fast port scanner</td>
+</tr>
+<tr>
+<td><code>Angry IP Scanner</code></td>
+<td>GUI-based network scanner</td>
+</tr>
+</tbody>
+</table>
+<h3 id="traffic-analysis">Traffic Analysis<a class="headerlink" href="#traffic-analysis" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Wireshark</code></td>
+<td>Packet capture and deep protocol analysis</td>
+</tr>
+<tr>
+<td><code>tcpdump</code></td>
+<td>CLI packet capture</td>
+</tr>
+<tr>
+<td><code>ntopng</code></td>
+<td>Network traffic monitoring and flow analysis</td>
+</tr>
+<tr>
+<td><code>Zeek (Bro)</code></td>
+<td>Network security monitoring framework</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vpn-tunneling">VPN &amp; Tunneling<a class="headerlink" href="#vpn-tunneling" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OpenVPN</code></td>
+<td>Flexible open-source VPN</td>
+</tr>
+<tr>
+<td><code>WireGuard</code></td>
+<td>Fast, modern VPN</td>
+</tr>
+<tr>
+<td><code>strongSwan</code></td>
+<td>IPSec VPN implementation</td>
+</tr>
+<tr>
+<td><code>Stunnel</code></td>
+<td>SSL/TLS tunnel wrapper</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dns-tools">DNS Tools<a class="headerlink" href="#dns-tools" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>dig</code></td>
+<td>DNS query tool</td>
+</tr>
+<tr>
+<td><code>nslookup</code></td>
+<td>Basic DNS lookup</td>
+</tr>
+<tr>
+<td><code>dnsx</code></td>
+<td>Fast DNS toolkit</td>
+</tr>
+<tr>
+<td><code>dnsrecon</code></td>
+<td>DNS enumeration and recon</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wireless-tools">Wireless Tools<a class="headerlink" href="#wireless-tools" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>aircrack-ng</code></td>
+<td>Wireless security auditing suite</td>
+</tr>
+<tr>
+<td><code>Kismet</code></td>
+<td>Wireless network detector and analyzer</td>
+</tr>
+<tr>
+<td><code>Wireshark</code></td>
+<td>Capture and analyze 802.11 frames</td>
+</tr>
+<tr>
+<td><code>hcxdumptool</code></td>
+<td>Capture WPA PMKID/handshakes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="proxy-web">Proxy &amp; Web<a class="headerlink" href="#proxy-web" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Burp Suite</code></td>
+<td>Web proxy and security testing</td>
+</tr>
+<tr>
+<td><code>OWASP ZAP</code></td>
+<td>Open-source web application scanner</td>
+</tr>
+<tr>
+<td><code>mitmproxy</code></td>
+<td>Interactive HTTPS proxy</td>
+</tr>
+<tr>
+<td><code>Nginx / HAProxy</code></td>
+<td>Production reverse proxy / load balancer</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="quick-reference">Quick Reference<a class="headerlink" href="#quick-reference" title="Permanent link">&para;</a></h2>
+<h3 id="key-protocols-ports">Key Protocols &amp; Ports<a class="headerlink" href="#key-protocols-ports" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Protocol</th>
+<th>Port</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DNS</td>
+<td>UDP/TCP 53</td>
+<td>Name resolution</td>
+</tr>
+<tr>
+<td>DHCP</td>
+<td>UDP 67/68</td>
+<td>IP assignment (server/client)</td>
+</tr>
+<tr>
+<td>HTTP</td>
+<td>TCP 80</td>
+<td>Web (unencrypted)</td>
+</tr>
+<tr>
+<td>HTTPS</td>
+<td>TCP 443</td>
+<td>Web (encrypted)</td>
+</tr>
+<tr>
+<td>BGP</td>
+<td>TCP 179</td>
+<td>Internet routing</td>
+</tr>
+<tr>
+<td>OSPF</td>
+<td>IP Protocol 89</td>
+<td>Link-state routing</td>
+</tr>
+<tr>
+<td>OpenVPN</td>
+<td>UDP 1194</td>
+<td>VPN</td>
+</tr>
+<tr>
+<td>WireGuard</td>
+<td>UDP 51820</td>
+<td>VPN</td>
+</tr>
+<tr>
+<td>IKEv2 (IPSec)</td>
+<td>UDP 500 / 4500</td>
+<td>VPN key exchange</td>
+</tr>
+<tr>
+<td>RADIUS</td>
+<td>UDP 1812/1813</td>
+<td>Network authentication</td>
+</tr>
+<tr>
+<td>SNMP</td>
+<td>UDP 161/162</td>
+<td>Network management</td>
+</tr>
+<tr>
+<td>NTP</td>
+<td>UDP 123</td>
+<td>Time synchronization</td>
+</tr>
+<tr>
+<td>LDAP</td>
+<td>TCP 389</td>
+<td>Directory services</td>
+</tr>
+<tr>
+<td>LDAPS</td>
+<td>TCP 636</td>
+<td>LDAP over TLS</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cheat-sheet-subnetting">Cheat Sheet: Subnetting<a class="headerlink" href="#cheat-sheet-subnetting" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>/24 → 254 hosts      /25 → 126 hosts     /26 → 62 hosts
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>/27 → 30 hosts       /28 → 14 hosts      /29 → 6 hosts
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>/30 → 2 hosts        /32 → 1 host (single IP)
+</code></pre></div>
+<h3 id="cheat-sheet-osi-layer-mapping">Cheat Sheet: OSI Layer Mapping<a class="headerlink" href="#cheat-sheet-osi-layer-mapping" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Name</th>
+<th>Devices</th>
+<th>Protocols</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>7</td>
+<td>Application</td>
+<td>—</td>
+<td>HTTP, DNS, SMTP, FTP</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Presentation</td>
+<td>—</td>
+<td>SSL/TLS, JPEG, ASCII</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Session</td>
+<td>—</td>
+<td>SMB, RPC, NetBIOS</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Transport</td>
+<td>Firewall (L4)</td>
+<td>TCP, UDP</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Network</td>
+<td>Router, L3 Switch</td>
+<td>IP, OSPF, BGP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Data Link</td>
+<td>Switch, Bridge</td>
+<td>Ethernet, 802.1Q, ARP</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Physical</td>
+<td>Hub, Cable, NIC</td>
+<td>Electrical/optical signals</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p><strong>Note:</strong> This document is part of the <a href="../README.md">Cybersecurity-Basics</a> notes repository. It is intended for learning purposes. Always practice in a legal, authorized environment (home lab, CTF, or with explicit permission).</p>
+</blockquote>
+<p><em>Last updated: 2026</em></p>
 
 
 

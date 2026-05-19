@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dns" class="md-skip">
+        <a href="#dns-domain-name-system" class="md-skip">
           Skip to content
         </a>
       
@@ -675,6 +675,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔍 DNS
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -691,6 +709,785 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is DNS?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-dns-matters-in-cybersecurity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why DNS Matters in Cybersecurity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-hierarchy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Hierarchy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Hierarchy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#levels-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Levels Explained
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dns-resolver-recursive-resolver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Resolver (Recursive Resolver)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#root-nameservers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Root Nameservers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tld-nameservers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TLD Nameservers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authoritative-nameserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authoritative Nameserver
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Cache
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-resolution-process-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Resolution Process (Step-by-Step)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Resolution Process (Step-by-Step)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#query-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Query Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Record Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Record Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email-related-txt-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email-Related TXT Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Zone
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Zone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zone-file-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zone File Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zone-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zone Transfer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ttl-time-to-live" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TTL (Time To Live)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reverse-dns-rdns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse DNS (rDNS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reverse DNS (rDNS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uses-of-rdns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uses of rDNS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-caching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Caching
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Caching">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-caching-occurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where Caching Occurs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flushing-dns-cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flushing DNS Cache
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-over-https-doh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS over HTTPS (DoH)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-over-tls-dot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS over TLS (DoT)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnssec-dns-security-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC (DNS Security Extensions)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNSSEC (DNS Security Extensions)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-dnssec-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How DNSSEC Works
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dnssec-record-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC Record Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dnssec-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC Record Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dnssec-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC Limitations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-dns-resolvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public DNS Resolvers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#query-lookup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Query &amp; Lookup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-enumeration-authorized-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Enumeration (Authorized Testing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-monitoring-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Monitoring &amp; Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Attacks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Attacks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-dns-cache-poisoning-spoofing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. DNS Cache Poisoning / Spoofing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-dns-hijacking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. DNS Hijacking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-dns-amplification-attack-ddos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. DNS Amplification Attack (DDoS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-dns-tunneling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. DNS Tunneling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-nxdomain-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. NXDOMAIN Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fast-flux-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Fast Flux DNS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-domain-generation-algorithms-dga" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Domain Generation Algorithms (DGA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-bgp-hijacking-dns-impact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. BGP Hijacking (DNS Impact)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-subdomain-takeover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Subdomain Takeover
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-security-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Security Controls
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Security Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#response-policy-zones-rpz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Response Policy Zones (RPZ)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-sinkholing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Sinkholing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dane-dns-based-authentication-of-named-entities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DANE (DNS-based Authentication of Named Entities)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-firewall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Firewall
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#split-horizon-dns-split-brain-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Split-Horizon DNS (Split-Brain DNS)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-in-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS in Active Directory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-configuration-files-linuxbind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Configuration Files (Linux/BIND)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Configuration Files (Linux/BIND)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etcresolvconf-resolver-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /etc/resolv.conf — Resolver configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etchosts-local-static-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /etc/hosts — Local static DNS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bind-namedconf-authoritative-nameserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIND (named.conf) — Authoritative nameserver
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-troubleshooting-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Troubleshooting Checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Quick Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Record Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1140,6 +1937,774 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is DNS?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-dns-matters-in-cybersecurity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why DNS Matters in Cybersecurity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-hierarchy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Hierarchy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Hierarchy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#levels-explained" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Levels Explained
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Components
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Components">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dns-resolver-recursive-resolver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Resolver (Recursive Resolver)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#root-nameservers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Root Nameservers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tld-nameservers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TLD Nameservers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authoritative-nameserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authoritative Nameserver
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Cache
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-resolution-process-step-by-step" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Resolution Process (Step-by-Step)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Resolution Process (Step-by-Step)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#query-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Query Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Record Types
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Record Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#email-related-txt-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email-Related TXT Records
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-zone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Zone
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Zone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#zone-file-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zone File Example
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zone-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Zone Transfer
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ttl-time-to-live" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TTL (Time To Live)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reverse-dns-rdns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reverse DNS (rDNS)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reverse DNS (rDNS)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uses-of-rdns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uses of rDNS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-caching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Caching
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Caching">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#where-caching-occurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where Caching Occurs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flushing-dns-cache" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flushing DNS Cache
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-over-https-doh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS over HTTPS (DoH)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-over-tls-dot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS over TLS (DoT)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dnssec-dns-security-extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC (DNS Security Extensions)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNSSEC (DNS Security Extensions)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-dnssec-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How DNSSEC Works
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dnssec-record-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC Record Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dnssec-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC Record Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dnssec-limitations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNSSEC Limitations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#public-dns-resolvers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Public DNS Resolvers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#query-lookup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Query &amp; Lookup
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-enumeration-authorized-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Enumeration (Authorized Testing)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-monitoring-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Monitoring &amp; Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Attacks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Attacks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-dns-cache-poisoning-spoofing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. DNS Cache Poisoning / Spoofing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-dns-hijacking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. DNS Hijacking
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-dns-amplification-attack-ddos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. DNS Amplification Attack (DDoS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-dns-tunneling" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. DNS Tunneling
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-nxdomain-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. NXDOMAIN Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-fast-flux-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Fast Flux DNS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-domain-generation-algorithms-dga" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Domain Generation Algorithms (DGA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-bgp-hijacking-dns-impact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. BGP Hijacking (DNS Impact)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-subdomain-takeover" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Subdomain Takeover
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-security-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Security Controls
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Security Controls">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#response-policy-zones-rpz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Response Policy Zones (RPZ)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-sinkholing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Sinkholing
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dane-dns-based-authentication-of-named-entities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DANE (DNS-based Authentication of Named Entities)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dns-firewall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Firewall
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#split-horizon-dns-split-brain-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Split-Horizon DNS (Split-Brain DNS)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-in-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS in Active Directory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-configuration-files-linuxbind" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Configuration Files (Linux/BIND)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Configuration Files (Linux/BIND)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etcresolvconf-resolver-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /etc/resolv.conf — Resolver configuration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etchosts-local-static-dns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        /etc/hosts — Local static DNS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bind-namedconf-authoritative-nameserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIND (named.conf) — Authoritative nameserver
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-troubleshooting-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Troubleshooting Checklist
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dns-quick-reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DNS Quick Reference
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNS Quick Reference">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-record-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Record Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ports
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Summary
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1158,7 +2723,1028 @@
   
 
 
-<h1 id="dns">DNS<a class="headerlink" href="#dns" title="Permanent link">&para;</a></h1>
+<h1 id="dns-domain-name-system">DNS (Domain Name System)<a class="headerlink" href="#dns-domain-name-system" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="what-is-dns">What is DNS?<a class="headerlink" href="#what-is-dns" title="Permanent link">&para;</a></h2>
+<p><strong>DNS (Domain Name System)</strong> is the internet's distributed naming system that translates human-readable domain names (e.g., <code>google.com</code>) into machine-readable IP addresses (e.g., <code>142.250.190.14</code>). It is often called the <strong>"phone book of the internet"</strong>.</p>
+<p>Without DNS, users would need to memorize IP addresses to visit websites or send emails.</p>
+<ul>
+<li>Defined in <strong>RFC 1034</strong> and <strong>RFC 1035</strong> (1987).</li>
+<li>Operates on <strong>UDP port 53</strong> (primary) and <strong>TCP port 53</strong> (for large responses, zone transfers).</li>
+<li>DNS is a <strong>hierarchical, distributed, and decentralized</strong> system.</li>
+</ul>
+<hr />
+<h2 id="why-dns-matters-in-cybersecurity">Why DNS Matters in Cybersecurity<a class="headerlink" href="#why-dns-matters-in-cybersecurity" title="Permanent link">&para;</a></h2>
+<p>DNS is a fundamental protocol — and a high-value target:</p>
+<ul>
+<li>Almost every network action starts with a DNS query.</li>
+<li>Attackers abuse DNS for <strong>C2 communication</strong>, <strong>data exfiltration</strong>, <strong>phishing</strong>, and <strong>traffic hijacking</strong>.</li>
+<li>Defenders use DNS as a <strong>detection and enforcement layer</strong> (blocking malicious domains, monitoring for tunneling).</li>
+</ul>
+<hr />
+<h2 id="dns-hierarchy">DNS Hierarchy<a class="headerlink" href="#dns-hierarchy" title="Permanent link">&para;</a></h2>
+<p>DNS is organized as an <strong>inverted tree</strong> structure:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>                        . (Root)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                       / \
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                     com  org  net  io  ...  (TLD)
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                    /   \
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>               google  amazon  ...           (Second-Level Domain)
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>               /
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>            mail.google.com                  (Subdomain / FQDN)
+</code></pre></div>
+<h3 id="levels-explained">Levels Explained<a class="headerlink" href="#levels-explained" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Root</strong></td>
+<td><code>.</code></td>
+<td>Top of the hierarchy; 13 root server clusters worldwide</td>
+</tr>
+<tr>
+<td><strong>TLD (Top-Level Domain)</strong></td>
+<td><code>.com</code>, <code>.org</code>, <code>.uk</code></td>
+<td>Managed by IANA / registries</td>
+</tr>
+<tr>
+<td><strong>Second-Level Domain (SLD)</strong></td>
+<td><code>google</code>, <code>github</code></td>
+<td>Registered by organizations</td>
+</tr>
+<tr>
+<td><strong>Subdomain</strong></td>
+<td><code>mail</code>, <code>www</code>, <code>api</code></td>
+<td>Configured by domain owner</td>
+</tr>
+<tr>
+<td><strong>FQDN</strong></td>
+<td><code>mail.google.com.</code></td>
+<td>Fully Qualified Domain Name — absolute address (trailing dot = root)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dns-components">DNS Components<a class="headerlink" href="#dns-components" title="Permanent link">&para;</a></h2>
+<h3 id="dns-resolver-recursive-resolver">DNS Resolver (Recursive Resolver)<a class="headerlink" href="#dns-resolver-recursive-resolver" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The <strong>client-side component</strong> that does the work of resolving a query.</li>
+<li>Usually provided by ISP, or a public resolver (e.g., <code>8.8.8.8</code>, <code>1.1.1.1</code>).</li>
+<li>Caches results to speed up future queries.</li>
+<li>Also called a <strong>recursive nameserver</strong> or <strong>full-service resolver</strong>.</li>
+</ul>
+<h3 id="root-nameservers">Root Nameservers<a class="headerlink" href="#root-nameservers" title="Permanent link">&para;</a></h3>
+<ul>
+<li>13 logical root servers (labeled <code>a.root-servers.net</code> through <code>m.root-servers.net</code>).</li>
+<li>Operated by 12 organizations (e.g., Verisign, ICANN, NASA).</li>
+<li>Physically replicated via <strong>anycast</strong> — hundreds of instances worldwide.</li>
+<li>Do <strong>not</strong> answer queries directly; they <strong>delegate</strong> to TLD nameservers.</li>
+</ul>
+<h3 id="tld-nameservers">TLD Nameservers<a class="headerlink" href="#tld-nameservers" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Managed by <strong>registries</strong> (e.g., Verisign manages <code>.com</code>).</li>
+<li>Know which <strong>authoritative nameservers</strong> are responsible for each domain under their TLD.</li>
+</ul>
+<h3 id="authoritative-nameserver">Authoritative Nameserver<a class="headerlink" href="#authoritative-nameserver" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The <strong>final authority</strong> for a domain's DNS records.</li>
+<li>Answers queries with the actual IP addresses (or other records) for that domain.</li>
+<li>Configured by the <strong>domain owner</strong> (via their registrar or hosting provider).</li>
+<li>There are typically <strong>2+ authoritative nameservers</strong> per domain for redundancy.</li>
+</ul>
+<h3 id="dns-cache">DNS Cache<a class="headerlink" href="#dns-cache" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Resolvers, OS, and browsers</strong> all cache DNS responses.</li>
+<li>Reduces load on authoritative servers and speeds up resolution.</li>
+<li>Cached records expire based on their <strong>TTL (Time To Live)</strong> value.</li>
+</ul>
+<hr />
+<h2 id="dns-resolution-process-step-by-step">DNS Resolution Process (Step-by-Step)<a class="headerlink" href="#dns-resolution-process-step-by-step" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>User types: www.example.com
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>1. Browser Cache
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>   └── Not found → OS Cache (/etc/hosts, local resolver cache)
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>       └── Not found → Recursive Resolver (e.g., 8.8.8.8)
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>           └── Not cached → Root Nameserver (.)
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>               └── &quot;Ask .com TLD server&quot;
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>               → TLD Nameserver (.com)
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>                   └── &quot;Ask ns1.example.com&quot;
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>                   → Authoritative Nameserver (ns1.example.com)
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>                       └── Returns: www.example.com → 93.184.216.34
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>               ← Resolver caches the answer (TTL: 3600s)
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>   ← Browser connects to 93.184.216.34
+</code></pre></div>
+<h3 id="query-types">Query Types<a class="headerlink" href="#query-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Recursive query</strong></td>
+<td>Client asks resolver to fully resolve — resolver does all the work</td>
+</tr>
+<tr>
+<td><strong>Iterative query</strong></td>
+<td>Resolver asks each nameserver in turn; each responds with a referral</td>
+</tr>
+<tr>
+<td><strong>Non-recursive query</strong></td>
+<td>Resolver already has the answer cached; returns immediately</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dns-record-types">DNS Record Types<a class="headerlink" href="#dns-record-types" title="Permanent link">&para;</a></h2>
+<h3 id="core-records">Core Records<a class="headerlink" href="#core-records" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>Full Name</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>A</strong></td>
+<td>Address</td>
+<td>Maps hostname → IPv4 address</td>
+<td><code>example.com → 93.184.216.34</code></td>
+</tr>
+<tr>
+<td><strong>AAAA</strong></td>
+<td>IPv6 Address</td>
+<td>Maps hostname → IPv6 address</td>
+<td><code>example.com → 2606:2800::1</code></td>
+</tr>
+<tr>
+<td><strong>CNAME</strong></td>
+<td>Canonical Name</td>
+<td>Alias of another domain name</td>
+<td><code>www → example.com</code></td>
+</tr>
+<tr>
+<td><strong>MX</strong></td>
+<td>Mail Exchange</td>
+<td>Specifies mail server for the domain</td>
+<td><code>@ → mail.example.com (priority 10)</code></td>
+</tr>
+<tr>
+<td><strong>NS</strong></td>
+<td>Name Server</td>
+<td>Lists authoritative nameservers</td>
+<td><code>example.com → ns1.example.com</code></td>
+</tr>
+<tr>
+<td><strong>PTR</strong></td>
+<td>Pointer</td>
+<td>Reverse DNS — IP → hostname</td>
+<td><code>34.216.184.93.in-addr.arpa → example.com</code></td>
+</tr>
+<tr>
+<td><strong>SOA</strong></td>
+<td>Start of Authority</td>
+<td>Zone metadata (serial, refresh, retry, expire, TTL)</td>
+<td>Primary NS, admin email</td>
+</tr>
+<tr>
+<td><strong>TXT</strong></td>
+<td>Text</td>
+<td>Arbitrary text; used for SPF, DKIM, DMARC, verification</td>
+<td><code>v=spf1 include:_spf.google.com ~all</code></td>
+</tr>
+<tr>
+<td><strong>SRV</strong></td>
+<td>Service</td>
+<td>Service location (host + port)</td>
+<td><code>_sip._tcp → sip.example.com:5060</code></td>
+</tr>
+<tr>
+<td><strong>CAA</strong></td>
+<td>Cert Authority Authorization</td>
+<td>Which CAs can issue TLS certs for this domain</td>
+<td><code>0 issue "letsencrypt.org"</code></td>
+</tr>
+<tr>
+<td><strong>NAPTR</strong></td>
+<td>Naming Authority Pointer</td>
+<td>Used in VoIP / ENUM / URI mapping</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>DS</strong></td>
+<td>Delegation Signer</td>
+<td>DNSSEC — links child zone to parent zone</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>DNSKEY</strong></td>
+<td>DNS Key</td>
+<td>DNSSEC public key for a zone</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>RRSIG</strong></td>
+<td>Resource Record Signature</td>
+<td>DNSSEC cryptographic signature</td>
+<td>—</td>
+</tr>
+<tr>
+<td><strong>NSEC / NSEC3</strong></td>
+<td>Next Secure</td>
+<td>DNSSEC authenticated denial of existence</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<h3 id="email-related-txt-records">Email-Related TXT Records<a class="headerlink" href="#email-related-txt-records" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>Purpose</th>
+<th>Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SPF</strong></td>
+<td>Specifies authorized mail senders</td>
+<td><code>v=spf1 mx include:sendgrid.net ~all</code></td>
+</tr>
+<tr>
+<td><strong>DKIM</strong></td>
+<td>Public key for email signature verification</td>
+<td><code>v=DKIM1; k=rsa; p=MIGfMA0G...</code></td>
+</tr>
+<tr>
+<td><strong>DMARC</strong></td>
+<td>Policy for SPF/DKIM failures</td>
+<td><code>v=DMARC1; p=quarantine; rua=mailto:dmarc@example.com</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dns-zone">DNS Zone<a class="headerlink" href="#dns-zone" title="Permanent link">&para;</a></h2>
+<p>A <strong>DNS zone</strong> is a portion of the DNS namespace managed by a specific organization or administrator.</p>
+<ul>
+<li>Defined in a <strong>zone file</strong> — a text file containing DNS records.</li>
+<li>Every zone has exactly one <strong>SOA record</strong> at its apex.</li>
+</ul>
+<h3 id="zone-file-example">Zone File Example<a class="headerlink" href="#zone-file-example" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">$ORIGIN</span><span class="w"> </span><span class="l">example.com.</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="k">$TTL</span><span class="w"> </span><span class="mi">3600</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="o">@</span><span class="w">   </span><span class="nc">IN</span><span class="w">  </span><span class="kt">SOA</span><span class="w">   </span><span class="l">ns1.example.com.</span><span class="w"> </span><span class="l">admin.example.com.</span><span class="w"> </span><span class="p">(</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">              </span><span class="mi">2024010101</span><span class="w"> </span><span class="c1">; Serial</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">              </span><span class="mi">3600</span><span class="w">       </span><span class="c1">; Refresh</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">              </span><span class="mi">900</span><span class="w">        </span><span class="c1">; Retry</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">              </span><span class="mi">604800</span><span class="w">     </span><span class="c1">; Expire</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">              </span><span class="mi">300</span><span class="w"> </span><span class="p">)</span><span class="w">      </span><span class="c1">; Minimum TTL</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="c1">; Nameservers</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="o">@</span><span class="w">       </span><span class="nc">IN</span><span class="w">  </span><span class="kt">NS</span><span class="w">    </span><span class="l">ns1.example.com.</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="o">@</span><span class="w">       </span><span class="nc">IN</span><span class="w">  </span><span class="kt">NS</span><span class="w">    </span><span class="l">ns2.example.com.</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="c1">; A Records</span>
+<a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a><span class="o">@</span><span class="w">       </span><span class="nc">IN</span><span class="w">  </span><span class="kt">A</span><span class="w">     </span><span class="l">93.184.216.34</span>
+<a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a><span class="n">www</span><span class="w">     </span><span class="nc">IN</span><span class="w">  </span><span class="kt">A</span><span class="w">     </span><span class="l">93.184.216.34</span>
+<a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a><span class="n">mail</span><span class="w">    </span><span class="nc">IN</span><span class="w">  </span><span class="kt">A</span><span class="w">     </span><span class="l">93.184.216.100</span>
+<a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>
+<a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a><span class="c1">; MX Record</span>
+<a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="o">@</span><span class="w">       </span><span class="nc">IN</span><span class="w">  </span><span class="kt">MX</span><span class="w">    </span><span class="mi">10</span><span class="w"> </span><span class="l">mail.example.com.</span>
+<a id="__codelineno-2-22" name="__codelineno-2-22" href="#__codelineno-2-22"></a>
+<a id="__codelineno-2-23" name="__codelineno-2-23" href="#__codelineno-2-23"></a><span class="c1">; TXT Record (SPF)</span>
+<a id="__codelineno-2-24" name="__codelineno-2-24" href="#__codelineno-2-24"></a><span class="o">@</span><span class="w">       </span><span class="nc">IN</span><span class="w">  </span><span class="kt">TXT</span><span class="w">   </span><span class="s">&quot;v=spf1 mx ~all&quot;</span>
+</code></pre></div>
+<h3 id="zone-transfer">Zone Transfer<a class="headerlink" href="#zone-transfer" title="Permanent link">&para;</a></h3>
+<p>A <strong>zone transfer</strong> replicates DNS zone data from a <strong>primary</strong> nameserver to <strong>secondary</strong> nameservers.</p>
+<ul>
+<li><strong>AXFR</strong> — full zone transfer (all records).</li>
+<li><strong>IXFR</strong> — incremental zone transfer (only changes since last serial).</li>
+</ul>
+<blockquote>
+<p><strong>Security risk:</strong> If zone transfers are not restricted, attackers can dump the entire DNS zone and map your infrastructure.</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># Test for open zone transfer (authorized testing only)</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>dig<span class="w"> </span>axfr<span class="w"> </span>example.com<span class="w"> </span>@ns1.example.com
+</code></pre></div>
+<p><strong>Mitigation:</strong> Restrict AXFR to trusted secondary IPs only (<code>allow-transfer</code> in BIND).</p>
+<hr />
+<h2 id="ttl-time-to-live">TTL (Time To Live)<a class="headerlink" href="#ttl-time-to-live" title="Permanent link">&para;</a></h2>
+<p><strong>TTL</strong> controls how long a DNS record is cached before it must be refreshed.</p>
+<table>
+<thead>
+<tr>
+<th>TTL Value</th>
+<th>Seconds</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>60</td>
+<td>1 minute</td>
+<td>Rapid failover, migrations</td>
+</tr>
+<tr>
+<td>300</td>
+<td>5 minutes</td>
+<td>Frequently changing records</td>
+</tr>
+<tr>
+<td>3600</td>
+<td>1 hour</td>
+<td>Standard web/email records</td>
+</tr>
+<tr>
+<td>86400</td>
+<td>24 hours</td>
+<td>Stable records (NS, MX)</td>
+</tr>
+<tr>
+<td>604800</td>
+<td>1 week</td>
+<td>Very static records</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Low TTL</strong> → faster propagation of changes, more DNS queries, higher server load.</li>
+<li><strong>High TTL</strong> → slower propagation, better caching performance.</li>
+</ul>
+<blockquote>
+<p><strong>Tip before migrations:</strong> Lower TTL to 300 or 60 several days before making changes, then raise it back after confirming everything works.</p>
+</blockquote>
+<hr />
+<h2 id="reverse-dns-rdns">Reverse DNS (rDNS)<a class="headerlink" href="#reverse-dns-rdns" title="Permanent link">&para;</a></h2>
+<p><strong>Reverse DNS</strong> maps an IP address back to a hostname using <strong>PTR records</strong> stored in special zones.</p>
+<ul>
+<li>IPv4 reverse zone: <code>in-addr.arpa.</code></li>
+<li>IPv6 reverse zone: <code>ip6.arpa.</code></li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>Forward: example.com → 93.184.216.34  (A record)
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Reverse: 93.184.216.34 → example.com  (PTR record)
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>Zone: 34.216.184.93.in-addr.arpa → example.com.
+</code></pre></div>
+<h3 id="uses-of-rdns">Uses of rDNS<a class="headerlink" href="#uses-of-rdns" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Email spam filtering</strong> — mail servers verify that the sending IP has a matching PTR record.</li>
+<li><strong>Network troubleshooting</strong> — tools like <code>traceroute</code> display hostnames.</li>
+<li><strong>Logging</strong> — logs show hostnames instead of raw IPs.</li>
+<li><strong>Access control</strong> — some services grant access based on rDNS.</li>
+</ul>
+<hr />
+<h2 id="dns-caching">DNS Caching<a class="headerlink" href="#dns-caching" title="Permanent link">&para;</a></h2>
+<h3 id="where-caching-occurs">Where Caching Occurs<a class="headerlink" href="#where-caching-occurs" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Cache Type</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Browser</strong></td>
+<td>Application cache</td>
+<td>Short TTL; browser-specific</td>
+</tr>
+<tr>
+<td><strong>OS</strong></td>
+<td>System resolver cache</td>
+<td><code>nscd</code>, <code>systemd-resolved</code> on Linux; Windows DNS Client</td>
+</tr>
+<tr>
+<td><strong>Recursive Resolver</strong></td>
+<td>Shared cache</td>
+<td>ISP or public resolver (8.8.8.8, 1.1.1.1)</td>
+</tr>
+<tr>
+<td><strong>Authoritative Server</strong></td>
+<td>No caching</td>
+<td>Serves authoritative answers only</td>
+</tr>
+</tbody>
+</table>
+<h3 id="flushing-dns-cache">Flushing DNS Cache<a class="headerlink" href="#flushing-dns-cache" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Linux (systemd-resolved)</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>sudo<span class="w"> </span>systemd-resolve<span class="w"> </span>--flush-caches
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c1"># Linux (nscd)</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>sudo<span class="w"> </span>service<span class="w"> </span>nscd<span class="w"> </span>restart
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="c1"># macOS</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>sudo<span class="w"> </span>dscacheutil<span class="w"> </span>-flushcache<span class="p">;</span><span class="w"> </span>sudo<span class="w"> </span>killall<span class="w"> </span>-HUP<span class="w"> </span>mDNSResponder
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="c1"># Windows</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>ipconfig<span class="w"> </span>/flushdns
+</code></pre></div>
+<hr />
+<h2 id="dns-over-https-doh">DNS over HTTPS (DoH)<a class="headerlink" href="#dns-over-https-doh" title="Permanent link">&para;</a></h2>
+<p><strong>DoH</strong> encrypts DNS queries inside HTTPS (port 443), preventing eavesdropping and tampering by ISPs or on-path attackers.</p>
+<ul>
+<li>Defined in <strong>RFC 8484</strong>.</li>
+<li>Queries look like regular HTTPS traffic — hard to block or monitor.</li>
+<li>Supported by Firefox, Chrome, Windows 11, Android.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Traditional DNS:  Client → UDP/TCP 53 → Resolver  (plaintext, visible)
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>DoH:              Client → HTTPS 443 → DoH Resolver  (encrypted)
+</code></pre></div>
+<p><strong>Providers:</strong> Cloudflare (<code>1.1.1.1</code>), Google (<code>8.8.8.8</code>), NextDNS, Quad9.</p>
+<p><strong>Security trade-off:</strong> DoH improves privacy from local network observers but moves trust to the DoH provider. Enterprises may block DoH to maintain DNS visibility.</p>
+<hr />
+<h2 id="dns-over-tls-dot">DNS over TLS (DoT)<a class="headerlink" href="#dns-over-tls-dot" title="Permanent link">&para;</a></h2>
+<p><strong>DoT</strong> encrypts DNS queries using <strong>TLS</strong> on a dedicated port <strong>853</strong>.</p>
+<ul>
+<li>Defined in <strong>RFC 7858</strong>.</li>
+<li>Easier for network admins to monitor/block (specific port) compared to DoH.</li>
+<li>Provides same encryption benefits as DoH.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>DoH</th>
+<th>DoT</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Port</td>
+<td>443</td>
+<td>853</td>
+</tr>
+<tr>
+<td>Protocol</td>
+<td>HTTPS</td>
+<td>TLS</td>
+</tr>
+<tr>
+<td>Detectability</td>
+<td>Hard (blends with HTTPS)</td>
+<td>Easy (dedicated port)</td>
+</tr>
+<tr>
+<td>Enterprise use</td>
+<td>Problematic for monitoring</td>
+<td>Preferred</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dnssec-dns-security-extensions">DNSSEC (DNS Security Extensions)<a class="headerlink" href="#dnssec-dns-security-extensions" title="Permanent link">&para;</a></h2>
+<p><strong>DNSSEC</strong> adds <strong>cryptographic signatures</strong> to DNS records, allowing resolvers to verify that responses are authentic and have not been tampered with.</p>
+<ul>
+<li>Does <strong>not</strong> encrypt DNS queries (use DoH/DoT for that).</li>
+<li>Prevents <strong>DNS spoofing / cache poisoning</strong>.</li>
+<li>Defined in <strong>RFC 4033–4035</strong>.</li>
+</ul>
+<h3 id="how-dnssec-works">How DNSSEC Works<a class="headerlink" href="#how-dnssec-works" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>Zone signs all records with a private key (ZSK - Zone Signing Key)
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>↓
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>Resolver verifies signature using public key (DNSKEY record)
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>↓
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>Chain of trust established from root → TLD → domain
+</code></pre></div>
+<h3 id="dnssec-record-chain">DNSSEC Record Chain<a class="headerlink" href="#dnssec-record-chain" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Root (.) → signed DS record → TLD (.com)
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>TLD (.com) → signed DS record → example.com
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>example.com → DNSKEY + RRSIG → individual records
+</code></pre></div>
+<h3 id="dnssec-record-types">DNSSEC Record Types<a class="headerlink" href="#dnssec-record-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>DNSKEY</strong></td>
+<td>Public key for the zone</td>
+</tr>
+<tr>
+<td><strong>RRSIG</strong></td>
+<td>Signature over a resource record set</td>
+</tr>
+<tr>
+<td><strong>DS</strong></td>
+<td>Hash of child zone's DNSKEY (in parent zone)</td>
+</tr>
+<tr>
+<td><strong>NSEC</strong></td>
+<td>Authenticated denial of existence (enumeratable)</td>
+</tr>
+<tr>
+<td><strong>NSEC3</strong></td>
+<td>Hashed denial of existence (prevents zone enumeration)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dnssec-limitations">DNSSEC Limitations<a class="headerlink" href="#dnssec-limitations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Complex to deploy and manage (key rollovers, misconfigurations break DNS).</li>
+<li>Does not protect against all attacks (DDoS, resolver hijacking).</li>
+<li>Low adoption compared to what it could be.</li>
+</ul>
+<hr />
+<h2 id="public-dns-resolvers">Public DNS Resolvers<a class="headerlink" href="#public-dns-resolvers" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Provider</th>
+<th>IPv4</th>
+<th>IPv6</th>
+<th>Features</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Google</strong></td>
+<td><code>8.8.8.8</code>, <code>8.8.4.4</code></td>
+<td><code>2001:4860:4860::8888</code></td>
+<td>Fast, reliable</td>
+</tr>
+<tr>
+<td><strong>Cloudflare</strong></td>
+<td><code>1.1.1.1</code>, <code>1.0.0.1</code></td>
+<td><code>2606:4700:4700::1111</code></td>
+<td>Privacy-focused, fast</td>
+</tr>
+<tr>
+<td><strong>Quad9</strong></td>
+<td><code>9.9.9.9</code>, <code>149.112.112.112</code></td>
+<td><code>2620:fe::fe</code></td>
+<td>Malware blocking</td>
+</tr>
+<tr>
+<td><strong>OpenDNS</strong></td>
+<td><code>208.67.222.222</code>, <code>208.67.220.220</code></td>
+<td>—</td>
+<td>Filtering, parental controls</td>
+</tr>
+<tr>
+<td><strong>NextDNS</strong></td>
+<td>Customizable</td>
+<td>Customizable</td>
+<td>Custom blocklists, logging</td>
+</tr>
+<tr>
+<td><strong>AdGuard DNS</strong></td>
+<td><code>94.140.14.14</code></td>
+<td><code>2a10:50c0::ad1:ff</code></td>
+<td>Ad/tracker blocking</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dns-tools">DNS Tools<a class="headerlink" href="#dns-tools" title="Permanent link">&para;</a></h2>
+<h3 id="query-lookup">Query &amp; Lookup<a class="headerlink" href="#query-lookup" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># Basic lookup</span>
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>dig<span class="w"> </span>example.com
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>dig<span class="w"> </span>example.com<span class="w"> </span>A
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>dig<span class="w"> </span>example.com<span class="w"> </span>MX
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>dig<span class="w"> </span>example.com<span class="w"> </span>TXT
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a><span class="c1"># Query a specific nameserver</span>
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>dig<span class="w"> </span>@8.8.8.8<span class="w"> </span>example.com
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a><span class="c1"># Reverse DNS lookup</span>
+<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>dig<span class="w"> </span>-x<span class="w"> </span><span class="m">93</span>.184.216.34
+<a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>
+<a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a><span class="c1"># Get all records</span>
+<a id="__codelineno-9-14" name="__codelineno-9-14" href="#__codelineno-9-14"></a>dig<span class="w"> </span>example.com<span class="w"> </span>ANY
+<a id="__codelineno-9-15" name="__codelineno-9-15" href="#__codelineno-9-15"></a>
+<a id="__codelineno-9-16" name="__codelineno-9-16" href="#__codelineno-9-16"></a><span class="c1"># Short output</span>
+<a id="__codelineno-9-17" name="__codelineno-9-17" href="#__codelineno-9-17"></a>dig<span class="w"> </span>+short<span class="w"> </span>example.com
+<a id="__codelineno-9-18" name="__codelineno-9-18" href="#__codelineno-9-18"></a>
+<a id="__codelineno-9-19" name="__codelineno-9-19" href="#__codelineno-9-19"></a><span class="c1"># Trace full resolution path</span>
+<a id="__codelineno-9-20" name="__codelineno-9-20" href="#__codelineno-9-20"></a>dig<span class="w"> </span>+trace<span class="w"> </span>example.com
+<a id="__codelineno-9-21" name="__codelineno-9-21" href="#__codelineno-9-21"></a>
+<a id="__codelineno-9-22" name="__codelineno-9-22" href="#__codelineno-9-22"></a><span class="c1"># nslookup (interactive)</span>
+<a id="__codelineno-9-23" name="__codelineno-9-23" href="#__codelineno-9-23"></a>nslookup<span class="w"> </span>example.com
+<a id="__codelineno-9-24" name="__codelineno-9-24" href="#__codelineno-9-24"></a>nslookup<span class="w"> </span>example.com<span class="w"> </span><span class="m">8</span>.8.8.8
+<a id="__codelineno-9-25" name="__codelineno-9-25" href="#__codelineno-9-25"></a>
+<a id="__codelineno-9-26" name="__codelineno-9-26" href="#__codelineno-9-26"></a><span class="c1"># host (simple)</span>
+<a id="__codelineno-9-27" name="__codelineno-9-27" href="#__codelineno-9-27"></a>host<span class="w"> </span>example.com
+<a id="__codelineno-9-28" name="__codelineno-9-28" href="#__codelineno-9-28"></a>host<span class="w"> </span><span class="m">93</span>.184.216.34
+</code></pre></div>
+<h3 id="dns-enumeration-authorized-testing">DNS Enumeration (Authorized Testing)<a class="headerlink" href="#dns-enumeration-authorized-testing" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1"># Subdomain brute-forcing</span>
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>dnsx<span class="w"> </span>-d<span class="w"> </span>example.com<span class="w"> </span>-w<span class="w"> </span>wordlist.txt
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>amass<span class="w"> </span>enum<span class="w"> </span>-d<span class="w"> </span>example.com
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>subfinder<span class="w"> </span>-d<span class="w"> </span>example.com
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a><span class="c1"># Zone transfer test</span>
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>dig<span class="w"> </span>axfr<span class="w"> </span>example.com<span class="w"> </span>@ns1.example.com
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a><span class="c1"># DNS reconnaissance</span>
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>dnsrecon<span class="w"> </span>-d<span class="w"> </span>example.com
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>fierce<span class="w"> </span>--domain<span class="w"> </span>example.com
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a><span class="c1"># Certificate transparency (passive subdomain discovery)</span>
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>curl<span class="w"> </span><span class="s2">&quot;https://crt.sh/?q=%.example.com&amp;output=json&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>jq<span class="w"> </span><span class="s1">&#39;.[].name_value&#39;</span>
+</code></pre></div>
+<h3 id="dns-monitoring-security">DNS Monitoring &amp; Security<a class="headerlink" href="#dns-monitoring-security" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="c1"># Capture DNS traffic</span>
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>tcpdump<span class="w"> </span>-i<span class="w"> </span>eth0<span class="w"> </span>port<span class="w"> </span><span class="m">53</span>
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a><span class="c1"># Analyze DNS in Wireshark</span>
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a><span class="c1"># Filter: dns</span>
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a><span class="c1"># Check DNSSEC validation</span>
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>dig<span class="w"> </span>+dnssec<span class="w"> </span>example.com
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>delv<span class="w"> </span>@8.8.8.8<span class="w"> </span>example.com
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a><span class="c1"># Check SPF record</span>
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>dig<span class="w"> </span>example.com<span class="w"> </span>TXT<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>spf
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a><span class="c1"># Check DMARC</span>
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>dig<span class="w"> </span>_dmarc.example.com<span class="w"> </span>TXT
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a><span class="c1"># Check DKIM</span>
+<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>dig<span class="w"> </span>selector._domainkey.example.com<span class="w"> </span>TXT
+</code></pre></div>
+<hr />
+<h2 id="dns-attacks">DNS Attacks<a class="headerlink" href="#dns-attacks" title="Permanent link">&para;</a></h2>
+<h3 id="1-dns-cache-poisoning-spoofing">1. DNS Cache Poisoning / Spoofing<a class="headerlink" href="#1-dns-cache-poisoning-spoofing" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Attacker injects forged DNS records into a resolver's cache, redirecting users to malicious IPs.</p>
+<p><strong>How it works:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>1. Attacker sends a flood of forged DNS responses to a resolver
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>2. Forged response matches a pending query (correct TxID guessed)
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>3. Resolver caches the malicious record
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>4. All users of that resolver are redirected to attacker&#39;s IP
+</code></pre></div></p>
+<p><strong>Impact:</strong> Credential theft, malware delivery, traffic interception.</p>
+<p><strong>Mitigations:</strong>
+- DNSSEC (cryptographic validation)
+- DNS resolvers use <strong>random source ports</strong> + <strong>random transaction IDs</strong> (makes spoofing harder)
+- <strong>0x20 encoding</strong> (randomize case in query to make matching harder)</p>
+<hr />
+<h3 id="2-dns-hijacking">2. DNS Hijacking<a class="headerlink" href="#2-dns-hijacking" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Attacker redirects DNS queries to a malicious resolver.</p>
+<p><strong>Variants:</strong>
+| Type | Method |
+|---|---|
+| <strong>Local hijacking</strong> | Malware modifies <code>/etc/resolv.conf</code> or registry DNS settings |
+| <strong>Router hijacking</strong> | Attacker changes DNS settings on a compromised router |
+| <strong>Rogue DNS server</strong> | ISP or government redirects all DNS traffic |
+| <strong>Registrar hijacking</strong> | Attacker takes over domain registration and changes NS records |</p>
+<p><strong>Mitigations:</strong> DoH/DoT, monitor DNS settings, use registrar lock, MFA on registrar accounts.</p>
+<hr />
+<h3 id="3-dns-amplification-attack-ddos">3. DNS Amplification Attack (DDoS)<a class="headerlink" href="#3-dns-amplification-attack-ddos" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Attacker uses open DNS resolvers to amplify DDoS traffic toward a victim.</p>
+<p><strong>How it works:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Attacker (spoofed src IP = victim) → Open Resolver: &quot;give me ALL records for example.com&quot;
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>Open Resolver → Victim: [large DNS response, 50-100x amplification]
+</code></pre></div></p>
+<p><strong>Amplification factor:</strong> A small query (~40 bytes) can generate a response of 3,000–4,000 bytes (ANY query).</p>
+<p><strong>Mitigations:</strong>
+- Disable open recursion (only allow queries from trusted clients)
+- Rate limit DNS responses
+- BCP38 — ISPs should block spoofed source IPs</p>
+<hr />
+<h3 id="4-dns-tunneling">4. DNS Tunneling<a class="headerlink" href="#4-dns-tunneling" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Attacker encodes data (C2 commands, exfiltrated data) inside DNS queries and responses to bypass firewalls.</p>
+<p><strong>How it works:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>Malware encodes data → subdomain of attacker&#39;s domain
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>e.g., aGVsbG8gd29ybGQ.evil.com TXT query
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>Attacker&#39;s authoritative server decodes the data
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>Response encodes reply in TXT/CNAME answer
+</code></pre></div></p>
+<p><strong>Tools used by attackers:</strong> <code>iodine</code>, <code>dnscat2</code>, <code>dns2tcp</code></p>
+<p><strong>Detection indicators:</strong>
+- Unusually <strong>long subdomain names</strong>
+- High volume of DNS queries to a single domain
+- High entropy in subdomain labels
+- Unusual record types (TXT, NULL, CNAME used for data)
+- DNS queries with no matching HTTP/HTTPS traffic</p>
+<p><strong>Mitigations:</strong>
+- DNS traffic monitoring and anomaly detection
+- Block known tunneling tools' signatures
+- RPZ (Response Policy Zones) to block malicious domains
+- Limit DNS to internal resolvers only</p>
+<hr />
+<h3 id="5-nxdomain-attack">5. NXDOMAIN Attack<a class="headerlink" href="#5-nxdomain-attack" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Flood of queries for non-existent domains to exhaust resolver resources.</p>
+<p><strong>Impact:</strong> Resolver CPU/memory exhaustion; legitimate queries time out.</p>
+<p><strong>Mitigations:</strong> Rate limiting (RRL — Response Rate Limiting), anycast, filtering.</p>
+<hr />
+<h3 id="6-fast-flux-dns">6. Fast Flux DNS<a class="headerlink" href="#6-fast-flux-dns" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Attacker rapidly rotates IP addresses (and sometimes nameservers) in DNS records with very low TTLs to evade blocklists.</p>
+<p><strong>Types:</strong>
+- <strong>Single flux</strong> — A records change rapidly (many IPs for the same domain).
+- <strong>Double flux</strong> — Both A records <strong>and NS records</strong> rotate.</p>
+<p><strong>Use cases for attackers:</strong> Phishing sites, botnet C2, spam infrastructure.</p>
+<p><strong>Detection:</strong> Very low TTL (&lt; 300s), large number of IPs per domain, IPs in many different ASNs.</p>
+<hr />
+<h3 id="7-domain-generation-algorithms-dga">7. Domain Generation Algorithms (DGA)<a class="headerlink" href="#7-domain-generation-algorithms-dga" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> Malware generates <strong>pseudorandom domain names</strong> algorithmically. Only the attacker knows which domain is valid on a given day.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>Day 1: aklsdjfh3.com
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>Day 2: mnvbqwer7.com
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>Day 3: zxcvpoiu2.com
+</code></pre></div>
+<p><strong>Why it works:</strong> Defenders can't easily blocklist thousands of future domains.</p>
+<p><strong>Detection:</strong> High-entropy domain names, NXDOMAINs in bulk, domains with no web content or history.</p>
+<p><strong>Mitigations:</strong> ML-based DNS analytics, threat intel feeds, sinkholing known DGA families.</p>
+<hr />
+<h3 id="8-bgp-hijacking-dns-impact">8. BGP Hijacking (DNS Impact)<a class="headerlink" href="#8-bgp-hijacking-dns-impact" title="Permanent link">&para;</a></h3>
+<p>When BGP routes are hijacked, DNS traffic destined for legitimate resolvers can be intercepted and answered by attacker-controlled servers. This is a high-sophistication attack typically performed by nation-state actors or malicious ISPs.</p>
+<hr />
+<h3 id="9-subdomain-takeover">9. Subdomain Takeover<a class="headerlink" href="#9-subdomain-takeover" title="Permanent link">&para;</a></h3>
+<p><strong>What it is:</strong> A DNS record (usually CNAME) points to an external service (e.g., AWS S3, GitHub Pages) that has been <strong>deleted</strong>. Attacker claims the resource and hosts malicious content under the victim's subdomain.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>CNAME: blog.victim.com → victim.github.io  (GitHub Pages deleted)
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>Attacker claims victim.github.io → hosts phishing page at blog.victim.com
+</code></pre></div>
+<p><strong>Mitigations:</strong> Audit DNS records regularly, remove stale CNAMEs pointing to deprovisioned services.</p>
+<hr />
+<h2 id="dns-security-controls">DNS Security Controls<a class="headerlink" href="#dns-security-controls" title="Permanent link">&para;</a></h2>
+<h3 id="response-policy-zones-rpz">Response Policy Zones (RPZ)<a class="headerlink" href="#response-policy-zones-rpz" title="Permanent link">&para;</a></h3>
+<p><strong>RPZ</strong> allows DNS resolvers to <strong>override responses</strong> for specific domains based on threat intelligence feeds — effectively a DNS-layer firewall.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a>Query: malware-c2.example.com
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>RPZ rule: NXDOMAIN (blocked)
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>Response: NXDOMAIN — domain does not exist
+</code></pre></div>
+<p><strong>RPZ actions:</strong> NXDOMAIN, NODATA, PASSTHRU, DROP, redirect to sinkhole.</p>
+<p><strong>Sources:</strong> Infoblox, Spamhaus, ISC, commercial threat intel feeds.</p>
+<hr />
+<h3 id="dns-sinkholing">DNS Sinkholing<a class="headerlink" href="#dns-sinkholing" title="Permanent link">&para;</a></h3>
+<p>A <strong>sinkhole</strong> redirects malicious domain queries to a controlled IP (the sinkhole server) instead of the real C2 infrastructure.</p>
+<ul>
+<li>Breaks malware communication.</li>
+<li>Provides <strong>visibility</strong> — which hosts queried the malicious domain.</li>
+<li>Used by security researchers, ISPs, and law enforcement.</li>
+</ul>
+<hr />
+<h3 id="dane-dns-based-authentication-of-named-entities">DANE (DNS-based Authentication of Named Entities)<a class="headerlink" href="#dane-dns-based-authentication-of-named-entities" title="Permanent link">&para;</a></h3>
+<p><strong>DANE</strong> uses DNSSEC-signed <strong>TLSA records</strong> to publish TLS certificate information in DNS, allowing clients to verify certificates without relying solely on Certificate Authorities.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>TLSA record: _443._tcp.example.com → SHA-256 hash of cert
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>Client checks: does the presented TLS cert match the TLSA record?
+</code></pre></div>
+<hr />
+<h3 id="dns-firewall">DNS Firewall<a class="headerlink" href="#dns-firewall" title="Permanent link">&para;</a></h3>
+<p>A DNS firewall (offered by Cloudflare Gateway, Cisco Umbrella, NextDNS, etc.) blocks DNS queries to:</p>
+<ul>
+<li>Known malware/C2 domains</li>
+<li>Phishing sites</li>
+<li>Newly registered domains</li>
+<li>Domains with bad reputation</li>
+</ul>
+<p>It acts as a <strong>first line of defense</strong> — stopping threats before a TCP connection is even made.</p>
+<hr />
+<h2 id="split-horizon-dns-split-brain-dns">Split-Horizon DNS (Split-Brain DNS)<a class="headerlink" href="#split-horizon-dns-split-brain-dns" title="Permanent link">&para;</a></h2>
+<p><strong>Split-horizon DNS</strong> returns <strong>different answers</strong> depending on where the query originates (internal vs external).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Internal query:  app.example.com → 10.0.1.50   (private IP)
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>External query:  app.example.com → 203.0.113.10 (public IP)
+</code></pre></div>
+<p><strong>Use cases:</strong>
+- Hide internal infrastructure from the internet.
+- Serve internal users via private IPs for performance.
+- Different content for internal vs external users.</p>
+<p><strong>Implementation:</strong> Two separate DNS zones with the same name — one served to internal resolvers, one to external.</p>
+<hr />
+<h2 id="dns-in-active-directory">DNS in Active Directory<a class="headerlink" href="#dns-in-active-directory" title="Permanent link">&para;</a></h2>
+<p>Windows <strong>Active Directory</strong> relies heavily on DNS:</p>
+<ul>
+<li>Domain controllers register <strong>SRV records</strong> so clients can find them.</li>
+<li>AD-integrated zones store DNS in Active Directory itself (replicated automatically).</li>
+<li>Clients use DNS to locate <strong>LDAP, Kerberos, and Global Catalog</strong> services.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>_ldap._tcp.dc._msdcs.domain.local  SRV  → dc1.domain.local:389
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>_kerberos._tcp.domain.local        SRV  → dc1.domain.local:88
+</code></pre></div>
+<p><strong>Security note:</strong> Compromising DNS in an AD environment can redirect authentication traffic and facilitate <strong>MitM attacks</strong> on Kerberos/LDAP.</p>
+<hr />
+<h2 id="dns-configuration-files-linuxbind">DNS Configuration Files (Linux/BIND)<a class="headerlink" href="#dns-configuration-files-linuxbind" title="Permanent link">&para;</a></h2>
+<h3 id="etcresolvconf-resolver-configuration"><code>/etc/resolv.conf</code> — Resolver configuration<a class="headerlink" href="#etcresolvconf-resolver-configuration" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a>nameserver 8.8.8.8
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>nameserver 8.8.4.4
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>search example.com
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>options ndots:5
+</code></pre></div>
+<h3 id="etchosts-local-static-dns"><code>/etc/hosts</code> — Local static DNS<a class="headerlink" href="#etchosts-local-static-dns" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>127.0.0.1   localhost
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>192.168.1.10  server1.local server1
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>10.0.0.5    db.internal
+</code></pre></div>
+<h3 id="bind-namedconf-authoritative-nameserver">BIND (<code>named.conf</code>) — Authoritative nameserver<a class="headerlink" href="#bind-namedconf-authoritative-nameserver" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>options {
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>    directory &quot;/var/named&quot;;
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>    allow-query { any; };
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>    allow-transfer { 192.168.1.2; };  // Restrict zone transfers
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>    recursion no;                      // Authoritative only
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>};
+<a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>
+<a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>zone &quot;example.com&quot; IN {
+<a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a>    type master;
+<a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a>    file &quot;example.com.zone&quot;;
+<a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a>    allow-transfer { 192.168.1.2; };
+<a id="__codelineno-23-12" name="__codelineno-23-12" href="#__codelineno-23-12"></a>};
+</code></pre></div>
+<hr />
+<h2 id="dns-troubleshooting-checklist">DNS Troubleshooting Checklist<a class="headerlink" href="#dns-troubleshooting-checklist" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>1. Can you reach the DNS server?
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>   → ping 8.8.8.8
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>
+<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a>2. Is DNS resolving anything?
+<a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a>   → dig google.com @8.8.8.8
+<a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a>
+<a id="__codelineno-24-7" name="__codelineno-24-7" href="#__codelineno-24-7"></a>3. Is your specific domain resolving?
+<a id="__codelineno-24-8" name="__codelineno-24-8" href="#__codelineno-24-8"></a>   → dig yourdomain.com
+<a id="__codelineno-24-9" name="__codelineno-24-9" href="#__codelineno-24-9"></a>
+<a id="__codelineno-24-10" name="__codelineno-24-10" href="#__codelineno-24-10"></a>4. Is the record correct?
+<a id="__codelineno-24-11" name="__codelineno-24-11" href="#__codelineno-24-11"></a>   → dig yourdomain.com A / MX / TXT
+<a id="__codelineno-24-12" name="__codelineno-24-12" href="#__codelineno-24-12"></a>
+<a id="__codelineno-24-13" name="__codelineno-24-13" href="#__codelineno-24-13"></a>5. Is DNS propagation complete?
+<a id="__codelineno-24-14" name="__codelineno-24-14" href="#__codelineno-24-14"></a>   → dig @ns1.yourdomain.com yourdomain.com (check authoritative)
+<a id="__codelineno-24-15" name="__codelineno-24-15" href="#__codelineno-24-15"></a>   → https://dnschecker.org
+<a id="__codelineno-24-16" name="__codelineno-24-16" href="#__codelineno-24-16"></a>
+<a id="__codelineno-24-17" name="__codelineno-24-17" href="#__codelineno-24-17"></a>6. Is DNSSEC valid?
+<a id="__codelineno-24-18" name="__codelineno-24-18" href="#__codelineno-24-18"></a>   → dig +dnssec yourdomain.com
+<a id="__codelineno-24-19" name="__codelineno-24-19" href="#__codelineno-24-19"></a>   → delv yourdomain.com
+<a id="__codelineno-24-20" name="__codelineno-24-20" href="#__codelineno-24-20"></a>
+<a id="__codelineno-24-21" name="__codelineno-24-21" href="#__codelineno-24-21"></a>7. Is email configured correctly?
+<a id="__codelineno-24-22" name="__codelineno-24-22" href="#__codelineno-24-22"></a>   → dig yourdomain.com MX
+<a id="__codelineno-24-23" name="__codelineno-24-23" href="#__codelineno-24-23"></a>   → dig yourdomain.com TXT (SPF)
+<a id="__codelineno-24-24" name="__codelineno-24-24" href="#__codelineno-24-24"></a>   → dig _dmarc.yourdomain.com TXT
+<a id="__codelineno-24-25" name="__codelineno-24-25" href="#__codelineno-24-25"></a>
+<a id="__codelineno-24-26" name="__codelineno-24-26" href="#__codelineno-24-26"></a>8. Check TTL / caching
+<a id="__codelineno-24-27" name="__codelineno-24-27" href="#__codelineno-24-27"></a>   → dig +nocmd +noall +answer yourdomain.com (shows TTL remaining)
+<a id="__codelineno-24-28" name="__codelineno-24-28" href="#__codelineno-24-28"></a>
+<a id="__codelineno-24-29" name="__codelineno-24-29" href="#__codelineno-24-29"></a>9. Flush local cache and retry
+<a id="__codelineno-24-30" name="__codelineno-24-30" href="#__codelineno-24-30"></a>   → sudo systemd-resolve --flush-caches (Linux)
+<a id="__codelineno-24-31" name="__codelineno-24-31" href="#__codelineno-24-31"></a>   → ipconfig /flushdns (Windows)
+<a id="__codelineno-24-32" name="__codelineno-24-32" href="#__codelineno-24-32"></a>
+<a id="__codelineno-24-33" name="__codelineno-24-33" href="#__codelineno-24-33"></a>10. Check /etc/hosts for overrides
+<a id="__codelineno-24-34" name="__codelineno-24-34" href="#__codelineno-24-34"></a>    → cat /etc/hosts
+</code></pre></div>
+<hr />
+<h2 id="dns-quick-reference">DNS Quick Reference<a class="headerlink" href="#dns-quick-reference" title="Permanent link">&para;</a></h2>
+<h3 id="common-record-types">Common Record Types<a class="headerlink" href="#common-record-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Record</th>
+<th>Maps</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>Hostname → IPv4</td>
+<td><code>example.com → 93.184.216.34</code></td>
+</tr>
+<tr>
+<td>AAAA</td>
+<td>Hostname → IPv6</td>
+<td><code>example.com → 2606:2800::1</code></td>
+</tr>
+<tr>
+<td>CNAME</td>
+<td>Alias → Hostname</td>
+<td><code>www → example.com</code></td>
+</tr>
+<tr>
+<td>MX</td>
+<td>Domain → Mail server</td>
+<td><code>@ → mail.example.com (10)</code></td>
+</tr>
+<tr>
+<td>TXT</td>
+<td>Domain → Text</td>
+<td>SPF, DKIM, DMARC, verification</td>
+</tr>
+<tr>
+<td>NS</td>
+<td>Zone → Nameserver</td>
+<td><code>example.com → ns1.example.com</code></td>
+</tr>
+<tr>
+<td>PTR</td>
+<td>IP → Hostname</td>
+<td><code>34.216.184.93... → example.com</code></td>
+</tr>
+<tr>
+<td>SOA</td>
+<td>Zone metadata</td>
+<td>Serial, refresh, retry, expire</td>
+</tr>
+<tr>
+<td>SRV</td>
+<td>Service → Host:Port</td>
+<td><code>_sip._tcp → sip.example.com:5060</code></td>
+</tr>
+<tr>
+<td>CAA</td>
+<td>Domain → Allowed CA</td>
+<td><code>0 issue "letsencrypt.org"</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ports">Ports<a class="headerlink" href="#ports" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>Protocol</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>53</td>
+<td>UDP</td>
+<td>Standard DNS queries</td>
+</tr>
+<tr>
+<td>53</td>
+<td>TCP</td>
+<td>Large responses, zone transfers</td>
+</tr>
+<tr>
+<td>853</td>
+<td>TCP</td>
+<td>DNS over TLS (DoT)</td>
+</tr>
+<tr>
+<td>443</td>
+<td>TCP</td>
+<td>DNS over HTTPS (DoH)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="attack-summary">Attack Summary<a class="headerlink" href="#attack-summary" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Attack</th>
+<th>What Happens</th>
+<th>Key Defense</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cache Poisoning</td>
+<td>Fake records in resolver cache</td>
+<td>DNSSEC</td>
+</tr>
+<tr>
+<td>DNS Hijacking</td>
+<td>Queries redirected to malicious resolver</td>
+<td>DoH/DoT, registry lock</td>
+</tr>
+<tr>
+<td>Amplification DDoS</td>
+<td>Open resolver used to flood victim</td>
+<td>Disable open recursion</td>
+</tr>
+<tr>
+<td>DNS Tunneling</td>
+<td>Data exfiltrated via DNS</td>
+<td>Traffic monitoring, RPZ</td>
+</tr>
+<tr>
+<td>Fast Flux</td>
+<td>IPs rotate to evade blocklists</td>
+<td>ML-based analytics</td>
+</tr>
+<tr>
+<td>DGA</td>
+<td>Random domains for C2</td>
+<td>DNS analytics, sinkholing</td>
+</tr>
+<tr>
+<td>Subdomain Takeover</td>
+<td>Stale CNAME claimed by attacker</td>
+<td>Audit DNS records</td>
+</tr>
+<tr>
+<td>Zone Transfer Leak</td>
+<td>Full zone dumped by attacker</td>
+<td>Restrict AXFR</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p><strong>Note:</strong> This document is part of the <a href="../README.md">Cybersecurity-Basics</a> notes repository. It is intended for learning purposes. Always practice in a legal, authorized environment.</p>
+</blockquote>
+<p><em>Last updated: 2026</em></p>
 
 
 
