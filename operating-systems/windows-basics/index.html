@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#windows-basics" class="md-skip">
+        <a href="#windows-basics-for-cybersecurity" class="md-skip">
           Skip to content
         </a>
       
@@ -841,6 +841,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪟 Windows Basics
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -857,6 +875,1488 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-windows-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Windows Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Windows Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kernel-vs-user-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel vs. User Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#major-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Major Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-system-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key System Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-file-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. File System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. File System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ntfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NTFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-directories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Directories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternate-data-streams-ads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternate Data Streams (ADS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File Permissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Registry
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Registry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hive-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hive Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registry-files-on-disk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registry Files on Disk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-relevant-registry-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security-Relevant Registry Keys
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registry-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registry Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-user-accounts-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. User Accounts &amp; Groups
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. User Accounts &amp; Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Account Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#built-in-security-principals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Built-in Security Principals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-identifiers-sids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Identifiers (SIDs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-management-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Management Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-authentication-credential-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Authentication &amp; Credential Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Authentication &amp; Credential Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ntlm-authentication-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NTLM Authentication Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kerberos-authentication-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kerberos Authentication Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#credential-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credential Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cached-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cached Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-hello-modern-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Hello &amp; Modern Auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-processes-threads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Processes &amp; Threads
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Processes &amp; Threads">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Token
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity-levels-mandatory-integrity-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrity Levels (Mandatory Integrity Control)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-process-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Process Relationships
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Services
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Services">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Are Services?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-start-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Start Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-networking-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Networking Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#netstat-output-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        netstat Output Fields
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smb-server-message-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SMB (Server Message Block)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-windows-ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Windows Ports
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-windows-firewall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Windows Firewall
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Windows Firewall">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firewall-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Firewall Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Active Directory
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Active Directory">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Active Directory?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ad-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AD Objects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privileged-ad-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privileged AD Groups
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ad-enumeration-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AD Enumeration Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-group-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Group Policy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Group Policy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-group-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Group Policy?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policy-application-order-lsdou" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy Application Order (LSDOU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-security-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Security Policies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-policy-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Group Policy Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-windows-security-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Windows Security Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Windows Security Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-account-control-uac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Account Control (UAC)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-antivirus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender Antivirus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-smartscreen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender SmartScreen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AppLocker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-credential-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender Credential Guard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-exploit-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender Exploit Guard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bitlocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BitLocker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-sandbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Sandbox
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-logging-event-ids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Logging &amp; Event IDs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Logging &amp; Event IDs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#log-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Log Locations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-security-event-ids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Security Event IDs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-log-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Event Log Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sysmon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sysmon
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-powershell-for-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. PowerShell for Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. PowerShell for Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#powershell-security-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PowerShell Security Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#execution-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Execution Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-script-block-logging-via-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enable Script Block Logging via Registry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useful-security-one-liners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Useful Security One-Liners
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-command-line-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Command Line Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. Command Line Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#built-in-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Built-in Security Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whoami-deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        whoami Deep Dive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wmic-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WMIC Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#living-off-the-land-lolbins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Living Off the Land (LOLBins)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-scheduled-tasks-startup-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Scheduled Tasks &amp; Startup Locations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. Scheduled Tasks &amp; Startup Locations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scheduled-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scheduled Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startup-locations-persistence-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Startup Locations (Persistence Checklist)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-common-attack-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Common Attack Techniques
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Common Attack Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pass-the-hash-pth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pass-the-Hash (PtH)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pass-the-ticket-ptt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pass-the-Ticket (PtT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overpass-the-hash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overpass-the-Hash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kerberoasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kerberoasting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asreproasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ASREPRoasting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#golden-ticket-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Golden Ticket Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#silver-ticket-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Silver Ticket Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dcsync-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DCSync Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#credential-dumping-with-mimikatz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credential Dumping with Mimikatz
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llmnr-nbt-ns-poisoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LLMNR / NBT-NS Poisoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloodhound-ad-attack-path-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloodhound / AD Attack Path Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-lateral-movement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Lateral Movement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. Lateral Movement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Techniques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#winrm-remote-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WinRM Remote Session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-privilege-escalation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Privilege Escalation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. Privilege Escalation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-windows-privesc-vectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Windows PrivEsc Vectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-persistence-mechanisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Persistence Mechanisms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20. Persistence Mechanisms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registry-autoruns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registry Autoruns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scheduled-tasks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scheduled Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wmi-event-subscriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WMI Event Subscriptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dll-hijacking-for-persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DLL Hijacking for Persistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-defense-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Defense &amp; Hardening
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21. Defense &amp; Hardening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cis-benchmarks-for-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIS Benchmarks for Windows
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-unnecessary-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable Unnecessary Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protected-users-security-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protected Users Security Group
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-surface-reduction-asr-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Surface Reduction (ASR) Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging Recommendations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-forensics-incident-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Forensics &amp; Incident Response
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="22. Forensics &amp; Incident Response">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#volatile-data-collect-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Volatile Data (Collect First)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-forensic-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Forensic Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-triage-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Triage Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-key-windows-security-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference: Key Windows Security Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1140,6 +2640,1477 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-windows-architecture" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Windows Architecture
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Windows Architecture">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#kernel-vs-user-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel vs. User Mode
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#major-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Major Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-system-files" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key System Files
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-file-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. File System
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. File System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ntfs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NTFS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-directories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Directories
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alternate-data-streams-ads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alternate Data Streams (ADS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-permissions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File Permissions
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Registry
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Registry">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hive-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hive Structure
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registry-files-on-disk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registry Files on Disk
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-relevant-registry-keys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security-Relevant Registry Keys
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registry-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registry Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-user-accounts-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. User Accounts &amp; Groups
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. User Accounts &amp; Groups">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#account-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Account Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#built-in-security-principals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Built-in Security Principals
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-identifiers-sids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Identifiers (SIDs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-management-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Management Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-authentication-credential-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Authentication &amp; Credential Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Authentication &amp; Credential Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-protocols" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication Protocols
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ntlm-authentication-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NTLM Authentication Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kerberos-authentication-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kerberos Authentication Flow
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#credential-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credential Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cached-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cached Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-hello-modern-auth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Hello &amp; Modern Auth
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-processes-threads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Processes &amp; Threads
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Processes &amp; Threads">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Concepts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-token" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Token
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity-levels-mandatory-integrity-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrity Levels (Mandatory Integrity Control)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#process-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-process-relationships" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Important Process Relationships
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Services
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. Services">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-are-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Are Services?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-start-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Start Types
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#service-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Service Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-networking" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Networking
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Networking">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-networking-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Networking Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#netstat-output-fields" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        netstat Output Fields
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#smb-server-message-block" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SMB (Server Message Block)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-windows-ports" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Windows Ports
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-windows-firewall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Windows Firewall
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Windows Firewall">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firewall-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Firewall Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Active Directory
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Active Directory">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-active-directory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Active Directory?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-components" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Components
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ad-objects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AD Objects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privileged-ad-groups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privileged AD Groups
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ad-enumeration-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AD Enumeration Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-group-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Group Policy
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Group Policy">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-group-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is Group Policy?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#policy-application-order-lsdou" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Policy Application Order (LSDOU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-security-policies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Security Policies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#group-policy-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Group Policy Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-windows-security-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Windows Security Features
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Windows Security Features">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-account-control-uac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Account Control (UAC)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-antivirus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender Antivirus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-smartscreen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender SmartScreen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#applocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AppLocker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-credential-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender Credential Guard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-defender-exploit-guard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Defender Exploit Guard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bitlocker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BitLocker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-sandbox" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Sandbox
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-logging-event-ids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Logging &amp; Event IDs
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Logging &amp; Event IDs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#log-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Log Locations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#critical-security-event-ids" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critical Security Event IDs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#event-log-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Event Log Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sysmon" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sysmon
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-powershell-for-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. PowerShell for Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. PowerShell for Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#powershell-security-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PowerShell Security Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#execution-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Execution Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enable-script-block-logging-via-registry" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enable Script Block Logging via Registry
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#useful-security-one-liners" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Useful Security One-Liners
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-command-line-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Command Line Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. Command Line Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#built-in-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Built-in Security Tools
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#whoami-deep-dive" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        whoami Deep Dive
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wmic-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WMIC Examples
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#living-off-the-land-lolbins" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Living Off the Land (LOLBins)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-scheduled-tasks-startup-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Scheduled Tasks &amp; Startup Locations
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. Scheduled Tasks &amp; Startup Locations">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#scheduled-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scheduled Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#startup-locations-persistence-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Startup Locations (Persistence Checklist)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-common-attack-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. Common Attack Techniques
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. Common Attack Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pass-the-hash-pth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pass-the-Hash (PtH)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pass-the-ticket-ptt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pass-the-Ticket (PtT)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#overpass-the-hash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overpass-the-Hash
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kerberoasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kerberoasting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#asreproasting" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ASREPRoasting
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#golden-ticket-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Golden Ticket Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#silver-ticket-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Silver Ticket Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dcsync-attack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DCSync Attack
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#credential-dumping-with-mimikatz" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Credential Dumping with Mimikatz
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#llmnr-nbt-ns-poisoning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LLMNR / NBT-NS Poisoning
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bloodhound-ad-attack-path-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bloodhound / AD Attack Path Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-lateral-movement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Lateral Movement
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. Lateral Movement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Techniques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#winrm-remote-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WinRM Remote Session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Detection
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-privilege-escalation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Privilege Escalation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. Privilege Escalation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-windows-privesc-vectors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Windows PrivEsc Vectors
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-persistence-mechanisms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Persistence Mechanisms
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20. Persistence Mechanisms">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#registry-autoruns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Registry Autoruns
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scheduled-tasks_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Scheduled Tasks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#services" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Services
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wmi-event-subscriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WMI Event Subscriptions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dll-hijacking-for-persistence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DLL Hijacking for Persistence
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#21-defense-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        21. Defense &amp; Hardening
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="21. Defense &amp; Hardening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cis-benchmarks-for-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIS Benchmarks for Windows
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-unnecessary-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable Unnecessary Features
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#protected-users-security-group" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Protected Users Security Group
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attack-surface-reduction-asr-rules" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Attack Surface Reduction (ASR) Rules
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-recommendations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Logging Recommendations
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#22-forensics-incident-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        22. Forensics &amp; Incident Response
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="22. Forensics &amp; Incident Response">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#volatile-data-collect-first" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Volatile Data (Collect First)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#key-forensic-artifacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Key Forensic Artifacts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory Analysis
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-triage-commands" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Triage Commands
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-key-windows-security-concepts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference: Key Windows Security Concepts
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1158,7 +4129,2098 @@
   
 
 
-<h1 id="windows-basics">Windows Basics<a class="headerlink" href="#windows-basics" title="Permanent link">&para;</a></h1>
+<h1 id="windows-basics-for-cybersecurity">Windows Basics for Cybersecurity<a class="headerlink" href="#windows-basics-for-cybersecurity" title="Permanent link">&para;</a></h1>
+<p>A comprehensive reference covering Windows internals, architecture, security features, attack surfaces, and defensive techniques — from foundational concepts to advanced topics used in penetration testing and incident response.</p>
+<hr />
+<h2 id="1-windows-architecture">1. Windows Architecture<a class="headerlink" href="#1-windows-architecture" title="Permanent link">&para;</a></h2>
+<h3 id="kernel-vs-user-mode">Kernel vs. User Mode<a class="headerlink" href="#kernel-vs-user-mode" title="Permanent link">&para;</a></h3>
+<p>Windows operates in two privilege levels:</p>
+<table>
+<thead>
+<tr>
+<th>Mode</th>
+<th>Description</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kernel Mode</strong></td>
+<td>Full hardware access, unrestricted</td>
+<td>NT kernel, drivers, HAL</td>
+</tr>
+<tr>
+<td><strong>User Mode</strong></td>
+<td>Restricted, isolated per process</td>
+<td>Applications, Win32 subsystem</td>
+</tr>
+</tbody>
+</table>
+<p>Transitions between modes (syscalls) are a key security boundary.</p>
+<h3 id="major-components">Major Components<a class="headerlink" href="#major-components" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>┌─────────────────────────────────────────────┐
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│              User Mode                       │
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│  ┌──────────┐  ┌──────────┐  ┌───────────┐  │
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  │  Win32   │  │ Services │  │   Apps    │  │
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│  │Subsystem │  │ (svchost)│  │ (user)    │  │
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  └────┬─────┘  └────┬─────┘  └─────┬─────┘  │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>├───────┼─────────────┼──────────────┼─────────┤
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│       │       Kernel Mode          │         │
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  ┌────▼─────────────▼──────────────▼──────┐  │
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│  │         Windows NT Executive           │  │
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  │  (I/O Manager, Memory Manager,         │  │
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>│  │   Process Manager, Security Ref Mon)   │  │
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>│  └────────────────┬───────────────────────┘  │
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>│  ┌────────────────▼───────────────────────┐  │
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>│  │         NT Kernel (ntoskrnl.exe)       │  │
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>│  └────────────────┬───────────────────────┘  │
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>│  ┌────────────────▼───────────────────────┐  │
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>│  │     Hardware Abstraction Layer (HAL)   │  │
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>└──┴────────────────────────────────────────┴──┘
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>                  Hardware
+</code></pre></div>
+<h3 id="key-system-files">Key System Files<a class="headerlink" href="#key-system-files" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Location</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ntoskrnl.exe</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>NT kernel and executive</td>
+</tr>
+<tr>
+<td><code>hal.dll</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>Hardware abstraction</td>
+</tr>
+<tr>
+<td><code>lsass.exe</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>Authentication, stores credentials</td>
+</tr>
+<tr>
+<td><code>csrss.exe</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>Win32 subsystem</td>
+</tr>
+<tr>
+<td><code>winlogon.exe</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>Login/logout, SAS handling</td>
+</tr>
+<tr>
+<td><code>services.exe</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>Service Control Manager</td>
+</tr>
+<tr>
+<td><code>svchost.exe</code></td>
+<td><code>\Windows\System32\</code></td>
+<td>Host process for Windows services</td>
+</tr>
+<tr>
+<td><code>explorer.exe</code></td>
+<td><code>\Windows\</code></td>
+<td>Shell / desktop</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Security note:</strong> Malware commonly masquerades as these processes. Verify path, parent process, and digital signature.</p>
+<hr />
+<h2 id="2-file-system">2. File System<a class="headerlink" href="#2-file-system" title="Permanent link">&para;</a></h2>
+<h3 id="ntfs">NTFS<a class="headerlink" href="#ntfs" title="Permanent link">&para;</a></h3>
+<p>Windows primarily uses <strong>NTFS (New Technology File System)</strong>. Key security features:</p>
+<ul>
+<li><strong>Access Control Lists (ACLs)</strong> – Every file and folder has a DACL (Discretionary ACL) and SACL (System ACL)</li>
+<li><strong>Alternate Data Streams (ADS)</strong> – Hidden data streams attached to files (used by malware to hide payloads)</li>
+<li><strong>NTFS Permissions</strong> – Full Control, Modify, Read &amp; Execute, Read, Write</li>
+<li><strong>Encryption (EFS)</strong> – Per-file encryption tied to user certificates</li>
+</ul>
+<h3 id="important-directories">Important Directories<a class="headerlink" href="#important-directories" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>C:\Windows\System32\</code></td>
+<td>Core system binaries (64-bit)</td>
+</tr>
+<tr>
+<td><code>C:\Windows\SysWOW64\</code></td>
+<td>32-bit binaries on 64-bit Windows</td>
+</tr>
+<tr>
+<td><code>C:\Windows\Temp\</code></td>
+<td>Temporary files (common malware drop location)</td>
+</tr>
+<tr>
+<td><code>C:\Users\&lt;user&gt;\AppData\</code></td>
+<td>Per-user app data (Roaming, Local, LocalLow)</td>
+</tr>
+<tr>
+<td><code>C:\Users\&lt;user&gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\</code></td>
+<td>Per-user startup folder</td>
+</tr>
+<tr>
+<td><code>C:\ProgramData\</code></td>
+<td>Shared app data across users</td>
+</tr>
+<tr>
+<td><code>C:\Windows\Prefetch\</code></td>
+<td>Prefetch files (forensic evidence of execution)</td>
+</tr>
+<tr>
+<td><code>C:\$Recycle.Bin\</code></td>
+<td>Recycle bin (forensic artifact)</td>
+</tr>
+<tr>
+<td><code>C:\Windows\System32\drivers\etc\hosts</code></td>
+<td>Local DNS override</td>
+</tr>
+</tbody>
+</table>
+<h3 id="alternate-data-streams-ads">Alternate Data Streams (ADS)<a class="headerlink" href="#alternate-data-streams-ads" title="Permanent link">&para;</a></h3>
+<p>ADS allow data to be hidden inside a file without affecting its visible size:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a># Create an ADS
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>echo malicious &gt; harmless.txt:hidden_stream
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a># List ADS (cmd)
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>dir /r harmless.txt
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a># Access ADS
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>more &lt; harmless.txt:hidden_stream
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a># PowerShell - list all ADS in a directory
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>Get-Item -Path .\* -Stream *
+</code></pre></div>
+<p><strong>Security relevance:</strong> Malware may store payloads or configuration in ADS. Mark-of-the-Web (MoTW) is stored as <code>Zone.Identifier</code> ADS on downloaded files.</p>
+<h3 id="file-permissions">File Permissions<a class="headerlink" href="#file-permissions" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a># View file ACL
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>icacls C:\path\to\file
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a># Set permissions
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>icacls C:\path\to\file /grant username:(R)
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a># Take ownership
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>takeown /f C:\path\to\file
+</code></pre></div>
+<hr />
+<h2 id="3-registry">3. Registry<a class="headerlink" href="#3-registry" title="Permanent link">&para;</a></h2>
+<p>The Windows Registry is a hierarchical database storing OS and application configuration.</p>
+<h3 id="hive-structure">Hive Structure<a class="headerlink" href="#hive-structure" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Hive</th>
+<th>Abbreviation</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HKEY_LOCAL_MACHINE</code></td>
+<td>HKLM</td>
+<td>Machine-wide settings, services, drivers</td>
+</tr>
+<tr>
+<td><code>HKEY_CURRENT_USER</code></td>
+<td>HKCU</td>
+<td>Settings for the currently logged-in user</td>
+</tr>
+<tr>
+<td><code>HKEY_USERS</code></td>
+<td>HKU</td>
+<td>Settings for all user profiles</td>
+</tr>
+<tr>
+<td><code>HKEY_CLASSES_ROOT</code></td>
+<td>HKCR</td>
+<td>File associations, COM objects</td>
+</tr>
+<tr>
+<td><code>HKEY_CURRENT_CONFIG</code></td>
+<td>HKCC</td>
+<td>Current hardware profile</td>
+</tr>
+</tbody>
+</table>
+<h3 id="registry-files-on-disk">Registry Files on Disk<a class="headerlink" href="#registry-files-on-disk" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Hive</th>
+<th>File Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HKLM\SYSTEM</td>
+<td><code>C:\Windows\System32\config\SYSTEM</code></td>
+</tr>
+<tr>
+<td>HKLM\SAM</td>
+<td><code>C:\Windows\System32\config\SAM</code></td>
+</tr>
+<tr>
+<td>HKLM\SECURITY</td>
+<td><code>C:\Windows\System32\config\SECURITY</code></td>
+</tr>
+<tr>
+<td>HKLM\SOFTWARE</td>
+<td><code>C:\Windows\System32\config\SOFTWARE</code></td>
+</tr>
+<tr>
+<td>HKCU</td>
+<td><code>C:\Users\&lt;user&gt;\NTUSER.DAT</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-relevant-registry-keys">Security-Relevant Registry Keys<a class="headerlink" href="#security-relevant-registry-keys" title="Permanent link">&para;</a></h3>
+<p><strong>Autorun / Persistence:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+</code></pre></div></p>
+<p><strong>Services:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>HKLM\SYSTEM\CurrentControlSet\Services\
+</code></pre></div></p>
+<p><strong>Installed software:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\
+</code></pre></div></p>
+<p><strong>User accounts (SAM):</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>HKLM\SAM\SAM\Domains\Account\Users\
+</code></pre></div></p>
+<p><strong>LSA secrets:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>HKLM\SECURITY\Policy\Secrets\
+</code></pre></div></p>
+<p><strong>UAC settings:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System\EnableLUA
+</code></pre></div></p>
+<h3 id="registry-commands">Registry Commands<a class="headerlink" href="#registry-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a># Query a key
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>reg query &quot;HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion&quot;
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a># Add a key
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>reg add &quot;HKCU\Software\Test&quot; /v TestValue /t REG_SZ /d &quot;data&quot;
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a># Delete a key
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>reg delete &quot;HKCU\Software\Test&quot; /v TestValue
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a># Export a hive
+<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>reg export HKLM\SOFTWARE C:\backup\software.reg
+</code></pre></div>
+<hr />
+<h2 id="4-user-accounts-groups">4. User Accounts &amp; Groups<a class="headerlink" href="#4-user-accounts-groups" title="Permanent link">&para;</a></h2>
+<h3 id="account-types">Account Types<a class="headerlink" href="#account-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Local account</strong></td>
+<td>Exists only on the local machine</td>
+</tr>
+<tr>
+<td><strong>Domain account</strong></td>
+<td>Managed by Active Directory</td>
+</tr>
+<tr>
+<td><strong>Built-in accounts</strong></td>
+<td>Administrator, Guest, SYSTEM, LOCAL SERVICE, NETWORK SERVICE</td>
+</tr>
+<tr>
+<td><strong>Service accounts</strong></td>
+<td>Used by services to run with specific privileges</td>
+</tr>
+<tr>
+<td><strong>Managed Service Accounts (MSA/gMSA)</strong></td>
+<td>AD-managed, auto-rotating passwords</td>
+</tr>
+</tbody>
+</table>
+<h3 id="built-in-security-principals">Built-in Security Principals<a class="headerlink" href="#built-in-security-principals" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Account</th>
+<th>SID</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SYSTEM</code></td>
+<td>S-1-5-18</td>
+<td>Highest local privilege; used by OS</td>
+</tr>
+<tr>
+<td><code>LOCAL SERVICE</code></td>
+<td>S-1-5-19</td>
+<td>Reduced privilege service account</td>
+</tr>
+<tr>
+<td><code>NETWORK SERVICE</code></td>
+<td>S-1-5-20</td>
+<td>Network access, reduced local privilege</td>
+</tr>
+<tr>
+<td><code>Everyone</code></td>
+<td>S-1-1-0</td>
+<td>All users including anonymous</td>
+</tr>
+<tr>
+<td><code>Authenticated Users</code></td>
+<td>S-1-5-11</td>
+<td>All users who authenticated</td>
+</tr>
+<tr>
+<td><code>BUILTIN\Administrators</code></td>
+<td>S-1-5-32-544</td>
+<td>Local admin group</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-identifiers-sids">Security Identifiers (SIDs)<a class="headerlink" href="#security-identifiers-sids" title="Permanent link">&para;</a></h3>
+<p>SIDs uniquely identify security principals:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>S-1-5-21-&lt;domain&gt;-500   → Built-in Administrator
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>S-1-5-21-&lt;domain&gt;-501   → Guest
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>S-1-5-21-&lt;domain&gt;-1000+ → Regular users (RID ≥ 1000)
+</code></pre></div>
+<h3 id="user-management-commands">User Management Commands<a class="headerlink" href="#user-management-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a># List local users
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>net user
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a># Show details of a user
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>net user username
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a># List local groups
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>net localgroup
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a># List members of a group
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>net localgroup Administrators
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a># Add user to Administrators
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>net localgroup Administrators username /add
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a># Create a new user
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>net user newuser Password123 /add
+<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>
+<a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a># PowerShell - list local users
+<a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a>Get-LocalUser
+<a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a>
+<a id="__codelineno-11-22" name="__codelineno-11-22" href="#__codelineno-11-22"></a># PowerShell - list local groups
+<a id="__codelineno-11-23" name="__codelineno-11-23" href="#__codelineno-11-23"></a>Get-LocalGroup
+</code></pre></div>
+<hr />
+<h2 id="5-authentication-credential-storage">5. Authentication &amp; Credential Storage<a class="headerlink" href="#5-authentication-credential-storage" title="Permanent link">&para;</a></h2>
+<h3 id="authentication-protocols">Authentication Protocols<a class="headerlink" href="#authentication-protocols" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Protocol</th>
+<th>Description</th>
+<th>Security</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>NTLM</strong></td>
+<td>Challenge-response; older protocol</td>
+<td>Weak — vulnerable to pass-the-hash, relay attacks</td>
+</tr>
+<tr>
+<td><strong>NTLMv2</strong></td>
+<td>Improved version of NTLM</td>
+<td>Better, but still vulnerable to relay</td>
+</tr>
+<tr>
+<td><strong>Kerberos</strong></td>
+<td>Ticket-based; default for domain</td>
+<td>Strong — preferred for AD environments</td>
+</tr>
+<tr>
+<td><strong>LDAP</strong></td>
+<td>Used for directory lookups</td>
+<td>Can be secured with LDAPS (LDAP over TLS)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ntlm-authentication-flow">NTLM Authentication Flow<a class="headerlink" href="#ntlm-authentication-flow" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>Client                        Server
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>  │── Request resource ──────▶│
+<a id="__codelineno-12-3" name="__codelineno-12-3" href="#__codelineno-12-3"></a>  │◀── NTLM Challenge ─────── │  (random 8-byte nonce)
+<a id="__codelineno-12-4" name="__codelineno-12-4" href="#__codelineno-12-4"></a>  │── NTLM Response ─────────▶│  (hash of password + challenge)
+<a id="__codelineno-12-5" name="__codelineno-12-5" href="#__codelineno-12-5"></a>  │◀── Accept/Deny ─────────── │
+</code></pre></div>
+<p><strong>Attack:</strong> An attacker can capture the NTLM challenge/response and crack it offline, or relay it to another service.</p>
+<h3 id="kerberos-authentication-flow">Kerberos Authentication Flow<a class="headerlink" href="#kerberos-authentication-flow" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Client          KDC (Key Distribution Center)        Service
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>  │─── AS-REQ (TGT request) ──────▶│
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>  │◀── AS-REP (TGT) ──────────────── │
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>  │─── TGS-REQ (service ticket) ───▶│
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>  │◀── TGS-REP (service ticket) ───── │
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>  │──────────── AP-REQ ────────────────────────────▶│
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>  │◀─────────── AP-REP ──────────────────────────── │
+</code></pre></div>
+<h3 id="credential-storage">Credential Storage<a class="headerlink" href="#credential-storage" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Storage</th>
+<th>Location</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SAM database</strong></td>
+<td><code>C:\Windows\System32\config\SAM</code></td>
+<td>Local user NTLM hashes</td>
+</tr>
+<tr>
+<td><strong>NTDS.dit</strong></td>
+<td><code>C:\Windows\NTDS\NTDS.dit</code> (DC only)</td>
+<td>All AD user hashes</td>
+</tr>
+<tr>
+<td><strong>LSA Secrets</strong></td>
+<td><code>HKLM\SECURITY\Policy\Secrets\</code></td>
+<td>Service account passwords, cached domain credentials</td>
+</tr>
+<tr>
+<td><strong>Credential Manager</strong></td>
+<td><code>%AppData%\Microsoft\Credentials\</code></td>
+<td>Saved Windows/web credentials</td>
+</tr>
+<tr>
+<td><strong>LSASS process memory</strong></td>
+<td>In memory at runtime</td>
+<td>Plaintext passwords, NTLM hashes, Kerberos tickets (pre-Win8.1)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="cached-credentials">Cached Credentials<a class="headerlink" href="#cached-credentials" title="Permanent link">&para;</a></h3>
+<p>Windows caches domain credentials locally (default: last 10 logons) so users can log in offline. Stored as MS-CACHEv2 hashes:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>HKLM\SECURITY\Cache
+</code></pre></div>
+<p><strong>Security note:</strong> Cached credential hashes are slower to crack than NT hashes but still crackable.</p>
+<h3 id="windows-hello-modern-auth">Windows Hello &amp; Modern Auth<a class="headerlink" href="#windows-hello-modern-auth" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Windows Hello</strong> – Biometric/PIN authentication, backed by TPM</li>
+<li><strong>FIDO2/WebAuthn</strong> – Passwordless authentication standard</li>
+<li><strong>Azure AD / Entra ID</strong> – Cloud-based identity with MFA support</li>
+</ul>
+<hr />
+<h2 id="6-processes-threads">6. Processes &amp; Threads<a class="headerlink" href="#6-processes-threads" title="Permanent link">&para;</a></h2>
+<h3 id="process-concepts">Process Concepts<a class="headerlink" href="#process-concepts" title="Permanent link">&para;</a></h3>
+<p>Every process has:
+- A unique <strong>PID</strong> (Process ID)
+- A <strong>parent PID (PPID)</strong>
+- A <strong>security token</strong> (determines privileges)
+- Its own <strong>virtual address space</strong>
+- One or more <strong>threads</strong></p>
+<h3 id="security-token">Security Token<a class="headerlink" href="#security-token" title="Permanent link">&para;</a></h3>
+<p>A security token attached to each process/thread contains:
+- User SID
+- Group SIDs
+- Privileges (e.g. <code>SeDebugPrivilege</code>, <code>SeImpersonatePrivilege</code>)
+- Integrity level (Low, Medium, High, System)</p>
+<h3 id="integrity-levels-mandatory-integrity-control">Integrity Levels (Mandatory Integrity Control)<a class="headerlink" href="#integrity-levels-mandatory-integrity-control" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Usage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Untrusted (0)</td>
+<td>Anonymous processes</td>
+</tr>
+<tr>
+<td>Low (1)</td>
+<td>Sandboxed apps (e.g. browser tabs)</td>
+</tr>
+<tr>
+<td>Medium (2)</td>
+<td>Normal user processes</td>
+</tr>
+<tr>
+<td>High (3)</td>
+<td>Elevated (UAC elevated) processes</td>
+</tr>
+<tr>
+<td>System (4)</td>
+<td>OS processes running as SYSTEM</td>
+</tr>
+</tbody>
+</table>
+<h3 id="process-commands">Process Commands<a class="headerlink" href="#process-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a># List running processes
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>tasklist
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a># List processes with services
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>tasklist /svc
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a># Kill a process
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>taskkill /PID 1234 /F
+<a id="__codelineno-15-9" name="__codelineno-15-9" href="#__codelineno-15-9"></a>
+<a id="__codelineno-15-10" name="__codelineno-15-10" href="#__codelineno-15-10"></a># PowerShell - detailed process info
+<a id="__codelineno-15-11" name="__codelineno-15-11" href="#__codelineno-15-11"></a>Get-Process | Select-Object Name, Id, Path
+<a id="__codelineno-15-12" name="__codelineno-15-12" href="#__codelineno-15-12"></a>
+<a id="__codelineno-15-13" name="__codelineno-15-13" href="#__codelineno-15-13"></a># Show parent-child relationships (Sysinternals)
+<a id="__codelineno-15-14" name="__codelineno-15-14" href="#__codelineno-15-14"></a>pslist -t
+<a id="__codelineno-15-15" name="__codelineno-15-15" href="#__codelineno-15-15"></a>
+<a id="__codelineno-15-16" name="__codelineno-15-16" href="#__codelineno-15-16"></a># Check process integrity level (Sysinternals)
+<a id="__codelineno-15-17" name="__codelineno-15-17" href="#__codelineno-15-17"></a>accesschk -p &lt;PID&gt;
+</code></pre></div>
+<h3 id="important-process-relationships">Important Process Relationships<a class="headerlink" href="#important-process-relationships" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>System (PID 4)
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>└── smss.exe         (Session Manager)
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>    └── csrss.exe    (Win32 subsystem)
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>    └── winlogon.exe (Login)
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>        └── userinit.exe
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>            └── explorer.exe (Shell)
+<a id="__codelineno-16-7" name="__codelineno-16-7" href="#__codelineno-16-7"></a>    └── services.exe (SCM)
+<a id="__codelineno-16-8" name="__codelineno-16-8" href="#__codelineno-16-8"></a>        └── svchost.exe (many instances, each hosting services)
+<a id="__codelineno-16-9" name="__codelineno-16-9" href="#__codelineno-16-9"></a>    └── lsass.exe    (Authentication)
+</code></pre></div>
+<p><strong>Security note:</strong> A <code>cmd.exe</code> with parent <code>winword.exe</code> is suspicious — indicates macro-based code execution.</p>
+<hr />
+<h2 id="7-services">7. Services<a class="headerlink" href="#7-services" title="Permanent link">&para;</a></h2>
+<h3 id="what-are-services">What Are Services?<a class="headerlink" href="#what-are-services" title="Permanent link">&para;</a></h3>
+<p>Windows services are long-running executables that perform specific functions. Managed by the <strong>Service Control Manager (SCM)</strong> (<code>services.exe</code>).</p>
+<h3 id="service-types">Service Types<a class="headerlink" href="#service-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Win32OwnProcess</strong></td>
+<td>Runs in its own process</td>
+</tr>
+<tr>
+<td><strong>Win32ShareProcess</strong></td>
+<td>Shares a process with other services (svchost.exe)</td>
+</tr>
+<tr>
+<td><strong>Kernel driver</strong></td>
+<td>Runs in kernel mode</td>
+</tr>
+<tr>
+<td><strong>File system driver</strong></td>
+<td>Special kernel driver for file systems</td>
+</tr>
+</tbody>
+</table>
+<h3 id="service-start-types">Service Start Types<a class="headerlink" href="#service-start-types" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Automatic</td>
+<td>2</td>
+<td>Starts at boot</td>
+</tr>
+<tr>
+<td>Manual</td>
+<td>3</td>
+<td>Started on demand</td>
+</tr>
+<tr>
+<td>Disabled</td>
+<td>4</td>
+<td>Cannot be started</td>
+</tr>
+<tr>
+<td>Automatic (Delayed Start)</td>
+<td>2</td>
+<td>Starts shortly after boot</td>
+</tr>
+</tbody>
+</table>
+<h3 id="service-commands">Service Commands<a class="headerlink" href="#service-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a># List all services
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>sc query type= all
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a># Query a specific service
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a>sc query wuauserv
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a># Start / stop a service
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>sc start &lt;service_name&gt;
+<a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a>sc stop &lt;service_name&gt;
+<a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a>
+<a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a># Show service config (binary path, start type)
+<a id="__codelineno-17-12" name="__codelineno-17-12" href="#__codelineno-17-12"></a>sc qc &lt;service_name&gt;
+<a id="__codelineno-17-13" name="__codelineno-17-13" href="#__codelineno-17-13"></a>
+<a id="__codelineno-17-14" name="__codelineno-17-14" href="#__codelineno-17-14"></a># PowerShell
+<a id="__codelineno-17-15" name="__codelineno-17-15" href="#__codelineno-17-15"></a>Get-Service
+<a id="__codelineno-17-16" name="__codelineno-17-16" href="#__codelineno-17-16"></a>Get-Service -Name &quot;wuauserv&quot; | Select-Object *
+</code></pre></div>
+<h3 id="service-security">Service Security<a class="headerlink" href="#service-security" title="Permanent link">&para;</a></h3>
+<p>Services run under specific accounts. The account determines privilege level:
+- <strong>LocalSystem (SYSTEM)</strong> – Most privileged; avoid unless necessary
+- <strong>LocalService</strong> – Reduced privileges
+- <strong>NetworkService</strong> – Network access with reduced local privileges
+- <strong>Custom service account</strong> – Best practice; principle of least privilege</p>
+<hr />
+<h2 id="8-networking">8. Networking<a class="headerlink" href="#8-networking" title="Permanent link">&para;</a></h2>
+<h3 id="key-networking-commands">Key Networking Commands<a class="headerlink" href="#key-networking-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a># IP configuration
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>ipconfig /all
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a># DNS cache
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>ipconfig /displaydns
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a># Flush DNS cache
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>ipconfig /flushdns
+<a id="__codelineno-18-9" name="__codelineno-18-9" href="#__codelineno-18-9"></a>
+<a id="__codelineno-18-10" name="__codelineno-18-10" href="#__codelineno-18-10"></a># Active connections
+<a id="__codelineno-18-11" name="__codelineno-18-11" href="#__codelineno-18-11"></a>netstat -ano
+<a id="__codelineno-18-12" name="__codelineno-18-12" href="#__codelineno-18-12"></a>
+<a id="__codelineno-18-13" name="__codelineno-18-13" href="#__codelineno-18-13"></a># Show open ports with owning process
+<a id="__codelineno-18-14" name="__codelineno-18-14" href="#__codelineno-18-14"></a>netstat -anob
+<a id="__codelineno-18-15" name="__codelineno-18-15" href="#__codelineno-18-15"></a>
+<a id="__codelineno-18-16" name="__codelineno-18-16" href="#__codelineno-18-16"></a># ARP table
+<a id="__codelineno-18-17" name="__codelineno-18-17" href="#__codelineno-18-17"></a>arp -a
+<a id="__codelineno-18-18" name="__codelineno-18-18" href="#__codelineno-18-18"></a>
+<a id="__codelineno-18-19" name="__codelineno-18-19" href="#__codelineno-18-19"></a># Routing table
+<a id="__codelineno-18-20" name="__codelineno-18-20" href="#__codelineno-18-20"></a>route print
+<a id="__codelineno-18-21" name="__codelineno-18-21" href="#__codelineno-18-21"></a>
+<a id="__codelineno-18-22" name="__codelineno-18-22" href="#__codelineno-18-22"></a># DNS lookup
+<a id="__codelineno-18-23" name="__codelineno-18-23" href="#__codelineno-18-23"></a>nslookup example.com
+<a id="__codelineno-18-24" name="__codelineno-18-24" href="#__codelineno-18-24"></a>
+<a id="__codelineno-18-25" name="__codelineno-18-25" href="#__codelineno-18-25"></a># Trace route
+<a id="__codelineno-18-26" name="__codelineno-18-26" href="#__codelineno-18-26"></a>tracert example.com
+<a id="__codelineno-18-27" name="__codelineno-18-27" href="#__codelineno-18-27"></a>
+<a id="__codelineno-18-28" name="__codelineno-18-28" href="#__codelineno-18-28"></a># Test connectivity
+<a id="__codelineno-18-29" name="__codelineno-18-29" href="#__codelineno-18-29"></a>ping example.com
+<a id="__codelineno-18-30" name="__codelineno-18-30" href="#__codelineno-18-30"></a>Test-NetConnection -ComputerName example.com -Port 443  # PowerShell
+</code></pre></div>
+<h3 id="netstat-output-fields"><code>netstat</code> Output Fields<a class="headerlink" href="#netstat-output-fields" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Proto  Local Address    Foreign Address   State     PID
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>TCP    0.0.0.0:445      0.0.0.0:0         LISTENING  4
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>TCP    192.168.1.5:52341 93.184.216.34:443 ESTABLISHED 1234
+</code></pre></div>
+<p><strong>Security note:</strong> Unknown <code>ESTABLISHED</code> connections to external IPs, or unusual <code>LISTENING</code> ports, are indicators of compromise.</p>
+<h3 id="smb-server-message-block">SMB (Server Message Block)<a class="headerlink" href="#smb-server-message-block" title="Permanent link">&para;</a></h3>
+<p>SMB is Windows' native file-sharing and printer-sharing protocol.</p>
+<table>
+<thead>
+<tr>
+<th>Version</th>
+<th>Port</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SMBv1</td>
+<td>TCP 445 / 139</td>
+<td>Legacy; highly vulnerable (EternalBlue/WannaCry)</td>
+</tr>
+<tr>
+<td>SMBv2/v3</td>
+<td>TCP 445</td>
+<td>Current; should be used exclusively</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a># Check SMB version support
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>Get-SmbServerConfiguration | Select-Object EnableSMB1Protocol, EnableSMB2Protocol
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a># Disable SMBv1
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>Set-SmbServerConfiguration -EnableSMB1Protocol $false
+</code></pre></div>
+<h3 id="common-windows-ports">Common Windows Ports<a class="headerlink" href="#common-windows-ports" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Port</th>
+<th>Protocol</th>
+<th>Service</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>53</td>
+<td>TCP/UDP</td>
+<td>DNS</td>
+</tr>
+<tr>
+<td>88</td>
+<td>TCP/UDP</td>
+<td>Kerberos</td>
+</tr>
+<tr>
+<td>135</td>
+<td>TCP</td>
+<td>RPC Endpoint Mapper</td>
+</tr>
+<tr>
+<td>139</td>
+<td>TCP</td>
+<td>NetBIOS Session Service</td>
+</tr>
+<tr>
+<td>389</td>
+<td>TCP</td>
+<td>LDAP</td>
+</tr>
+<tr>
+<td>443</td>
+<td>TCP</td>
+<td>HTTPS</td>
+</tr>
+<tr>
+<td>445</td>
+<td>TCP</td>
+<td>SMB</td>
+</tr>
+<tr>
+<td>636</td>
+<td>TCP</td>
+<td>LDAPS</td>
+</tr>
+<tr>
+<td>3389</td>
+<td>TCP</td>
+<td>RDP</td>
+</tr>
+<tr>
+<td>5985/5986</td>
+<td>TCP</td>
+<td>WinRM (HTTP/HTTPS)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-windows-firewall">9. Windows Firewall<a class="headerlink" href="#9-windows-firewall" title="Permanent link">&para;</a></h2>
+<h3 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h3>
+<p>Windows Defender Firewall filters inbound and outbound traffic based on rules. Supports three profiles:</p>
+<table>
+<thead>
+<tr>
+<th>Profile</th>
+<th>Used When</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Domain</strong></td>
+<td>Computer is joined to a domain</td>
+</tr>
+<tr>
+<td><strong>Private</strong></td>
+<td>Connected to a trusted private network</td>
+</tr>
+<tr>
+<td><strong>Public</strong></td>
+<td>Connected to a public/untrusted network</td>
+</tr>
+</tbody>
+</table>
+<h3 id="firewall-commands">Firewall Commands<a class="headerlink" href="#firewall-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a># Check firewall status
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>netsh advfirewall show allprofiles
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a># Enable/disable firewall
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>netsh advfirewall set allprofiles state on
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>netsh advfirewall set allprofiles state off
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a># Add an inbound rule
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a>netsh advfirewall firewall add rule name=&quot;Allow RDP&quot; protocol=TCP dir=in localport=3389 action=allow
+<a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a>
+<a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a># Delete a rule
+<a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a>netsh advfirewall firewall delete rule name=&quot;Allow RDP&quot;
+<a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a>
+<a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a># PowerShell - list firewall rules
+<a id="__codelineno-21-15" name="__codelineno-21-15" href="#__codelineno-21-15"></a>Get-NetFirewallRule | Where-Object Enabled -eq True
+<a id="__codelineno-21-16" name="__codelineno-21-16" href="#__codelineno-21-16"></a>
+<a id="__codelineno-21-17" name="__codelineno-21-17" href="#__codelineno-21-17"></a># PowerShell - add rule
+<a id="__codelineno-21-18" name="__codelineno-21-18" href="#__codelineno-21-18"></a>New-NetFirewallRule -DisplayName &quot;Block Port 4444&quot; -Direction Inbound -LocalPort 4444 -Protocol TCP -Action Block
+</code></pre></div>
+<hr />
+<h2 id="10-active-directory">10. Active Directory<a class="headerlink" href="#10-active-directory" title="Permanent link">&para;</a></h2>
+<h3 id="what-is-active-directory">What is Active Directory?<a class="headerlink" href="#what-is-active-directory" title="Permanent link">&para;</a></h3>
+<p>Active Directory (AD) is Microsoft's directory service for centralized identity and access management in Windows domain environments.</p>
+<h3 id="core-components">Core Components<a class="headerlink" href="#core-components" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Domain</strong></td>
+<td>Security boundary; collection of objects sharing a policy</td>
+</tr>
+<tr>
+<td><strong>Forest</strong></td>
+<td>Top-level container; one or more domains</td>
+</tr>
+<tr>
+<td><strong>Domain Controller (DC)</strong></td>
+<td>Server hosting AD; handles authentication</td>
+</tr>
+<tr>
+<td><strong>Organizational Unit (OU)</strong></td>
+<td>Container for organizing objects</td>
+</tr>
+<tr>
+<td><strong>LDAP</strong></td>
+<td>Protocol used to query/modify AD</td>
+</tr>
+<tr>
+<td><strong>Global Catalog</strong></td>
+<td>Partial replica of all objects in a forest</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ad-objects">AD Objects<a class="headerlink" href="#ad-objects" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Users</strong> – Represent people or service accounts</li>
+<li><strong>Computers</strong> – Domain-joined machines</li>
+<li><strong>Groups</strong> – Collections of users/computers</li>
+<li>Security groups (used for permissions)</li>
+<li>Distribution groups (used for email)</li>
+<li><strong>GPO</strong> – Group Policy Objects linked to OUs</li>
+</ul>
+<h3 id="privileged-ad-groups">Privileged AD Groups<a class="headerlink" href="#privileged-ad-groups" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Group</th>
+<th>Privileges</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Domain Admins</code></td>
+<td>Full control over the domain</td>
+</tr>
+<tr>
+<td><code>Enterprise Admins</code></td>
+<td>Full control over the forest</td>
+</tr>
+<tr>
+<td><code>Schema Admins</code></td>
+<td>Can modify the AD schema</td>
+</tr>
+<tr>
+<td><code>Administrators</code></td>
+<td>Local admin on DCs</td>
+</tr>
+<tr>
+<td><code>Account Operators</code></td>
+<td>Manage user accounts</td>
+</tr>
+<tr>
+<td><code>Backup Operators</code></td>
+<td>Backup/restore privileges (can access all files)</td>
+</tr>
+<tr>
+<td><code>Server Operators</code></td>
+<td>Manage DCs</td>
+</tr>
+<tr>
+<td><code>DNSAdmins</code></td>
+<td>Manage DNS (can be abused for privesc)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="ad-enumeration-commands">AD Enumeration Commands<a class="headerlink" href="#ad-enumeration-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a># Domain info
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>net user /domain
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>net group /domain
+<a id="__codelineno-22-4" name="__codelineno-22-4" href="#__codelineno-22-4"></a>net group &quot;Domain Admins&quot; /domain
+<a id="__codelineno-22-5" name="__codelineno-22-5" href="#__codelineno-22-5"></a>
+<a id="__codelineno-22-6" name="__codelineno-22-6" href="#__codelineno-22-6"></a># PowerShell AD module (requires RSAT or domain controller)
+<a id="__codelineno-22-7" name="__codelineno-22-7" href="#__codelineno-22-7"></a>Get-ADUser -Filter * -Properties *
+<a id="__codelineno-22-8" name="__codelineno-22-8" href="#__codelineno-22-8"></a>Get-ADGroup -Filter * | Select-Object Name
+<a id="__codelineno-22-9" name="__codelineno-22-9" href="#__codelineno-22-9"></a>Get-ADGroupMember &quot;Domain Admins&quot;
+<a id="__codelineno-22-10" name="__codelineno-22-10" href="#__codelineno-22-10"></a>Get-ADComputer -Filter * | Select-Object Name, OperatingSystem
+<a id="__codelineno-22-11" name="__codelineno-22-11" href="#__codelineno-22-11"></a>
+<a id="__codelineno-22-12" name="__codelineno-22-12" href="#__codelineno-22-12"></a># LDAP query via PowerShell
+<a id="__codelineno-22-13" name="__codelineno-22-13" href="#__codelineno-22-13"></a>([ADSI]&quot;LDAP://DC=example,DC=com&quot;)
+</code></pre></div>
+<hr />
+<h2 id="11-group-policy">11. Group Policy<a class="headerlink" href="#11-group-policy" title="Permanent link">&para;</a></h2>
+<h3 id="what-is-group-policy">What is Group Policy?<a class="headerlink" href="#what-is-group-policy" title="Permanent link">&para;</a></h3>
+<p>Group Policy allows administrators to enforce security settings and configurations across all machines in a domain.</p>
+<h3 id="policy-application-order-lsdou">Policy Application Order (LSDOU)<a class="headerlink" href="#policy-application-order-lsdou" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>Local → Site → Domain → Organizational Unit
+</code></pre></div>
+<p>Later policies override earlier ones (OU beats Domain).</p>
+<h3 id="key-security-policies">Key Security Policies<a class="headerlink" href="#key-security-policies" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>Computer Configuration\Windows Settings\Security Settings\
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>  ├── Account Policies\Password Policy
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>  │     ├── Minimum password length
+<a id="__codelineno-24-4" name="__codelineno-24-4" href="#__codelineno-24-4"></a>  │     ├── Password complexity
+<a id="__codelineno-24-5" name="__codelineno-24-5" href="#__codelineno-24-5"></a>  │     └── Maximum password age
+<a id="__codelineno-24-6" name="__codelineno-24-6" href="#__codelineno-24-6"></a>  ├── Account Policies\Account Lockout Policy
+<a id="__codelineno-24-7" name="__codelineno-24-7" href="#__codelineno-24-7"></a>  │     ├── Lockout threshold
+<a id="__codelineno-24-8" name="__codelineno-24-8" href="#__codelineno-24-8"></a>  │     └── Lockout duration
+<a id="__codelineno-24-9" name="__codelineno-24-9" href="#__codelineno-24-9"></a>  ├── Local Policies\Audit Policy
+<a id="__codelineno-24-10" name="__codelineno-24-10" href="#__codelineno-24-10"></a>  │     ├── Audit logon events
+<a id="__codelineno-24-11" name="__codelineno-24-11" href="#__codelineno-24-11"></a>  │     └── Audit object access
+<a id="__codelineno-24-12" name="__codelineno-24-12" href="#__codelineno-24-12"></a>  └── Local Policies\User Rights Assignment
+<a id="__codelineno-24-13" name="__codelineno-24-13" href="#__codelineno-24-13"></a>        ├── Allow log on locally
+<a id="__codelineno-24-14" name="__codelineno-24-14" href="#__codelineno-24-14"></a>        └── Deny access to this computer from the network
+</code></pre></div>
+<h3 id="group-policy-commands">Group Policy Commands<a class="headerlink" href="#group-policy-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a># Force group policy update
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>gpupdate /force
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>
+<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a># View applied policies
+<a id="__codelineno-25-5" name="__codelineno-25-5" href="#__codelineno-25-5"></a>gpresult /r
+<a id="__codelineno-25-6" name="__codelineno-25-6" href="#__codelineno-25-6"></a>
+<a id="__codelineno-25-7" name="__codelineno-25-7" href="#__codelineno-25-7"></a># Verbose GPO report (HTML)
+<a id="__codelineno-25-8" name="__codelineno-25-8" href="#__codelineno-25-8"></a>gpresult /h C:\gpo-report.html
+<a id="__codelineno-25-9" name="__codelineno-25-9" href="#__codelineno-25-9"></a>
+<a id="__codelineno-25-10" name="__codelineno-25-10" href="#__codelineno-25-10"></a># View local security policy
+<a id="__codelineno-25-11" name="__codelineno-25-11" href="#__codelineno-25-11"></a>secpol.msc
+</code></pre></div>
+<hr />
+<h2 id="12-windows-security-features">12. Windows Security Features<a class="headerlink" href="#12-windows-security-features" title="Permanent link">&para;</a></h2>
+<h3 id="user-account-control-uac">User Account Control (UAC)<a class="headerlink" href="#user-account-control-uac" title="Permanent link">&para;</a></h3>
+<p>UAC prevents unauthorized system changes by requiring elevation for administrative tasks. Standard users see a credential prompt; admin users see a consent prompt.</p>
+<p><strong>Bypass techniques (for awareness):</strong>
+- <code>fodhelper.exe</code> auto-elevation
+- <code>eventvwr.exe</code> COM hijack
+- Token impersonation</p>
+<p><strong>Defense:</strong> Set UAC to "Always Notify"; disable auto-elevation for built-in accounts.</p>
+<h3 id="windows-defender-antivirus">Windows Defender Antivirus<a class="headerlink" href="#windows-defender-antivirus" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Real-time protection, cloud-based analysis, behavior monitoring</li>
+<li>Managed via <code>Windows Security</code> GUI or PowerShell (<code>Defender</code> module)</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="c"># Run a quick scan</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a><span class="nb">Start-MpScan</span> <span class="n">-ScanType</span> <span class="n">QuickScan</span>
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="c"># Check status</span>
+<a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a><span class="nb">Get-MpComputerStatus</span>
+<a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a>
+<a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a><span class="c"># Update signatures</span>
+<a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a><span class="nb">Update-MpSignature</span>
+</code></pre></div>
+<h3 id="windows-defender-smartscreen">Windows Defender SmartScreen<a class="headerlink" href="#windows-defender-smartscreen" title="Permanent link">&para;</a></h3>
+<p>Filters known-malicious executables and websites; checks against Microsoft's cloud reputation service.</p>
+<h3 id="applocker">AppLocker<a class="headerlink" href="#applocker" title="Permanent link">&para;</a></h3>
+<p>Allows administrators to whitelist which applications, scripts, and DLLs can run.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a>Application Identity service must be running for AppLocker to enforce rules.
+</code></pre></div>
+<p>Policy types:
+- <strong>Executable rules</strong> – <code>.exe</code>, <code>.com</code>
+- <strong>Script rules</strong> – <code>.ps1</code>, <code>.bat</code>, <code>.vbs</code>, <code>.js</code>
+- <strong>DLL rules</strong> – <code>.dll</code>, <code>.ocx</code>
+- <strong>Packaged app rules</strong> – Store apps</p>
+<h3 id="windows-defender-credential-guard">Windows Defender Credential Guard<a class="headerlink" href="#windows-defender-credential-guard" title="Permanent link">&para;</a></h3>
+<p>Isolates LSASS into a <strong>Virtual Trust Level (VTL1)</strong> using virtualization-based security (VBS), preventing tools like Mimikatz from dumping credentials from LSASS memory.</p>
+<p><strong>Requirements:</strong> UEFI, 64-bit, Hyper-V, TPM 2.0</p>
+<h3 id="windows-defender-exploit-guard">Windows Defender Exploit Guard<a class="headerlink" href="#windows-defender-exploit-guard" title="Permanent link">&para;</a></h3>
+<p>Successor to EMET; provides:
+- <strong>Attack Surface Reduction (ASR)</strong> rules — block macros, Office spawning processes, etc.
+- <strong>Controlled Folder Access</strong> — ransomware protection
+- <strong>Network protection</strong> — block connections to known-bad IPs
+- <strong>Exploit protection</strong> — DEP, ASLR, SEHOP mitigations</p>
+<h3 id="bitlocker">BitLocker<a class="headerlink" href="#bitlocker" title="Permanent link">&para;</a></h3>
+<p>Full-disk encryption for Windows volumes.
+- Protects data at rest if drive is removed
+- Uses TPM to seal encryption key
+- Recovery key stored in AD or Azure AD</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a># Check BitLocker status
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>manage-bde -status
+<a id="__codelineno-28-3" name="__codelineno-28-3" href="#__codelineno-28-3"></a>
+<a id="__codelineno-28-4" name="__codelineno-28-4" href="#__codelineno-28-4"></a># Enable BitLocker
+<a id="__codelineno-28-5" name="__codelineno-28-5" href="#__codelineno-28-5"></a>Enable-BitLocker -MountPoint &quot;C:&quot; -EncryptionMethod Aes256 -UsedSpaceOnly -TpmProtector
+</code></pre></div>
+<h3 id="windows-sandbox">Windows Sandbox<a class="headerlink" href="#windows-sandbox" title="Permanent link">&para;</a></h3>
+<p>Isolated, temporary desktop environment for running untrusted applications; discarded after closing.</p>
+<hr />
+<h2 id="13-logging-event-ids">13. Logging &amp; Event IDs<a class="headerlink" href="#13-logging-event-ids" title="Permanent link">&para;</a></h2>
+<h3 id="log-locations">Log Locations<a class="headerlink" href="#log-locations" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Log</th>
+<th>Path</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Security</td>
+<td><code>%SystemRoot%\System32\winevt\Logs\Security.evtx</code></td>
+<td>Auth, account, policy changes</td>
+</tr>
+<tr>
+<td>System</td>
+<td><code>...Logs\System.evtx</code></td>
+<td>OS events, driver failures</td>
+</tr>
+<tr>
+<td>Application</td>
+<td><code>...Logs\Application.evtx</code></td>
+<td>App errors and info</td>
+</tr>
+<tr>
+<td>PowerShell</td>
+<td><code>...Logs\Microsoft-Windows-PowerShell/Operational.evtx</code></td>
+<td>PS execution</td>
+</tr>
+<tr>
+<td>Sysmon</td>
+<td><code>...Logs\Microsoft-Windows-Sysmon/Operational.evtx</code></td>
+<td>Process, network, registry events</td>
+</tr>
+</tbody>
+</table>
+<h3 id="critical-security-event-ids">Critical Security Event IDs<a class="headerlink" href="#critical-security-event-ids" title="Permanent link">&para;</a></h3>
+<p><strong>Authentication:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event ID</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4624</td>
+<td>Successful logon</td>
+</tr>
+<tr>
+<td>4625</td>
+<td>Failed logon</td>
+</tr>
+<tr>
+<td>4634</td>
+<td>Account logoff</td>
+</tr>
+<tr>
+<td>4648</td>
+<td>Logon using explicit credentials (runas)</td>
+</tr>
+<tr>
+<td>4672</td>
+<td>Special privileges assigned to new logon</td>
+</tr>
+<tr>
+<td>4768</td>
+<td>Kerberos TGT requested</td>
+</tr>
+<tr>
+<td>4769</td>
+<td>Kerberos service ticket requested</td>
+</tr>
+<tr>
+<td>4771</td>
+<td>Kerberos pre-authentication failed</td>
+</tr>
+<tr>
+<td>4776</td>
+<td>NTLM authentication attempt</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Account Management:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event ID</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4720</td>
+<td>User account created</td>
+</tr>
+<tr>
+<td>4722</td>
+<td>User account enabled</td>
+</tr>
+<tr>
+<td>4724</td>
+<td>Password reset</td>
+</tr>
+<tr>
+<td>4728</td>
+<td>Member added to security-enabled global group</td>
+</tr>
+<tr>
+<td>4732</td>
+<td>Member added to local Administrators group</td>
+</tr>
+<tr>
+<td>4756</td>
+<td>Member added to universal security group</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Policy &amp; System:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event ID</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4698</td>
+<td>Scheduled task created</td>
+</tr>
+<tr>
+<td>4702</td>
+<td>Scheduled task updated</td>
+</tr>
+<tr>
+<td>4697</td>
+<td>Service installed</td>
+</tr>
+<tr>
+<td>4704</td>
+<td>User right assigned</td>
+</tr>
+<tr>
+<td>7045</td>
+<td>New service installed (System log)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Object Access:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event ID</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4663</td>
+<td>Object access attempt (requires SACL)</td>
+</tr>
+<tr>
+<td>4656</td>
+<td>Handle to object requested</td>
+</tr>
+<tr>
+<td>5140</td>
+<td>Network share accessed</td>
+</tr>
+<tr>
+<td>5145</td>
+<td>Network share file access check</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Logon Types (in event 4624):</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>Interactive (local logon)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Network (SMB, etc.)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Batch (scheduled task)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Service logon</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Unlock</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Network cleartext (IIS basic auth)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>New credentials (runas)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Remote interactive (RDP)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Cached interactive (cached credentials)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="event-log-commands">Event Log Commands<a class="headerlink" href="#event-log-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a><span class="c"># Query last 20 failed logon events</span>
+<a id="__codelineno-29-2" name="__codelineno-29-2" href="#__codelineno-29-2"></a><span class="nb">Get-WinEvent</span> <span class="n">-LogName</span> <span class="n">Security</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Id</span> <span class="o">-eq</span> <span class="n">4625</span> <span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-First</span> <span class="n">20</span>
+<a id="__codelineno-29-3" name="__codelineno-29-3" href="#__codelineno-29-3"></a>
+<a id="__codelineno-29-4" name="__codelineno-29-4" href="#__codelineno-29-4"></a><span class="c"># Query by time range</span>
+<a id="__codelineno-29-5" name="__codelineno-29-5" href="#__codelineno-29-5"></a><span class="nb">Get-WinEvent</span> <span class="n">-FilterHashtable</span> <span class="p">@{</span><span class="n">LogName</span><span class="p">=</span><span class="s1">&#39;Security&#39;</span><span class="p">;</span> <span class="n">Id</span><span class="p">=</span><span class="n">4624</span><span class="p">;</span> <span class="n">StartTime</span><span class="p">=(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="n">AddHours</span><span class="p">(-</span><span class="n">24</span><span class="p">)}</span>
+<a id="__codelineno-29-6" name="__codelineno-29-6" href="#__codelineno-29-6"></a>
+<a id="__codelineno-29-7" name="__codelineno-29-7" href="#__codelineno-29-7"></a><span class="c"># Export events to CSV</span>
+<a id="__codelineno-29-8" name="__codelineno-29-8" href="#__codelineno-29-8"></a><span class="nb">Get-WinEvent</span> <span class="n">-LogName</span> <span class="n">Security</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="n">-Path</span> <span class="n">C</span><span class="p">:\</span><span class="n">security-events</span><span class="p">.</span><span class="n">csv</span>
+<a id="__codelineno-29-9" name="__codelineno-29-9" href="#__codelineno-29-9"></a>
+<a id="__codelineno-29-10" name="__codelineno-29-10" href="#__codelineno-29-10"></a><span class="c"># cmd - query event log</span>
+<a id="__codelineno-29-11" name="__codelineno-29-11" href="#__codelineno-29-11"></a><span class="n">wevtutil</span> <span class="n">qe</span> <span class="n">Security</span> <span class="p">/</span><span class="n">q</span><span class="p">:</span><span class="s2">&quot;*[System[(EventID=4625)]]&quot;</span> <span class="p">/</span><span class="n">c</span><span class="p">:</span><span class="n">10</span> <span class="p">/</span><span class="n">f</span><span class="p">:</span><span class="n">text</span>
+</code></pre></div>
+<h3 id="sysmon">Sysmon<a class="headerlink" href="#sysmon" title="Permanent link">&para;</a></h3>
+<p>Sysmon (System Monitor) from Sysinternals provides rich telemetry beyond native Windows logging.</p>
+<p>Key Sysmon event IDs:</p>
+<table>
+<thead>
+<tr>
+<th>Event ID</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Process creation (includes command line)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>File creation time changed</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Network connection</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Image (DLL) loaded</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Remote thread creation</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Process access (handle to another process)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>File created</td>
+</tr>
+<tr>
+<td>12/13/14</td>
+<td>Registry create/set/rename</td>
+</tr>
+<tr>
+<td>15</td>
+<td>File stream created (ADS)</td>
+</tr>
+<tr>
+<td>22</td>
+<td>DNS query</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="14-powershell-for-security">14. PowerShell for Security<a class="headerlink" href="#14-powershell-for-security" title="Permanent link">&para;</a></h2>
+<h3 id="powershell-security-features">PowerShell Security Features<a class="headerlink" href="#powershell-security-features" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Execution Policy</strong></td>
+<td>Controls which scripts can run (not a security boundary)</td>
+</tr>
+<tr>
+<td><strong>Constrained Language Mode</strong></td>
+<td>Restricts PS capabilities; used with AppLocker/WDAC</td>
+</tr>
+<tr>
+<td><strong>Script Block Logging</strong></td>
+<td>Logs all script blocks to event log (ID 4104)</td>
+</tr>
+<tr>
+<td><strong>Module Logging</strong></td>
+<td>Logs module usage (ID 4103)</td>
+</tr>
+<tr>
+<td><strong>AMSI</strong></td>
+<td>Antimalware Scan Interface; scans scripts before execution</td>
+</tr>
+<tr>
+<td><strong>Transcription</strong></td>
+<td>Records all console input/output to a file</td>
+</tr>
+</tbody>
+</table>
+<h3 id="execution-policy">Execution Policy<a class="headerlink" href="#execution-policy" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a><span class="c"># Check current policy</span>
+<a id="__codelineno-30-2" name="__codelineno-30-2" href="#__codelineno-30-2"></a><span class="nb">Get-ExecutionPolicy</span> <span class="n">-List</span>
+<a id="__codelineno-30-3" name="__codelineno-30-3" href="#__codelineno-30-3"></a>
+<a id="__codelineno-30-4" name="__codelineno-30-4" href="#__codelineno-30-4"></a><span class="c"># Set policy (per scope)</span>
+<a id="__codelineno-30-5" name="__codelineno-30-5" href="#__codelineno-30-5"></a><span class="nb">Set-ExecutionPolicy</span> <span class="n">RemoteSigned</span> <span class="n">-Scope</span> <span class="n">CurrentUser</span>
+<a id="__codelineno-30-6" name="__codelineno-30-6" href="#__codelineno-30-6"></a>
+<a id="__codelineno-30-7" name="__codelineno-30-7" href="#__codelineno-30-7"></a><span class="c"># Bypass execution policy (attacker technique; for awareness)</span>
+<a id="__codelineno-30-8" name="__codelineno-30-8" href="#__codelineno-30-8"></a><span class="n">powershell</span><span class="p">.</span><span class="n">exe</span> <span class="n">-ExecutionPolicy</span> <span class="n">Bypass</span> <span class="o">-File</span> <span class="n">script</span><span class="p">.</span><span class="n">ps1</span>
+</code></pre></div>
+<h3 id="enable-script-block-logging-via-registry">Enable Script Block Logging via Registry<a class="headerlink" href="#enable-script-block-logging-via-registry" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging
+<a id="__codelineno-31-2" name="__codelineno-31-2" href="#__codelineno-31-2"></a>  EnableScriptBlockLogging = 1
+<a id="__codelineno-31-3" name="__codelineno-31-3" href="#__codelineno-31-3"></a>  EnableScriptBlockInvocationLogging = 1
+</code></pre></div>
+<h3 id="useful-security-one-liners">Useful Security One-Liners<a class="headerlink" href="#useful-security-one-liners" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a><span class="c"># List all local admin group members</span>
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a><span class="nb">Get-LocalGroupMember</span> <span class="n">-Group</span> <span class="s2">&quot;Administrators&quot;</span>
+<a id="__codelineno-32-3" name="__codelineno-32-3" href="#__codelineno-32-3"></a>
+<a id="__codelineno-32-4" name="__codelineno-32-4" href="#__codelineno-32-4"></a><span class="c"># Find scheduled tasks</span>
+<a id="__codelineno-32-5" name="__codelineno-32-5" href="#__codelineno-32-5"></a><span class="nb">Get-ScheduledTask</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="n">State</span> <span class="o">-ne</span> <span class="n">Disabled</span>
+<a id="__codelineno-32-6" name="__codelineno-32-6" href="#__codelineno-32-6"></a>
+<a id="__codelineno-32-7" name="__codelineno-32-7" href="#__codelineno-32-7"></a><span class="c"># List running services with their executable</span>
+<a id="__codelineno-32-8" name="__codelineno-32-8" href="#__codelineno-32-8"></a><span class="nb">Get-WmiObject</span> <span class="n">Win32_Service</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span> <span class="n">State</span><span class="p">,</span> <span class="n">PathName</span>
+<a id="__codelineno-32-9" name="__codelineno-32-9" href="#__codelineno-32-9"></a>
+<a id="__codelineno-32-10" name="__codelineno-32-10" href="#__codelineno-32-10"></a><span class="c"># Check for unsigned binaries in System32</span>
+<a id="__codelineno-32-11" name="__codelineno-32-11" href="#__codelineno-32-11"></a><span class="nb">Get-ChildItem</span> <span class="n">C</span><span class="p">:\</span><span class="n">Windows</span><span class="p">\</span><span class="n">System32</span><span class="p">\*.</span><span class="n">exe</span> <span class="p">|</span> <span class="nb">Get-AuthenticodeSignature</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="n">Status</span> <span class="o">-ne</span> <span class="n">Valid</span>
+<a id="__codelineno-32-12" name="__codelineno-32-12" href="#__codelineno-32-12"></a>
+<a id="__codelineno-32-13" name="__codelineno-32-13" href="#__codelineno-32-13"></a><span class="c"># List all open TCP connections with process</span>
+<a id="__codelineno-32-14" name="__codelineno-32-14" href="#__codelineno-32-14"></a><span class="nb">Get-NetTCPConnection</span> <span class="n">-State</span> <span class="n">Established</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">LocalAddress</span><span class="p">,</span> <span class="n">LocalPort</span><span class="p">,</span> <span class="n">RemoteAddress</span><span class="p">,</span> <span class="n">RemotePort</span><span class="p">,</span> <span class="n">OwningProcess</span>
+<a id="__codelineno-32-15" name="__codelineno-32-15" href="#__codelineno-32-15"></a>
+<a id="__codelineno-32-16" name="__codelineno-32-16" href="#__codelineno-32-16"></a><span class="c"># Find files modified in the last 24 hours</span>
+<a id="__codelineno-32-17" name="__codelineno-32-17" href="#__codelineno-32-17"></a><span class="nb">Get-ChildItem</span> <span class="n">-Path</span> <span class="n">C</span><span class="p">:\</span> <span class="n">-Recurse</span> <span class="o">-File</span> <span class="n">-ErrorAction</span> <span class="n">SilentlyContinue</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">LastWriteTime</span> <span class="o">-gt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="n">AddDays</span><span class="p">(-</span><span class="n">1</span><span class="p">)</span> <span class="p">}</span>
+<a id="__codelineno-32-18" name="__codelineno-32-18" href="#__codelineno-32-18"></a>
+<a id="__codelineno-32-19" name="__codelineno-32-19" href="#__codelineno-32-19"></a><span class="c"># Dump all autoruns (PowerShell equivalent)</span>
+<a id="__codelineno-32-20" name="__codelineno-32-20" href="#__codelineno-32-20"></a><span class="nb">Get-ItemProperty</span> <span class="s2">&quot;HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run&quot;</span>
+<a id="__codelineno-32-21" name="__codelineno-32-21" href="#__codelineno-32-21"></a><span class="nb">Get-ItemProperty</span> <span class="s2">&quot;HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Run&quot;</span>
+<a id="__codelineno-32-22" name="__codelineno-32-22" href="#__codelineno-32-22"></a>
+<a id="__codelineno-32-23" name="__codelineno-32-23" href="#__codelineno-32-23"></a><span class="c"># Check AppLocker policies</span>
+<a id="__codelineno-32-24" name="__codelineno-32-24" href="#__codelineno-32-24"></a><span class="nb">Get-AppLockerPolicy</span> <span class="n">-Effective</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">RuleCollections</span>
+</code></pre></div>
+<hr />
+<h2 id="15-command-line-tools">15. Command Line Tools<a class="headerlink" href="#15-command-line-tools" title="Permanent link">&para;</a></h2>
+<h3 id="built-in-security-tools">Built-in Security Tools<a class="headerlink" href="#built-in-security-tools" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Tool</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>whoami</code></td>
+<td>Current user, groups, and privileges</td>
+</tr>
+<tr>
+<td><code>net</code></td>
+<td>User, group, share, session management</td>
+</tr>
+<tr>
+<td><code>icacls</code></td>
+<td>File/directory permissions</td>
+</tr>
+<tr>
+<td><code>cacls</code></td>
+<td>Legacy permissions tool</td>
+</tr>
+<tr>
+<td><code>runas</code></td>
+<td>Run program as another user</td>
+</tr>
+<tr>
+<td><code>sc</code></td>
+<td>Service management</td>
+</tr>
+<tr>
+<td><code>reg</code></td>
+<td>Registry management</td>
+</tr>
+<tr>
+<td><code>sfc</code></td>
+<td>System File Checker</td>
+</tr>
+<tr>
+<td><code>cipher</code></td>
+<td>EFS and file wiping</td>
+</tr>
+<tr>
+<td><code>auditpol</code></td>
+<td>Audit policy configuration</td>
+</tr>
+<tr>
+<td><code>secedit</code></td>
+<td>Security template analysis</td>
+</tr>
+<tr>
+<td><code>wmic</code></td>
+<td>WMI command-line interface</td>
+</tr>
+<tr>
+<td><code>certutil</code></td>
+<td>Certificate management (abused for downloads)</td>
+</tr>
+<tr>
+<td><code>bitsadmin</code></td>
+<td>Background transfer service (abused for downloads)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="whoami-deep-dive"><code>whoami</code> Deep Dive<a class="headerlink" href="#whoami-deep-dive" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a># Current user
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>whoami
+<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>
+<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a># User SID
+<a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a>whoami /user
+<a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a>
+<a id="__codelineno-33-7" name="__codelineno-33-7" href="#__codelineno-33-7"></a># All group memberships
+<a id="__codelineno-33-8" name="__codelineno-33-8" href="#__codelineno-33-8"></a>whoami /groups
+<a id="__codelineno-33-9" name="__codelineno-33-9" href="#__codelineno-33-9"></a>
+<a id="__codelineno-33-10" name="__codelineno-33-10" href="#__codelineno-33-10"></a># Current privileges
+<a id="__codelineno-33-11" name="__codelineno-33-11" href="#__codelineno-33-11"></a>whoami /priv
+<a id="__codelineno-33-12" name="__codelineno-33-12" href="#__codelineno-33-12"></a>
+<a id="__codelineno-33-13" name="__codelineno-33-13" href="#__codelineno-33-13"></a># All info
+<a id="__codelineno-33-14" name="__codelineno-33-14" href="#__codelineno-33-14"></a>whoami /all
+</code></pre></div>
+<h3 id="wmic-examples">WMIC Examples<a class="headerlink" href="#wmic-examples" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a># Running processes
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a>wmic process list brief
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a>
+<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a># Process with command line
+<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a>wmic process get name,processid,commandline
+<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a>
+<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a># Installed software
+<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a>wmic product get name,version
+<a id="__codelineno-34-9" name="__codelineno-34-9" href="#__codelineno-34-9"></a>
+<a id="__codelineno-34-10" name="__codelineno-34-10" href="#__codelineno-34-10"></a># Startup items
+<a id="__codelineno-34-11" name="__codelineno-34-11" href="#__codelineno-34-11"></a>wmic startup list full
+<a id="__codelineno-34-12" name="__codelineno-34-12" href="#__codelineno-34-12"></a>
+<a id="__codelineno-34-13" name="__codelineno-34-13" href="#__codelineno-34-13"></a># User accounts
+<a id="__codelineno-34-14" name="__codelineno-34-14" href="#__codelineno-34-14"></a>wmic useraccount list full
+</code></pre></div>
+<h3 id="living-off-the-land-lolbins">Living Off the Land (LOLBins)<a class="headerlink" href="#living-off-the-land-lolbins" title="Permanent link">&para;</a></h3>
+<p>Tools built into Windows that are commonly abused by attackers:</p>
+<table>
+<thead>
+<tr>
+<th>Binary</th>
+<th>Abuse Technique</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>certutil.exe</code></td>
+<td>Download files, decode base64</td>
+</tr>
+<tr>
+<td><code>bitsadmin.exe</code></td>
+<td>Download files via BITS</td>
+</tr>
+<tr>
+<td><code>mshta.exe</code></td>
+<td>Execute HTA files (HTML applications)</td>
+</tr>
+<tr>
+<td><code>regsvr32.exe</code></td>
+<td>Execute DLLs / remote scriptlets (Squiblydoo)</td>
+</tr>
+<tr>
+<td><code>rundll32.exe</code></td>
+<td>Execute DLLs</td>
+</tr>
+<tr>
+<td><code>wscript.exe</code> / <code>cscript.exe</code></td>
+<td>Execute VBScript / JScript</td>
+</tr>
+<tr>
+<td><code>msiexec.exe</code></td>
+<td>Install MSI packages from URLs</td>
+</tr>
+<tr>
+<td><code>installutil.exe</code></td>
+<td>Execute .NET assemblies</td>
+</tr>
+<tr>
+<td><code>wmic.exe</code></td>
+<td>Remote code execution via WMI</td>
+</tr>
+<tr>
+<td><code>powershell.exe</code></td>
+<td>Broad scriptable capabilities</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="16-scheduled-tasks-startup-locations">16. Scheduled Tasks &amp; Startup Locations<a class="headerlink" href="#16-scheduled-tasks-startup-locations" title="Permanent link">&para;</a></h2>
+<h3 id="scheduled-tasks">Scheduled Tasks<a class="headerlink" href="#scheduled-tasks" title="Permanent link">&para;</a></h3>
+<p>Scheduled tasks are a common persistence and lateral movement mechanism.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a># List all scheduled tasks
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>schtasks /query /fo LIST /v
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a># Create a scheduled task
+<a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a>schtasks /create /tn &quot;MyTask&quot; /tr &quot;C:\Windows\System32\cmd.exe&quot; /sc daily /st 08:00
+<a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a>
+<a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a># Delete a task
+<a id="__codelineno-35-8" name="__codelineno-35-8" href="#__codelineno-35-8"></a>schtasks /delete /tn &quot;MyTask&quot; /f
+<a id="__codelineno-35-9" name="__codelineno-35-9" href="#__codelineno-35-9"></a>
+<a id="__codelineno-35-10" name="__codelineno-35-10" href="#__codelineno-35-10"></a># PowerShell
+<a id="__codelineno-35-11" name="__codelineno-35-11" href="#__codelineno-35-11"></a>Get-ScheduledTask
+<a id="__codelineno-35-12" name="__codelineno-35-12" href="#__codelineno-35-12"></a>Get-ScheduledTask -TaskName &quot;MyTask&quot; | Select-Object *
+</code></pre></div>
+<p>Task XML files stored at: <code>C:\Windows\System32\Tasks\</code></p>
+<h3 id="startup-locations-persistence-checklist">Startup Locations (Persistence Checklist)<a class="headerlink" href="#startup-locations-persistence-checklist" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a>Registry:
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>  HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a>  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+<a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a>  HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+<a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a>  HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon (Userinit, Shell)
+<a id="__codelineno-36-7" name="__codelineno-36-7" href="#__codelineno-36-7"></a>  HKLM\SYSTEM\CurrentControlSet\Services\
+<a id="__codelineno-36-8" name="__codelineno-36-8" href="#__codelineno-36-8"></a>
+<a id="__codelineno-36-9" name="__codelineno-36-9" href="#__codelineno-36-9"></a>Filesystem:
+<a id="__codelineno-36-10" name="__codelineno-36-10" href="#__codelineno-36-10"></a>  C:\Users\&lt;user&gt;\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\
+<a id="__codelineno-36-11" name="__codelineno-36-11" href="#__codelineno-36-11"></a>  C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\
+<a id="__codelineno-36-12" name="__codelineno-36-12" href="#__codelineno-36-12"></a>  C:\Windows\System32\drivers\
+<a id="__codelineno-36-13" name="__codelineno-36-13" href="#__codelineno-36-13"></a>
+<a id="__codelineno-36-14" name="__codelineno-36-14" href="#__codelineno-36-14"></a>Scheduled Tasks:
+<a id="__codelineno-36-15" name="__codelineno-36-15" href="#__codelineno-36-15"></a>  C:\Windows\System32\Tasks\
+<a id="__codelineno-36-16" name="__codelineno-36-16" href="#__codelineno-36-16"></a>
+<a id="__codelineno-36-17" name="__codelineno-36-17" href="#__codelineno-36-17"></a>Services:
+<a id="__codelineno-36-18" name="__codelineno-36-18" href="#__codelineno-36-18"></a>  Services registered in SCM
+<a id="__codelineno-36-19" name="__codelineno-36-19" href="#__codelineno-36-19"></a>
+<a id="__codelineno-36-20" name="__codelineno-36-20" href="#__codelineno-36-20"></a>WMI:
+<a id="__codelineno-36-21" name="__codelineno-36-21" href="#__codelineno-36-21"></a>  WMI Event Subscriptions (permanent; survive reboots)
+</code></pre></div>
+<hr />
+<h2 id="17-common-attack-techniques">17. Common Attack Techniques<a class="headerlink" href="#17-common-attack-techniques" title="Permanent link">&para;</a></h2>
+<h3 id="pass-the-hash-pth">Pass-the-Hash (PtH)<a class="headerlink" href="#pass-the-hash-pth" title="Permanent link">&para;</a></h3>
+<p>Using a captured NTLM hash to authenticate without knowing the plaintext password.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>Attacker obtains NTLM hash → passes hash in NTLM authentication → gains access as that user
+</code></pre></div>
+<p>Tools: Mimikatz, Impacket (<code>psexec.py</code>), CrackMapExec</p>
+<p><strong>Mitigation:</strong> Disable NTLM where possible; use Credential Guard; enable Protected Users security group.</p>
+<h3 id="pass-the-ticket-ptt">Pass-the-Ticket (PtT)<a class="headerlink" href="#pass-the-ticket-ptt" title="Permanent link">&para;</a></h3>
+<p>Stealing a Kerberos TGT or service ticket from memory and using it to authenticate.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a>Steal .kirbi ticket from LSASS → inject into current session → authenticate as ticket owner
+</code></pre></div>
+<p><strong>Mitigation:</strong> Credential Guard; monitor for 4768/4769 anomalies; short ticket lifetimes.</p>
+<h3 id="overpass-the-hash">Overpass-the-Hash<a class="headerlink" href="#overpass-the-hash" title="Permanent link">&para;</a></h3>
+<p>Use an NTLM hash to request a Kerberos TGT, combining PtH and PtT.</p>
+<h3 id="kerberoasting">Kerberoasting<a class="headerlink" href="#kerberoasting" title="Permanent link">&para;</a></h3>
+<p>Request service tickets for accounts with SPNs (Service Principal Names), then crack the ticket offline.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a><span class="c"># Find Kerberoastable accounts (PowerView)</span>
+<a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a><span class="nb">Get-DomainUser</span> <span class="n">-SPN</span>
+<a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a>
+<a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a><span class="c"># Request service tickets</span>
+<a id="__codelineno-39-5" name="__codelineno-39-5" href="#__codelineno-39-5"></a><span class="nb">Invoke-Kerberoast</span> <span class="n">-OutputFormat</span> <span class="n">Hashcat</span>
+</code></pre></div>
+<p><strong>Mitigation:</strong> Use strong, long, randomly-generated passwords for service accounts; use Managed Service Accounts (MSAs).</p>
+<h3 id="asreproasting">ASREPRoasting<a class="headerlink" href="#asreproasting" title="Permanent link">&para;</a></h3>
+<p>Targets accounts with Kerberos pre-authentication disabled. AS-REP response contains encrypted data crackable offline.</p>
+<p><strong>Mitigation:</strong> Ensure all accounts require pre-authentication (the default).</p>
+<h3 id="golden-ticket-attack">Golden Ticket Attack<a class="headerlink" href="#golden-ticket-attack" title="Permanent link">&para;</a></h3>
+<p>Forge a TGT using the <strong>KRBTGT account's NTLM hash</strong>, granting persistent, near-unlimited access to the domain.</p>
+<p><strong>Mitigation:</strong> Rotate KRBTGT password twice after a compromise; monitor for anomalous TGTs with very long lifetimes.</p>
+<h3 id="silver-ticket-attack">Silver Ticket Attack<a class="headerlink" href="#silver-ticket-attack" title="Permanent link">&para;</a></h3>
+<p>Forge a Kerberos service ticket using a service account's hash. Doesn't touch the DC; harder to detect.</p>
+<p><strong>Mitigation:</strong> Protect service account credentials; enable PAC validation.</p>
+<h3 id="dcsync-attack">DCSync Attack<a class="headerlink" href="#dcsync-attack" title="Permanent link">&para;</a></h3>
+<p>Impersonate a Domain Controller to replicate credential data from AD using DRSUAPI (Directory Replication Service).</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a>Requires: DS-Replication-Get-Changes and DS-Replication-Get-Changes-All rights
+</code></pre></div>
+<p><strong>Mitigation:</strong> Monitor event ID 4662 for unusual replication activity; restrict who holds replication rights.</p>
+<h3 id="credential-dumping-with-mimikatz">Credential Dumping with Mimikatz<a class="headerlink" href="#credential-dumping-with-mimikatz" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a># Dump credentials from LSASS (requires SYSTEM or SeDebugPrivilege)
+<a id="__codelineno-41-2" name="__codelineno-41-2" href="#__codelineno-41-2"></a>privilege::debug
+<a id="__codelineno-41-3" name="__codelineno-41-3" href="#__codelineno-41-3"></a>sekurlsa::logonpasswords
+<a id="__codelineno-41-4" name="__codelineno-41-4" href="#__codelineno-41-4"></a>
+<a id="__codelineno-41-5" name="__codelineno-41-5" href="#__codelineno-41-5"></a># Dump SAM hashes
+<a id="__codelineno-41-6" name="__codelineno-41-6" href="#__codelineno-41-6"></a>lsadump::sam
+<a id="__codelineno-41-7" name="__codelineno-41-7" href="#__codelineno-41-7"></a>
+<a id="__codelineno-41-8" name="__codelineno-41-8" href="#__codelineno-41-8"></a># DCSync
+<a id="__codelineno-41-9" name="__codelineno-41-9" href="#__codelineno-41-9"></a>lsadump::dcsync /user:Administrator
+</code></pre></div>
+<p><strong>Mitigation:</strong> Credential Guard; Protected Users group; EDR with LSASS protection.</p>
+<h3 id="llmnr-nbt-ns-poisoning">LLMNR / NBT-NS Poisoning<a class="headerlink" href="#llmnr-nbt-ns-poisoning" title="Permanent link">&para;</a></h3>
+<p>When DNS fails, Windows falls back to LLMNR and NBT-NS for name resolution. Attackers respond to these broadcasts to capture NTLMv2 hashes.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a>Victim → &quot;Who is FileServer?&quot; (LLMNR broadcast)
+<a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a>Attacker → &quot;I am FileServer!&quot; → victim sends NTLMv2 hash
+</code></pre></div>
+<p>Tools: Responder</p>
+<p><strong>Mitigation:</strong> Disable LLMNR and NBT-NS via Group Policy.</p>
+<h3 id="bloodhound-ad-attack-path-analysis">Bloodhound / AD Attack Path Analysis<a class="headerlink" href="#bloodhound-ad-attack-path-analysis" title="Permanent link">&para;</a></h3>
+<p>BloodHound visualizes attack paths through Active Directory by mapping relationships between objects.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a><span class="c"># Collect data (SharpHound)</span>
+<a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a><span class="p">.\</span><span class="n">SharpHound</span><span class="p">.</span><span class="n">exe</span> <span class="n">-c</span> <span class="n">All</span>
+</code></pre></div>
+<p><strong>Mitigation:</strong> Audit group memberships and ACL delegations; remove unnecessary admin rights.</p>
+<hr />
+<h2 id="18-lateral-movement">18. Lateral Movement<a class="headerlink" href="#18-lateral-movement" title="Permanent link">&para;</a></h2>
+<h3 id="techniques">Techniques<a class="headerlink" href="#techniques" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Technique</th>
+<th>Protocol</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>PsExec</strong></td>
+<td>SMB + RPC</td>
+<td>Sysinternals PsExec, Impacket</td>
+</tr>
+<tr>
+<td><strong>WMI</strong></td>
+<td>RPC / DCOM</td>
+<td><code>wmic /node:</code>, Impacket</td>
+</tr>
+<tr>
+<td><strong>WinRM</strong></td>
+<td>HTTP 5985/5986</td>
+<td><code>Enter-PSSession</code>, Evil-WinRM</td>
+</tr>
+<tr>
+<td><strong>RDP</strong></td>
+<td>TCP 3389</td>
+<td><code>mstsc.exe</code></td>
+</tr>
+<tr>
+<td><strong>SMB</strong></td>
+<td>TCP 445</td>
+<td>Pass-the-Hash via SMB</td>
+</tr>
+<tr>
+<td><strong>DCOM</strong></td>
+<td>RPC</td>
+<td>MMC20.Application, ShellBrowserWindow</td>
+</tr>
+</tbody>
+</table>
+<h3 id="winrm-remote-session">WinRM Remote Session<a class="headerlink" href="#winrm-remote-session" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a><span class="c"># Create a remote PS session</span>
+<a id="__codelineno-44-2" name="__codelineno-44-2" href="#__codelineno-44-2"></a><span class="nb">Enter-PSSession</span> <span class="n">-ComputerName</span> <span class="n">target</span> <span class="n">-Credential</span> <span class="p">(</span><span class="nb">Get-Credential</span><span class="p">)</span>
+<a id="__codelineno-44-3" name="__codelineno-44-3" href="#__codelineno-44-3"></a>
+<a id="__codelineno-44-4" name="__codelineno-44-4" href="#__codelineno-44-4"></a><span class="c"># Run a command remotely</span>
+<a id="__codelineno-44-5" name="__codelineno-44-5" href="#__codelineno-44-5"></a><span class="nb">Invoke-Command</span> <span class="n">-ComputerName</span> <span class="n">target</span> <span class="n">-ScriptBlock</span> <span class="p">{</span> <span class="n">whoami</span> <span class="p">}</span> <span class="n">-Credential</span> <span class="nv">$cred</span>
+<a id="__codelineno-44-6" name="__codelineno-44-6" href="#__codelineno-44-6"></a>
+<a id="__codelineno-44-7" name="__codelineno-44-7" href="#__codelineno-44-7"></a><span class="c"># Enable WinRM on target (requires admin)</span>
+<a id="__codelineno-44-8" name="__codelineno-44-8" href="#__codelineno-44-8"></a><span class="nb">Enable-PSRemoting</span> <span class="n">-Force</span>
+</code></pre></div>
+<h3 id="detection">Detection<a class="headerlink" href="#detection" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Event 4624 (logon type 3) for network logons</li>
+<li>Event 4648 for explicit credential use</li>
+<li>Event 7045 for new service installations (PsExec)</li>
+<li>Sysmon event 3 (network connections)</li>
+</ul>
+<hr />
+<h2 id="19-privilege-escalation">19. Privilege Escalation<a class="headerlink" href="#19-privilege-escalation" title="Permanent link">&para;</a></h2>
+<h3 id="common-windows-privesc-vectors">Common Windows PrivEsc Vectors<a class="headerlink" href="#common-windows-privesc-vectors" title="Permanent link">&para;</a></h3>
+<p><strong>Unquoted Service Paths:</strong></p>
+<p>If a service binary path has spaces and is unquoted, Windows searches each path component:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-45-1" name="__codelineno-45-1" href="#__codelineno-45-1"></a>C:\Program Files\My App\service.exe
+<a id="__codelineno-45-2" name="__codelineno-45-2" href="#__codelineno-45-2"></a>→ Windows tries: C:\Program.exe, C:\Program Files\My.exe, ...
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-46-1" name="__codelineno-46-1" href="#__codelineno-46-1"></a># Find unquoted service paths
+<a id="__codelineno-46-2" name="__codelineno-46-2" href="#__codelineno-46-2"></a>wmic service get name,pathname | findstr /i /v &quot;C:\Windows\\&quot; | findstr /i /v &quot;&quot;&quot;
+</code></pre></div>
+<p><strong>Weak Service Permissions:</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-47-1" name="__codelineno-47-1" href="#__codelineno-47-1"></a># Check service permissions (Sysinternals accesschk)
+<a id="__codelineno-47-2" name="__codelineno-47-2" href="#__codelineno-47-2"></a>accesschk.exe -uwcqv &quot;Authenticated Users&quot; *
+<a id="__codelineno-47-3" name="__codelineno-47-3" href="#__codelineno-47-3"></a>accesschk.exe -uwcqv &quot;Everyone&quot; *
+</code></pre></div>
+<p><strong>Weak Registry Permissions:</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-48-1" name="__codelineno-48-1" href="#__codelineno-48-1"></a><span class="c"># Check registry key permissions on services</span>
+<a id="__codelineno-48-2" name="__codelineno-48-2" href="#__codelineno-48-2"></a><span class="nb">Get-Acl</span> <span class="s2">&quot;HKLM:\SYSTEM\CurrentControlSet\Services\VulnService&quot;</span>
+</code></pre></div>
+<p><strong>DLL Hijacking:</strong></p>
+<p>Windows searches for DLLs in this order (SafeDllSearchMode enabled):
+1. Application directory
+2. System directory (<code>System32</code>)
+3. 16-bit system directory
+4. Windows directory
+5. Current directory
+6. Directories in <code>PATH</code></p>
+<p>If a writable directory appears before the legitimate DLL location, an attacker can place a malicious DLL there.</p>
+<p><strong>AlwaysInstallElevated:</strong></p>
+<p>If both of these registry keys are set to 1, MSI packages install with SYSTEM privileges:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-49-1" name="__codelineno-49-1" href="#__codelineno-49-1"></a>HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated
+<a id="__codelineno-49-2" name="__codelineno-49-2" href="#__codelineno-49-2"></a>HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer\AlwaysInstallElevated
+</code></pre></div></p>
+<p><strong>Token Impersonation:</strong></p>
+<p>Accounts with <code>SeImpersonatePrivilege</code> (common for service accounts) can impersonate other tokens. Tools: Juicy Potato, Rogue Potato, PrintSpoofer.</p>
+<p><strong>Stored Credentials:</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-50-1" name="__codelineno-50-1" href="#__codelineno-50-1"></a># List stored credentials
+<a id="__codelineno-50-2" name="__codelineno-50-2" href="#__codelineno-50-2"></a>cmdkey /list
+<a id="__codelineno-50-3" name="__codelineno-50-3" href="#__codelineno-50-3"></a>
+<a id="__codelineno-50-4" name="__codelineno-50-4" href="#__codelineno-50-4"></a># Use stored credentials
+<a id="__codelineno-50-5" name="__codelineno-50-5" href="#__codelineno-50-5"></a>runas /savecred /user:administrator cmd.exe
+</code></pre></div>
+<hr />
+<h2 id="20-persistence-mechanisms">20. Persistence Mechanisms<a class="headerlink" href="#20-persistence-mechanisms" title="Permanent link">&para;</a></h2>
+<h3 id="registry-autoruns">Registry Autoruns<a class="headerlink" href="#registry-autoruns" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-51-1" name="__codelineno-51-1" href="#__codelineno-51-1"></a><span class="c"># Add malicious autorun (attacker technique; for awareness)</span>
+<a id="__codelineno-51-2" name="__codelineno-51-2" href="#__codelineno-51-2"></a><span class="n">reg</span> <span class="n">add</span> <span class="s2">&quot;HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run&quot;</span> <span class="p">/</span><span class="n">v</span> <span class="s2">&quot;Updater&quot;</span> <span class="p">/</span><span class="n">t</span> <span class="n">REG_SZ</span> <span class="p">/</span><span class="n">d</span> <span class="s2">&quot;C:\malware.exe&quot;</span>
+</code></pre></div>
+<h3 id="scheduled-tasks_1">Scheduled Tasks<a class="headerlink" href="#scheduled-tasks_1" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-52-1" name="__codelineno-52-1" href="#__codelineno-52-1"></a>schtasks /create /tn &quot;WindowsUpdate&quot; /tr &quot;C:\backdoor.exe&quot; /sc onlogon /ru SYSTEM
+</code></pre></div>
+<h3 id="services">Services<a class="headerlink" href="#services" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-53-1" name="__codelineno-53-1" href="#__codelineno-53-1"></a>sc create backdoor binpath= &quot;C:\malware.exe&quot; start= auto
+<a id="__codelineno-53-2" name="__codelineno-53-2" href="#__codelineno-53-2"></a>sc start backdoor
+</code></pre></div>
+<h3 id="wmi-event-subscriptions">WMI Event Subscriptions<a class="headerlink" href="#wmi-event-subscriptions" title="Permanent link">&para;</a></h3>
+<p>Persistent WMI subscriptions survive reboots and are invisible in normal tools:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-54-1" name="__codelineno-54-1" href="#__codelineno-54-1"></a><span class="c"># Create WMI persistence (attacker technique; for awareness)</span>
+<a id="__codelineno-54-2" name="__codelineno-54-2" href="#__codelineno-54-2"></a><span class="nv">$FilterArgs</span> <span class="p">=</span> <span class="p">@{</span><span class="n">Name</span><span class="p">=</span><span class="s1">&#39;PersistFilter&#39;</span><span class="p">;</span> <span class="n">EventNameSpace</span><span class="p">=</span><span class="s1">&#39;root\CimV2&#39;</span><span class="p">;</span> <span class="n">QueryLanguage</span><span class="p">=</span><span class="s2">&quot;WQL&quot;</span><span class="p">;</span> <span class="n">Query</span><span class="p">=</span><span class="s2">&quot;SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA &#39;Win32_PerfFormattedData_PerfOS_System&#39;&quot;</span><span class="p">}</span>
+<a id="__codelineno-54-3" name="__codelineno-54-3" href="#__codelineno-54-3"></a><span class="nv">$Filter</span> <span class="p">=</span> <span class="nb">New-CimInstance</span> <span class="n">-Namespace</span> <span class="n">root</span><span class="p">/</span><span class="n">subscription</span> <span class="n">-ClassName</span> <span class="n">__EventFilter</span> <span class="n">-Property</span> <span class="nv">$FilterArgs</span>
+</code></pre></div>
+<p>Detection: Check <code>HKLM\SOFTWARE\Microsoft\WBEM\ESS\</code> and query WMI subscriptions:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-55-1" name="__codelineno-55-1" href="#__codelineno-55-1"></a><span class="nb">Get-WMIObject</span> <span class="n">-Namespace</span> <span class="n">root</span><span class="p">\</span><span class="n">subscription</span> <span class="n">-Class</span> <span class="n">__EventFilter</span>
+<a id="__codelineno-55-2" name="__codelineno-55-2" href="#__codelineno-55-2"></a><span class="nb">Get-WMIObject</span> <span class="n">-Namespace</span> <span class="n">root</span><span class="p">\</span><span class="n">subscription</span> <span class="n">-Class</span> <span class="n">__EventConsumer</span>
+</code></pre></div></p>
+<h3 id="dll-hijacking-for-persistence">DLL Hijacking for Persistence<a class="headerlink" href="#dll-hijacking-for-persistence" title="Permanent link">&para;</a></h3>
+<p>Place malicious DLL in a writable directory that a legitimate, auto-starting application loads.</p>
+<hr />
+<h2 id="21-defense-hardening">21. Defense &amp; Hardening<a class="headerlink" href="#21-defense-hardening" title="Permanent link">&para;</a></h2>
+<h3 id="cis-benchmarks-for-windows">CIS Benchmarks for Windows<a class="headerlink" href="#cis-benchmarks-for-windows" title="Permanent link">&para;</a></h3>
+<p>The <strong>CIS (Center for Internet Security) Benchmarks</strong> provide prescriptive hardening guidance. Key recommendations:</p>
+<ul>
+<li>Disable unnecessary services (e.g. Telnet, FTP server, Remote Registry)</li>
+<li>Enable audit policies for logon, account management, object access, policy changes</li>
+<li>Configure password policy: min 14 chars, complexity, 90-day max age</li>
+<li>Set account lockout: 5 attempts, 30-minute lockout</li>
+<li>Disable SMBv1</li>
+<li>Enable Windows Defender and keep signatures updated</li>
+<li>Enable BitLocker on all drives</li>
+<li>Restrict local administrator accounts</li>
+<li>Enable Credential Guard and Device Guard where possible</li>
+</ul>
+<h3 id="disable-unnecessary-features">Disable Unnecessary Features<a class="headerlink" href="#disable-unnecessary-features" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-56-1" name="__codelineno-56-1" href="#__codelineno-56-1"></a><span class="c"># Disable SMBv1</span>
+<a id="__codelineno-56-2" name="__codelineno-56-2" href="#__codelineno-56-2"></a><span class="nb">Set-SmbServerConfiguration</span> <span class="n">-EnableSMB1Protocol</span> <span class="nv">$false</span> <span class="n">-Force</span>
+<a id="__codelineno-56-3" name="__codelineno-56-3" href="#__codelineno-56-3"></a>
+<a id="__codelineno-56-4" name="__codelineno-56-4" href="#__codelineno-56-4"></a><span class="c"># Disable LLMNR (GPO preferred, or registry)</span>
+<a id="__codelineno-56-5" name="__codelineno-56-5" href="#__codelineno-56-5"></a><span class="c"># HKLM\SOFTWARE\Policies\Microsoft\Windows NT\DNSClient\EnableMulticast = 0</span>
+<a id="__codelineno-56-6" name="__codelineno-56-6" href="#__codelineno-56-6"></a>
+<a id="__codelineno-56-7" name="__codelineno-56-7" href="#__codelineno-56-7"></a><span class="c"># Disable NBT-NS (per-adapter via WMI)</span>
+<a id="__codelineno-56-8" name="__codelineno-56-8" href="#__codelineno-56-8"></a><span class="nv">$adapters</span> <span class="p">=</span> <span class="nb">Get-WmiObject</span> <span class="n">Win32_NetworkAdapterConfiguration</span>
+<a id="__codelineno-56-9" name="__codelineno-56-9" href="#__codelineno-56-9"></a><span class="nv">$adapters</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">TcpipNetbiosOptions</span> <span class="o">-ne</span> <span class="n">2</span> <span class="p">}</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">SetTcpipNetbios</span><span class="p">(</span><span class="n">2</span><span class="p">)</span> <span class="p">}</span>
+<a id="__codelineno-56-10" name="__codelineno-56-10" href="#__codelineno-56-10"></a>
+<a id="__codelineno-56-11" name="__codelineno-56-11" href="#__codelineno-56-11"></a><span class="c"># Disable PowerShell v2 (older version bypasses AMSI)</span>
+<a id="__codelineno-56-12" name="__codelineno-56-12" href="#__codelineno-56-12"></a><span class="nb">Disable-WindowsOptionalFeature</span> <span class="n">-Online</span> <span class="n">-FeatureName</span> <span class="n">MicrosoftWindowsPowerShellV2Root</span>
+</code></pre></div>
+<h3 id="protected-users-security-group">Protected Users Security Group<a class="headerlink" href="#protected-users-security-group" title="Permanent link">&para;</a></h3>
+<p>Members of the <strong>Protected Users</strong> group receive automatic protections:
+- Cannot use NTLM, Digest, or CredSSP
+- Kerberos tickets use AES only; no RC4
+- No credential caching
+- TGT lifetime limited to 4 hours</p>
+<p>Add privileged accounts (Domain Admins) to this group.</p>
+<h3 id="attack-surface-reduction-asr-rules">Attack Surface Reduction (ASR) Rules<a class="headerlink" href="#attack-surface-reduction-asr-rules" title="Permanent link">&para;</a></h3>
+<p>Key ASR rules to enable:</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Block Office macros from spawning child processes</td>
+<td>Stops macro-based malware</td>
+</tr>
+<tr>
+<td>Block execution of potentially obfuscated scripts</td>
+<td>AMSI-level detection</td>
+</tr>
+<tr>
+<td>Block credential stealing from LSASS</td>
+<td>LSASS dump protection</td>
+</tr>
+<tr>
+<td>Block untrusted and unsigned processes from USB</td>
+<td>USB malware</td>
+</tr>
+<tr>
+<td>Block persistence through WMI event subscriptions</td>
+<td>WMI persistence</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-57-1" name="__codelineno-57-1" href="#__codelineno-57-1"></a><span class="c"># Enable an ASR rule (requires Defender)</span>
+<a id="__codelineno-57-2" name="__codelineno-57-2" href="#__codelineno-57-2"></a><span class="nb">Add-MpPreference</span> <span class="n">-AttackSurfaceReductionRules_Ids</span> <span class="p">&lt;</span><span class="n">RULE_GUID</span><span class="p">&gt;</span> <span class="n">-AttackSurfaceReductionRules_Actions</span> <span class="n">Enabled</span>
+</code></pre></div>
+<h3 id="logging-recommendations">Logging Recommendations<a class="headerlink" href="#logging-recommendations" title="Permanent link">&para;</a></h3>
+<p>Enable the following via Group Policy or <code>auditpol</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-58-1" name="__codelineno-58-1" href="#__codelineno-58-1"></a>auditpol /set /subcategory:&quot;Logon&quot; /success:enable /failure:enable
+<a id="__codelineno-58-2" name="__codelineno-58-2" href="#__codelineno-58-2"></a>auditpol /set /subcategory:&quot;Account Logon&quot; /success:enable /failure:enable
+<a id="__codelineno-58-3" name="__codelineno-58-3" href="#__codelineno-58-3"></a>auditpol /set /subcategory:&quot;Account Management&quot; /success:enable /failure:enable
+<a id="__codelineno-58-4" name="__codelineno-58-4" href="#__codelineno-58-4"></a>auditpol /set /subcategory:&quot;Process Creation&quot; /success:enable
+<a id="__codelineno-58-5" name="__codelineno-58-5" href="#__codelineno-58-5"></a>auditpol /set /subcategory:&quot;Policy Change&quot; /success:enable /failure:enable
+<a id="__codelineno-58-6" name="__codelineno-58-6" href="#__codelineno-58-6"></a>auditpol /set /subcategory:&quot;Privilege Use&quot; /success:enable /failure:enable
+</code></pre></div>
+<p>Also deploy <strong>Sysmon</strong> with a community config (e.g. SwiftOnSecurity or olafhartong's config).</p>
+<hr />
+<h2 id="22-forensics-incident-response">22. Forensics &amp; Incident Response<a class="headerlink" href="#22-forensics-incident-response" title="Permanent link">&para;</a></h2>
+<h3 id="volatile-data-collect-first">Volatile Data (Collect First)<a class="headerlink" href="#volatile-data-collect-first" title="Permanent link">&para;</a></h3>
+<p>When responding to an incident, collect volatile (in-memory) data before anything else:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-59-1" name="__codelineno-59-1" href="#__codelineno-59-1"></a><span class="c"># Running processes</span>
+<a id="__codelineno-59-2" name="__codelineno-59-2" href="#__codelineno-59-2"></a><span class="nb">Get-Process</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span> <span class="n">Id</span><span class="p">,</span> <span class="n">Path</span><span class="p">,</span> <span class="n">StartTime</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="n">processes</span><span class="p">.</span><span class="n">csv</span>
+<a id="__codelineno-59-3" name="__codelineno-59-3" href="#__codelineno-59-3"></a>
+<a id="__codelineno-59-4" name="__codelineno-59-4" href="#__codelineno-59-4"></a><span class="c"># Network connections</span>
+<a id="__codelineno-59-5" name="__codelineno-59-5" href="#__codelineno-59-5"></a><span class="nb">Get-NetTCPConnection</span> <span class="p">|</span> <span class="nb">Export-Csv</span> <span class="n">connections</span><span class="p">.</span><span class="n">csv</span>
+<a id="__codelineno-59-6" name="__codelineno-59-6" href="#__codelineno-59-6"></a>
+<a id="__codelineno-59-7" name="__codelineno-59-7" href="#__codelineno-59-7"></a><span class="c"># Logged-in users</span>
+<a id="__codelineno-59-8" name="__codelineno-59-8" href="#__codelineno-59-8"></a><span class="n">query</span> <span class="n">user</span>
+<a id="__codelineno-59-9" name="__codelineno-59-9" href="#__codelineno-59-9"></a>
+<a id="__codelineno-59-10" name="__codelineno-59-10" href="#__codelineno-59-10"></a><span class="c"># Open files / handles</span>
+<a id="__codelineno-59-11" name="__codelineno-59-11" href="#__codelineno-59-11"></a><span class="n">handle</span><span class="p">.</span><span class="n">exe</span> <span class="p">(</span><span class="n">Sysinternals</span><span class="p">)</span>
+<a id="__codelineno-59-12" name="__codelineno-59-12" href="#__codelineno-59-12"></a>
+<a id="__codelineno-59-13" name="__codelineno-59-13" href="#__codelineno-59-13"></a><span class="c"># Clipboard</span>
+<a id="__codelineno-59-14" name="__codelineno-59-14" href="#__codelineno-59-14"></a><span class="nb">Get-Clipboard</span>
+<a id="__codelineno-59-15" name="__codelineno-59-15" href="#__codelineno-59-15"></a>
+<a id="__codelineno-59-16" name="__codelineno-59-16" href="#__codelineno-59-16"></a><span class="c"># Environment variables</span>
+<a id="__codelineno-59-17" name="__codelineno-59-17" href="#__codelineno-59-17"></a><span class="nb">Get-ChildItem</span> <span class="n">Env</span><span class="p">:</span>
+</code></pre></div>
+<h3 id="key-forensic-artifacts">Key Forensic Artifacts<a class="headerlink" href="#key-forensic-artifacts" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Artifact</th>
+<th>Location</th>
+<th>What It Shows</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Prefetch</strong></td>
+<td><code>C:\Windows\Prefetch\</code></td>
+<td>Evidence of program execution (last 8 run times)</td>
+</tr>
+<tr>
+<td><strong>ShimCache</strong></td>
+<td>Registry <code>HKLM\SYSTEM\...\AppCompatCache</code></td>
+<td>Programs that ran (even deleted ones)</td>
+</tr>
+<tr>
+<td><strong>AmCache</strong></td>
+<td><code>C:\Windows\appcompat\Programs\Amcache.hve</code></td>
+<td>Executable metadata, first run time</td>
+</tr>
+<tr>
+<td><strong>Recent files</strong></td>
+<td><code>%AppData%\Microsoft\Windows\Recent\</code></td>
+<td>Recently opened files (LNK files)</td>
+</tr>
+<tr>
+<td><strong>Jump Lists</strong></td>
+<td><code>%AppData%\Microsoft\Windows\Recent\AutomaticDestinations\</code></td>
+<td>Recently opened files per application</td>
+</tr>
+<tr>
+<td><strong>Browser history</strong></td>
+<td>User profile → browser directories</td>
+<td>Websites visited</td>
+</tr>
+<tr>
+<td><strong>MFT</strong></td>
+<td><code>C:\$MFT</code></td>
+<td>NTFS file system metadata (requires raw access)</td>
+</tr>
+<tr>
+<td><strong>VSS / Shadow Copies</strong></td>
+<td><code>\\?\GLOBALROOT\Device\HarddiskVolumeShadowCopyN\</code></td>
+<td>Previous file versions</td>
+</tr>
+<tr>
+<td><strong>Event logs</strong></td>
+<td><code>C:\Windows\System32\winevt\Logs\</code></td>
+<td>Authentication, process, policy events</td>
+</tr>
+<tr>
+<td><strong>$Recycle.Bin</strong></td>
+<td><code>C:\$Recycle.Bin\</code></td>
+<td>Deleted files with original paths</td>
+</tr>
+<tr>
+<td><strong>SAM / SYSTEM / SECURITY</strong></td>
+<td><code>C:\Windows\System32\config\</code></td>
+<td>User hashes, LSA secrets</td>
+</tr>
+<tr>
+<td><strong>NTDS.dit</strong></td>
+<td>DC only — <code>C:\Windows\NTDS\</code></td>
+<td>All AD credentials</td>
+</tr>
+</tbody>
+</table>
+<h3 id="memory-analysis">Memory Analysis<a class="headerlink" href="#memory-analysis" title="Permanent link">&para;</a></h3>
+<p>Memory forensics can recover running processes, network connections, injected code, and credentials.</p>
+<p>Tools: <strong>Volatility 3</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-60-1" name="__codelineno-60-1" href="#__codelineno-60-1"></a><span class="c1"># Image info</span>
+<a id="__codelineno-60-2" name="__codelineno-60-2" href="#__codelineno-60-2"></a>python<span class="w"> </span>vol.py<span class="w"> </span>-f<span class="w"> </span>memory.dmp<span class="w"> </span>windows.info
+<a id="__codelineno-60-3" name="__codelineno-60-3" href="#__codelineno-60-3"></a>
+<a id="__codelineno-60-4" name="__codelineno-60-4" href="#__codelineno-60-4"></a><span class="c1"># Running processes</span>
+<a id="__codelineno-60-5" name="__codelineno-60-5" href="#__codelineno-60-5"></a>python<span class="w"> </span>vol.py<span class="w"> </span>-f<span class="w"> </span>memory.dmp<span class="w"> </span>windows.pslist
+<a id="__codelineno-60-6" name="__codelineno-60-6" href="#__codelineno-60-6"></a>python<span class="w"> </span>vol.py<span class="w"> </span>-f<span class="w"> </span>memory.dmp<span class="w"> </span>windows.pstree
+<a id="__codelineno-60-7" name="__codelineno-60-7" href="#__codelineno-60-7"></a>
+<a id="__codelineno-60-8" name="__codelineno-60-8" href="#__codelineno-60-8"></a><span class="c1"># Network connections</span>
+<a id="__codelineno-60-9" name="__codelineno-60-9" href="#__codelineno-60-9"></a>python<span class="w"> </span>vol.py<span class="w"> </span>-f<span class="w"> </span>memory.dmp<span class="w"> </span>windows.netstat
+<a id="__codelineno-60-10" name="__codelineno-60-10" href="#__codelineno-60-10"></a>
+<a id="__codelineno-60-11" name="__codelineno-60-11" href="#__codelineno-60-11"></a><span class="c1"># Injected code / hollowed processes</span>
+<a id="__codelineno-60-12" name="__codelineno-60-12" href="#__codelineno-60-12"></a>python<span class="w"> </span>vol.py<span class="w"> </span>-f<span class="w"> </span>memory.dmp<span class="w"> </span>windows.malfind
+<a id="__codelineno-60-13" name="__codelineno-60-13" href="#__codelineno-60-13"></a>
+<a id="__codelineno-60-14" name="__codelineno-60-14" href="#__codelineno-60-14"></a><span class="c1"># LSASS credential extraction</span>
+<a id="__codelineno-60-15" name="__codelineno-60-15" href="#__codelineno-60-15"></a>python<span class="w"> </span>vol.py<span class="w"> </span>-f<span class="w"> </span>memory.dmp<span class="w"> </span>windows.lsadump
+</code></pre></div>
+<h3 id="quick-triage-commands">Quick Triage Commands<a class="headerlink" href="#quick-triage-commands" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-61-1" name="__codelineno-61-1" href="#__codelineno-61-1"></a><span class="c"># All autorun locations</span>
+<a id="__codelineno-61-2" name="__codelineno-61-2" href="#__codelineno-61-2"></a><span class="nb">Get-CimInstance</span> <span class="n">Win32_StartupCommand</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span> <span class="n">Command</span><span class="p">,</span> <span class="n">Location</span><span class="p">,</span> <span class="n">User</span>
+<a id="__codelineno-61-3" name="__codelineno-61-3" href="#__codelineno-61-3"></a>
+<a id="__codelineno-61-4" name="__codelineno-61-4" href="#__codelineno-61-4"></a><span class="c"># Recently modified files in sensitive paths</span>
+<a id="__codelineno-61-5" name="__codelineno-61-5" href="#__codelineno-61-5"></a><span class="nb">Get-ChildItem</span> <span class="n">C</span><span class="p">:\</span><span class="n">Windows</span><span class="p">\</span><span class="n">System32</span> <span class="o">-File</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">LastWriteTime</span> <span class="o">-gt</span> <span class="p">(</span><span class="nb">Get-Date</span><span class="p">).</span><span class="n">AddDays</span><span class="p">(-</span><span class="n">7</span><span class="p">)</span> <span class="p">}</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">LastWriteTime</span> <span class="n">-Descending</span>
+<a id="__codelineno-61-6" name="__codelineno-61-6" href="#__codelineno-61-6"></a>
+<a id="__codelineno-61-7" name="__codelineno-61-7" href="#__codelineno-61-7"></a><span class="c"># Suspicious scheduled tasks</span>
+<a id="__codelineno-61-8" name="__codelineno-61-8" href="#__codelineno-61-8"></a><span class="nb">Get-ScheduledTask</span> <span class="p">|</span> <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">TaskPath</span> <span class="o">-notlike</span> <span class="s2">&quot;\Microsoft\*&quot;</span> <span class="p">}</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">TaskName</span><span class="p">,</span> <span class="n">TaskPath</span>
+<a id="__codelineno-61-9" name="__codelineno-61-9" href="#__codelineno-61-9"></a>
+<a id="__codelineno-61-10" name="__codelineno-61-10" href="#__codelineno-61-10"></a><span class="c"># Unsigned running processes</span>
+<a id="__codelineno-61-11" name="__codelineno-61-11" href="#__codelineno-61-11"></a><span class="nb">Get-Process</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span>
+<a id="__codelineno-61-12" name="__codelineno-61-12" href="#__codelineno-61-12"></a>  <span class="k">try</span> <span class="p">{</span>
+<a id="__codelineno-61-13" name="__codelineno-61-13" href="#__codelineno-61-13"></a>    <span class="nv">$sig</span> <span class="p">=</span> <span class="nb">Get-AuthenticodeSignature</span> <span class="nv">$_</span><span class="p">.</span><span class="n">Path</span> <span class="n">-ErrorAction</span> <span class="n">Stop</span>
+<a id="__codelineno-61-14" name="__codelineno-61-14" href="#__codelineno-61-14"></a>    <span class="k">if</span> <span class="p">(</span><span class="nv">$sig</span><span class="p">.</span><span class="n">Status</span> <span class="o">-ne</span> <span class="s1">&#39;Valid&#39;</span><span class="p">)</span> <span class="p">{</span> <span class="nv">$_</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span> <span class="n">Id</span><span class="p">,</span> <span class="n">Path</span> <span class="p">}</span>
+<a id="__codelineno-61-15" name="__codelineno-61-15" href="#__codelineno-61-15"></a>  <span class="p">}</span> <span class="k">catch</span> <span class="p">{}</span>
+<a id="__codelineno-61-16" name="__codelineno-61-16" href="#__codelineno-61-16"></a><span class="p">}</span>
+<a id="__codelineno-61-17" name="__codelineno-61-17" href="#__codelineno-61-17"></a>
+<a id="__codelineno-61-18" name="__codelineno-61-18" href="#__codelineno-61-18"></a><span class="c"># WMI subscriptions</span>
+<a id="__codelineno-61-19" name="__codelineno-61-19" href="#__codelineno-61-19"></a><span class="nb">Get-WMIObject</span> <span class="n">-Namespace</span> <span class="n">root</span><span class="p">\</span><span class="n">subscription</span> <span class="n">-Class</span> <span class="n">__EventFilter</span> <span class="p">|</span> <span class="nb">Select-Object</span> <span class="n">Name</span><span class="p">,</span> <span class="n">Query</span>
+<a id="__codelineno-61-20" name="__codelineno-61-20" href="#__codelineno-61-20"></a><span class="nb">Get-WMIObject</span> <span class="n">-Namespace</span> <span class="n">root</span><span class="p">\</span><span class="n">subscription</span> <span class="n">-Class</span> <span class="n">__EventConsumer</span>
+</code></pre></div>
+<hr />
+<h2 id="quick-reference-key-windows-security-concepts">Quick Reference: Key Windows Security Concepts<a class="headerlink" href="#quick-reference-key-windows-security-concepts" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Summary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SAM</strong></td>
+<td>Local user credential store (NTLM hashes)</td>
+</tr>
+<tr>
+<td><strong>LSA</strong></td>
+<td>Local Security Authority; handles authentication</td>
+</tr>
+<tr>
+<td><strong>LSASS</strong></td>
+<td>LSA Subsystem Service; prime target for credential dumping</td>
+</tr>
+<tr>
+<td><strong>NTLM</strong></td>
+<td>Legacy auth protocol; vulnerable to PtH and relay attacks</td>
+</tr>
+<tr>
+<td><strong>Kerberos</strong></td>
+<td>Ticket-based auth; default for AD; vulnerable to Kerberoasting, Golden/Silver tickets</td>
+</tr>
+<tr>
+<td><strong>SID</strong></td>
+<td>Security Identifier; uniquely identifies every security principal</td>
+</tr>
+<tr>
+<td><strong>ACL/ACE</strong></td>
+<td>Access Control List / Entry; defines permissions on objects</td>
+</tr>
+<tr>
+<td><strong>UAC</strong></td>
+<td>User Account Control; prevents unauthorized elevation</td>
+</tr>
+<tr>
+<td><strong>Integrity Level</strong></td>
+<td>Mandatory access control mechanism (Low/Medium/High/System)</td>
+</tr>
+<tr>
+<td><strong>Credential Guard</strong></td>
+<td>VBS-based LSASS isolation; prevents credential dumping</td>
+</tr>
+<tr>
+<td><strong>AMSI</strong></td>
+<td>Antimalware Scan Interface; scans scripts at runtime</td>
+</tr>
+<tr>
+<td><strong>ASR</strong></td>
+<td>Attack Surface Reduction; Defender rules blocking common attack patterns</td>
+</tr>
+<tr>
+<td><strong>AppLocker</strong></td>
+<td>Application whitelisting by publisher, path, or hash</td>
+</tr>
+<tr>
+<td><strong>WMI</strong></td>
+<td>Windows Management Instrumentation; powerful admin API; abused for lateral movement and persistence</td>
+</tr>
+<tr>
+<td><strong>LOLBins</strong></td>
+<td>Living Off the Land Binaries; legitimate tools abused by attackers</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="further-reading">Further Reading<a class="headerlink" href="#further-reading" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://docs.microsoft.com/en-us/security/">Microsoft Security Documentation</a></li>
+<li><a href="https://attack.mitre.org/matrices/enterprise/windows/">MITRE ATT&amp;CK for Windows</a></li>
+<li><a href="https://www.cisecurity.org/benchmark/microsoft_windows_desktop">CIS Windows Benchmarks</a></li>
+<li><a href="https://lolbas-project.github.io/">LOLBAS Project</a></li>
+<li><a href="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Windows%20-%20Privilege%20Escalation.md">PayloadsAllTheThings – Windows PrivEsc</a></li>
+<li><a href="https://bloodhound.readthedocs.io/">BloodHound Documentation</a></li>
+<li><a href="https://docs.microsoft.com/en-us/sysinternals/">Sysinternals Suite</a></li>
+</ul>
 
 
 
