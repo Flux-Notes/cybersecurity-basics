@@ -925,6 +925,24 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔒 Operating System Security
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -941,6 +959,1179 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-operating-system-security-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Operating System Security Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Operating System Security Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-os-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is OS Security?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-security-objectives-cia-triad-aaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Security Objectives (CIA Triad + AAA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-design-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Design Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-os-architecture-security-boundaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. OS Architecture &amp; Security Boundaries
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. OS Architecture &amp; Security Boundaries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#privilege-rings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privilege Rings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kernel-vs-user-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel vs. User Space
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual-address-spaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Address Spaces
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Authentication
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication Factors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#password-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Password Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Authentication
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-sign-on-sso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Single Sign-On (SSO)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-authorization-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Authorization &amp; Access Control
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Authorization &amp; Access Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-control-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Control Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-control-lists-acls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Control Lists (ACLs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#principle-of-least-privilege-in-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle of Least Privilege in Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-process-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Process Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Process Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process-isolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Isolation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-tokens-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Tokens (Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity-levels-windows-mic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrity Levels (Windows MIC)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-process-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Process Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sandboxing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sandboxing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-memory-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Memory Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Memory Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-memory-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Memory Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory Protections
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-memory-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Memory Protections
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-file-system-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. File System Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. File System Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permissions-model-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permissions Model Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensitive-file-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sensitive File Locations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temporary-file-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temporary File Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disk-encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disk Encryption
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-user-account-control-privilege-separation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. User Account Control &amp; Privilege Separation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. User Account Control &amp; Privilege Separation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uac-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UAC (Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sudo-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sudo (Linux)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privileged-access-workstations-paw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privileged Access Workstations (PAW)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#just-in-time-jit-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Just-In-Time (JIT) Access
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-mandatory-access-control-mac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Mandatory Access Control (MAC)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Mandatory Access Control (MAC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selinux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SELinux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apparmor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AppArmor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-mandatory-integrity-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Mandatory Integrity Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-logging-auditing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Logging &amp; Auditing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Logging &amp; Auditing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-logging-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Logging Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-to-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Log
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-audit-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Audit Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-audit-auditd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Audit (auditd)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#log-management-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Log Management Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-vulnerability-classes-in-operating-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Vulnerability Classes in Operating Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Vulnerability Classes in Operating Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-privilege-escalation-lpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local Privilege Escalation (LPE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kernel-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel Vulnerabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#race-conditions-toctou" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Race Conditions (TOCTOU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-secure-boot-firmware-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Secure Boot &amp; Firmware Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Secure Boot &amp; Firmware Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#boot-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boot Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secure-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Secure Boot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tpm-trusted-platform-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TPM (Trusted Platform Module)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uefi-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UEFI Vulnerabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-virtualization-container-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Virtualization &amp; Container Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Virtualization &amp; Container Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hypervisors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hypervisors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtualization-based-security-vbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtualization-Based Security (VBS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-network-security-at-the-os-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Network Security at the OS Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Network Security at the OS Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#os-level-network-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OS-Level Network Protections
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#host-based-firewalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Host-Based Firewalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-exposed-services-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Exposed Services &amp; Risks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-patch-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Patch Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. Patch Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-patching-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Patching Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#patch-management-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patch Management Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-patching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Patching
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-patching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Patching
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-endpoint-detection-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Endpoint Detection &amp; Security Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. Endpoint Detection &amp; Security Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#antivirus-anti-malware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antivirus / Anti-Malware
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edr-endpoint-detection-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EDR (Endpoint Detection &amp; Response)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hids-hips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HIDS / HIPS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-integrity-monitoring-fim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File Integrity Monitoring (FIM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amsi-antimalware-scan-interface-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AMSI (Antimalware Scan Interface) — Windows
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-os-hardening-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. OS Hardening Checklist
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. OS Hardening Checklist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#universal-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Universal Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Hardening
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Hardening
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-incident-response-at-the-os-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Incident Response at the OS Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. Incident Response at the OS Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ir-phases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IR Phases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identification-signs-of-compromise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identification — Signs of Compromise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#containment-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containment Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidence-collection-order-volatility-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidence Collection Order (Volatility Principle)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-common-cves-vulnerability-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Common CVEs &amp; Vulnerability Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. Common CVEs &amp; Vulnerability Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historical-high-impact-os-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Historical High-Impact OS Vulnerabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vulnerability-scoring-cvss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vulnerability Scoring (CVSS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-security-compliance-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Security Compliance Frameworks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20. Security Compliance Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cis-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIS Benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disa-stigs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DISA STIGs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nist-sp-800-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NIST SP 800-53
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soc-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SOC 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1140,6 +2331,1168 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-operating-system-security-fundamentals" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Operating System Security Fundamentals
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Operating System Security Fundamentals">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-is-os-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What is OS Security?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#core-security-objectives-cia-triad-aaa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Core Security Objectives (CIA Triad + AAA)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-design-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Design Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-os-architecture-security-boundaries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. OS Architecture &amp; Security Boundaries
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. OS Architecture &amp; Security Boundaries">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#privilege-rings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privilege Rings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kernel-vs-user-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel vs. User Space
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtual-address-spaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtual Address Spaces
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Authentication
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Authentication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication-factors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Authentication Factors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#password-storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Password Storage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Authentication
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#single-sign-on-sso" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Single Sign-On (SSO)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-authorization-access-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Authorization &amp; Access Control
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Authorization &amp; Access Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#access-control-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Control Models
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#access-control-lists-acls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Access Control Lists (ACLs)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#principle-of-least-privilege-in-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Principle of Least Privilege in Practice
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-process-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Process Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Process Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#process-isolation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Process Isolation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#security-tokens-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Security Tokens (Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#integrity-levels-windows-mic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Integrity Levels (Windows MIC)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-process-credentials" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Process Credentials
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sandboxing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sandboxing
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-memory-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Memory Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Memory Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#common-memory-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Memory Attacks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memory-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Memory Protections
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-memory-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Memory Protections
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-file-system-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. File System Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="7. File System Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#permissions-model-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Permissions Model Comparison
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sensitive-file-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sensitive File Locations
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#temporary-file-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Temporary File Security
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disk-encryption" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disk Encryption
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-user-account-control-privilege-separation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. User Account Control &amp; Privilege Separation
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. User Account Control &amp; Privilege Separation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#uac-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UAC (Windows)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sudo-linux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        sudo (Linux)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#privileged-access-workstations-paw" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Privileged Access Workstations (PAW)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#just-in-time-jit-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Just-In-Time (JIT) Access
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-mandatory-access-control-mac" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Mandatory Access Control (MAC)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. Mandatory Access Control (MAC)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#selinux" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SELinux
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#apparmor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AppArmor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-mandatory-integrity-control" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Mandatory Integrity Control
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-logging-auditing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Logging &amp; Auditing
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="10. Logging &amp; Auditing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-logging-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Logging Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-to-log" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What to Log
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-audit-policy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Audit Policy
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-audit-auditd" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Audit (auditd)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#log-management-best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Log Management Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-vulnerability-classes-in-operating-systems" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Vulnerability Classes in Operating Systems
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="11. Vulnerability Classes in Operating Systems">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-privilege-escalation-lpe" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Local Privilege Escalation (LPE)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kernel-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kernel Vulnerabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#race-conditions-toctou" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Race Conditions (TOCTOU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#12-secure-boot-firmware-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        12. Secure Boot &amp; Firmware Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="12. Secure Boot &amp; Firmware Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#boot-chain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Boot Chain
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#secure-boot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Secure Boot
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tpm-trusted-platform-module" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TPM (Trusted Platform Module)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uefi-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        UEFI Vulnerabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-virtualization-container-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        13. Virtualization &amp; Container Security
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="13. Virtualization &amp; Container Security">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hypervisors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hypervisors
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#virtualization-based-security-vbs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Virtualization-Based Security (VBS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#containers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containers
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#14-network-security-at-the-os-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        14. Network Security at the OS Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="14. Network Security at the OS Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#os-level-network-protections" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OS-Level Network Protections
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#host-based-firewalls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Host-Based Firewalls
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#common-exposed-services-risks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Common Exposed Services &amp; Risks
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#15-patch-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        15. Patch Management
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="15. Patch Management">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-patching-matters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Why Patching Matters
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#patch-management-process" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Patch Management Process
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-patching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Patching
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-patching" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Patching
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#16-endpoint-detection-security-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        16. Endpoint Detection &amp; Security Tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="16. Endpoint Detection &amp; Security Tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#antivirus-anti-malware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Antivirus / Anti-Malware
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#edr-endpoint-detection-response" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EDR (Endpoint Detection &amp; Response)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hids-hips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HIDS / HIPS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#file-integrity-monitoring-fim" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        File Integrity Monitoring (FIM)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#amsi-antimalware-scan-interface-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AMSI (Antimalware Scan Interface) — Windows
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#17-os-hardening-checklist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        17. OS Hardening Checklist
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="17. OS Hardening Checklist">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#universal-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Universal Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Windows Hardening
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#linux-hardening" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linux Hardening
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#18-incident-response-at-the-os-level" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        18. Incident Response at the OS Level
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="18. Incident Response at the OS Level">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ir-phases" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IR Phases
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identification-signs-of-compromise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identification — Signs of Compromise
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#containment-actions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Containment Actions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evidence-collection-order-volatility-principle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Evidence Collection Order (Volatility Principle)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#19-common-cves-vulnerability-patterns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        19. Common CVEs &amp; Vulnerability Patterns
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="19. Common CVEs &amp; Vulnerability Patterns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historical-high-impact-os-vulnerabilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Historical High-Impact OS Vulnerabilities
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vulnerability-scoring-cvss" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vulnerability Scoring (CVSS)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#20-security-compliance-frameworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        20. Security Compliance Frameworks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="20. Security Compliance Frameworks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cis-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CIS Benchmarks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disa-stigs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DISA STIGs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nist-sp-800-53" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NIST SP 800-53
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soc-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SOC 2
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quick-reference-summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quick Reference Summary
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Further Reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1159,6 +3512,1855 @@
 
 
 <h1 id="operating-system-security">Operating System Security<a class="headerlink" href="#operating-system-security" title="Permanent link">&para;</a></h1>
+<p>A comprehensive reference covering operating system security concepts, mechanisms, attack surfaces, and defensive techniques across Windows and Linux — from foundational theory to practical hardening and incident response.</p>
+<hr />
+<h2 id="1-operating-system-security-fundamentals">1. Operating System Security Fundamentals<a class="headerlink" href="#1-operating-system-security-fundamentals" title="Permanent link">&para;</a></h2>
+<h3 id="what-is-os-security">What is OS Security?<a class="headerlink" href="#what-is-os-security" title="Permanent link">&para;</a></h3>
+<p>Operating system security encompasses the policies, controls, and mechanisms that protect an OS from unauthorized access, misuse, modification, and denial of service. The OS is the foundation of all software — a compromised OS means everything running on it is compromised.</p>
+<h3 id="core-security-objectives-cia-triad-aaa">Core Security Objectives (CIA Triad + AAA)<a class="headerlink" href="#core-security-objectives-cia-triad-aaa" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Objective</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Confidentiality</strong></td>
+<td>Prevent unauthorized disclosure of information</td>
+</tr>
+<tr>
+<td><strong>Integrity</strong></td>
+<td>Prevent unauthorized modification of data or code</td>
+</tr>
+<tr>
+<td><strong>Availability</strong></td>
+<td>Ensure the system is accessible when needed</td>
+</tr>
+<tr>
+<td><strong>Authentication</strong></td>
+<td>Verify the identity of users and processes</td>
+</tr>
+<tr>
+<td><strong>Authorization</strong></td>
+<td>Control what authenticated entities can do</td>
+</tr>
+<tr>
+<td><strong>Accountability</strong></td>
+<td>Track actions to a responsible entity (auditing)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="security-design-principles">Security Design Principles<a class="headerlink" href="#security-design-principles" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Principle</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Least Privilege</strong></td>
+<td>Grant only minimum necessary rights</td>
+<td>Services run as dedicated low-privilege accounts</td>
+</tr>
+<tr>
+<td><strong>Defense in Depth</strong></td>
+<td>Layer multiple independent controls</td>
+<td>Firewall + AV + HIPS + logging</td>
+</tr>
+<tr>
+<td><strong>Fail Secure</strong></td>
+<td>Deny access on failure, not grant</td>
+<td>Default-deny firewall policy</td>
+</tr>
+<tr>
+<td><strong>Economy of Mechanism</strong></td>
+<td>Keep security mechanisms simple</td>
+<td>Simple ACL model vs complex custom logic</td>
+</tr>
+<tr>
+<td><strong>Complete Mediation</strong></td>
+<td>Check every access, every time</td>
+<td>OS verifies permissions on every file open</td>
+</tr>
+<tr>
+<td><strong>Open Design</strong></td>
+<td>Security through logic, not obscurity</td>
+<td>Published crypto algorithms</td>
+</tr>
+<tr>
+<td><strong>Separation of Privilege</strong></td>
+<td>Require multiple conditions for access</td>
+<td>Two-factor authentication</td>
+</tr>
+<tr>
+<td><strong>Least Common Mechanism</strong></td>
+<td>Minimize shared resources</td>
+<td>Process isolation, separate address spaces</td>
+</tr>
+<tr>
+<td><strong>Psychological Acceptability</strong></td>
+<td>Security must be usable</td>
+<td>UAC prompts vs silently blocking everything</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2-os-architecture-security-boundaries">2. OS Architecture &amp; Security Boundaries<a class="headerlink" href="#2-os-architecture-security-boundaries" title="Permanent link">&para;</a></h2>
+<h3 id="privilege-rings">Privilege Rings<a class="headerlink" href="#privilege-rings" title="Permanent link">&para;</a></h3>
+<p>Modern CPUs implement hardware-enforced privilege levels:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>        Ring 0  ──  Kernel (OS core, drivers)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>       Ring 1   ──  Rarely used (some hypervisors)
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>      Ring 2    ──  Rarely used
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>     Ring 3     ──  User applications
+</code></pre></div>
+<ul>
+<li><strong>Ring 0 (Kernel Mode)</strong> – Unrestricted hardware access; OS kernel, device drivers</li>
+<li><strong>Ring 3 (User Mode)</strong> – Restricted; cannot directly access hardware or kernel memory</li>
+</ul>
+<p>A <strong>syscall</strong> (system call) is the controlled mechanism for user-mode code to request kernel services. This transition point is heavily audited and is a common attack target.</p>
+<h3 id="kernel-vs-user-space">Kernel vs. User Space<a class="headerlink" href="#kernel-vs-user-space" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>┌────────────────────────────────────────────────────────┐
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>│                     User Space                          │
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>│   Process A    │    Process B    │    Process C         │
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>│ (isolated VA)  │  (isolated VA)  │  (isolated VA)       │
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>├────────────────────────────────────────────────────────┤
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>│              System Call Interface                       │
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>├────────────────────────────────────────────────────────┤
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>│                    Kernel Space                          │
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>│  Process Mgmt │ Memory Mgmt │ File Systems │ Networking  │
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>│  Security Ref │ Device Mgrs │ IPC          │ Scheduler   │
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>├────────────────────────────────────────────────────────┤
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>│              Hardware Abstraction Layer                  │
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>├────────────────────────────────────────────────────────┤
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>│                      Hardware                            │
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>└────────────────────────────────────────────────────────┘
+</code></pre></div>
+<p><strong>Security implications:</strong>
+- A vulnerability in kernel-mode code can compromise the entire system
+- User-mode exploits are contained to that process (unless they escalate)
+- Kernel exploits bypass all OS-level security controls</p>
+<h3 id="virtual-address-spaces">Virtual Address Spaces<a class="headerlink" href="#virtual-address-spaces" title="Permanent link">&para;</a></h3>
+<p>Each process runs in its own isolated virtual address space. The OS memory manager translates virtual addresses to physical addresses — a process cannot read or write another process's memory without explicit OS permission (e.g. <code>ptrace</code>, <code>ReadProcessMemory</code>).</p>
+<p><strong>Attack relevance:</strong> Process injection techniques (DLL injection, shellcode injection) abuse legitimate OS mechanisms to write into another process's address space.</p>
+<hr />
+<h2 id="3-authentication">3. Authentication<a class="headerlink" href="#3-authentication" title="Permanent link">&para;</a></h2>
+<h3 id="authentication-factors">Authentication Factors<a class="headerlink" href="#authentication-factors" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Factor</th>
+<th>Type</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Something you <strong>know</strong></td>
+<td>Knowledge</td>
+<td>Password, PIN, security question</td>
+</tr>
+<tr>
+<td>Something you <strong>have</strong></td>
+<td>Possession</td>
+<td>Smart card, TOTP token, hardware key</td>
+</tr>
+<tr>
+<td>Something you <strong>are</strong></td>
+<td>Inherence</td>
+<td>Fingerprint, face, iris, voice</td>
+</tr>
+<tr>
+<td>Somewhere you <strong>are</strong></td>
+<td>Location</td>
+<td>IP range, GPS geofence</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Multi-Factor Authentication (MFA)</strong> requires two or more different factor types. Two passwords = not MFA (same factor type).</p>
+<h3 id="password-storage">Password Storage<a class="headerlink" href="#password-storage" title="Permanent link">&para;</a></h3>
+<p>Passwords must never be stored in plaintext. The OS stores a one-way hash:</p>
+<table>
+<thead>
+<tr>
+<th>Algorithm</th>
+<th>Used In</th>
+<th>Security</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>LM hash</td>
+<td>Legacy Windows (pre-Vista)</td>
+<td>Broken — split into 7-char chunks, all uppercase</td>
+</tr>
+<tr>
+<td>NTLM (MD4)</td>
+<td>Windows SAM/AD</td>
+<td>Weak — no salting, fast to crack</td>
+</tr>
+<tr>
+<td>MD5 (<code>$1$</code>)</td>
+<td>Legacy Linux</td>
+<td>Weak — fast, brute-forceable</td>
+</tr>
+<tr>
+<td>SHA-256 (<code>$5$</code>)</td>
+<td>Linux</td>
+<td>Better</td>
+</tr>
+<tr>
+<td>SHA-512 (<code>$6$</code>)</td>
+<td>Modern Linux</td>
+<td>Good</td>
+</tr>
+<tr>
+<td>bcrypt</td>
+<td>Applications</td>
+<td>Strong — intentionally slow</td>
+</tr>
+<tr>
+<td>yescrypt (<code>$y$</code>)</td>
+<td>Modern Linux</td>
+<td>Strong — memory-hard</td>
+</tr>
+<tr>
+<td>Argon2</td>
+<td>Modern applications</td>
+<td>Best — memory and time hard</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Salting</strong> adds a unique random value to each password before hashing, preventing rainbow table attacks and ensuring identical passwords produce different hashes.</p>
+<h3 id="windows-authentication">Windows Authentication<a class="headerlink" href="#windows-authentication" title="Permanent link">&para;</a></h3>
+<p><strong>Local Authentication (SAM):</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>User enters credentials
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>        │
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>        ▼
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>Winlogon → LSA → Authentication Package (MSV1_0)
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>        │
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>        ▼
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>Compare NTLM hash against SAM database
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>        │
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>        ▼
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>Success → Create access token with user SID + groups + privileges
+</code></pre></div></p>
+<p><strong>Domain Authentication (Kerberos):</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>Client          KDC (AS)           KDC (TGS)          Service
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>  │── AS-REQ ──▶│                     │                  │
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>  │◀── AS-REP ──│ (TGT issued)        │                  │
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>  │─────────────────── TGS-REQ ──────▶│                  │
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>  │◀──────────────────── TGS-REP ─────│ (service ticket) │
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>  │──────────────────────────────────────── AP-REQ ──────▶│
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>  │◀─────────────────────────────────────── AP-REP ───────│
+</code></pre></div></p>
+<p><strong>Linux Authentication (PAM):</strong></p>
+<p>PAM (Pluggable Authentication Modules) provides a flexible authentication framework. Authentication stacks are defined per service in <code>/etc/pam.d/</code>:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>auth    required    pam_unix.so         # check /etc/shadow
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>auth    required    pam_faillock.so     # account lockout
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>account required    pam_unix.so         # account validity
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>password required   pam_pwquality.so    # password complexity
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>session required    pam_unix.so         # session setup
+</code></pre></div>
+<h3 id="single-sign-on-sso">Single Sign-On (SSO)<a class="headerlink" href="#single-sign-on-sso" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Protocol</th>
+<th>Description</th>
+<th>Common Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kerberos</strong></td>
+<td>Ticket-based; domain SSO</td>
+<td>Active Directory</td>
+</tr>
+<tr>
+<td><strong>SAML</strong></td>
+<td>XML-based; enterprise web SSO</td>
+<td>Corporate apps</td>
+</tr>
+<tr>
+<td><strong>OAuth 2.0</strong></td>
+<td>Authorization delegation</td>
+<td>API access</td>
+</tr>
+<tr>
+<td><strong>OpenID Connect</strong></td>
+<td>Identity layer on OAuth 2.0</td>
+<td>Web login ("Login with Google")</td>
+</tr>
+<tr>
+<td><strong>LDAP</strong></td>
+<td>Directory-based auth</td>
+<td>Internal apps</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-authorization-access-control">4. Authorization &amp; Access Control<a class="headerlink" href="#4-authorization-access-control" title="Permanent link">&para;</a></h2>
+<h3 id="access-control-models">Access Control Models<a class="headerlink" href="#access-control-models" title="Permanent link">&para;</a></h3>
+<p><strong>Discretionary Access Control (DAC)</strong>
+- Object owners control who can access their resources
+- Used by default in Windows and Linux (file permissions, ACLs)
+- Weakness: owners can inadvertently grant excessive access; malware runs with owner's full rights</p>
+<p><strong>Mandatory Access Control (MAC)</strong>
+- OS enforces access based on security labels/policy; users cannot override
+- Examples: SELinux, AppArmor, Windows Integrity Levels
+- Strength: limits damage from compromised processes</p>
+<p><strong>Role-Based Access Control (RBAC)</strong>
+- Access granted based on job role, not individual identity
+- Examples: Active Directory groups, Linux sudoers groups, AWS IAM roles
+- Simplifies large-scale permission management</p>
+<p><strong>Attribute-Based Access Control (ABAC)</strong>
+- Access decisions based on attributes of user, resource, and environment
+- Most flexible; used in cloud IAM policies
+- Example: "Allow access if user.department = Finance AND resource.classification = Internal AND time = BusinessHours"</p>
+<p><strong>Rule-Based Access Control</strong>
+- Fixed rules applied to all users
+- Example: firewall rules, time-based access restrictions</p>
+<h3 id="access-control-lists-acls">Access Control Lists (ACLs)<a class="headerlink" href="#access-control-lists-acls" title="Permanent link">&para;</a></h3>
+<p>An ACL is a list of Access Control Entries (ACEs) attached to an object. Each ACE specifies a subject and their allowed/denied permissions.</p>
+<p><strong>Windows ACL structure:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Object (e.g. file)
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>  └── Security Descriptor
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>        ├── Owner SID
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>        ├── Group SID
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>        ├── DACL (Discretionary ACL) ─── who can access
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>        │     ├── ACE: Allow SYSTEM Full Control
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>        │     ├── ACE: Allow Administrators Full Control
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>        │     └── ACE: Allow Alice Read &amp; Execute
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>        └── SACL (System ACL) ─────────── what to audit
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>              └── ACE: Audit Everyone Write (success+fail)
+</code></pre></div></p>
+<p><strong>Linux permission model</strong> is a simplified ACL:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Owner  Group  Others
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a> rwx    r-x    r--
+</code></pre></div></p>
+<p>Extended ACLs (<code>setfacl</code>/<code>getfacl</code>) provide per-user and per-group granularity beyond the basic model.</p>
+<h3 id="principle-of-least-privilege-in-practice">Principle of Least Privilege in Practice<a class="headerlink" href="#principle-of-least-privilege-in-practice" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>❌ Bad:  Web server running as root/SYSTEM
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>✅ Good: Web server running as www-data (no shell, no home dir)
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>❌ Bad:  All admins share a single &quot;admin&quot; account
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>✅ Good: Named accounts; privilege granted only when needed (sudo/runas)
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>❌ Bad:  Service account in Domain Admins
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>✅ Good: Service account with only the rights it needs
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>❌ Bad:  All users are local administrators
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>✅ Good: Standard user accounts; separate admin account for admin tasks
+</code></pre></div>
+<hr />
+<h2 id="5-process-security">5. Process Security<a class="headerlink" href="#5-process-security" title="Permanent link">&para;</a></h2>
+<h3 id="process-isolation">Process Isolation<a class="headerlink" href="#process-isolation" title="Permanent link">&para;</a></h3>
+<p>Each process runs in its own virtual address space. The OS kernel enforces boundaries — a process cannot access another process's memory or files beyond its granted permissions.</p>
+<p><strong>Mechanisms:</strong>
+- Virtual memory (hardware MMU + OS page tables)
+- File system permissions checked on every access
+- Security tokens attached to each process/thread</p>
+<h3 id="security-tokens-windows">Security Tokens (Windows)<a class="headerlink" href="#security-tokens-windows" title="Permanent link">&para;</a></h3>
+<p>Every Windows process carries a security token containing:
+- User SID
+- Group SIDs (including special groups like Everyone, Authenticated Users)
+- Privileges (e.g. <code>SeDebugPrivilege</code>, <code>SeImpersonatePrivilege</code>)
+- Integrity level
+- Session ID</p>
+<p><strong>Token types:</strong>
+- <strong>Primary token</strong> – Assigned to a process at creation
+- <strong>Impersonation token</strong> – Allows a thread to act as a different security context (server impersonating a client)</p>
+<h3 id="integrity-levels-windows-mic">Integrity Levels (Windows MIC)<a class="headerlink" href="#integrity-levels-windows-mic" title="Permanent link">&para;</a></h3>
+<p>Mandatory Integrity Control assigns an integrity level to every process and object:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>Untrusted (0)  → Anonymous processes
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>Low       (1)  → Sandboxed apps (browser tabs, email attachments)
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>Medium    (2)  → Normal user processes (default)
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>High      (3)  → Elevated processes (UAC-elevated)
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>System    (4)  → OS services (SYSTEM account)
+</code></pre></div>
+<p>A process cannot write to objects with a higher integrity level than its own — a Low integrity process cannot modify Medium integrity files, even if the DAC would allow it.</p>
+<h3 id="linux-process-credentials">Linux Process Credentials<a class="headerlink" href="#linux-process-credentials" title="Permanent link">&para;</a></h3>
+<p>Each Linux process has:
+- <strong>Real UID/GID</strong> – Who actually owns the process
+- <strong>Effective UID/GID</strong> – What permissions the process actually uses
+- <strong>Saved UID/GID</strong> – Saved copy for privilege transitions
+- <strong>Supplementary groups</strong> – Additional group memberships</p>
+<p><strong>SUID mechanism:</strong> When a SUID binary executes, the effective UID becomes the file owner's UID (often root), allowing temporary privilege elevation for specific tasks.</p>
+<h3 id="sandboxing">Sandboxing<a class="headerlink" href="#sandboxing" title="Permanent link">&para;</a></h3>
+<p>Sandboxes restrict what a process can do, even if it's compromised:</p>
+<table>
+<thead>
+<tr>
+<th>Sandbox</th>
+<th>Platform</th>
+<th>Mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Seccomp</strong></td>
+<td>Linux</td>
+<td>Restrict which syscalls a process can make</td>
+</tr>
+<tr>
+<td><strong>Namespaces</strong></td>
+<td>Linux</td>
+<td>Isolate process view of resources (PID, network, mount, user)</td>
+</tr>
+<tr>
+<td><strong>cgroups</strong></td>
+<td>Linux</td>
+<td>Limit resource usage (CPU, memory, I/O)</td>
+</tr>
+<tr>
+<td><strong>AppContainer</strong></td>
+<td>Windows</td>
+<td>UWP app isolation; Low integrity + capability model</td>
+</tr>
+<tr>
+<td><strong>Job Objects</strong></td>
+<td>Windows</td>
+<td>Limit process group resources and capabilities</td>
+</tr>
+<tr>
+<td><strong>Capsicum</strong></td>
+<td>FreeBSD</td>
+<td>Capability-based sandbox</td>
+</tr>
+<tr>
+<td><strong>Pledge/Unveil</strong></td>
+<td>OpenBSD</td>
+<td>Restrict syscalls and filesystem access per process</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Browser security</strong> combines multiple sandbox layers: renderer processes run at Low/Untrusted integrity, with seccomp-BPF on Linux, to limit damage from web exploits.</p>
+<hr />
+<h2 id="6-memory-security">6. Memory Security<a class="headerlink" href="#6-memory-security" title="Permanent link">&para;</a></h2>
+<h3 id="common-memory-attacks">Common Memory Attacks<a class="headerlink" href="#common-memory-attacks" title="Permanent link">&para;</a></h3>
+<p><strong>Buffer Overflow</strong></p>
+<p>Writing beyond the end of a fixed-size buffer overwrites adjacent memory — potentially including the return address on the stack, allowing an attacker to redirect execution.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>Stack (before overflow):
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>[buffer: 16 bytes][saved EBP][return address]
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>Stack (after overflow):
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>[AAAA...AAAA...AA][AAAA....][attacker address]
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>                              ↑ Now points to attacker&#39;s shellcode
+</code></pre></div>
+<p><strong>Heap Overflow</strong> – Overflow on the heap; can overwrite heap metadata or adjacent objects.</p>
+<p><strong>Use-After-Free (UAF)</strong> – Accessing memory after it has been freed; freed memory may be reallocated with attacker-controlled content.</p>
+<p><strong>Format String</strong> – Passing user input as a format string (<code>printf(user_input)</code>) allows reading/writing arbitrary memory via <code>%x</code>, <code>%n</code> specifiers.</p>
+<p><strong>Integer Overflow</strong> – Arithmetic overflow causing incorrect size calculations, leading to under-allocated buffers.</p>
+<h3 id="memory-protections">Memory Protections<a class="headerlink" href="#memory-protections" title="Permanent link">&para;</a></h3>
+<p><strong>ASLR (Address Space Layout Randomization)</strong></p>
+<p>Randomizes base addresses of stack, heap, libraries, and executable at load time. An attacker cannot hardcode addresses in their exploit.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>Without ASLR:  libc always at 0xb7e00000
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>With ASLR:     libc at 0xb7e00000 this run, 0xf7a12000 next run
+</code></pre></div>
+<ul>
+<li>Windows: enabled by default; configurable with <code>/DYNAMICBASE</code> linker flag</li>
+<li>Linux: <code>kernel.randomize_va_space = 2</code> (full ASLR)</li>
+<li>Bypass: information leak vulnerabilities that reveal actual addresses</li>
+</ul>
+<p><strong>DEP / NX (Data Execution Prevention / No-Execute)</strong></p>
+<p>Marks memory regions as either executable or writable, but not both. Code on the stack or heap cannot be executed directly.</p>
+<ul>
+<li>Hardware: CPU NX/XD bit in page table entries</li>
+<li>Windows: DEP; configurable per-process or system-wide</li>
+<li>Linux: NX bit; enforced by kernel</li>
+<li>Bypass: Return-Oriented Programming (ROP) — reuses existing executable code gadgets</li>
+</ul>
+<p><strong>Stack Canaries</strong></p>
+<p>A random value (canary) placed between local variables and the return address. Checked before function return — if modified (by overflow), execution is terminated.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>[local vars][CANARY][saved EBP][return address]
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>                ↑
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>         checked on return; abort if changed
+</code></pre></div>
+<ul>
+<li>GCC: <code>-fstack-protector-strong</code></li>
+<li>Windows: <code>/GS</code> compiler flag (Security Cookie)</li>
+<li>Bypass: information leak to read canary value; overwrite in a way that skips canary check</li>
+</ul>
+<p><strong>CFI (Control Flow Integrity)</strong></p>
+<p>Restricts indirect calls and jumps to a set of valid targets determined at compile time. Prevents exploitation techniques that hijack control flow to arbitrary locations.</p>
+<ul>
+<li>Windows: Control Flow Guard (CFG)</li>
+<li>Clang/LLVM: <code>-fsanitize=cfi</code></li>
+<li>Intel: CET (Control-flow Enforcement Technology) — hardware shadow stack</li>
+</ul>
+<p><strong>RELRO (Relocation Read-Only)</strong> — Linux: makes the GOT (Global Offset Table) read-only after dynamic linking, preventing GOT overwrites.</p>
+<p><strong>Safe Stack / Shadow Stack</strong> — Keeps return addresses on a separate protected stack, preventing stack-based return address overwrites.</p>
+<h3 id="windows-memory-protections">Windows Memory Protections<a class="headerlink" href="#windows-memory-protections" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Protection</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DEP</td>
+<td>Data Execution Prevention — NX enforcement</td>
+</tr>
+<tr>
+<td>ASLR</td>
+<td>Address space randomization</td>
+</tr>
+<tr>
+<td>CFG</td>
+<td>Control Flow Guard — validates indirect call targets</td>
+</tr>
+<tr>
+<td>SEHOP</td>
+<td>Structured Exception Handler Overwrite Protection</td>
+</tr>
+<tr>
+<td>Heap Integrity</td>
+<td>Detects heap metadata corruption</td>
+</tr>
+<tr>
+<td>ACG</td>
+<td>Arbitrary Code Guard — prevents dynamic code generation</td>
+</tr>
+<tr>
+<td>CIG</td>
+<td>Code Integrity Guard — requires signed code</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-file-system-security">7. File System Security<a class="headerlink" href="#7-file-system-security" title="Permanent link">&para;</a></h2>
+<h3 id="permissions-model-comparison">Permissions Model Comparison<a class="headerlink" href="#permissions-model-comparison" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Linux (POSIX)</th>
+<th>Windows (NTFS)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basic model</td>
+<td>Owner/Group/Others + rwx</td>
+<td>ACL with multiple ACEs</td>
+</tr>
+<tr>
+<td>Granularity</td>
+<td>3 permission sets</td>
+<td>Per-user/group ACEs</td>
+</tr>
+<tr>
+<td>Inheritance</td>
+<td>Manual or set-GID dir</td>
+<td>Configurable inheritance flags</td>
+</tr>
+<tr>
+<td>Special bits</td>
+<td>SUID, SGID, Sticky</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Extended attrs</td>
+<td><code>setfacl</code> / <code>getfacl</code></td>
+<td>Built into NTFS ACL</td>
+</tr>
+<tr>
+<td>Encryption</td>
+<td>EFS (via mount), dm-crypt</td>
+<td>EFS, BitLocker</td>
+</tr>
+<tr>
+<td>Auditing</td>
+<td>auditd with file watches</td>
+<td>SACL on files/folders</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sensitive-file-locations">Sensitive File Locations<a class="headerlink" href="#sensitive-file-locations" title="Permanent link">&para;</a></h3>
+<p><strong>Linux:</strong></p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Sensitivity</th>
+<th>Risk if Compromised</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>/etc/shadow</code></td>
+<td>Critical</td>
+<td>Password hash exposure → cracking</td>
+</tr>
+<tr>
+<td><code>/etc/passwd</code></td>
+<td>High</td>
+<td>User enumeration</td>
+</tr>
+<tr>
+<td><code>/etc/sudoers</code></td>
+<td>Critical</td>
+<td>Privilege escalation</td>
+</tr>
+<tr>
+<td><code>/etc/ssh/sshd_config</code></td>
+<td>High</td>
+<td>SSH misconfiguration</td>
+</tr>
+<tr>
+<td><code>~/.ssh/id_rsa</code></td>
+<td>Critical</td>
+<td>Direct SSH key theft</td>
+</tr>
+<tr>
+<td><code>~/.bash_history</code></td>
+<td>Medium</td>
+<td>Command history → credential exposure</td>
+</tr>
+<tr>
+<td><code>/var/log/auth.log</code></td>
+<td>High</td>
+<td>Authentication event visibility</td>
+</tr>
+<tr>
+<td><code>/proc/[pid]/mem</code></td>
+<td>Critical</td>
+<td>Process memory access</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Windows:</strong></p>
+<table>
+<thead>
+<tr>
+<th>File / Location</th>
+<th>Sensitivity</th>
+<th>Risk if Compromised</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>C:\Windows\System32\config\SAM</code></td>
+<td>Critical</td>
+<td>Local credential hashes</td>
+</tr>
+<tr>
+<td><code>C:\Windows\System32\config\SYSTEM</code></td>
+<td>Critical</td>
+<td>Boot key for decrypting SAM</td>
+</tr>
+<tr>
+<td><code>C:\Windows\NTDS\NTDS.dit</code></td>
+<td>Critical</td>
+<td>All AD credential hashes</td>
+</tr>
+<tr>
+<td><code>C:\Windows\System32\config\SECURITY</code></td>
+<td>Critical</td>
+<td>LSA secrets, cached creds</td>
+</tr>
+<tr>
+<td><code>%AppData%\Microsoft\Credentials\</code></td>
+<td>High</td>
+<td>Saved Windows credentials</td>
+</tr>
+<tr>
+<td><code>C:\Windows\Prefetch\</code></td>
+<td>Medium</td>
+<td>Execution artifacts</td>
+</tr>
+<tr>
+<td><code>C:\Windows\System32\winevt\Logs\</code></td>
+<td>High</td>
+<td>Security event logs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="temporary-file-security">Temporary File Security<a class="headerlink" href="#temporary-file-security" title="Permanent link">&para;</a></h3>
+<p><code>/tmp</code> and <code>C:\Windows\Temp</code> are common attacker drop locations:
+- World-writable; any process can write files here
+- Malware often stages payloads, extracts archives, or creates named pipes here
+- Should be monitored; executables appearing in <code>/tmp</code> are highly suspicious</p>
+<p><strong>Linux <code>/tmp</code> hardening:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a># Mount /tmp with noexec, nosuid, nodev
+<a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a>/tmp  tmpfs  tmpfs  defaults,noexec,nosuid,nodev  0 0
+</code></pre></div></p>
+<h3 id="disk-encryption">Disk Encryption<a class="headerlink" href="#disk-encryption" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Platform</th>
+<th>Scope</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>BitLocker</strong></td>
+<td>Windows</td>
+<td>Full volume; TPM-backed</td>
+</tr>
+<tr>
+<td><strong>EFS</strong></td>
+<td>Windows</td>
+<td>Per-file; user certificate-bound</td>
+</tr>
+<tr>
+<td><strong>dm-crypt / LUKS</strong></td>
+<td>Linux</td>
+<td>Full disk / partition</td>
+</tr>
+<tr>
+<td><strong>eCryptfs</strong></td>
+<td>Linux</td>
+<td>Per-directory (used in Ubuntu home dir encryption)</td>
+</tr>
+<tr>
+<td><strong>FileVault 2</strong></td>
+<td>macOS</td>
+<td>Full disk</td>
+</tr>
+<tr>
+<td><strong>VeraCrypt</strong></td>
+<td>Cross-platform</td>
+<td>Full disk or container files</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Threat model:</strong> Disk encryption protects data at rest (theft of physical media). It does NOT protect against a running, compromised OS — an attacker with OS-level access can read decrypted data.</p>
+<hr />
+<h2 id="8-user-account-control-privilege-separation">8. User Account Control &amp; Privilege Separation<a class="headerlink" href="#8-user-account-control-privilege-separation" title="Permanent link">&para;</a></h2>
+<h3 id="uac-windows">UAC (Windows)<a class="headerlink" href="#uac-windows" title="Permanent link">&para;</a></h3>
+<p>UAC prevents unauthorized changes by requiring explicit approval for administrative operations:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>Standard User token (Medium integrity)
+<a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a>        │
+<a id="__codelineno-13-3" name="__codelineno-13-3" href="#__codelineno-13-3"></a>        ▼
+<a id="__codelineno-13-4" name="__codelineno-13-4" href="#__codelineno-13-4"></a>   Admin action needed
+<a id="__codelineno-13-5" name="__codelineno-13-5" href="#__codelineno-13-5"></a>        │
+<a id="__codelineno-13-6" name="__codelineno-13-6" href="#__codelineno-13-6"></a>        ├── If admin account → Consent prompt (click Yes/No)
+<a id="__codelineno-13-7" name="__codelineno-13-7" href="#__codelineno-13-7"></a>        └── If standard user → Credential prompt (enter admin password)
+<a id="__codelineno-13-8" name="__codelineno-13-8" href="#__codelineno-13-8"></a>        │
+<a id="__codelineno-13-9" name="__codelineno-13-9" href="#__codelineno-13-9"></a>        ▼
+<a id="__codelineno-13-10" name="__codelineno-13-10" href="#__codelineno-13-10"></a>Elevated token (High integrity) for that operation only
+</code></pre></div>
+<p><strong>UAC bypass techniques (awareness):</strong>
+- Auto-elevation of trusted binaries (e.g. <code>fodhelper.exe</code>, <code>eventvwr.exe</code>)
+- DLL hijacking in elevated processes
+- COM object hijacking</p>
+<p><strong>UAC is not a security boundary</strong> — it is a convenience mechanism. A determined attacker with user-level code execution can often bypass it.</p>
+<h3 id="sudo-linux">sudo (Linux)<a class="headerlink" href="#sudo-linux" title="Permanent link">&para;</a></h3>
+<p><code>sudo</code> provides controlled privilege elevation:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>User runs: sudo command
+<a id="__codelineno-14-2" name="__codelineno-14-2" href="#__codelineno-14-2"></a>        │
+<a id="__codelineno-14-3" name="__codelineno-14-3" href="#__codelineno-14-3"></a>        ▼
+<a id="__codelineno-14-4" name="__codelineno-14-4" href="#__codelineno-14-4"></a>PAM authentication (password prompt)
+<a id="__codelineno-14-5" name="__codelineno-14-5" href="#__codelineno-14-5"></a>        │
+<a id="__codelineno-14-6" name="__codelineno-14-6" href="#__codelineno-14-6"></a>        ▼
+<a id="__codelineno-14-7" name="__codelineno-14-7" href="#__codelineno-14-7"></a>Check /etc/sudoers for authorization
+<a id="__codelineno-14-8" name="__codelineno-14-8" href="#__codelineno-14-8"></a>        │
+<a id="__codelineno-14-9" name="__codelineno-14-9" href="#__codelineno-14-9"></a>        ├── Allowed → Execute as root (or specified user)
+<a id="__codelineno-14-10" name="__codelineno-14-10" href="#__codelineno-14-10"></a>        └── Denied  → Log attempt, refuse
+</code></pre></div>
+<p><strong>Sudoers best practices:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="c1"># Good — specific commands only</span>
+<a id="__codelineno-15-2" name="__codelineno-15-2" href="#__codelineno-15-2"></a>alice<span class="w">  </span><span class="nv">ALL</span><span class="o">=(</span>root<span class="o">)</span><span class="w"> </span>/usr/bin/systemctl<span class="w"> </span>restart<span class="w"> </span>nginx,<span class="w"> </span>/usr/bin/apt<span class="w"> </span>update
+<a id="__codelineno-15-3" name="__codelineno-15-3" href="#__codelineno-15-3"></a>
+<a id="__codelineno-15-4" name="__codelineno-15-4" href="#__codelineno-15-4"></a><span class="c1"># Bad — unrestricted sudo</span>
+<a id="__codelineno-15-5" name="__codelineno-15-5" href="#__codelineno-15-5"></a>alice<span class="w">  </span><span class="nv">ALL</span><span class="o">=(</span>ALL<span class="o">)</span><span class="w"> </span>ALL
+<a id="__codelineno-15-6" name="__codelineno-15-6" href="#__codelineno-15-6"></a>
+<a id="__codelineno-15-7" name="__codelineno-15-7" href="#__codelineno-15-7"></a><span class="c1"># Very bad — passwordless unrestricted</span>
+<a id="__codelineno-15-8" name="__codelineno-15-8" href="#__codelineno-15-8"></a>alice<span class="w">  </span><span class="nv">ALL</span><span class="o">=(</span>ALL<span class="o">)</span><span class="w"> </span>NOPASSWD:<span class="w"> </span>ALL
+</code></pre></div></p>
+<h3 id="privileged-access-workstations-paw">Privileged Access Workstations (PAW)<a class="headerlink" href="#privileged-access-workstations-paw" title="Permanent link">&para;</a></h3>
+<p>A dedicated, hardened machine used exclusively for administrative tasks:
+- No email, web browsing, or general use
+- Network-isolated from user workstations
+- All admin activity performed from PAW only
+- Prevents credential theft via user workstation compromise</p>
+<h3 id="just-in-time-jit-access">Just-In-Time (JIT) Access<a class="headerlink" href="#just-in-time-jit-access" title="Permanent link">&para;</a></h3>
+<p>Grant elevated privileges only when needed, for a limited time:
+- Azure PIM (Privileged Identity Management)
+- CyberArk, BeyondTrust PAM solutions
+- Eliminates standing privileges — reduces the window of exposure</p>
+<hr />
+<h2 id="9-mandatory-access-control-mac">9. Mandatory Access Control (MAC)<a class="headerlink" href="#9-mandatory-access-control-mac" title="Permanent link">&para;</a></h2>
+<h3 id="selinux">SELinux<a class="headerlink" href="#selinux" title="Permanent link">&para;</a></h3>
+<p>SELinux assigns a <strong>security context</strong> (label) to every process, file, and socket. The policy defines what labels can interact with what:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a>system_u:system_r:httpd_t:s0      ← Apache process context
+<a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>system_u:object_r:httpd_sys_content_t:s0  ← Web content context
+<a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>system_u:object_r:shadow_t:s0     ← /etc/shadow context
+<a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a>
+<a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a>Apache (httpd_t) can read httpd_sys_content_t
+<a id="__codelineno-16-6" name="__codelineno-16-6" href="#__codelineno-16-6"></a>Apache (httpd_t) CANNOT read shadow_t  ← policy denies
+</code></pre></div>
+<p>Even if Apache is compromised, it cannot read <code>/etc/shadow</code> because the MAC policy prevents it.</p>
+<p><strong>SELinux policy types:</strong>
+- <strong>Targeted</strong> – Only specific high-risk daemons are confined (default on RHEL/Fedora)
+- <strong>Strict</strong> – All processes confined
+- <strong>MLS</strong> – Multi-Level Security; Bell-LaPadula confidentiality model</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1"># Check status</span>
+<a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>getenforce<span class="w">       </span><span class="c1"># Enforcing / Permissive / Disabled</span>
+<a id="__codelineno-17-3" name="__codelineno-17-3" href="#__codelineno-17-3"></a>sestatus
+<a id="__codelineno-17-4" name="__codelineno-17-4" href="#__codelineno-17-4"></a>
+<a id="__codelineno-17-5" name="__codelineno-17-5" href="#__codelineno-17-5"></a><span class="c1"># View file context</span>
+<a id="__codelineno-17-6" name="__codelineno-17-6" href="#__codelineno-17-6"></a>ls<span class="w"> </span>-Z<span class="w"> </span>/etc/shadow
+<a id="__codelineno-17-7" name="__codelineno-17-7" href="#__codelineno-17-7"></a>ls<span class="w"> </span>-Z<span class="w"> </span>/var/www/html/
+<a id="__codelineno-17-8" name="__codelineno-17-8" href="#__codelineno-17-8"></a>
+<a id="__codelineno-17-9" name="__codelineno-17-9" href="#__codelineno-17-9"></a><span class="c1"># View process context</span>
+<a id="__codelineno-17-10" name="__codelineno-17-10" href="#__codelineno-17-10"></a>ps<span class="w"> </span>-eZ<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>httpd
+<a id="__codelineno-17-11" name="__codelineno-17-11" href="#__codelineno-17-11"></a>
+<a id="__codelineno-17-12" name="__codelineno-17-12" href="#__codelineno-17-12"></a><span class="c1"># Check SELinux denials</span>
+<a id="__codelineno-17-13" name="__codelineno-17-13" href="#__codelineno-17-13"></a>grep<span class="w"> </span><span class="s2">&quot;avc: denied&quot;</span><span class="w"> </span>/var/log/audit/audit.log
+<a id="__codelineno-17-14" name="__codelineno-17-14" href="#__codelineno-17-14"></a>audit2why<span class="w"> </span>&lt;<span class="w"> </span>/var/log/audit/audit.log
+<a id="__codelineno-17-15" name="__codelineno-17-15" href="#__codelineno-17-15"></a>
+<a id="__codelineno-17-16" name="__codelineno-17-16" href="#__codelineno-17-16"></a><span class="c1"># Temporarily switch to Permissive (debug)</span>
+<a id="__codelineno-17-17" name="__codelineno-17-17" href="#__codelineno-17-17"></a>setenforce<span class="w"> </span><span class="m">0</span>
+</code></pre></div>
+<h3 id="apparmor">AppArmor<a class="headerlink" href="#apparmor" title="Permanent link">&para;</a></h3>
+<p>AppArmor uses file path-based profiles to confine applications:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a># /etc/apparmor.d/usr.sbin.nginx
+<a id="__codelineno-18-2" name="__codelineno-18-2" href="#__codelineno-18-2"></a>/usr/sbin/nginx {
+<a id="__codelineno-18-3" name="__codelineno-18-3" href="#__codelineno-18-3"></a>  /var/www/html/** r,        # read web content
+<a id="__codelineno-18-4" name="__codelineno-18-4" href="#__codelineno-18-4"></a>  /var/log/nginx/** w,       # write logs
+<a id="__codelineno-18-5" name="__codelineno-18-5" href="#__codelineno-18-5"></a>  /etc/nginx/** r,           # read config
+<a id="__codelineno-18-6" name="__codelineno-18-6" href="#__codelineno-18-6"></a>  deny /etc/shadow r,        # explicitly deny shadow
+<a id="__codelineno-18-7" name="__codelineno-18-7" href="#__codelineno-18-7"></a>  network tcp,               # allow TCP
+<a id="__codelineno-18-8" name="__codelineno-18-8" href="#__codelineno-18-8"></a>}
+</code></pre></div>
+<p>Simpler to configure than SELinux; path-based (not label-based).</p>
+<h3 id="windows-mandatory-integrity-control">Windows Mandatory Integrity Control<a class="headerlink" href="#windows-mandatory-integrity-control" title="Permanent link">&para;</a></h3>
+<p>Windows MIC prevents low-integrity processes from modifying higher-integrity objects:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>Internet Explorer (Low) → cannot write to %APPDATA% (Medium)
+<a id="__codelineno-19-2" name="__codelineno-19-2" href="#__codelineno-19-2"></a>Notepad (Medium)        → cannot write to C:\Windows\ (System)
+<a id="__codelineno-19-3" name="__codelineno-19-3" href="#__codelineno-19-3"></a>Malware dropped from browser → stays at Low integrity, limited damage
+</code></pre></div>
+<hr />
+<h2 id="10-logging-auditing">10. Logging &amp; Auditing<a class="headerlink" href="#10-logging-auditing" title="Permanent link">&para;</a></h2>
+<h3 id="why-logging-matters">Why Logging Matters<a class="headerlink" href="#why-logging-matters" title="Permanent link">&para;</a></h3>
+<p>Logs are the foundation of:
+- <strong>Detection</strong> – Identifying attacks in progress or after the fact
+- <strong>Forensics</strong> – Reconstructing what happened during an incident
+- <strong>Compliance</strong> – Demonstrating adherence to regulations (PCI-DSS, SOC2, HIPAA)
+- <strong>Accountability</strong> – Tying actions to identities</p>
+<h3 id="what-to-log">What to Log<a class="headerlink" href="#what-to-log" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Events</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Authentication</strong></td>
+<td>Logon success/failure, logoff, account lockout</td>
+</tr>
+<tr>
+<td><strong>Authorization</strong></td>
+<td>Access denied events, privilege use</td>
+</tr>
+<tr>
+<td><strong>Account management</strong></td>
+<td>User/group creation, modification, deletion</td>
+</tr>
+<tr>
+<td><strong>Process execution</strong></td>
+<td>Process creation with command line</td>
+</tr>
+<tr>
+<td><strong>Network</strong></td>
+<td>Connections established, DNS queries</td>
+</tr>
+<tr>
+<td><strong>File access</strong></td>
+<td>Reads/writes to sensitive files (via SACL/auditd)</td>
+</tr>
+<tr>
+<td><strong>Configuration changes</strong></td>
+<td>Policy changes, service installs, registry modifications</td>
+</tr>
+<tr>
+<td><strong>System events</strong></td>
+<td>Boot, shutdown, crashes</td>
+</tr>
+</tbody>
+</table>
+<h3 id="windows-audit-policy">Windows Audit Policy<a class="headerlink" href="#windows-audit-policy" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a>:: Enable via auditpol
+<a id="__codelineno-20-2" name="__codelineno-20-2" href="#__codelineno-20-2"></a>auditpol /set /subcategory:&quot;Logon&quot; /success:enable /failure:enable
+<a id="__codelineno-20-3" name="__codelineno-20-3" href="#__codelineno-20-3"></a>auditpol /set /subcategory:&quot;Account Logon&quot; /success:enable /failure:enable
+<a id="__codelineno-20-4" name="__codelineno-20-4" href="#__codelineno-20-4"></a>auditpol /set /subcategory:&quot;Account Management&quot; /success:enable /failure:enable
+<a id="__codelineno-20-5" name="__codelineno-20-5" href="#__codelineno-20-5"></a>auditpol /set /subcategory:&quot;Process Creation&quot; /success:enable
+<a id="__codelineno-20-6" name="__codelineno-20-6" href="#__codelineno-20-6"></a>auditpol /set /subcategory:&quot;Policy Change&quot; /success:enable /failure:enable
+<a id="__codelineno-20-7" name="__codelineno-20-7" href="#__codelineno-20-7"></a>auditpol /set /subcategory:&quot;Privilege Use&quot; /success:enable /failure:enable
+<a id="__codelineno-20-8" name="__codelineno-20-8" href="#__codelineno-20-8"></a>auditpol /set /subcategory:&quot;Object Access&quot; /success:enable /failure:enable
+<a id="__codelineno-20-9" name="__codelineno-20-9" href="#__codelineno-20-9"></a>
+<a id="__codelineno-20-10" name="__codelineno-20-10" href="#__codelineno-20-10"></a>:: View current policy
+<a id="__codelineno-20-11" name="__codelineno-20-11" href="#__codelineno-20-11"></a>auditpol /get /category:*
+</code></pre></div>
+<p><strong>Critical Windows Event IDs:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Event ID</th>
+<th>Description</th>
+<th>Why It Matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4624</td>
+<td>Successful logon</td>
+<td>Baseline; anomalies = lateral movement</td>
+</tr>
+<tr>
+<td>4625</td>
+<td>Failed logon</td>
+<td>Brute force detection</td>
+</tr>
+<tr>
+<td>4648</td>
+<td>Explicit credential logon</td>
+<td>runas / pass-the-hash</td>
+</tr>
+<tr>
+<td>4672</td>
+<td>Special privileges assigned</td>
+<td>Privileged session start</td>
+</tr>
+<tr>
+<td>4688</td>
+<td>Process creation (with cmd line)</td>
+<td>Malware execution</td>
+</tr>
+<tr>
+<td>4698</td>
+<td>Scheduled task created</td>
+<td>Persistence</td>
+</tr>
+<tr>
+<td>4720</td>
+<td>User account created</td>
+<td>Backdoor account</td>
+</tr>
+<tr>
+<td>4732</td>
+<td>Added to Administrators</td>
+<td>Privilege escalation</td>
+</tr>
+<tr>
+<td>4776</td>
+<td>NTLM authentication</td>
+<td>NTLM relay detection</td>
+</tr>
+<tr>
+<td>7045</td>
+<td>New service installed</td>
+<td>Persistence / lateral movement</td>
+</tr>
+</tbody>
+</table>
+<h3 id="linux-audit-auditd">Linux Audit (auditd)<a class="headerlink" href="#linux-audit-auditd" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="c1"># File access monitoring</span>
+<a id="__codelineno-21-2" name="__codelineno-21-2" href="#__codelineno-21-2"></a>auditctl<span class="w"> </span>-w<span class="w"> </span>/etc/passwd<span class="w"> </span>-p<span class="w"> </span>rwa<span class="w"> </span>-k<span class="w"> </span>passwd_watch
+<a id="__codelineno-21-3" name="__codelineno-21-3" href="#__codelineno-21-3"></a>auditctl<span class="w"> </span>-w<span class="w"> </span>/etc/shadow<span class="w"> </span>-p<span class="w"> </span>rwa<span class="w"> </span>-k<span class="w"> </span>shadow_watch
+<a id="__codelineno-21-4" name="__codelineno-21-4" href="#__codelineno-21-4"></a>auditctl<span class="w"> </span>-w<span class="w"> </span>/etc/sudoers<span class="w"> </span>-p<span class="w"> </span>wa<span class="w"> </span>-k<span class="w"> </span>sudoers_watch
+<a id="__codelineno-21-5" name="__codelineno-21-5" href="#__codelineno-21-5"></a>auditctl<span class="w"> </span>-w<span class="w"> </span>/root/.ssh/<span class="w"> </span>-p<span class="w"> </span>wa<span class="w"> </span>-k<span class="w"> </span>root_ssh
+<a id="__codelineno-21-6" name="__codelineno-21-6" href="#__codelineno-21-6"></a>
+<a id="__codelineno-21-7" name="__codelineno-21-7" href="#__codelineno-21-7"></a><span class="c1"># Monitor all executions</span>
+<a id="__codelineno-21-8" name="__codelineno-21-8" href="#__codelineno-21-8"></a>auditctl<span class="w"> </span>-a<span class="w"> </span>always,exit<span class="w"> </span>-F<span class="w"> </span><span class="nv">arch</span><span class="o">=</span>b64<span class="w"> </span>-S<span class="w"> </span>execve<span class="w"> </span>-k<span class="w"> </span>exec_log
+<a id="__codelineno-21-9" name="__codelineno-21-9" href="#__codelineno-21-9"></a>
+<a id="__codelineno-21-10" name="__codelineno-21-10" href="#__codelineno-21-10"></a><span class="c1"># Monitor privilege escalation</span>
+<a id="__codelineno-21-11" name="__codelineno-21-11" href="#__codelineno-21-11"></a>auditctl<span class="w"> </span>-a<span class="w"> </span>always,exit<span class="w"> </span>-F<span class="w"> </span><span class="nv">arch</span><span class="o">=</span>b64<span class="w"> </span>-S<span class="w"> </span>setuid<span class="w"> </span>-S<span class="w"> </span>setgid<span class="w"> </span>-k<span class="w"> </span>setuid_log
+<a id="__codelineno-21-12" name="__codelineno-21-12" href="#__codelineno-21-12"></a>
+<a id="__codelineno-21-13" name="__codelineno-21-13" href="#__codelineno-21-13"></a><span class="c1"># Search audit log</span>
+<a id="__codelineno-21-14" name="__codelineno-21-14" href="#__codelineno-21-14"></a>ausearch<span class="w"> </span>-k<span class="w"> </span>passwd_watch
+<a id="__codelineno-21-15" name="__codelineno-21-15" href="#__codelineno-21-15"></a>ausearch<span class="w"> </span>-m<span class="w"> </span>EXECVE<span class="w"> </span>--start<span class="w"> </span>today
+<a id="__codelineno-21-16" name="__codelineno-21-16" href="#__codelineno-21-16"></a>ausearch<span class="w"> </span>-ua<span class="w"> </span><span class="m">0</span><span class="w">             </span><span class="c1"># all root activity</span>
+<a id="__codelineno-21-17" name="__codelineno-21-17" href="#__codelineno-21-17"></a>
+<a id="__codelineno-21-18" name="__codelineno-21-18" href="#__codelineno-21-18"></a><span class="c1"># Reports</span>
+<a id="__codelineno-21-19" name="__codelineno-21-19" href="#__codelineno-21-19"></a>aureport<span class="w"> </span>--summary
+<a id="__codelineno-21-20" name="__codelineno-21-20" href="#__codelineno-21-20"></a>aureport<span class="w"> </span>--login<span class="w"> </span>--failed
+<a id="__codelineno-21-21" name="__codelineno-21-21" href="#__codelineno-21-21"></a>aureport<span class="w"> </span>--exec
+</code></pre></div>
+<h3 id="log-management-best-practices">Log Management Best Practices<a class="headerlink" href="#log-management-best-practices" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Centralize logs</strong> – Ship to a SIEM (Splunk, ELK, Microsoft Sentinel) immediately; local logs can be deleted/tampered</li>
+<li><strong>Protect log integrity</strong> – Write-once storage; cryptographic log signing (e.g. Windows Event Log forward-only subscription)</li>
+<li><strong>Retention</strong> – Minimum 90 days online; 1 year archived (industry standard; regulatory requirements vary)</li>
+<li><strong>Alert on key events</strong> – Don't just collect; define detection rules for high-value events</li>
+<li><strong>Include context</strong> – Timestamp, hostname, user, process, source IP — not just "login failed"</li>
+</ul>
+<hr />
+<h2 id="11-vulnerability-classes-in-operating-systems">11. Vulnerability Classes in Operating Systems<a class="headerlink" href="#11-vulnerability-classes-in-operating-systems" title="Permanent link">&para;</a></h2>
+<h3 id="local-privilege-escalation-lpe">Local Privilege Escalation (LPE)<a class="headerlink" href="#local-privilege-escalation-lpe" title="Permanent link">&para;</a></h3>
+<p>An attacker with limited local access elevates to root/SYSTEM. Common vectors:</p>
+<table>
+<thead>
+<tr>
+<th>Vector</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Kernel exploit</strong></td>
+<td>Bug in kernel code executed in Ring 0 context</td>
+</tr>
+<tr>
+<td><strong>SUID/SGID abuse</strong></td>
+<td>Misconfigured or vulnerable SUID binary</td>
+</tr>
+<tr>
+<td><strong>Sudo misconfiguration</strong></td>
+<td>Overly permissive sudoers rules</td>
+</tr>
+<tr>
+<td><strong>Writable service binary</strong></td>
+<td>Attacker replaces binary run by a privileged service</td>
+</tr>
+<tr>
+<td><strong>Unquoted service path</strong></td>
+<td>Windows path parsing leads to malicious binary execution</td>
+</tr>
+<tr>
+<td><strong>DLL hijacking</strong></td>
+<td>Placing malicious DLL where a privileged process loads it</td>
+</tr>
+<tr>
+<td><strong>Token impersonation</strong></td>
+<td>Abusing <code>SeImpersonatePrivilege</code> (e.g. Potato attacks)</td>
+</tr>
+<tr>
+<td><strong>Cron/Task abuse</strong></td>
+<td>Writable script executed by root cron job</td>
+</tr>
+<tr>
+<td><strong>PATH hijacking</strong></td>
+<td>Writable directory at start of PATH; malicious binary shadows real one</td>
+</tr>
+<tr>
+<td><strong>Capabilities abuse</strong></td>
+<td>Linux capability (e.g. <code>cap_setuid</code>) on exploitable binary</td>
+</tr>
+</tbody>
+</table>
+<h3 id="kernel-vulnerabilities">Kernel Vulnerabilities<a class="headerlink" href="#kernel-vulnerabilities" title="Permanent link">&para;</a></h3>
+<p>Kernel bugs are particularly dangerous because exploitation immediately grants Ring 0 access:</p>
+<p><strong>Common kernel vulnerability types:</strong>
+- <strong>Use-After-Free</strong> in kernel objects (slabs, structures)
+- <strong>Race conditions</strong> in concurrent kernel code
+- <strong>Null pointer dereferences</strong> with attacker-controlled NULL page
+- <strong>Integer overflows</strong> in size calculations
+- <strong>Insufficient input validation</strong> in syscall handlers</p>
+<p><strong>Notable examples:</strong>
+- <strong>DirtyCOW (CVE-2016-5195)</strong> – Race condition in Linux copy-on-write; allowed writing to read-only files; exploited for root escalation
+- <strong>Dirty Pipe (CVE-2022-0847)</strong> – Linux pipe buffer vulnerability; arbitrary file writes including SUID binaries
+- <strong>EternalBlue (MS17-010)</strong> – SMB buffer overflow; used by WannaCry and NotPetya
+- <strong>PrintNightmare (CVE-2021-34527)</strong> – Windows Print Spooler; allowed arbitrary DLL loading as SYSTEM</p>
+<h3 id="race-conditions-toctou">Race Conditions (TOCTOU)<a class="headerlink" href="#race-conditions-toctou" title="Permanent link">&para;</a></h3>
+<p>Time-of-Check to Time-of-Use: the state of a resource changes between when it is checked and when it is used.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a>Thread A: Check permissions on /tmp/file  ← allowed (symlink not yet there)
+<a id="__codelineno-22-2" name="__codelineno-22-2" href="#__codelineno-22-2"></a>Thread B: Replace /tmp/file with symlink to /etc/shadow
+<a id="__codelineno-22-3" name="__codelineno-22-3" href="#__codelineno-22-3"></a>Thread A: Write to /tmp/file              ← now writes to /etc/shadow
+</code></pre></div>
+<p>Mitigation: Atomic operations; O_NOFOLLOW; proper locking.</p>
+<hr />
+<h2 id="12-secure-boot-firmware-security">12. Secure Boot &amp; Firmware Security<a class="headerlink" href="#12-secure-boot-firmware-security" title="Permanent link">&para;</a></h2>
+<h3 id="boot-chain">Boot Chain<a class="headerlink" href="#boot-chain" title="Permanent link">&para;</a></h3>
+<p>The boot process is a chain of trust — each stage verifies the next:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1" href="#__codelineno-23-1"></a>Power On
+<a id="__codelineno-23-2" name="__codelineno-23-2" href="#__codelineno-23-2"></a>    │
+<a id="__codelineno-23-3" name="__codelineno-23-3" href="#__codelineno-23-3"></a>    ▼
+<a id="__codelineno-23-4" name="__codelineno-23-4" href="#__codelineno-23-4"></a>UEFI Firmware (stored in flash)
+<a id="__codelineno-23-5" name="__codelineno-23-5" href="#__codelineno-23-5"></a>    │  Verifies bootloader signature (Secure Boot)
+<a id="__codelineno-23-6" name="__codelineno-23-6" href="#__codelineno-23-6"></a>    ▼
+<a id="__codelineno-23-7" name="__codelineno-23-7" href="#__codelineno-23-7"></a>Bootloader (GRUB / Windows Boot Manager)
+<a id="__codelineno-23-8" name="__codelineno-23-8" href="#__codelineno-23-8"></a>    │  Verifies kernel signature
+<a id="__codelineno-23-9" name="__codelineno-23-9" href="#__codelineno-23-9"></a>    ▼
+<a id="__codelineno-23-10" name="__codelineno-23-10" href="#__codelineno-23-10"></a>Kernel
+<a id="__codelineno-23-11" name="__codelineno-23-11" href="#__codelineno-23-11"></a>    │  Verifies kernel modules (module signing)
+<a id="__codelineno-23-12" name="__codelineno-23-12" href="#__codelineno-23-12"></a>    ▼
+<a id="__codelineno-23-13" name="__codelineno-23-13" href="#__codelineno-23-13"></a>Init system (systemd / Windows Session Manager)
+<a id="__codelineno-23-14" name="__codelineno-23-14" href="#__codelineno-23-14"></a>    │
+<a id="__codelineno-23-15" name="__codelineno-23-15" href="#__codelineno-23-15"></a>    ▼
+<a id="__codelineno-23-16" name="__codelineno-23-16" href="#__codelineno-23-16"></a>User Space
+</code></pre></div>
+<h3 id="secure-boot">Secure Boot<a class="headerlink" href="#secure-boot" title="Permanent link">&para;</a></h3>
+<p>UEFI Secure Boot ensures only cryptographically signed bootloaders and kernels run on the hardware:</p>
+<ul>
+<li>Platform Key (PK) → Key Exchange Key (KEK) → Database of allowed signatures (db)</li>
+<li>Unsigned or invalidly signed code is rejected before execution</li>
+</ul>
+<p><strong>Security significance:</strong> Prevents bootkit malware (MBR/UEFI rootkits) from persisting below the OS.</p>
+<h3 id="tpm-trusted-platform-module">TPM (Trusted Platform Module)<a class="headerlink" href="#tpm-trusted-platform-module" title="Permanent link">&para;</a></h3>
+<p>A dedicated security chip that provides:
+- <strong>Secure key storage</strong> – Keys sealed to the TPM; cannot be exported
+- <strong>Platform attestation</strong> – Prove to a remote party the machine is in a known-good state
+- <strong>Measured boot</strong> – Records hash of each boot stage in PCRs (Platform Configuration Registers)
+- <strong>BitLocker</strong> – TPM seals the volume encryption key; only releases it if boot measurements match</p>
+<p><strong>TPM-based attacks:</strong>
+- <strong>Cold boot attack</strong> – Freeze RAM to preserve encryption keys after shutdown; read keys before they decay
+- <strong>Evil maid</strong> – Physical access to modify boot chain; TPM attestation detects unauthorized changes</p>
+<h3 id="uefi-vulnerabilities">UEFI Vulnerabilities<a class="headerlink" href="#uefi-vulnerabilities" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>BootHole (CVE-2020-10713)</strong> – GRUB2 buffer overflow bypassing Secure Boot</li>
+<li><strong>LogoFAIL</strong> – UEFI image parsers exploitable to inject code during boot</li>
+<li>Firmware updates often unsigned or infrequently applied</li>
+</ul>
+<hr />
+<h2 id="13-virtualization-container-security">13. Virtualization &amp; Container Security<a class="headerlink" href="#13-virtualization-container-security" title="Permanent link">&para;</a></h2>
+<h3 id="hypervisors">Hypervisors<a class="headerlink" href="#hypervisors" title="Permanent link">&para;</a></h3>
+<p>A hypervisor creates and manages virtual machines (VMs):</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Type 1 (Bare Metal)</strong></td>
+<td>Runs directly on hardware</td>
+<td>VMware ESXi, Hyper-V, KVM</td>
+</tr>
+<tr>
+<td><strong>Type 2 (Hosted)</strong></td>
+<td>Runs on top of a host OS</td>
+<td>VMware Workstation, VirtualBox</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Security benefit:</strong> VM isolation — a compromised guest cannot directly access other guests or the hypervisor (in theory).</p>
+<p><strong>VM escape:</strong> Exploiting a hypervisor vulnerability to break out of a VM and execute code on the host. High severity — bypasses all guest-level security.</p>
+<h3 id="virtualization-based-security-vbs">Virtualization-Based Security (VBS)<a class="headerlink" href="#virtualization-based-security-vbs" title="Permanent link">&para;</a></h3>
+<p>Windows uses Hyper-V to create isolated virtual trust levels (VTLs):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1" href="#__codelineno-24-1"></a>VTL 1 (Secure World)   ← Credential Guard, HVCI, Secure Kernel
+<a id="__codelineno-24-2" name="__codelineno-24-2" href="#__codelineno-24-2"></a>────────────────────────────────────────────────────────────
+<a id="__codelineno-24-3" name="__codelineno-24-3" href="#__codelineno-24-3"></a>VTL 0 (Normal World)   ← Windows OS, applications
+</code></pre></div>
+<ul>
+<li><strong>Credential Guard</strong> – Isolates LSASS into VTL1; even SYSTEM processes in VTL0 cannot dump credentials</li>
+<li><strong>HVCI (Hypervisor-Protected Code Integrity)</strong> – Kernel code must be signed; prevents kernel exploits loading unsigned drivers</li>
+</ul>
+<h3 id="containers">Containers<a class="headerlink" href="#containers" title="Permanent link">&para;</a></h3>
+<p>Containers share the host OS kernel but are isolated via Linux namespaces and cgroups:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1" href="#__codelineno-25-1"></a>Host Kernel
+<a id="__codelineno-25-2" name="__codelineno-25-2" href="#__codelineno-25-2"></a>├── Container A (namespace: PID, NET, MNT, UTS, IPC, USER)
+<a id="__codelineno-25-3" name="__codelineno-25-3" href="#__codelineno-25-3"></a>├── Container B (namespace: PID, NET, MNT, UTS, IPC, USER)
+<a id="__codelineno-25-4" name="__codelineno-25-4" href="#__codelineno-25-4"></a>└── Container C (namespace: PID, NET, MNT, UTS, IPC, USER)
+</code></pre></div>
+<p><strong>Container vs VM security:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Container</th>
+<th>VM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Isolation</td>
+<td>Namespace-based (weaker)</td>
+<td>Hardware-enforced (stronger)</td>
+</tr>
+<tr>
+<td>Kernel</td>
+<td>Shared with host</td>
+<td>Separate kernel per VM</td>
+</tr>
+<tr>
+<td>Attack surface</td>
+<td>Host kernel exposed</td>
+<td>Hypervisor exposed (smaller)</td>
+</tr>
+<tr>
+<td>Performance</td>
+<td>Near-native</td>
+<td>Slight overhead</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Container escape:</strong> Exploiting a vulnerability to break out of the container namespace and access the host. Common vectors:
+- Privileged containers (<code>--privileged</code>)
+- Exposed Docker socket (<code>/var/run/docker.sock</code>)
+- Kernel exploits (shared kernel)
+- Misconfigured capabilities</p>
+<p><strong>Container hardening:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1" href="#__codelineno-26-1"></a><span class="c1"># Never run as root in container</span>
+<a id="__codelineno-26-2" name="__codelineno-26-2" href="#__codelineno-26-2"></a>USER<span class="w"> </span>nonroot
+<a id="__codelineno-26-3" name="__codelineno-26-3" href="#__codelineno-26-3"></a>
+<a id="__codelineno-26-4" name="__codelineno-26-4" href="#__codelineno-26-4"></a><span class="c1"># Drop all capabilities; add only what&#39;s needed</span>
+<a id="__codelineno-26-5" name="__codelineno-26-5" href="#__codelineno-26-5"></a>docker<span class="w"> </span>run<span class="w"> </span>--cap-drop<span class="w"> </span>ALL<span class="w"> </span>--cap-add<span class="w"> </span>NET_BIND_SERVICE<span class="w"> </span>image
+<a id="__codelineno-26-6" name="__codelineno-26-6" href="#__codelineno-26-6"></a>
+<a id="__codelineno-26-7" name="__codelineno-26-7" href="#__codelineno-26-7"></a><span class="c1"># Read-only filesystem</span>
+<a id="__codelineno-26-8" name="__codelineno-26-8" href="#__codelineno-26-8"></a>docker<span class="w"> </span>run<span class="w"> </span>--read-only<span class="w"> </span>image
+<a id="__codelineno-26-9" name="__codelineno-26-9" href="#__codelineno-26-9"></a>
+<a id="__codelineno-26-10" name="__codelineno-26-10" href="#__codelineno-26-10"></a><span class="c1"># No privileged</span>
+<a id="__codelineno-26-11" name="__codelineno-26-11" href="#__codelineno-26-11"></a>docker<span class="w"> </span>run<span class="w"> </span>--security-opt<span class="w"> </span>no-new-privileges<span class="w"> </span>image
+<a id="__codelineno-26-12" name="__codelineno-26-12" href="#__codelineno-26-12"></a>
+<a id="__codelineno-26-13" name="__codelineno-26-13" href="#__codelineno-26-13"></a><span class="c1"># Use seccomp profile</span>
+<a id="__codelineno-26-14" name="__codelineno-26-14" href="#__codelineno-26-14"></a>docker<span class="w"> </span>run<span class="w"> </span>--security-opt<span class="w"> </span><span class="nv">seccomp</span><span class="o">=</span>/path/to/profile.json<span class="w"> </span>image
+</code></pre></div></p>
+<hr />
+<h2 id="14-network-security-at-the-os-level">14. Network Security at the OS Level<a class="headerlink" href="#14-network-security-at-the-os-level" title="Permanent link">&para;</a></h2>
+<h3 id="os-level-network-protections">OS-Level Network Protections<a class="headerlink" href="#os-level-network-protections" title="Permanent link">&para;</a></h3>
+<p><strong>IP Source Routing</strong> – Attacker specifies route for packets; bypasses routing-based controls.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1" href="#__codelineno-27-1"></a><span class="c1"># Disable (Linux)</span>
+<a id="__codelineno-27-2" name="__codelineno-27-2" href="#__codelineno-27-2"></a>sysctl<span class="w"> </span>-w<span class="w"> </span>net.ipv4.conf.all.accept_source_route<span class="o">=</span><span class="m">0</span>
+</code></pre></div></p>
+<p><strong>ICMP Redirect</strong> – Attacker redirects traffic through a malicious router.
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1" href="#__codelineno-28-1"></a>sysctl<span class="w"> </span>-w<span class="w"> </span>net.ipv4.conf.all.accept_redirects<span class="o">=</span><span class="m">0</span>
+<a id="__codelineno-28-2" name="__codelineno-28-2" href="#__codelineno-28-2"></a>sysctl<span class="w"> </span>-w<span class="w"> </span>net.ipv4.conf.all.send_redirects<span class="o">=</span><span class="m">0</span>
+</code></pre></div></p>
+<p><strong>SYN Flood Protection</strong> (SYN Cookies):
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1" href="#__codelineno-29-1"></a>sysctl<span class="w"> </span>-w<span class="w"> </span>net.ipv4.tcp_syncookies<span class="o">=</span><span class="m">1</span>
+</code></pre></div></p>
+<p><strong>IP Forwarding</strong> – Should be disabled on non-router systems:
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1" href="#__codelineno-30-1"></a>sysctl<span class="w"> </span>-w<span class="w"> </span>net.ipv4.ip_forward<span class="o">=</span><span class="m">0</span>
+</code></pre></div></p>
+<p><strong>Broadcast ICMP</strong> (Smurf attack amplification):
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1" href="#__codelineno-31-1"></a>sysctl<span class="w"> </span>-w<span class="w"> </span>net.ipv4.icmp_echo_ignore_broadcasts<span class="o">=</span><span class="m">1</span>
+</code></pre></div></p>
+<h3 id="host-based-firewalls">Host-Based Firewalls<a class="headerlink" href="#host-based-firewalls" title="Permanent link">&para;</a></h3>
+<p>Every OS should run a host-based firewall as a defense-in-depth control, even behind network firewalls:</p>
+<table>
+<thead>
+<tr>
+<th>OS</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Windows</td>
+<td>Windows Defender Firewall (<code>netsh advfirewall</code>, <code>New-NetFirewallRule</code>)</td>
+</tr>
+<tr>
+<td>Linux (Debian)</td>
+<td>UFW (<code>ufw</code>) over iptables</td>
+</tr>
+<tr>
+<td>Linux (RHEL)</td>
+<td>firewalld over nftables</td>
+</tr>
+<tr>
+<td>Linux (advanced)</td>
+<td>iptables / nftables directly</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Default policy principle:</strong>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1" href="#__codelineno-32-1"></a>Inbound:  DEFAULT DENY → explicitly allow what is needed
+<a id="__codelineno-32-2" name="__codelineno-32-2" href="#__codelineno-32-2"></a>Outbound: DEFAULT ALLOW → optionally restrict to known-good destinations
+</code></pre></div></p>
+<h3 id="common-exposed-services-risks">Common Exposed Services &amp; Risks<a class="headerlink" href="#common-exposed-services-risks" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Port</th>
+<th>Risk if Exposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SSH</td>
+<td>22</td>
+<td>Brute force; key compromise; CVEs</td>
+</tr>
+<tr>
+<td>RDP</td>
+<td>3389</td>
+<td>BlueKeep; brute force; MitM</td>
+</tr>
+<tr>
+<td>SMB</td>
+<td>445</td>
+<td>EternalBlue; relay attacks; ransomware spread</td>
+</tr>
+<tr>
+<td>WinRM</td>
+<td>5985/5986</td>
+<td>Lateral movement; credential relay</td>
+</tr>
+<tr>
+<td>Telnet</td>
+<td>23</td>
+<td>Cleartext credentials</td>
+</tr>
+<tr>
+<td>FTP</td>
+<td>21</td>
+<td>Cleartext credentials</td>
+</tr>
+<tr>
+<td>rsh/rlogin</td>
+<td>514/513</td>
+<td>Trust-based auth; no encryption</td>
+</tr>
+<tr>
+<td>VNC</td>
+<td>5900</td>
+<td>Weak auth; no encryption by default</td>
+</tr>
+<tr>
+<td>Redis</td>
+<td>6379</td>
+<td>Unauthenticated by default; RCE</td>
+</tr>
+<tr>
+<td>MongoDB</td>
+<td>27017</td>
+<td>Unauthenticated by default</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="15-patch-management">15. Patch Management<a class="headerlink" href="#15-patch-management" title="Permanent link">&para;</a></h2>
+<h3 id="why-patching-matters">Why Patching Matters<a class="headerlink" href="#why-patching-matters" title="Permanent link">&para;</a></h3>
+<p>The majority of successful attacks exploit known vulnerabilities with public patches available. Organizations that fall behind on patching are disproportionately exposed:</p>
+<ul>
+<li><strong>Equifax (2017)</strong> – Apache Struts CVE-2017-5638; patch available 2 months before breach</li>
+<li><strong>WannaCry (2017)</strong> – MS17-010 (EternalBlue); patch available 59 days before outbreak</li>
+<li><strong>NotPetya (2017)</strong> – Same MS17-010 vector</li>
+</ul>
+<h3 id="patch-management-process">Patch Management Process<a class="headerlink" href="#patch-management-process" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1" href="#__codelineno-33-1"></a>1. Inventory
+<a id="__codelineno-33-2" name="__codelineno-33-2" href="#__codelineno-33-2"></a>   └── Know what OS versions, software, and components are running
+<a id="__codelineno-33-3" name="__codelineno-33-3" href="#__codelineno-33-3"></a>
+<a id="__codelineno-33-4" name="__codelineno-33-4" href="#__codelineno-33-4"></a>2. Monitor
+<a id="__codelineno-33-5" name="__codelineno-33-5" href="#__codelineno-33-5"></a>   └── Subscribe to vendor advisories, CVE feeds (NVD, vendor bulletins)
+<a id="__codelineno-33-6" name="__codelineno-33-6" href="#__codelineno-33-6"></a>
+<a id="__codelineno-33-7" name="__codelineno-33-7" href="#__codelineno-33-7"></a>3. Prioritize
+<a id="__codelineno-33-8" name="__codelineno-33-8" href="#__codelineno-33-8"></a>   └── CVSS score + exploitability + asset criticality
+<a id="__codelineno-33-9" name="__codelineno-33-9" href="#__codelineno-33-9"></a>       Critical/High with public exploits → patch within 24-72 hours
+<a id="__codelineno-33-10" name="__codelineno-33-10" href="#__codelineno-33-10"></a>       High → patch within 7-14 days
+<a id="__codelineno-33-11" name="__codelineno-33-11" href="#__codelineno-33-11"></a>       Medium → patch within 30 days
+<a id="__codelineno-33-12" name="__codelineno-33-12" href="#__codelineno-33-12"></a>       Low → patch within 90 days
+<a id="__codelineno-33-13" name="__codelineno-33-13" href="#__codelineno-33-13"></a>
+<a id="__codelineno-33-14" name="__codelineno-33-14" href="#__codelineno-33-14"></a>4. Test
+<a id="__codelineno-33-15" name="__codelineno-33-15" href="#__codelineno-33-15"></a>   └── Deploy to dev/staging first; validate no breakage
+<a id="__codelineno-33-16" name="__codelineno-33-16" href="#__codelineno-33-16"></a>
+<a id="__codelineno-33-17" name="__codelineno-33-17" href="#__codelineno-33-17"></a>5. Deploy
+<a id="__codelineno-33-18" name="__codelineno-33-18" href="#__codelineno-33-18"></a>   └── Automated deployment (WSUS, Ansible, SCCM, Chef)
+<a id="__codelineno-33-19" name="__codelineno-33-19" href="#__codelineno-33-19"></a>
+<a id="__codelineno-33-20" name="__codelineno-33-20" href="#__codelineno-33-20"></a>6. Verify
+<a id="__codelineno-33-21" name="__codelineno-33-21" href="#__codelineno-33-21"></a>   └── Confirm patch applied; scan for remaining vulnerable systems
+<a id="__codelineno-33-22" name="__codelineno-33-22" href="#__codelineno-33-22"></a>
+<a id="__codelineno-33-23" name="__codelineno-33-23" href="#__codelineno-33-23"></a>7. Document
+<a id="__codelineno-33-24" name="__codelineno-33-24" href="#__codelineno-33-24"></a>   └── Record what was patched, when, and by whom
+</code></pre></div>
+<h3 id="windows-patching">Windows Patching<a class="headerlink" href="#windows-patching" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1" href="#__codelineno-34-1"></a><span class="c"># Check installed patches</span>
+<a id="__codelineno-34-2" name="__codelineno-34-2" href="#__codelineno-34-2"></a><span class="nb">Get-HotFix</span> <span class="p">|</span> <span class="nb">Sort-Object</span> <span class="n">InstalledOn</span> <span class="n">-Descending</span>
+<a id="__codelineno-34-3" name="__codelineno-34-3" href="#__codelineno-34-3"></a><span class="n">wmic</span> <span class="n">qfe</span> <span class="n">list</span> <span class="n">brief</span> <span class="p">/</span><span class="n">format</span><span class="p">:</span><span class="n">table</span>
+<a id="__codelineno-34-4" name="__codelineno-34-4" href="#__codelineno-34-4"></a>
+<a id="__codelineno-34-5" name="__codelineno-34-5" href="#__codelineno-34-5"></a><span class="c"># Last Windows Update check</span>
+<a id="__codelineno-34-6" name="__codelineno-34-6" href="#__codelineno-34-6"></a><span class="p">(</span><span class="nb">New-Object</span> <span class="n">-ComObject</span> <span class="n">Microsoft</span><span class="p">.</span><span class="n">Update</span><span class="p">.</span><span class="n">AutoUpdate</span><span class="p">).</span><span class="n">Results</span><span class="p">.</span><span class="n">LastSearchSuccessDate</span>
+<a id="__codelineno-34-7" name="__codelineno-34-7" href="#__codelineno-34-7"></a>
+<a id="__codelineno-34-8" name="__codelineno-34-8" href="#__codelineno-34-8"></a><span class="c"># Force Windows Update check (via PSWindowsUpdate module)</span>
+<a id="__codelineno-34-9" name="__codelineno-34-9" href="#__codelineno-34-9"></a><span class="nb">Install-Module</span> <span class="n">PSWindowsUpdate</span>
+<a id="__codelineno-34-10" name="__codelineno-34-10" href="#__codelineno-34-10"></a><span class="nb">Get-WindowsUpdate</span>
+<a id="__codelineno-34-11" name="__codelineno-34-11" href="#__codelineno-34-11"></a><span class="nb">Install-WindowsUpdate</span> <span class="n">-AcceptAll</span> <span class="n">-AutoReboot</span>
+</code></pre></div>
+<h3 id="linux-patching">Linux Patching<a class="headerlink" href="#linux-patching" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1" href="#__codelineno-35-1"></a><span class="c1"># Debian / Ubuntu</span>
+<a id="__codelineno-35-2" name="__codelineno-35-2" href="#__codelineno-35-2"></a>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>apt<span class="w"> </span>upgrade<span class="w"> </span>-y
+<a id="__codelineno-35-3" name="__codelineno-35-3" href="#__codelineno-35-3"></a>apt<span class="w"> </span>list<span class="w"> </span>--upgradeable
+<a id="__codelineno-35-4" name="__codelineno-35-4" href="#__codelineno-35-4"></a>
+<a id="__codelineno-35-5" name="__codelineno-35-5" href="#__codelineno-35-5"></a><span class="c1"># Check for security updates only</span>
+<a id="__codelineno-35-6" name="__codelineno-35-6" href="#__codelineno-35-6"></a>unattended-upgrades<span class="w"> </span>--dry-run
+<a id="__codelineno-35-7" name="__codelineno-35-7" href="#__codelineno-35-7"></a>apt<span class="w"> </span>upgrade<span class="w"> </span>-s<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span><span class="s2">&quot;^Inst&quot;</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>-i<span class="w"> </span>security
+<a id="__codelineno-35-8" name="__codelineno-35-8" href="#__codelineno-35-8"></a>
+<a id="__codelineno-35-9" name="__codelineno-35-9" href="#__codelineno-35-9"></a><span class="c1"># RHEL / CentOS / Rocky</span>
+<a id="__codelineno-35-10" name="__codelineno-35-10" href="#__codelineno-35-10"></a>dnf<span class="w"> </span>update<span class="w"> </span>-y
+<a id="__codelineno-35-11" name="__codelineno-35-11" href="#__codelineno-35-11"></a>dnf<span class="w"> </span>check-update<span class="w"> </span>--security
+<a id="__codelineno-35-12" name="__codelineno-35-12" href="#__codelineno-35-12"></a>dnf<span class="w"> </span>update<span class="w"> </span>--security<span class="w"> </span>-y
+<a id="__codelineno-35-13" name="__codelineno-35-13" href="#__codelineno-35-13"></a>
+<a id="__codelineno-35-14" name="__codelineno-35-14" href="#__codelineno-35-14"></a><span class="c1"># Check CVEs affecting installed packages</span>
+<a id="__codelineno-35-15" name="__codelineno-35-15" href="#__codelineno-35-15"></a>dnf<span class="w"> </span>updateinfo<span class="w"> </span>list<span class="w"> </span>security
+<a id="__codelineno-35-16" name="__codelineno-35-16" href="#__codelineno-35-16"></a>
+<a id="__codelineno-35-17" name="__codelineno-35-17" href="#__codelineno-35-17"></a><span class="c1"># Automatic security updates (Debian)</span>
+<a id="__codelineno-35-18" name="__codelineno-35-18" href="#__codelineno-35-18"></a>apt<span class="w"> </span>install<span class="w"> </span>unattended-upgrades
+<a id="__codelineno-35-19" name="__codelineno-35-19" href="#__codelineno-35-19"></a>dpkg-reconfigure<span class="w"> </span>unattended-upgrades
+</code></pre></div>
+<hr />
+<h2 id="16-endpoint-detection-security-tools">16. Endpoint Detection &amp; Security Tools<a class="headerlink" href="#16-endpoint-detection-security-tools" title="Permanent link">&para;</a></h2>
+<h3 id="antivirus-anti-malware">Antivirus / Anti-Malware<a class="headerlink" href="#antivirus-anti-malware" title="Permanent link">&para;</a></h3>
+<p><strong>Detection approaches:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Approach</th>
+<th>Description</th>
+<th>Limitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Signature-based</strong></td>
+<td>Match file hash or byte patterns to known malware</td>
+<td>Misses novel/modified malware</td>
+</tr>
+<tr>
+<td><strong>Heuristic</strong></td>
+<td>Flag suspicious code patterns</td>
+<td>False positives; evasion via obfuscation</td>
+</tr>
+<tr>
+<td><strong>Behavioral</strong></td>
+<td>Monitor process actions at runtime</td>
+<td>Performance overhead; evasion via living-off-the-land</td>
+</tr>
+<tr>
+<td><strong>Cloud-based reputation</strong></td>
+<td>Submit file hash to cloud for verdict</td>
+<td>Privacy concerns; requires connectivity</td>
+</tr>
+<tr>
+<td><strong>ML/AI-based</strong></td>
+<td>Trained models to classify files</td>
+<td>Can be adversarially fooled</td>
+</tr>
+</tbody>
+</table>
+<h3 id="edr-endpoint-detection-response">EDR (Endpoint Detection &amp; Response)<a class="headerlink" href="#edr-endpoint-detection-response" title="Permanent link">&para;</a></h3>
+<p>EDR solutions provide richer telemetry and detection than AV:</p>
+<table>
+<thead>
+<tr>
+<th>Capability</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Process telemetry</td>
+<td>Process creation, parent-child relationships, command lines</td>
+</tr>
+<tr>
+<td>File events</td>
+<td>Creates, modifies, deletes</td>
+</tr>
+<tr>
+<td>Network events</td>
+<td>DNS queries, TCP connections per process</td>
+</tr>
+<tr>
+<td>Registry events</td>
+<td>Key/value creation, modification</td>
+</tr>
+<tr>
+<td>Memory scanning</td>
+<td>Detect injected code, hollowed processes</td>
+</tr>
+<tr>
+<td>Response actions</td>
+<td>Remote isolation, process kill, file quarantine</td>
+</tr>
+</tbody>
+</table>
+<p>Examples: CrowdStrike Falcon, Microsoft Defender for Endpoint, SentinelOne, Carbon Black.</p>
+<h3 id="hids-hips">HIDS / HIPS<a class="headerlink" href="#hids-hips" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>HIDS (Host-based IDS)</strong> – Detect suspicious activity via log analysis or file integrity monitoring</li>
+<li>Examples: OSSEC, Wazuh, Tripwire</li>
+<li><strong>HIPS (Host-based IPS)</strong> – Actively block suspicious behavior in real time</li>
+<li>Examples: Windows Defender Exploit Guard, CrowdStrike prevention mode</li>
+</ul>
+<h3 id="file-integrity-monitoring-fim">File Integrity Monitoring (FIM)<a class="headerlink" href="#file-integrity-monitoring-fim" title="Permanent link">&para;</a></h3>
+<p>Detects unauthorized changes to critical system files:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1" href="#__codelineno-36-1"></a><span class="c1"># AIDE (Advanced Intrusion Detection Environment) — Linux</span>
+<a id="__codelineno-36-2" name="__codelineno-36-2" href="#__codelineno-36-2"></a>aide<span class="w"> </span>--init<span class="w">                    </span><span class="c1"># create baseline database</span>
+<a id="__codelineno-36-3" name="__codelineno-36-3" href="#__codelineno-36-3"></a>aide<span class="w"> </span>--check<span class="w">                   </span><span class="c1"># compare current state to baseline</span>
+<a id="__codelineno-36-4" name="__codelineno-36-4" href="#__codelineno-36-4"></a>
+<a id="__codelineno-36-5" name="__codelineno-36-5" href="#__codelineno-36-5"></a><span class="c1"># Tripwire — Linux</span>
+<a id="__codelineno-36-6" name="__codelineno-36-6" href="#__codelineno-36-6"></a>tripwire<span class="w"> </span>--init
+<a id="__codelineno-36-7" name="__codelineno-36-7" href="#__codelineno-36-7"></a>tripwire<span class="w"> </span>--check
+<a id="__codelineno-36-8" name="__codelineno-36-8" href="#__codelineno-36-8"></a>
+<a id="__codelineno-36-9" name="__codelineno-36-9" href="#__codelineno-36-9"></a><span class="c1"># Windows — Sysmon event ID 11 (file creation), 2 (file time change)</span>
+<a id="__codelineno-36-10" name="__codelineno-36-10" href="#__codelineno-36-10"></a><span class="c1"># Windows Defender for Endpoint — built-in FIM</span>
+</code></pre></div>
+<p>Critical files to monitor:
+- <code>/etc/passwd</code>, <code>/etc/shadow</code>, <code>/etc/sudoers</code>
+- <code>/etc/ssh/sshd_config</code>
+- <code>/bin</code>, <code>/sbin</code>, <code>/usr/bin</code> — system binaries
+- <code>C:\Windows\System32\</code> — Windows system files
+- All web application files</p>
+<h3 id="amsi-antimalware-scan-interface-windows">AMSI (Antimalware Scan Interface) — Windows<a class="headerlink" href="#amsi-antimalware-scan-interface-windows" title="Permanent link">&para;</a></h3>
+<p>AMSI allows security software to scan content before it's executed — including PowerShell scripts, VBA macros, and JavaScript:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1" href="#__codelineno-37-1"></a>PowerShell script
+<a id="__codelineno-37-2" name="__codelineno-37-2" href="#__codelineno-37-2"></a>      │
+<a id="__codelineno-37-3" name="__codelineno-37-3" href="#__codelineno-37-3"></a>      ▼
+<a id="__codelineno-37-4" name="__codelineno-37-4" href="#__codelineno-37-4"></a>AMSI provider (Defender or third-party)
+<a id="__codelineno-37-5" name="__codelineno-37-5" href="#__codelineno-37-5"></a>      │
+<a id="__codelineno-37-6" name="__codelineno-37-6" href="#__codelineno-37-6"></a>      ├── Clean  → Execute
+<a id="__codelineno-37-7" name="__codelineno-37-7" href="#__codelineno-37-7"></a>      └── Malicious → Block + Alert
+</code></pre></div>
+<p>Common AMSI bypass techniques (awareness): patching <code>AmsiScanBuffer</code> in memory, obfuscation, reflection-based loading.</p>
+<hr />
+<h2 id="17-os-hardening-checklist">17. OS Hardening Checklist<a class="headerlink" href="#17-os-hardening-checklist" title="Permanent link">&para;</a></h2>
+<h3 id="universal-principles">Universal Principles<a class="headerlink" href="#universal-principles" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-38-1" name="__codelineno-38-1" href="#__codelineno-38-1"></a>[ ] Apply all security patches; establish a regular patching cadence
+<a id="__codelineno-38-2" name="__codelineno-38-2" href="#__codelineno-38-2"></a>[ ] Remove or disable all unnecessary services, features, and software
+<a id="__codelineno-38-3" name="__codelineno-38-3" href="#__codelineno-38-3"></a>[ ] Change all default credentials immediately
+<a id="__codelineno-38-4" name="__codelineno-38-4" href="#__codelineno-38-4"></a>[ ] Enable host-based firewall with default-deny inbound policy
+<a id="__codelineno-38-5" name="__codelineno-38-5" href="#__codelineno-38-5"></a>[ ] Enable comprehensive audit logging; forward to central SIEM
+<a id="__codelineno-38-6" name="__codelineno-38-6" href="#__codelineno-38-6"></a>[ ] Enforce least privilege — no standing admin rights for daily use
+<a id="__codelineno-38-7" name="__codelineno-38-7" href="#__codelineno-38-7"></a>[ ] Enable disk encryption (BitLocker / LUKS)
+<a id="__codelineno-38-8" name="__codelineno-38-8" href="#__codelineno-38-8"></a>[ ] Implement MFA for all administrative and remote access
+<a id="__codelineno-38-9" name="__codelineno-38-9" href="#__codelineno-38-9"></a>[ ] Segment the network — limit what systems can reach each other
+<a id="__codelineno-38-10" name="__codelineno-38-10" href="#__codelineno-38-10"></a>[ ] Maintain an asset inventory — you can&#39;t protect what you don&#39;t know about
+</code></pre></div>
+<h3 id="windows-hardening">Windows Hardening<a class="headerlink" href="#windows-hardening" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-39-1" name="__codelineno-39-1" href="#__codelineno-39-1"></a>[ ] Disable SMBv1 (Set-SmbServerConfiguration -EnableSMB1Protocol $false)
+<a id="__codelineno-39-2" name="__codelineno-39-2" href="#__codelineno-39-2"></a>[ ] Disable LLMNR and NBT-NS (Group Policy)
+<a id="__codelineno-39-3" name="__codelineno-39-3" href="#__codelineno-39-3"></a>[ ] Enable Credential Guard (VBS + TPM required)
+<a id="__codelineno-39-4" name="__codelineno-39-4" href="#__codelineno-39-4"></a>[ ] Enable LSASS protection (RunAsPPL = 1)
+<a id="__codelineno-39-5" name="__codelineno-39-5" href="#__codelineno-39-5"></a>[ ] Enable Windows Defender ASR rules
+<a id="__codelineno-39-6" name="__codelineno-39-6" href="#__codelineno-39-6"></a>[ ] Disable PowerShell v2
+<a id="__codelineno-39-7" name="__codelineno-39-7" href="#__codelineno-39-7"></a>[ ] Enable Script Block Logging and Transcription
+<a id="__codelineno-39-8" name="__codelineno-39-8" href="#__codelineno-39-8"></a>[ ] Set UAC to &quot;Always Notify&quot;
+<a id="__codelineno-39-9" name="__codelineno-39-9" href="#__codelineno-39-9"></a>[ ] Enable Windows Defender Firewall on all profiles
+<a id="__codelineno-39-10" name="__codelineno-39-10" href="#__codelineno-39-10"></a>[ ] Remove local admin rights from standard users
+<a id="__codelineno-39-11" name="__codelineno-39-11" href="#__codelineno-39-11"></a>[ ] Add privileged accounts to Protected Users group
+<a id="__codelineno-39-12" name="__codelineno-39-12" href="#__codelineno-39-12"></a>[ ] Deploy Sysmon with a hardened configuration
+<a id="__codelineno-39-13" name="__codelineno-39-13" href="#__codelineno-39-13"></a>[ ] Configure AppLocker or WDAC for application whitelisting
+<a id="__codelineno-39-14" name="__codelineno-39-14" href="#__codelineno-39-14"></a>[ ] Enable BitLocker on all drives
+<a id="__codelineno-39-15" name="__codelineno-39-15" href="#__codelineno-39-15"></a>[ ] Enforce strong password policy via Group Policy
+<a id="__codelineno-39-16" name="__codelineno-39-16" href="#__codelineno-39-16"></a>[ ] Disable Remote Registry service
+<a id="__codelineno-39-17" name="__codelineno-39-17" href="#__codelineno-39-17"></a>[ ] Disable Telnet, FTP, and other legacy protocols
+</code></pre></div>
+<h3 id="linux-hardening">Linux Hardening<a class="headerlink" href="#linux-hardening" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-40-1" name="__codelineno-40-1" href="#__codelineno-40-1"></a>[ ] Disable root SSH login (PermitRootLogin no)
+<a id="__codelineno-40-2" name="__codelineno-40-2" href="#__codelineno-40-2"></a>[ ] Disable password authentication for SSH (PasswordAuthentication no)
+<a id="__codelineno-40-3" name="__codelineno-40-3" href="#__codelineno-40-3"></a>[ ] Change SSH port from 22 (optional; reduces noise)
+<a id="__codelineno-40-4" name="__codelineno-40-4" href="#__codelineno-40-4"></a>[ ] Enable and configure UFW / iptables default-deny
+<a id="__codelineno-40-5" name="__codelineno-40-5" href="#__codelineno-40-5"></a>[ ] Install and configure fail2ban
+<a id="__codelineno-40-6" name="__codelineno-40-6" href="#__codelineno-40-6"></a>[ ] Enable SELinux (Enforcing) or AppArmor
+<a id="__codelineno-40-7" name="__codelineno-40-7" href="#__codelineno-40-7"></a>[ ] Set restrictive umask (027 or 077)
+<a id="__codelineno-40-8" name="__codelineno-40-8" href="#__codelineno-40-8"></a>[ ] Disable unused network services (disable with systemctl)
+<a id="__codelineno-40-9" name="__codelineno-40-9" href="#__codelineno-40-9"></a>[ ] Enable auditd with file and syscall monitoring rules
+<a id="__codelineno-40-10" name="__codelineno-40-10" href="#__codelineno-40-10"></a>[ ] Mount /tmp with noexec, nosuid, nodev
+<a id="__codelineno-40-11" name="__codelineno-40-11" href="#__codelineno-40-11"></a>[ ] Set GRUB password to prevent single-user mode access
+<a id="__codelineno-40-12" name="__codelineno-40-12" href="#__codelineno-40-12"></a>[ ] Disable USB storage if not needed (blacklist usb-storage)
+<a id="__codelineno-40-13" name="__codelineno-40-13" href="#__codelineno-40-13"></a>[ ] Enable sysctl kernel hardening parameters
+<a id="__codelineno-40-14" name="__codelineno-40-14" href="#__codelineno-40-14"></a>[ ] Restrict cron to root (chmod 700 /etc/cron*)
+<a id="__codelineno-40-15" name="__codelineno-40-15" href="#__codelineno-40-15"></a>[ ] Remove or disable SUID from non-essential binaries
+<a id="__codelineno-40-16" name="__codelineno-40-16" href="#__codelineno-40-16"></a>[ ] Enable core dump restrictions (fs.suid_dumpable = 0)
+<a id="__codelineno-40-17" name="__codelineno-40-17" href="#__codelineno-40-17"></a>[ ] Configure PAM for strong password policy and account lockout
+<a id="__codelineno-40-18" name="__codelineno-40-18" href="#__codelineno-40-18"></a>[ ] Deploy and configure AIDE or Tripwire for FIM
+</code></pre></div>
+<hr />
+<h2 id="18-incident-response-at-the-os-level">18. Incident Response at the OS Level<a class="headerlink" href="#18-incident-response-at-the-os-level" title="Permanent link">&para;</a></h2>
+<h3 id="ir-phases">IR Phases<a class="headerlink" href="#ir-phases" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-41-1" name="__codelineno-41-1" href="#__codelineno-41-1"></a>Preparation → Identification → Containment → Eradication → Recovery → Lessons Learned
+</code></pre></div>
+<h3 id="identification-signs-of-compromise">Identification — Signs of Compromise<a class="headerlink" href="#identification-signs-of-compromise" title="Permanent link">&para;</a></h3>
+<p><strong>Processes:</strong>
+- Unexpected processes running; processes with unusual parent-child relationships
+- Processes with no file path on disk (deleted executables still running)
+- Known system binaries (<code>svchost.exe</code>, <code>ls</code>) running from unexpected locations
+- Processes making outbound connections on unusual ports</p>
+<p><strong>Network:</strong>
+- Outbound connections to unknown external IPs
+- Internal lateral movement (unusual SMB, RDP, WinRM connections)
+- DNS queries to newly registered or high-entropy domains
+- Large outbound data transfers (exfiltration)</p>
+<p><strong>Persistence:</strong>
+- New scheduled tasks or services
+- New autorun registry entries
+- New SUID binaries or modified system files
+- New user accounts or group membership changes
+- Modified <code>.bashrc</code>, <code>.profile</code>, or Windows shell registry keys</p>
+<p><strong>Logs:</strong>
+- Spike in failed authentication events
+- Successful logon after repeated failures
+- Logon from unusual hours or locations
+- Cleared event logs (<code>wevtutil cl Security</code>)
+- Gaps in log timeline (log tampering)</p>
+<h3 id="containment-actions">Containment Actions<a class="headerlink" href="#containment-actions" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-42-1" name="__codelineno-42-1" href="#__codelineno-42-1"></a><span class="c1"># Linux — isolate host from network</span>
+<a id="__codelineno-42-2" name="__codelineno-42-2" href="#__codelineno-42-2"></a>iptables<span class="w"> </span>-I<span class="w"> </span>INPUT<span class="w"> </span>-j<span class="w"> </span>DROP
+<a id="__codelineno-42-3" name="__codelineno-42-3" href="#__codelineno-42-3"></a>iptables<span class="w"> </span>-I<span class="w"> </span>OUTPUT<span class="w"> </span>-j<span class="w"> </span>DROP
+<a id="__codelineno-42-4" name="__codelineno-42-4" href="#__codelineno-42-4"></a>iptables<span class="w"> </span>-I<span class="w"> </span>INPUT<span class="w"> </span>-s<span class="w"> </span>trusted_admin_ip<span class="w"> </span>-j<span class="w"> </span>ACCEPT
+<a id="__codelineno-42-5" name="__codelineno-42-5" href="#__codelineno-42-5"></a>
+<a id="__codelineno-42-6" name="__codelineno-42-6" href="#__codelineno-42-6"></a><span class="c1"># Windows — isolate host</span>
+<a id="__codelineno-42-7" name="__codelineno-42-7" href="#__codelineno-42-7"></a>New-NetFirewallRule<span class="w"> </span>-DisplayName<span class="w"> </span><span class="s2">&quot;IR Block All In&quot;</span><span class="w"> </span>-Direction<span class="w"> </span>Inbound<span class="w"> </span>-Action<span class="w"> </span>Block
+<a id="__codelineno-42-8" name="__codelineno-42-8" href="#__codelineno-42-8"></a>New-NetFirewallRule<span class="w"> </span>-DisplayName<span class="w"> </span><span class="s2">&quot;IR Block All Out&quot;</span><span class="w"> </span>-Direction<span class="w"> </span>Outbound<span class="w"> </span>-Action<span class="w"> </span>Block
+<a id="__codelineno-42-9" name="__codelineno-42-9" href="#__codelineno-42-9"></a><span class="c1"># Or use Windows Defender for Endpoint isolation (single click in portal)</span>
+<a id="__codelineno-42-10" name="__codelineno-42-10" href="#__codelineno-42-10"></a>
+<a id="__codelineno-42-11" name="__codelineno-42-11" href="#__codelineno-42-11"></a><span class="c1"># Disable a compromised account</span>
+<a id="__codelineno-42-12" name="__codelineno-42-12" href="#__codelineno-42-12"></a>net<span class="w"> </span>user<span class="w"> </span>compromised_user<span class="w"> </span>/active:no<span class="w">     </span><span class="c1"># Windows</span>
+<a id="__codelineno-42-13" name="__codelineno-42-13" href="#__codelineno-42-13"></a>usermod<span class="w"> </span>-L<span class="w"> </span>compromised_user<span class="w">             </span><span class="c1"># Linux</span>
+<a id="__codelineno-42-14" name="__codelineno-42-14" href="#__codelineno-42-14"></a>
+<a id="__codelineno-42-15" name="__codelineno-42-15" href="#__codelineno-42-15"></a><span class="c1"># Kill a malicious process (after memory capture if possible)</span>
+<a id="__codelineno-42-16" name="__codelineno-42-16" href="#__codelineno-42-16"></a>taskkill<span class="w"> </span>/PID<span class="w"> </span>&lt;pid&gt;<span class="w"> </span>/F<span class="w">                  </span><span class="c1"># Windows</span>
+<a id="__codelineno-42-17" name="__codelineno-42-17" href="#__codelineno-42-17"></a><span class="nb">kill</span><span class="w"> </span>-9<span class="w"> </span>&lt;pid&gt;<span class="w">                           </span><span class="c1"># Linux</span>
+</code></pre></div>
+<h3 id="evidence-collection-order-volatility-principle">Evidence Collection Order (Volatility Principle)<a class="headerlink" href="#evidence-collection-order-volatility-principle" title="Permanent link">&para;</a></h3>
+<p>Collect most volatile data first:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-43-1" name="__codelineno-43-1" href="#__codelineno-43-1"></a>1. System time (timestamp reference)
+<a id="__codelineno-43-2" name="__codelineno-43-2" href="#__codelineno-43-2"></a>2. Running processes (memory-resident; lost on reboot)
+<a id="__codelineno-43-3" name="__codelineno-43-3" href="#__codelineno-43-3"></a>3. Network connections (ephemeral)
+<a id="__codelineno-43-4" name="__codelineno-43-4" href="#__codelineno-43-4"></a>4. Logged-in users
+<a id="__codelineno-43-5" name="__codelineno-43-5" href="#__codelineno-43-5"></a>5. Open files and handles
+<a id="__codelineno-43-6" name="__codelineno-43-6" href="#__codelineno-43-6"></a>6. Clipboard / environment
+<a id="__codelineno-43-7" name="__codelineno-43-7" href="#__codelineno-43-7"></a>7. RAM dump (if feasible)
+<a id="__codelineno-43-8" name="__codelineno-43-8" href="#__codelineno-43-8"></a>8. Disk image (non-volatile; can be done later)
+<a id="__codelineno-43-9" name="__codelineno-43-9" href="#__codelineno-43-9"></a>9. Log files
+<a id="__codelineno-43-10" name="__codelineno-43-10" href="#__codelineno-43-10"></a>10. Configuration files
+</code></pre></div>
+<hr />
+<h2 id="19-common-cves-vulnerability-patterns">19. Common CVEs &amp; Vulnerability Patterns<a class="headerlink" href="#19-common-cves-vulnerability-patterns" title="Permanent link">&para;</a></h2>
+<h3 id="historical-high-impact-os-vulnerabilities">Historical High-Impact OS Vulnerabilities<a class="headerlink" href="#historical-high-impact-os-vulnerabilities" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>CVE</th>
+<th>System</th>
+<th>Type</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CVE-2017-0144 (EternalBlue)</td>
+<td>Windows SMB</td>
+<td>Buffer overflow</td>
+<td>Remote code execution as SYSTEM</td>
+</tr>
+<tr>
+<td>CVE-2021-34527 (PrintNightmare)</td>
+<td>Windows Print Spooler</td>
+<td>Privilege escalation</td>
+<td>SYSTEM via DLL loading</td>
+</tr>
+<tr>
+<td>CVE-2021-4034 (PwnKit)</td>
+<td>Linux polkit</td>
+<td>Buffer overflow</td>
+<td>Local root on most Linux distros</td>
+</tr>
+<tr>
+<td>CVE-2022-0847 (Dirty Pipe)</td>
+<td>Linux kernel</td>
+<td>Pipe buffer flaw</td>
+<td>Write to read-only files; root via SUID</td>
+</tr>
+<tr>
+<td>CVE-2016-5195 (DirtyCOW)</td>
+<td>Linux kernel</td>
+<td>Race condition</td>
+<td>Write to read-only files; root</td>
+</tr>
+<tr>
+<td>CVE-2020-0796 (SMBGhost)</td>
+<td>Windows SMBv3</td>
+<td>Integer overflow</td>
+<td>Remote code execution</td>
+</tr>
+<tr>
+<td>CVE-2019-0708 (BlueKeep)</td>
+<td>Windows RDP</td>
+<td>Use-after-free</td>
+<td>Pre-auth remote code execution</td>
+</tr>
+<tr>
+<td>CVE-2014-6271 (Shellshock)</td>
+<td>Bash</td>
+<td>Command injection</td>
+<td>RCE via environment variable</td>
+</tr>
+<tr>
+<td>CVE-2021-3156 (Baron Samedit)</td>
+<td>sudo</td>
+<td>Heap overflow</td>
+<td>Root on most Linux/macOS</td>
+</tr>
+<tr>
+<td>CVE-2023-23397</td>
+<td>Windows Outlook</td>
+<td>NTLM relay</td>
+<td>Hash capture without user interaction</td>
+</tr>
+</tbody>
+</table>
+<h3 id="vulnerability-scoring-cvss">Vulnerability Scoring (CVSS)<a class="headerlink" href="#vulnerability-scoring-cvss" title="Permanent link">&para;</a></h3>
+<p>CVSS (Common Vulnerability Scoring System) v3.1 rates vulnerabilities 0–10:</p>
+<table>
+<thead>
+<tr>
+<th>Score</th>
+<th>Severity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.0</td>
+<td>None</td>
+</tr>
+<tr>
+<td>0.1 – 3.9</td>
+<td>Low</td>
+</tr>
+<tr>
+<td>4.0 – 6.9</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>7.0 – 8.9</td>
+<td>High</td>
+</tr>
+<tr>
+<td>9.0 – 10.0</td>
+<td>Critical</td>
+</tr>
+</tbody>
+</table>
+<p><strong>CVSS Base Metrics:</strong>
+- <strong>Attack Vector</strong> – Network / Adjacent / Local / Physical
+- <strong>Attack Complexity</strong> – Low / High
+- <strong>Privileges Required</strong> – None / Low / High
+- <strong>User Interaction</strong> – None / Required
+- <strong>Scope</strong> – Unchanged / Changed
+- <strong>Confidentiality / Integrity / Availability Impact</strong> – None / Low / High</p>
+<hr />
+<h2 id="20-security-compliance-frameworks">20. Security Compliance Frameworks<a class="headerlink" href="#20-security-compliance-frameworks" title="Permanent link">&para;</a></h2>
+<h3 id="cis-benchmarks">CIS Benchmarks<a class="headerlink" href="#cis-benchmarks" title="Permanent link">&para;</a></h3>
+<p>The Center for Internet Security publishes hardening benchmarks for every major OS. Two levels:</p>
+<ul>
+<li><strong>Level 1</strong> – Essential security; minimal performance/functionality impact</li>
+<li><strong>Level 2</strong> – Defense-in-depth; may impact functionality</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-44-1" name="__codelineno-44-1" href="#__codelineno-44-1"></a><span class="c1"># Assess compliance with CIS benchmarks</span>
+<a id="__codelineno-44-2" name="__codelineno-44-2" href="#__codelineno-44-2"></a><span class="c1"># Tools: OpenSCAP (Linux), CIS-CAT (cross-platform)</span>
+<a id="__codelineno-44-3" name="__codelineno-44-3" href="#__codelineno-44-3"></a>
+<a id="__codelineno-44-4" name="__codelineno-44-4" href="#__codelineno-44-4"></a><span class="c1"># OpenSCAP on RHEL</span>
+<a id="__codelineno-44-5" name="__codelineno-44-5" href="#__codelineno-44-5"></a>oscap<span class="w"> </span>xccdf<span class="w"> </span><span class="nb">eval</span><span class="w"> </span>--profile<span class="w"> </span>xccdf_org.ssgproject.content_profile_cis<span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-44-6" name="__codelineno-44-6" href="#__codelineno-44-6"></a><span class="w">    </span>--results<span class="w"> </span>scan-results.xml<span class="w"> </span><span class="se">\</span>
+<a id="__codelineno-44-7" name="__codelineno-44-7" href="#__codelineno-44-7"></a><span class="w">    </span>/usr/share/xml/scap/ssg/content/ssg-rhel8-ds.xml
+</code></pre></div>
+<h3 id="disa-stigs">DISA STIGs<a class="headerlink" href="#disa-stigs" title="Permanent link">&para;</a></h3>
+<p>Security Technical Implementation Guides — US DoD hardening standards for every major OS, application, and device. More prescriptive than CIS benchmarks.</p>
+<h3 id="nist-sp-800-53">NIST SP 800-53<a class="headerlink" href="#nist-sp-800-53" title="Permanent link">&para;</a></h3>
+<p>Security and Privacy Controls for Information Systems — comprehensive framework used by US federal agencies. Relevant control families:</p>
+<table>
+<thead>
+<tr>
+<th>Family</th>
+<th>Focus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AC – Access Control</td>
+<td>Authentication, authorization, least privilege</td>
+</tr>
+<tr>
+<td>AU – Audit</td>
+<td>Logging, log protection, review</td>
+</tr>
+<tr>
+<td>CM – Configuration Management</td>
+<td>Baseline configs, patch management</td>
+</tr>
+<tr>
+<td>IA – Identification &amp; Authentication</td>
+<td>MFA, password policy</td>
+</tr>
+<tr>
+<td>SC – System &amp; Communications</td>
+<td>Encryption, network segmentation</td>
+</tr>
+<tr>
+<td>SI – System Integrity</td>
+<td>Malware protection, FIM, patching</td>
+</tr>
+</tbody>
+</table>
+<h3 id="soc-2">SOC 2<a class="headerlink" href="#soc-2" title="Permanent link">&para;</a></h3>
+<p>Trust Services Criteria used for service provider audits. Security category maps closely to OS controls: access control, monitoring, change management, risk assessment.</p>
+<hr />
+<h2 id="quick-reference-summary">Quick Reference Summary<a class="headerlink" href="#quick-reference-summary" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Key Concept</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Authentication</strong></td>
+<td>Never store plaintext passwords; use salted, slow hashes; enable MFA</td>
+</tr>
+<tr>
+<td><strong>Authorization</strong></td>
+<td>Least privilege; DAC for normal use; MAC for high-security systems</td>
+</tr>
+<tr>
+<td><strong>Memory safety</strong></td>
+<td>ASLR + DEP/NX + stack canaries together significantly raise exploit cost</td>
+</tr>
+<tr>
+<td><strong>Kernel security</strong></td>
+<td>Kernel bugs = full system compromise; keep patched; restrict kernel module loading</td>
+</tr>
+<tr>
+<td><strong>Logging</strong></td>
+<td>Log everything; centralize immediately; alert on key events</td>
+</tr>
+<tr>
+<td><strong>Patching</strong></td>
+<td>Most breaches exploit known CVEs; patch critical/high within days</td>
+</tr>
+<tr>
+<td><strong>Hardening</strong></td>
+<td>Remove everything unnecessary; default-deny; validate with benchmarks</td>
+</tr>
+<tr>
+<td><strong>Sandboxing</strong></td>
+<td>Contain breach impact; browser/mail in restricted context</td>
+</tr>
+<tr>
+<td><strong>Disk encryption</strong></td>
+<td>Protects at rest only; not a substitute for OS-level access controls</td>
+</tr>
+<tr>
+<td><strong>Secure boot</strong></td>
+<td>Validates boot chain integrity; blocks persistent firmware/bootkit malware</td>
+</tr>
+<tr>
+<td><strong>IR</strong></td>
+<td>Preserve volatile data first; isolate before eradicating; document everything</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="further-reading">Further Reading<a class="headerlink" href="#further-reading" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.cisecurity.org/cis-benchmarks/">CIS Benchmarks</a></li>
+<li><a href="https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final">NIST SP 800-53</a></li>
+<li><a href="https://attack.mitre.org/">MITRE ATT&amp;CK – Enterprise</a></li>
+<li><a href="https://nvd.nist.gov/">CVE / NVD</a></li>
+<li><a href="https://public.cyber.mil/stigs/">DISA STIGs</a></li>
+<li><a href="https://www.kernel.org/doc/html/latest/security/index.html">Linux Kernel Security Subsystem</a></li>
+<li><a href="https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-security-configuration-framework/windows-security-baselines">Microsoft Security Baseline</a></li>
+<li><a href="https://docs.microsoft.com/en-us/sysinternals/resources/windows-internals">Windows Internals (book)</a></li>
+<li><a href="https://man7.org/tlpi/">The Linux Programming Interface (book)</a></li>
+</ul>
 
 
 
